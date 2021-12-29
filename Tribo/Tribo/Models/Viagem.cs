@@ -24,7 +24,7 @@ namespace Tribo.Models
         
         public DateTime DataVolta { get; set; }
 
-        public virtual Pessoa Pessoa { get; set; }
+        public virtual Cliente Pessoa { get; set; }
 
 
 

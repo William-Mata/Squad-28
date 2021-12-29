@@ -7,11 +7,19 @@ namespace Tribo.Models
         public TriboDbContext(DbContextOptions<TriboDbContext> options) : base(options)
         { }
 
-        public DbSet<Viagem> Viagem { get; set; }
+        public DbSet<Viagem> Viagens { get; set; }
 
-        public DbSet<Pessoa> Pessoa { get; set; }
+        public DbSet<Cliente> Clientes { get; set; }
 
-        public DbSet<Contato> Contato { get; set; }
+        public DbSet<Contato> Contatos { get; set; }
+
+        public DbSet<Imagem> Imagens { get; set; }
+
+        public DbSet<TriboParceira> Tribos { get; set; }
+
+        public DbSet<Pacote> Pacotes { get; set; }
+
+
     }
 
 

@@ -1,9 +1,9 @@
-﻿@model Tribo.Models.Pessoa
+﻿@model Tribo.Models.Cliente
 @{
     ViewData["Title"] = "Tribos";
 }
 
-<div class="modal fade bgVidro" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
      aria-hidden="true">
     <div class="modal-dialog modal-dialog-centered modal-xl">
         <div class="modal-content bgVidro">
@@ -60,13 +60,13 @@
                                 <div class="form-group mb-3">
                                     <div class="row">
                                         <div class="col-md-3 border border-1 border-warning rounded ">
-                                            <label asp-for="Viagem.Valor" class="control-label text-white mt-1">Valor:</label>
+                                            <label  class="control-label text-white mt-1">Valor:</label>
                                         </div>
                                         <div class="col-md-5">
-                                            <input asp-for="Viagem.Valor"
+                                            <input 
                                                    class="form-control text-white bg-transparent btn-outline-warning" readonly value="" id="Valor" />
                                         </div>
-                                        <span asp-validation-for="Viagem.Valor" class="text-warning"></span>
+                                        <span  class="text-warning"></span>
                                     </div>
                                 </div>
                                 <div class="form-group mb-3">
@@ -86,25 +86,25 @@
                                 <div class="form-group mb-3">
                                     <div class="row">
                                         <div class="col-md-3 border border-1 border-warning rounded ">
-                                            <label asp-for="Viagem.Destino" class="control-label text-white mt-1">Destino:</label>
+                                            <label  class="control-label text-white mt-1">Destino:</label>
                                         </div>
                                         <div class="col">
-                                            <input asp-for="Viagem.Destino"
+                                            <input 
                                                    class="form-control text-white bg-transparent btn-outline-warning" readonly value="" id="Destino" />
                                         </div>
-                                        <span asp-validation-for="Viagem.Destino" class="text-warning"></span>
+                                        <span  class="text-warning"></span>
                                     </div>
                                 </div>
                                 <div class="form-group mb-3">
                                     <div class="row">
                                         <div class="col-md-4 border border-1 border-warning rounded ">
-                                            <label asp-for="Viagem.Origem" class="control-label text-white mt-1">Origem:</label>
+                                            <label  class="control-label text-white mt-1">Origem:</label>
                                         </div>
                                         <div class="col-md-8">
-                                            <input asp-for="Viagem.Origem"
+                                            <input 
                                                    class="form-control text-white bg-transparent btn-outline-warning" />
                                         </div>
-                                        <span asp-validation-for="Viagem.Origem" class="text-warning"></span>
+                                        <span class="text-warning"></span>
                                     </div>
                                 </div>
 
@@ -122,26 +122,26 @@
                                 <div class="form-group mb-3">
                                     <div class="row">
                                         <div class="col-md-4 border border-1 border-warning rounded ">
-                                            <label asp-for="Viagem.DataIda" class="control-label text-white mt-1">Data Ida:</label>
+                                            <label  class="control-label text-white mt-1">Data Ida:</label>
                                         </div>
                                         <div class="col-md-6">
-                                            <input asp-for="Viagem.DataIda"
+                                            <input
                                                    class="form-control text-white bg-transparent btn-outline-warning" />
                                         </div>
-                                        <span asp-validation-for="Viagem.DataIda" class="text-warning"></span>
+                                        <span  class="text-warning"></span>
                                     </div>
                                 </div>
 
                                 <div class="form-group mb-3" id="volta" style="display: none;">
                                     <div class="row">
                                         <div class="col-md-4 border border-1 border-warning rounded ">
-                                            <label asp-for="Viagem.DataVolta" class="control-label text-white mt-1">Data Volta:</label>
+                                            <label  class="control-label text-white mt-1">Data Volta:</label>
                                         </div>
                                         <div class="col-md-6">
-                                            <input asp-for="Viagem.DataVolta"
+                                            <input 
                                                    class="form-control text-white bg-transparent btn-outline-warning" value="0" />
                                         </div>
-                                        <span asp-validation-for="Viagem.DataVolta" class="text-warning"></span>
+                                        <span class="text-warning"></span>
 
                                     </div>
                                 </div>

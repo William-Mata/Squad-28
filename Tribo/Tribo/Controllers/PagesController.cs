@@ -51,9 +51,9 @@ namespace BrasTravel.Controllers
         }
         
         [HttpPost]
-        public IActionResult Create(Pessoa pessoa)
+        public IActionResult Create(Cliente cliente)
         {
-            _context.Add(pessoa);
+            _context.Add(cliente);
             _context.SaveChanges();
             return RedirectToAction("Viagem");
         }
@@ -61,10 +61,10 @@ namespace BrasTravel.Controllers
         public IActionResult Viagem()
         {
 
-            ViewBag.pessoa = _context.Pessoa.ToList();
-            ViewBag.viagem = _context.Viagem.ToList();
+            ViewBag.cliente = _context.Clientes.ToList();
+         
 
-            if (ViewBag.pessoa == null)
+            if (ViewBag.cliente == null)
             {
                 return NotFound();
             }
@@ -76,67 +76,48 @@ namespace BrasTravel.Controllers
         public IActionResult Edit(int id)
         {
 
-            var pessoa = _context.Pessoa.Where(p => p.IdPessoa == id).FirstOrDefault();
+            var cliente = _context.Clientes.Where(p => p.IdCliente == id).FirstOrDefault();
 
-            var viagem = _context.Viagem.Where(v => v.IdViagem == pessoa.ViagemId).FirstOrDefault();
+     
 
-            if (pessoa == null)
+            if (cliente == null)
             {
                 return NotFound();
             }
 
-            return PartialView("_ModalViagemEdit", pessoa);
+            return PartialView("_ModalViagemEdit", cliente);
         }
 
 
         [HttpPost]
-        public IActionResult Edit(Pessoa pessoa)
+        public IActionResult Edit(Cliente cliente)
         {
-            var IdV = pessoa.ViagemId;
-            var viagem = _context.Viagem.Find(IdV);
-
-            if (viagem != null)
-            {
-                _context.Viagem.Remove(viagem);
-
-            }
-
-            _context.Pessoa.Update(pessoa);
+            _context.Clientes.Update(cliente);
             _context.SaveChanges();
-
 
             return RedirectToAction("Viagem");
         }
 
         public IActionResult Details(int id)
         {
-            var pessoa = _context.Pessoa.Where(p => p.IdPessoa == id).FirstOrDefault();
-            var viagem = _context.Viagem.Where(v => v.IdViagem == pessoa.ViagemId).FirstOrDefault();
-            return PartialView("_ModalViagemDetalhes", pessoa); ;
+            var cliente = _context.Clientes.Where(p => p.IdCliente == id).FirstOrDefault();
+            return PartialView("_ModalViagemDetalhes", cliente); ;
         }
 
         [HttpGet]
         public IActionResult Delete(int id)
         {
-            var pessoa = _context.Pessoa.Where(p => p.IdPessoa == id).FirstOrDefault();
+            var cliente = _context.Clientes.Where(p => p.IdCliente == id).FirstOrDefault();
 
-            if (pessoa != null)
-            {
-                var viagem = _context.Viagem.Where(v => v.IdViagem == pessoa.ViagemId).FirstOrDefault();
-            }
-
-            return PartialView("_ModalViagemDelete", pessoa); ;
+            return PartialView("_ModalViagemDelete", cliente); ;
         }
 
         [HttpPost]
-        public IActionResult Delete(Pessoa pessoa)
+        public IActionResult Delete(Cliente cliente)
         {
-            var pessoaDel = _context.Pessoa.Where(p => p.IdPessoa == pessoa.IdPessoa).FirstOrDefault();
-            var viagem = _context.Viagem.Where(v => v.IdViagem == pessoa.ViagemId).FirstOrDefault();
+            var clienteDel = _context.Clientes.Where(p => p.IdCliente == cliente.IdCliente).FirstOrDefault();
 
-
-            _context.Pessoa.Remove(pessoaDel);
-            _context.Viagem.Remove(viagem);
+            _context.Clientes.Remove(clienteDel);
             _context.SaveChanges();
 
 

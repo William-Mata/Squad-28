@@ -12,7 +12,7 @@
 <body>
 
     <header>
-         <nav class="navbar navbar-expand-lg navbar-light text-white colorPadrao w-100 p-0">
+        <nav class="navbar navbar-expand-lg navbar-light text-white colorPadrao w-100 p-0">
             <div class="container-fluid">
                 <a class="navbar-brand mx-2 my-auto" asp-area="" asp-controller="Pages" asp-action="Home">
 
@@ -23,34 +23,71 @@
                     </ul>
                 </div>
                 <button class="navbar-toggler " type="button" data-bs-toggle="collapse"
-                    data-bs-target="#collapsibleNavId" aria-controls="collapsibleNavId" aria-expanded="false"
-                    aria-label="Toggle navigation">
+                        data-bs-target="#collapsibleNavId" aria-controls="collapsibleNavId" aria-expanded="false"
+                        aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse justify-content-end" id="collapsibleNavId">
                     <ul class="navbar-nav">
-                       
+
                         <li class="nav-item mx-2 my-auto">
                             <a class="btn btn-sm btn-outline-warning text-white" asp-area="" asp-controller="Pages"
-                                asp-action="Tribos">Tribos</a>
+                               asp-action="Tribos">Tribos</a>
                         </li>
                         <li class="nav-item mx-2 my-auto">
                             <a class="btn btn-sm btn-outline-warning text-white " asp-area="" asp-controller="Pages"
-                                asp-action="Sobre">Sobre</a>
+                               asp-action="Sobre">Sobre</a>
                         </li>
+
+                        <li class="nav-item mx-2 my-auto">
+                            <a class="btn btn-sm btn-outline-warning text-white" asp-area="" asp-controller="Pages"
+                               asp-action="Prevencoes">Prevenções</a>
+                        </li>
+                        <li class="nav-item mx-2 my-auto">
+                            <a class="btn btn-sm btn-outline-warning text-white " asp-area="" asp-controller="Pages"
+                               asp-action="Contatos">Contatos</a>
+                        </li>
+                        <li class="nav-item mx-2 my-auto" style="display: block;">
+                            <a class="btn btn-sm btn-outline-warning text-white" asp-area="" asp-controller="Pages"
+                               asp-action="Login">Login</a>
+                        </li>
+
+                        <li class="nav-item mx-2 my-auto btn-group dropstart" style="display: none;">
+                            <button type="button" class="btn btn-sm btn-outline-warning dropdown-toggle text-white" data-bs-toggle="dropdown" aria-expanded="false">
+                                Administração
+                            </button>
+                            <div class="dropdown-menu colorPadrao mx-auto p-0" aria-labelledby="dropdownId" style="margin-top: 32px;">
+                    
+                                <a class="btn btn-sm btn-outline-warning text-white w-100"
+                                   asp-area="" asp-controller="Administracao" asp-action="AdministracaoContatos">Caixa de Contatos</a>
+                                <a class="btn btn-sm btn-outline-warning text-white w-100"
+                                   asp-area="" asp-controller="Administracao" asp-action="AdministracaoViagens">Lista de Viagens</a>
+                            </div>
+                        </li>
+
                         
-                        <li class="nav-item mx-2 my-auto">
-                            <a class="btn btn-sm btn-outline-warning text-white" asp-area="" asp-controller="Pages"
-                                asp-action="Prevencoes">Prevenções</a>
+                       <li class="nav-item mx-2 my-auto btn-group dropstart" style="display: none;">
+                            <button type="button" class="btn btn-sm btn-outline-warning dropdown-toggle text-white"
+                            data-bs-toggle="dropdown" aria-expanded="false">Tribo Parceira</button>
+                          <div class="dropdown-menu colorPadrao mx-auto p-0" aria-labelledby="dropdownId" style="margin-top: 32px;">
+                                <a class="w-100 btn btn-sm btn-outline-warning text-white"
+                                   asp-area="" asp-controller="Tribo" asp-action="TriboDados">Tribo Dados</a>
+                                <a class="w-100 btn btn-sm btn-outline-warning text-white"
+                                   asp-area="" asp-controller="Tribo" asp-action="TriboPacotes">Tribo Pacotes</a>
+                            </div>
                         </li>
-                        <li class="nav-item mx-2 my-auto">
-                            <a class="btn btn-sm btn-outline-warning text-white " asp-area="" asp-controller="Pages"
-                                asp-action="Contatos">Contatos</a>
+
+                      <li class="nav-item mx-2 my-auto btn-group dropstart" style="display: none;">
+                            <button type="button" class="btn btn-sm btn-outline-warning dropdown-toggle text-white"
+                            data-bs-toggle="dropdown" aria-expanded="false">Cliente</button>
+                              <div class="dropdown-menu colorPadrao mx-auto p-0" aria-labelledby="dropdownId" style="margin-top: 32px;">
+                                <a class="w-100 btn btn-sm btn-outline-warning text-white"
+                                   asp-area="" asp-controller="Pages" asp-action="MeusDados">Meus Dados</a>
+                                <a class="w-100 btn btn-sm btn-outline-warning text-white"
+                                   asp-area="" asp-controller="Pages" asp-action="MinhasViagens">Minhas Viagens</a>
+                            </div>
                         </li>
-                        <li class="nav-item mx-2 my-auto">
-                            <a class="btn btn-sm btn-outline-warning text-white" asp-area="" asp-controller="Pages"
-                                asp-action="Login">Login</a>
-                        </li>
+
                     </ul>
                 </div>
             </div>
@@ -63,7 +100,7 @@
         </main>
     </div>
 
-    
+
     <footer class="w-100 border-top footer colorPadrao text-white">
         <div class="container text-center">
             &copy; 2021 - Tribo - <a asp-area="" asp-controller="Pages" asp-action="Contatos">Contatos</a>

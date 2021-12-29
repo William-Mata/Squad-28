@@ -1,11 +1,11 @@
-﻿@model Pessoa
+﻿@model Cliente
 
 
 <div class="modal fade bg-transparent" id="deleteModal">
     <div class="modal-dialog modal-dialog-centered modal-lg ">
         <div class="modal-content colorBlue">
             <div class="modal-header">
-                <h5 class="modal-title" id="editarModalLabel">Cancelar Viagem</h5>
+                <h5 class="modal-title" id="deletarVModalLabel">Cancelar Viagem</h5>
                 <button type="button" class="btn-close btn-outline-warning bg-warning" data-bs-dismiss="modal"
                         aria-label="Close"></button>
             </div>
@@ -19,9 +19,8 @@
                             <div class="form-group mb-3">
                                 <div class="row">
                                     <div class="col border border-1 border-warning rounded ">
-                                        <input type="hidden" asp-for="IdPessoa" />
-                                        <input type="hidden" asp-for="Viagem" />
-                                        <input type="hidden" asp-for="ViagemId" />
+                                        <input type="hidden" asp-for="IdCliente" />
+                                      
                                         <label asp-for="Nome" class="control-label text-white mt-1">
                                             Nome: @Model.Nome
                                         </label>
@@ -45,9 +44,9 @@
                             <div class="form-group mb-3">
                                 <div class="row">
                                     <div class="col border border-1 border-warning rounded ">
-                                        <label asp-for="Viagem.Valor" class="control-label text-white mt-1">
+                                        <label class="control-label text-white mt-1">
                                             Valor:
-                                            @Model.Viagem.Valor
+                                           
                                         </label>
                                     </div>
                                 </div>
@@ -58,9 +57,9 @@
                             <div class="form-group mb-3">
                                 <div class="row">
                                     <div class="col border border-1 border-warning rounded ">
-                                        <label asp-for="Viagem.Destino" class="control-label text-white mt-1">
+                                        <label class="control-label text-white mt-1">
                                             Destino:
-                                            @Model.Viagem.Destino
+                                            
                                         </label>
                                     </div>
                                 </div>
@@ -68,9 +67,9 @@
                             <div class="form-group mb-3">
                                 <div class="row">
                                     <div class="col border border-1 border-warning rounded ">
-                                        <label asp-for="Viagem.Origem" class="control-label text-white mt-1">
+                                        <label class="control-label text-white mt-1">
                                             Origem:
-                                            @Model.Viagem.Origem
+                                          
                                         </label>
                                     </div>
                                 </div>
@@ -79,9 +78,9 @@
                             <div class="form-group mb-3">
                                 <div class="row">
                                     <div class="col border border-1 border-warning rounded ">
-                                        <label asp-for="Viagem.DataIda" class="control-label text-white mt-1">
+                                        <label class="control-label text-white mt-1">
                                             Data Ida:
-                                            @Model.Viagem.DataIda
+                                            
                                         </label>
                                     </div>
                                 </div>
@@ -90,9 +89,9 @@
                             <div class="form-group mb-3">
                                 <div class="row">
                                     <div class="col border border-1 border-warning rounded ">
-                                        <label asp-for="Viagem.DataVolta" class="control-label text-white mt-1">
+                                        <label  class="control-label text-white mt-1">
                                             Data Volta:
-                                            @Model.Viagem.DataVolta
+                                           
                                         </label>
                                     </div>
                                 </div>
