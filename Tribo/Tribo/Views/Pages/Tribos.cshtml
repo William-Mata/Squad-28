@@ -1,0 +1,330 @@
+﻿@model Tribo.Models.Pessoa
+@{
+    ViewData["Title"] = "Tribos";
+}
+
+<div class="modal fade bgVidro" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+     aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-xl">
+        <div class="modal-content bgVidro">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Comprar Passagens</h5>
+                <button type="button" class="btn btn-secondary btn-outline-warning text-white" data-bs-dismiss="modal"
+                        aria-label="Close">X</button>
+            </div>
+
+            <div class="modal-body ">
+                <div class="container-fluid justify-content-center">
+                    <form asp-action="Create">
+                        <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="form-group mb-3">
+                                    <div class="row">
+                                        <div class="col-md-5 border border-1 border-warning rounded ">
+                                            <label asp-for="Nome" class="control-label text-white mt-1">
+                                                Nome Completo:
+                                            </label>
+                                        </div>
+                                        <div class="col-md-7 m-0">
+                                            <input asp-for="Nome"
+                                                   class="form-control text-white bg-transparent btn-outline-warning" />
+                                        </div>
+                                        <span asp-validation-for="Nome" class="text-warning"></span>
+                                    </div>
+                                </div>
+                                <div class="form-group mb-3">
+                                    <div class="row">
+                                        <div class="col-md-2 border border-1 border-warning rounded ">
+                                            <label asp-for="Idade" class="control-label text-white mt-1">Idade:</label>
+                                        </div>
+                                        <div class="col-md-3">
+                                            <input asp-for="Idade"
+                                                   class="form-control text-white bg-transparent btn-outline-warning" />
+                                        </div>
+                                        <span asp-validation-for="Idade" class="text-warning"></span>
+                                    </div>
+                                </div>
+                                <div class="form-group mb-3">
+                                    <div class="row">
+                                        <div class="col-md-2 border border-1 border-warning rounded ">
+                                            <label asp-for="CPF" class="control-label text-white mt-1">CPF:</label>
+                                        </div>
+                                        <div class="col-md-8">
+                                            <input asp-for="CPF"
+                                                   class="form-control text-white bg-transparent btn-outline-warning" />
+                                        </div>
+                                        <span asp-validation-for="CPF" class="text-warning"></span>
+                                    </div>
+                                </div>
+                                <div class="form-group mb-3">
+                                    <div class="row">
+                                        <div class="col-md-3 border border-1 border-warning rounded ">
+                                            <label asp-for="Viagem.Valor" class="control-label text-white mt-1">Valor:</label>
+                                        </div>
+                                        <div class="col-md-5">
+                                            <input asp-for="Viagem.Valor"
+                                                   class="form-control text-white bg-transparent btn-outline-warning" readonly value="" id="Valor" />
+                                        </div>
+                                        <span asp-validation-for="Viagem.Valor" class="text-warning"></span>
+                                    </div>
+                                </div>
+                                <div class="form-group mb-3">
+                                    <div class="row">
+                                        <div class="col-md-3 border border-1 border-warning rounded ">
+                                            <label class="control-label text-white mt-1">Cupom:</label>
+                                        </div>
+                                        <div class="col">
+                                            <input class="form-control text-white bg-transparent btn-outline-warning" id="Cupom" />
+                                            <span class="text-warning m-0" id="AspCp"></span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-md-6">
+                                <div class="form-group mb-3">
+                                    <div class="row">
+                                        <div class="col-md-3 border border-1 border-warning rounded ">
+                                            <label asp-for="Viagem.Destino" class="control-label text-white mt-1">Destino:</label>
+                                        </div>
+                                        <div class="col">
+                                            <input asp-for="Viagem.Destino"
+                                                   class="form-control text-white bg-transparent btn-outline-warning" readonly value="" id="Destino" />
+                                        </div>
+                                        <span asp-validation-for="Viagem.Destino" class="text-warning"></span>
+                                    </div>
+                                </div>
+                                <div class="form-group mb-3">
+                                    <div class="row">
+                                        <div class="col-md-4 border border-1 border-warning rounded ">
+                                            <label asp-for="Viagem.Origem" class="control-label text-white mt-1">Origem:</label>
+                                        </div>
+                                        <div class="col-md-8">
+                                            <input asp-for="Viagem.Origem"
+                                                   class="form-control text-white bg-transparent btn-outline-warning" />
+                                        </div>
+                                        <span asp-validation-for="Viagem.Origem" class="text-warning"></span>
+                                    </div>
+                                </div>
+
+                                <div class="form-group mb-3">
+                                    <div class="row">
+                                        <div class="col-md-4 py-1 border border-1 border-warning rounded ">
+                                            <label class="control-label text-white mt-1">Ida e Volta:</label>
+                                        </div>
+                                        <div class="col-md-6 py-1">
+                                            <input type="checkbox" unchecked id="voltaCheck" onchange="Check();" class="checkbox text-white bg-transparent btn-outline-warning" />
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="form-group mb-3">
+                                    <div class="row">
+                                        <div class="col-md-4 border border-1 border-warning rounded ">
+                                            <label asp-for="Viagem.DataIda" class="control-label text-white mt-1">Data Ida:</label>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <input asp-for="Viagem.DataIda"
+                                                   class="form-control text-white bg-transparent btn-outline-warning" />
+                                        </div>
+                                        <span asp-validation-for="Viagem.DataIda" class="text-warning"></span>
+                                    </div>
+                                </div>
+
+                                <div class="form-group mb-3" id="volta" style="display: none;">
+                                    <div class="row">
+                                        <div class="col-md-4 border border-1 border-warning rounded ">
+                                            <label asp-for="Viagem.DataVolta" class="control-label text-white mt-1">Data Volta:</label>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <input asp-for="Viagem.DataVolta"
+                                                   class="form-control text-white bg-transparent btn-outline-warning" value="0" />
+                                        </div>
+                                        <span asp-validation-for="Viagem.DataVolta" class="text-warning"></span>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="form-group m-0 p-0">
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary btn-outline-warning text-white" onclick="Desconto();"> Aplicar Desconto </button>
+                                <button type="button" class="btn btn-secondary  btn-outline-warning text-white"
+                                        data-bs-dismiss="modal">
+                                    Sair
+                                </button>
+                                <input type="submit" value="Comprar" class="btn btn-secondary btn-outline-warning text-white" />
+                            </div>
+
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+<div class="container-fluid mx-auto ">
+
+    <div class="container cardViagens">
+        <div class="card colorPadrao">
+            <a class="mx-auto" data-bs-toggle="modal" data-bs-target="#exampleModal" href="#"
+               onclick="Descricao('dassanaT')"> <img src="/img/DessanaTunaka.jpg" class="card-img-top img-fluid"></a>
+            <div class="card-body">
+                <div id="dassanaT">
+                    <h5 class="card-title">Dessana Tunaka, Manaus-Amazonas.</h5>
+                    <p class="fs-6 m-0">R$: 800,00</p>
+                    <p class="fs-6 m-0">3 dias</p>
+                </div>
+                <p class="card-text">
+                    Os indígenas desta tribo vivem em região isolada na Amazônia e em perfeita harmonia com a magnífica natureza do entorno.
+                </p>
+            </div>
+            <input type="submit" value="Comprar" class="btn btn-secondary btn-outline-warning text-white" data-bs-toggle="modal" data-bs-target="#exampleModal" href="#"
+               onclick="Descricao('dassanaT')" />
+        </div>
+    </div>
+
+    <div class="container cardViagens">
+
+        <div class="card colorPadrao">
+            <a class="mx-auto" data-bs-toggle="modal" data-bs-target="#exampleModal" href="#"
+               onclick="Descricao('aldeiaRS')">
+                <img src="/img/AldeiaRioSilveira.jpg" class="card-img-top img-fluid">
+            </a>
+            <div class="card-body">
+                <div id="aldeiaRS">
+                    <h5 class="card-title">Aldeia do Rio Silveira, Bertioga-São Paulo.</h5>
+                    <p class="fs-6 m-0">R$: 1.000</p>
+                    <p class="fs-6 m-0">4 dias</p>
+                </div>
+                <p class="card-text">
+                    Cerca de 120 famílias compõe esta tribo, que tem aproximadamente 500 índios. Eles moram em casinhas de pau-a-pique, madeira e palha, e até os sete anos de idade só aprendem o idioma guarani na escolinha da aldeia.
+                </p>
+            </div>
+            <input type="submit" value="Comprar" class="btn btn-secondary btn-outline-warning text-white" data-bs-toggle="modal" data-bs-target="#exampleModal" href="#"
+               onclick="Descricao('aldeiaRS')" />
+        </div>
+    </div>
+
+    <div class="container cardViagens">
+
+        <div class="card colorPadrao">
+            <a class="mx-auto" data-bs-toggle="modal" data-bs-target="#exampleModal" href="#"
+               onclick="Descricao('pataxo')">
+                <img src="/img/Pataxo.jpg" class="card-img-top">
+            </a>
+            <div class="card-body">
+                <div id="pataxo">
+                    <h5 class="card-title">Pataxó, Caraíva-Bahia</h5>
+                    <p class="fs-6 m-0">R$: 2.000</p>
+                    <p class="fs-6 m-0">9 dias</p>
+                </div>
+                <p class="card-text">
+                    A área possui posto de saúde, escola e alguns outros serviços que atendem a população.
+                </p>
+            </div>
+            <input type="submit" value="Comprar" class="btn btn-secondary btn-outline-warning text-white" data-bs-toggle="modal" data-bs-target="#exampleModal" href="#"
+               onclick="Descricao('pataxo')" />
+        </div>
+    </div>
+
+    <div class="container cardViagens">
+
+        <div class="card colorPadrao">
+            <a class="mx-auto" data-bs-toggle="modal" data-bs-target="#exampleModal" href="#"
+               onclick="Descricao('guarani')">
+                <img src="/img/Guarani.png" class="card-img-top">
+            </a>
+            <div class="card-body">
+                <div id="guarani">
+                    <h5 class="card-title">Guarani e Guarani Kaiowa, São Bernardo do Campo-São Paulo</h5>
+                    <p class="fs-6 m-0">R$: 1.400</p>
+                    <p class="fs-6 m-0">6 dias</p>
+                </div>
+                <p class="card-text">
+                    As terras são demarcadas pela FUNAI e dispõe de um campinho de futebol, posto médico e um Centro de Educação e Cultura Indígena.
+                </p>
+            </div>
+                 <input type="submit" value="Comprar" class="btn btn-secondary btn-outline-warning text-white" data-bs-toggle="modal" data-bs-target="#exampleModal" href="#"
+               onclick="Descricao('guarani')" />
+        </div>
+    </div>
+
+    <div class="container cardViagens">
+
+        <div class="card colorPadrao">
+            <a class="mx-auto" data-bs-toggle="modal" data-bs-target="#exampleModal" href="#"
+               onclick="Descricao('jenipapo')">
+                <img src="/img/Jenipapo-Kanindé.jpg" class="card-img-top">
+            </a>
+            <div class="card-body">
+                <div id="jenipapo">
+                    <h5 class="card-title">Jenipapo-Kanindé, Aquiraz-Ceará</h5>
+                    <p class="fs-6 m-0">R$: 1,500</p>
+                    <p class="fs-6 m-0">1 semana</p>
+                </div>
+                <p class="card-text">
+                    Embora o local que a tribo Jenipapo-Kanindé está instalada pertença à eles há séculos, somente em 2011 obtiveram o direito de terra reconhecido na justiça.
+                </p>
+            </div>
+              <input type="submit" value="Comprar" class="btn btn-secondary btn-outline-warning text-white" data-bs-toggle="modal" data-bs-target="#exampleModal" href="#"
+               onclick="Descricao('jenipapo')" />
+        </div>
+    </div>
+
+    <div class="container cardViagens">
+
+        <div class="card colorPadrao">
+            <a class="mx-auto" data-bs-toggle="modal" data-bs-target="#exampleModal" href="#"
+               onclick="Descricao('yawanawas')">
+                <img src="/img/Yawanawás.jpg" class="card-img-top">
+            </a>
+            <div class="card-body">
+                <div id="yawanawas">
+                    <h5 class="card-title">Yawanawás, Tarauacá-Acre.</h5>
+                    <p class="fs-6 m-0">R$: 800,00</p>
+                    <p class="fs-6 m-0">2 dias</p>
+                </div>
+                <p class="card-text">
+                    Só estabeleceram o primeiro contato com os não indígenas durante o século XX. Hoje eles vivem no território que adquiriram com o apoio da FUNAI em 1984.
+                </p>
+            </div>
+             <input type="submit" value="Comprar" class="btn btn-secondary btn-outline-warning text-white" data-bs-toggle="modal" data-bs-target="#exampleModal" href="#"
+               onclick="Descricao('yawanawas')" />
+        </div>
+    </div>
+
+    <div class="container cardViagens">
+
+        <div class="card colorPadrao">
+            <a class="mx-auto" data-bs-toggle="modal" data-bs-target="#exampleModal" href="#"
+               onclick="Descricao('xingu')">
+                <img src="/img/Xingu.jpg" class="card-img-top">
+            </a>
+            <div class="card-body">
+                <div id="xingu">
+                    <h5 class="card-title"> Xingu, Santa Cruz do Xingu – Mato Grosso.</h5>
+                    <p class="fs-6 m-0">R$: 950,00</p>
+                    <p class="fs-6 m-0">3 dias</p>
+                </div>
+                <p class="card-text">
+                    Não apenas uma, mas dezenas de tribos indígenas podem ser encontradas no Parque Indígena do Xingu, que fica localizado no Mato Grosso e foi criado em 1961 durante o governo de Jânio Quadros.
+                </p>
+            </div>
+            <input type="submit" value="Comprar" class="btn btn-secondary btn-outline-warning text-white" data-bs-toggle="modal" data-bs-target="#exampleModal" href="#"
+               onclick="Descricao('xingu')" />
+        </div>
+
+    </div>
+
+</div>
+@section Scripts {
+    @{
+    await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+    }

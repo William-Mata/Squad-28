@@ -1,0 +1,21 @@
+﻿@model Tribo.Models.Pessoa
+@{
+    ViewData["Title"] = "Tribo-Parceira";
+}
+
+<aside>
+    <form>
+        <div></div>
+        <div class="form-group">
+            <label for="exampleFormControlFile1">Example file input</label>
+            <input type="file" class="form-control-file" id="exampleFormControlFile1">
+        </div>
+    </form>
+</aside>
+
+
+@section Scripts {
+    @{
+    await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+    }
