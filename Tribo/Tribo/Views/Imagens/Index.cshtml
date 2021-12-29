@@ -1,0 +1,16 @@
+﻿@model IList<Tribo.Models.Imagem>
+
+<h2>Enviar Imagens</h2>
+
+<hr>
+
+<form action="/Imagens/UploadImagem" enctype="multipart/form-data" method="post">
+    <input type="file" name="arquivos" />
+    <br />
+    <button>Enviar Imagem</button>
+</form>
+<br />
+@foreach (var item in Model)
+{
+   <img src="/Imagens/VerImagem/@item" />
+}
