@@ -49,5 +49,35 @@ namespace AspNetCore_EnviaExibeImagem.Controllers
             MemoryStream ms = new MemoryStream(imagem.Dados);
             return new FileStreamResult(ms, imagem.ContentType);
         }
+
+
+        [HttpGet]
+        public IActionResult DeleteImagem(int id)
+        {
+            var imagem = _context.Imagens.Where(i => i.IdImg == id).FirstOrDefault();
+
+
+            return View(imagem); ;
+        }
+
+        [HttpPost]
+        public IActionResult DeleteContato(Imagem imagem)
+        {
+            var id = imagem.IdImg;
+
+            var imgDel = _context.Imagens.Find(id);
+
+            if ((id > 0) && (id != null))
+            {
+                _context.Imagens.Remove(imgDel);
+                _context.SaveChanges();
+            }
+            else
+            {
+                return NotFound();
+            }
+
+            return RedirectToAction("PacoteTribo");
+        }
     }
 }
