@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "fwc/4/D8kyjTjpiKCHHm6sce36G45ChiosXc+3Y8y0PfsH0/SIv0ehSIOHmGlEfc/tVWAoxIXcX/SroZVilKOA==",
+  "dgSpecHash": "BPTBteSmeeVKsE9aYgZf+IUS75ZDtmUtW+B4hGP1bgMMyHkpHf5jKW0DU/bCIbIqAsjmfEkLj9MU3AG5poY/4w==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Remakker\\Documents\\GitHub\\Squad-28\\Tribo\\Tribo\\Tribo.csproj",
+  "projectFilePath": "C:\\Users\\Remakker\\Source\\Repos\\William-Mata\\Squad-28\\Tribo\\Tribo\\Tribo.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Remakker\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\Remakker\\.nuget\\packages\\messagepack\\2.1.152\\messagepack.2.1.152.nupkg.sha512",

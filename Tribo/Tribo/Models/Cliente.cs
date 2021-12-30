@@ -18,9 +18,9 @@ namespace Tribo.Models
         [Required(ErrorMessage = "Informe seu CPF.")]
         public string? CPF { get; set; }
 
-        [ForeignKey("Pacote")]
-        public int Pacote { get; set; }
-        public virtual Pacote? pacote { get; set; }
+        [ForeignKey("Viagem")]
+        public int Id_Viagem { get; set; }
+        public virtual Viagem? viagem { get; set; }
 
     }
 

@@ -13,10 +13,10 @@ namespace Tribo.Controllers
             _context = context;
         }
 
-
+        /*Crud Contatos*/
         public IActionResult AdministracaoContatos()
         {
-            ViewBag.contatos = _context.Contatos.ToList();
+            ViewBag.contatos = _context.Contato.ToList();
 
             return View();
         }
@@ -25,7 +25,7 @@ namespace Tribo.Controllers
         public IActionResult EditContato(int id)
         {
 
-            var contato = _context.Contatos.Where(c => c.IdContato == id).FirstOrDefault();
+            var contato = _context.Contato.Where(c => c.IdContato == id).FirstOrDefault();
 
 
             if (contato == null)
@@ -41,7 +41,7 @@ namespace Tribo.Controllers
         public IActionResult EditContato(Contato contato)
         {
 
-            _context.Contatos.Update(contato);
+            _context.Contato.Update(contato);
             _context.SaveChanges();
 
 
@@ -51,7 +51,7 @@ namespace Tribo.Controllers
         [HttpGet]
         public IActionResult DetailsContato(int id)
         {
-            var contato = _context.Contatos.Where(c => c.IdContato == id).FirstOrDefault();
+            var contato = _context.Contato.Where(c => c.IdContato == id).FirstOrDefault();
 
             return PartialView("_ModalContatoDetalhes", contato); ;
         }
@@ -59,7 +59,7 @@ namespace Tribo.Controllers
         [HttpGet]
         public IActionResult DeleteContato(int id)
         {
-            var contato = _context.Contatos.Where(c => c.IdContato == id).FirstOrDefault();
+            var contato = _context.Contato.Where(c => c.IdContato == id).FirstOrDefault();
 
 
             return PartialView("_ModalContatoDelete", contato); ;
@@ -70,11 +70,11 @@ namespace Tribo.Controllers
         {
             var id = contato.IdContato;
 
-            var contatoDel = _context.Contatos.Find(id);
+            var contatoDel = _context.Contato.Find(id);
 
             if ((id > 0) && (id != null)) 
             {
-                _context.Contatos.Remove(contatoDel);
+                _context.Contato.Remove(contatoDel);
                 _context.SaveChanges();
             }
             else
@@ -83,6 +83,80 @@ namespace Tribo.Controllers
             }
 
             return RedirectToAction("AdministracaoContatos");
+        }
+
+        /*Crud Clientes*/
+
+        public IActionResult AdministracaoCliente()
+        {
+            ViewBag.cliente = _context.Cliente.ToList();
+            ViewBag.viagem = _context.Viagem.ToList();
+
+            return View();
+        }
+
+        [HttpGet]
+        public IActionResult EditCliente(int id)
+        {
+
+            var cliente = _context.Cliente.Where(cl => cl.IdCliente == id).FirstOrDefault();
+
+
+            if (cliente == null)
+            {
+                return NotFound();
+            }
+
+            return PartialView("_ModalViagemEdit", cliente);
+        }
+
+
+        [HttpPost]
+        public IActionResult EditCliente(Cliente cliente)
+        {
+
+            _context.Cliente.Update(cliente);
+            _context.SaveChanges();
+
+
+            return RedirectToAction("AdministracaoViagens");
+        }
+
+        [HttpGet]
+        public IActionResult DetailsViagem(int id)
+        {
+            var cliente = _context.Cliente.Where(cl => cl.IdCliente == id).FirstOrDefault();
+
+            return PartialView("_ModalViagemDetalhes", cliente); 
+        }
+
+        [HttpGet]
+        public IActionResult DeleteViagem(int id)
+        {
+            var cliente = _context.Cliente.Where(cl => cl.IdCliente == id).FirstOrDefault();
+
+
+            return PartialView("_ModalViagemDelete", cliente); 
+        }
+
+        [HttpPost]
+        public IActionResult DeleteViagem(Cliente cliente)
+        {
+            var id = cliente.IdCliente;
+
+            var clienteDel = _context.Cliente.Find(id);
+
+            if ((id > 0) && (id != null))
+            {
+                _context.Cliente.Remove(clienteDel);
+                _context.SaveChanges();
+            }
+            else
+            {
+                return NotFound();
+            }
+
+            return RedirectToAction("AdministracaoViagens");
         }
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]

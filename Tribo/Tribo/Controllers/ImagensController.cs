@@ -16,7 +16,7 @@ namespace AspNetCore_EnviaExibeImagem.Controllers
         [HttpGet]
         public IActionResult Index()
         {
-            List<int> imagens = _context.Imagens.Select(m => m.IdImg).ToList();
+            List<int> imagens = _context.Imagem.Select(m => m.IdImg).ToList();
             return View(imagens);
         }
 
@@ -35,7 +35,7 @@ namespace AspNetCore_EnviaExibeImagem.Controllers
                     Dados = ms.ToArray(),
                     ContentType = imagemEnviada.ContentType
                 };
-                _context.Imagens.Add(imagemEntity);
+                _context.Imagem.Add(imagemEntity);
                 _context.SaveChanges();
             }
 
@@ -45,7 +45,7 @@ namespace AspNetCore_EnviaExibeImagem.Controllers
         [HttpGet]
         public FileStreamResult VerImagem(int id)
         {
-            Imagem imagem = _context.Imagens.FirstOrDefault(m => m.IdImg == id);
+            Imagem imagem = _context.Imagem.FirstOrDefault(m => m.IdImg == id);
             MemoryStream ms = new MemoryStream(imagem.Dados);
             return new FileStreamResult(ms, imagem.ContentType);
         }
@@ -54,7 +54,7 @@ namespace AspNetCore_EnviaExibeImagem.Controllers
         [HttpGet]
         public IActionResult DeleteImagem(int id)
         {
-            var imagem = _context.Imagens.Where(i => i.IdImg == id).FirstOrDefault();
+            var imagem = _context.Imagem.Where(i => i.IdImg == id).FirstOrDefault();
 
 
             return View(imagem); ;
@@ -65,11 +65,11 @@ namespace AspNetCore_EnviaExibeImagem.Controllers
         {
             var id = imagem.IdImg;
 
-            var imgDel = _context.Imagens.Find(id);
+            var imgDel = _context.Imagem.Find(id);
 
             if ((id > 0) && (id != null))
             {
-                _context.Imagens.Remove(imgDel);
+                _context.Imagem.Remove(imgDel);
                 _context.SaveChanges();
             }
             else

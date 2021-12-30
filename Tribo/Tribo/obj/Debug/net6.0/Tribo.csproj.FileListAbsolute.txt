@@ -321,3 +321,14 @@ C:\Users\Remakker\Documents\GitHub\Squad-28\Tribo\Tribo\bin\Debug\net6.0\zh-Hant
 C:\Users\Remakker\Documents\GitHub\Squad-28\Tribo\Tribo\bin\Debug\net6.0\runtimes\win-arm\lib\net6.0\dotnet-aspnet-codegenerator-design.exe
 C:\Users\Remakker\Documents\GitHub\Squad-28\Tribo\Tribo\bin\Debug\net6.0\runtimes\win-arm64\lib\net6.0\dotnet-aspnet-codegenerator-design.exe
 C:\Users\Remakker\Documents\GitHub\Squad-28\Tribo\Tribo\bin\Debug\net6.0\libman.json
+C:\Users\Remakker\Source\Repos\William-Mata\Squad-28\Tribo\Tribo\obj\Debug\net6.0\Tribo.csproj.AssemblyReference.cache
+C:\Users\Remakker\Source\Repos\William-Mata\Squad-28\Tribo\Tribo\obj\Debug\net6.0\Tribo.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Remakker\Source\Repos\William-Mata\Squad-28\Tribo\Tribo\obj\Debug\net6.0\Tribo.AssemblyInfoInputs.cache
+C:\Users\Remakker\Source\Repos\William-Mata\Squad-28\Tribo\Tribo\obj\Debug\net6.0\Tribo.AssemblyInfo.cs
+C:\Users\Remakker\Source\Repos\William-Mata\Squad-28\Tribo\Tribo\obj\Debug\net6.0\Tribo.csproj.CoreCompileInputs.cache
+C:\Users\Remakker\Source\Repos\William-Mata\Squad-28\Tribo\Tribo\obj\Debug\net6.0\Tribo.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Remakker\Source\Repos\William-Mata\Squad-28\Tribo\Tribo\obj\Debug\net6.0\Tribo.RazorAssemblyInfo.cache
+C:\Users\Remakker\Source\Repos\William-Mata\Squad-28\Tribo\Tribo\obj\Debug\net6.0\Tribo.RazorAssemblyInfo.cs
+C:\Users\Remakker\Source\Repos\William-Mata\Squad-28\Tribo\Tribo\obj\Debug\net6.0\Tribo.dll
+C:\Users\Remakker\Source\Repos\William-Mata\Squad-28\Tribo\Tribo\obj\Debug\net6.0\ref\Tribo.dll
+C:\Users\Remakker\Source\Repos\William-Mata\Squad-28\Tribo\Tribo\obj\Debug\net6.0\Tribo.pdb

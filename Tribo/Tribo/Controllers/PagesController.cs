@@ -61,7 +61,7 @@ namespace BrasTravel.Controllers
         public IActionResult Viagem()
         {
 
-            ViewBag.cliente = _context.Clientes.ToList();
+            ViewBag.cliente = _context.Cliente.ToList();
          
 
             if (ViewBag.cliente == null)
@@ -76,7 +76,7 @@ namespace BrasTravel.Controllers
         public IActionResult Edit(int id)
         {
 
-            var cliente = _context.Clientes.Where(p => p.IdCliente == id).FirstOrDefault();
+            var cliente = _context.Cliente.Where(p => p.IdCliente == id).FirstOrDefault();
 
      
 
@@ -92,7 +92,7 @@ namespace BrasTravel.Controllers
         [HttpPost]
         public IActionResult Edit(Cliente cliente)
         {
-            _context.Clientes.Update(cliente);
+            _context.Cliente.Update(cliente);
             _context.SaveChanges();
 
             return RedirectToAction("Viagem");
@@ -100,14 +100,14 @@ namespace BrasTravel.Controllers
 
         public IActionResult Details(int id)
         {
-            var cliente = _context.Clientes.Where(p => p.IdCliente == id).FirstOrDefault();
+            var cliente = _context.Cliente.Where(p => p.IdCliente == id).FirstOrDefault();
             return PartialView("_ModalViagemDetalhes", cliente); ;
         }
 
         [HttpGet]
         public IActionResult Delete(int id)
         {
-            var cliente = _context.Clientes.Where(p => p.IdCliente == id).FirstOrDefault();
+            var cliente = _context.Cliente.Where(p => p.IdCliente == id).FirstOrDefault();
 
             return PartialView("_ModalViagemDelete", cliente); ;
         }
@@ -115,9 +115,9 @@ namespace BrasTravel.Controllers
         [HttpPost]
         public IActionResult Delete(Cliente cliente)
         {
-            var clienteDel = _context.Clientes.Where(p => p.IdCliente == cliente.IdCliente).FirstOrDefault();
+            var clienteDel = _context.Cliente.Where(p => p.IdCliente == cliente.IdCliente).FirstOrDefault();
 
-            _context.Clientes.Remove(clienteDel);
+            _context.Cliente.Remove(clienteDel);
             _context.SaveChanges();
 
 
