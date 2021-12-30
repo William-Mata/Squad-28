@@ -24,10 +24,10 @@ namespace Tribo.Models
         
         public DateTime DataVolta { get; set; }
 
-        public virtual Cliente cliente { get; set; }
 
+        public virtual Cliente Cliente { get; set; }
 
-
+        
     }
 
 

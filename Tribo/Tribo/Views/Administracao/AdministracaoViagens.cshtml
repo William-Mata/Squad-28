@@ -9,7 +9,7 @@
 </div>
 
 <div class="container-fluid m-0 bgVidro shadow-lg rounded py-3">
-<h4 class="text-center mb-3">Administração - Contatos</h4>
+<h4 class="text-center mb-3">Administração - Viagens</h4>
 
     <table class="table text-white">
         <thead>
@@ -24,19 +24,19 @@
                     @Html.DisplayNameFor(model => model.CPF)
                 </th>
                 <th>
-                    @Html.DisplayNameFor(model => model.viagem.Origem)
+                    @Html.DisplayNameFor(model => model.Viagem.Origem)
                 </th>
                  <th>
-                    @Html.DisplayNameFor(model => model.viagem.Destino)
+                    @Html.DisplayNameFor(model => model.Viagem.Destino)
                 </th>
                  <th>
-                    @Html.DisplayNameFor(model => model.viagem.Valor)
+                    @Html.DisplayNameFor(model => model.Viagem.Valor)
                 </th>
                  <th>
-                    @Html.DisplayNameFor(model => model.viagem.DataIda)
+                    @Html.DisplayNameFor(model => model.Viagem.DataIda)
                 </th>
                  <th>
-                    @Html.DisplayNameFor(model => model.viagem.DataVolta)
+                    @Html.DisplayNameFor(model => model.Viagem.DataVolta)
                 </th>
                 <th>Ações</th>
             </tr>
@@ -71,17 +71,17 @@
                     </td>
                     <td>
                         <button type="button" class="btn btn-sm btn-outline-warning" data-bs-toggle="modalAjax" data-bs-target="#editarModalC"
-                            data-url="@Url.Action($"EditViagem/{item.IdViagem}")">
+                            data-url="@Url.Action($"EditViagem/{item.IdCliente}")">
                             <img src="~/img/edit.png" />
                         </button>
 
                         <button type="button" class="btn btn-sm btn-outline-warning mt-1" data-bs-toggle="modalAjax" data-bs-target="#detalhesModalC"
-                            data-url="@Url.Action($"DetailsViagem/{item.IdViagem}")">
+                            data-url="@Url.Action($"DetailsViagem/{item.IdCliente}")">
                             <img src="~/img/ver-detalhes.png" />
                         </button>
 
                         <button type="button" class="btn btn-sm btn-outline-warning  mt-1" data-bs-toggle="modalAjax" data-bs-target="#deleteModalC"
-                            data-url="@Url.Action($"DeleteViagem/{item.IdViagem}")">
+                            data-url="@Url.Action($"DeleteViagem/{item.IdCliente}")">
                             <img src="~/img/delete.png" />
                         </button>
                     </td>
@@ -97,4 +97,3 @@
     await Html.RenderPartialAsync("_ValidationScriptsPartial");
 }
 }
-

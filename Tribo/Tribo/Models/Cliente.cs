@@ -20,7 +20,7 @@ namespace Tribo.Models
 
         [ForeignKey("Viagem")]
         public int Id_Viagem { get; set; }
-        public virtual Viagem? viagem { get; set; }
+        public virtual Viagem Viagem { get; set; }
 
     }
 

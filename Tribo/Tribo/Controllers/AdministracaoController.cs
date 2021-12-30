@@ -87,7 +87,7 @@ namespace Tribo.Controllers
 
         /*Crud Clientes*/
 
-        public IActionResult AdministracaoCliente()
+        public IActionResult AdministracaoViagens()
         {
             ViewBag.cliente = _context.Cliente.ToList();
             ViewBag.viagem = _context.Viagem.ToList();
