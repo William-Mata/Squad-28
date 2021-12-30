@@ -9,8 +9,10 @@ namespace Tribo.Models
         [Key]
         public int IdPacote { get; set; }
 
+        public string Destino { get; set; }
+
         [Required(ErrorMessage = "Informe o valor do pacote.")]
-        public string? Valor { get; set; }
+        public string Valor { get; set; }
 
         [Required(ErrorMessage = "A data de inicio.")]
         public DateTime DataInicio { get; set; }
@@ -21,14 +23,10 @@ namespace Tribo.Models
 
 
         [ForeignKey("Imagem")]
-        public int IdImagem { get; set; }
-        public virtual List<Imagem>? Imagens { get; set; }
-
-
-
-        [ForeignKey("Tribo")]
-        public int IdTribo { get; set; }
-        public virtual TriboParceira? TriboParceira { get; set; }
+        public int Id_Imagem { get; set; }
+        public virtual Imagem Imagem { get; set; }
+        public virtual Viagem Viagem { get; set; }
+        public virtual List<Tribo> Tribo { get; set; }
 
     }
 }

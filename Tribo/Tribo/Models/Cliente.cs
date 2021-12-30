@@ -10,13 +10,18 @@ namespace Tribo.Models
         public int IdCliente { get; set; }
 
         [Required(ErrorMessage = "Informe seu nome completo.")]
-        public string? Nome { get; set; }
+        public string Nome { get; set; }
+
+        [Required(ErrorMessage = "Informe seu e-mail.")]
+        public string Email { get; set; }
 
         [Required(ErrorMessage = "Informe sua idade.")]
         public int Idade { get; set; }
 
         [Required(ErrorMessage = "Informe seu CPF.")]
-        public string? CPF { get; set; }
+        public string CPF { get; set; }
+
+
 
         [ForeignKey("Viagem")]
         public int Id_Viagem { get; set; }

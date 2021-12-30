@@ -1,4 +1,4 @@
-﻿@model Tribo.Models.Cliente
+﻿@model global::Tribo.Models.Cliente
 
 @{
     ViewData["Title"] = "Administracao";
@@ -27,16 +27,16 @@
                     @Html.DisplayNameFor(model => model.Viagem.Origem)
                 </th>
                  <th>
-                    @Html.DisplayNameFor(model => model.Viagem.Destino)
+                    @Html.DisplayNameFor(model => model.Viagem.Pacote.Destino)
                 </th>
                  <th>
-                    @Html.DisplayNameFor(model => model.Viagem.Valor)
+                    @Html.DisplayNameFor(model => model.Viagem.Pacote.Valor)
                 </th>
                  <th>
-                    @Html.DisplayNameFor(model => model.Viagem.DataIda)
+                    @Html.DisplayNameFor(model => model.Viagem.Pacote.DataInicio)
                 </th>
                  <th>
-                    @Html.DisplayNameFor(model => model.Viagem.DataVolta)
+                    @Html.DisplayNameFor(model => model.Viagem.Pacote.DataFim)
                 </th>
                 <th>Ações</th>
             </tr>
@@ -55,19 +55,19 @@
                         @item.CPF
                     </td>
                      <td>
-                        @item.viagem.Origem
+                        @item.Viagem.Origem
                     </td>
                      <td>
-                        @item.viagem.Destino
+                        @item.Viagem.Pacote.Destino
                     </td>
                      <td>
-                        @item.viagem.Valor
+                       R$: @item.Viagem.Pacote.Valor
                     </td>
                      <td>
-                        @item.viagem.DataIda
+                        @item.Viagem.Pacote.DataInicio
                     </td>
                     <td>
-                        @item.viagem.DataVolta
+                        @item.Viagem.Pacote.DataFim
                     </td>
                     <td>
                         <button type="button" class="btn btn-sm btn-outline-warning" data-bs-toggle="modalAjax" data-bs-target="#editarModalC"

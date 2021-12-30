@@ -15,5 +15,7 @@ namespace Tribo.Models
         public byte[] Dados { get; set; }
         public string ContentType { get; set; }
 
+        public virtual Pacote Pacote { get; set; }
+
     }
 }

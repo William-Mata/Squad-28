@@ -8,11 +8,11 @@ build_property.PlatformNeutralAssembly =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Tribo
 build_property.RootNamespace = Tribo
-build_property.ProjectDir = C:\Users\Remakker\source\repos\William-Mata\Squad-28\Tribo\Tribo\
+build_property.ProjectDir = C:\Users\Remakker\Source\Repos\William-Mata\Squad-28\Tribo\Tribo\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\Remakker\source\repos\William-Mata\Squad-28\Tribo\Tribo
+build_property.MSBuildProjectDirectory = C:\Users\Remakker\Source\Repos\William-Mata\Squad-28\Tribo\Tribo
 build_property._RazorSourceGeneratorDebug = 
 
 [C:/Users/Remakker/Source/Repos/William-Mata/Squad-28/Tribo/Tribo/Views/Administracao/AdministracaoContatos.cshtml]

@@ -1,7 +1,10 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\Tribo",
+    "\\Tribo\\Tribo",
+    "\\Tribo\\Tribo\\Views",
+    "\\Tribo\\Tribo\\Views\\Administracao"
   ],
-  "SelectedNode": "\\Tribo.sln",
   "PreviewInSolutionExplorer": false
 }
