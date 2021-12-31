@@ -94,29 +94,29 @@ namespace Tribo.Controllers
             return RedirectToAction("Home");
         }
 
-        /* Retorna Dados do Cliente e a Viagem */
-        public IActionResult ViagemCliente(int id)
+        /* Retorna Dados do Cliente e a Pacote */
+        public IActionResult PacoteCliente(int id)
         {
 
             var cliente = _context.Cliente.Where(cl => cl.IdCliente == id).FirstOrDefault();
 
             if (cliente != null)
             {
-                ViewBag.viagem = _context.Viagem.Where(v => v.IdViagem == cliente.Id_Viagem).FirstOrDefault();
+                ViewBag.pacote = _context.Pacote.Where(v => v.IdPacote == cliente.Id_Pacote).FirstOrDefault();
             }
 
             return View();
         }
 
         [HttpGet]
-        public IActionResult EditViagemCliente(int id)
+        public IActionResult EditPacoteCliente(int id)
         {
 
             var cliente = _context.Cliente.Where(cl => cl.IdCliente == id).FirstOrDefault();
             
             if(cliente != null)
             {
-                ViewBag.viagem = _context.Viagem.Where(v => v.IdViagem == cliente.Id_Viagem).FirstOrDefault();
+                ViewBag.pacote = _context.Pacote.Where(v => v.IdPacote == cliente.Id_Pacote).FirstOrDefault();
 
             }
 
@@ -125,68 +125,68 @@ namespace Tribo.Controllers
                 return NotFound();
             }
 
-            return PartialView("_ModalViagemClEdit", cliente);
+            return PartialView("_ModalPacoteClEdit", cliente);
         }
 
 
         [HttpPost]
-        public IActionResult EditViagemCliente(Cliente cliente)
+        public IActionResult EditPacoteCliente(Cliente cliente)
         {
 
-            var IdV = cliente.Id_Viagem;
-            var viagem = _context.Viagem.Find(IdV);
+            var IdV = cliente.Id_Pacote;
+            var pacote = _context.Pacote.Find(IdV);
 
-            if (viagem != null)
+            if (pacote != null)
             {
-                _context.Viagem.Remove(viagem);
+                _context.Pacote.Remove(pacote);
 
             }
             _context.Cliente.Update(cliente);
             _context.SaveChanges();
 
-            return RedirectToAction("ViagemCliente");
+            return RedirectToAction("PacoteCliente");
         }
 
 
 
         [HttpGet]
-        public IActionResult DetailViagemCliente(int id)
+        public IActionResult DetailPacoteCliente(int id)
         {
 
             var cliente = _context.Cliente.Where(cl => cl.IdCliente == id).FirstOrDefault();
 
             if (cliente != null)
             {
-                ViewBag.viagem = _context.Viagem.Where(v => v.IdViagem == cliente.Id_Viagem).FirstOrDefault();
+                ViewBag.pacote = _context.Pacote.Where(v => v.IdPacote == cliente.Id_Pacote).FirstOrDefault();
             };
 
-            return PartialView("_ModalViagemClDetalhes", cliente);
+            return PartialView("_ModalPacoteClDetalhes", cliente);
         }
 
         [HttpGet]
-        public IActionResult DeleteViagemCliente(int id)
+        public IActionResult DeletePacoteCliente(int id)
         {
 
             var cliente = _context.Cliente.Where(cl => cl.IdCliente == id).FirstOrDefault();
 
             if (cliente != null)
             {
-                var viagem = _context.Viagem.Where(v => v.IdViagem == cliente.Id_Viagem).FirstOrDefault();
+                var pacote = _context.Pacote.Where(v => v.IdPacote == cliente.Id_Pacote).FirstOrDefault();
             }
 
-            return PartialView("_ModalViagemClDelete", cliente); 
+            return PartialView("_ModalPacoteClDelete", cliente); 
         }
 
         [HttpPost]
-        public IActionResult DeleteViagemCliente(Cliente cliente)
+        public IActionResult DeletePacoteCliente(Cliente cliente)
         {
             var clienteDel = _context.Cliente.Where(cl => cl.IdCliente == cliente.IdCliente).FirstOrDefault();
-            var viagem = _context.Viagem.Where(v => v.IdViagem == cliente.Id_Viagem).FirstOrDefault();
+            var pacote = _context.Pacote.Where(v => v.IdPacote == cliente.Id_Pacote).FirstOrDefault();
 
             if ((cliente.IdCliente > 0) && (cliente.IdCliente != null))
             {
                 _context.Cliente.Remove(clienteDel);
-                _context.Viagem.Remove(viagem);
+                _context.Pacote.Remove(pacote);
                 _context.SaveChanges();
             }
             else
@@ -202,28 +202,28 @@ namespace Tribo.Controllers
 
 /*
             <div class="form-group">
-                <label asp-for="Viagem.Origem" class="control-label"></label>
-                <input asp-for="Viagem.Origem" class="form-control" />
-                <span asp-validation-for="Viagem.Origem" class="text-danger"></span>
+                <label asp-for="Pacote.Origem" class="control-label"></label>
+                <input asp-for="Pacote.Origem" class="form-control" />
+                <span asp-validation-for="Pacote.Origem" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <label asp-for="Viagem.Pacote.Destino" class="control-label"></label>
-                <input asp-for="Viagem.Pacote.Destino" class="form-control" />
-                <span asp-validation-for="Viagem.Pacote.Destino" class="text-danger"></span>
+                <label asp-for="Pacote.Pacote.Destino" class="control-label"></label>
+                <input asp-for="Pacote.Pacote.Destino" class="form-control" />
+                <span asp-validation-for="Pacote.Pacote.Destino" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <label asp-for="Viagem.Pacote.Valor" class="control-label"></label>
-                <input asp-for="Viagem.Pacote.Valor" class="form-control" />
-                <span asp-validation-for="Viagem.Pacote.Valor" class="text-danger"></span>
+                <label asp-for="Pacote.Pacote.Valor" class="control-label"></label>
+                <input asp-for="Pacote.Pacote.Valor" class="form-control" />
+                <span asp-validation-for="Pacote.Pacote.Valor" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <label asp-for="Viagem.Pacote.DataInicio" class="control-label"></label>
-                <input asp-for="Viagem.Pacote.DataInicio" class="form-control" />
-                <span asp-validation-for="Viagem.Pacote.DataInicio" class="text-danger"></span>
+                <label asp-for="Pacote.Pacote.DataInicio" class="control-label"></label>
+                <input asp-for="Pacote.Pacote.DataInicio" class="form-control" />
+                <span asp-validation-for="Pacote.Pacote.DataInicio" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <label asp-for="Viagem.Pacote.DataFim" class="control-label"></label>
-                <input asp-for="Viagem.Pacote.DataFim" class="form-control" />
-                <span asp-validation-for="Viagem.Pacote.DataFim" class="text-danger"></span>
+                <label asp-for="Pacote.Pacote.DataFim" class="control-label"></label>
+                <input asp-for="Pacote.Pacote.DataFim" class="form-control" />
+                <span asp-validation-for="Pacote.Pacote.DataFim" class="text-danger"></span>
             </div>
          */

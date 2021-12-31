@@ -10,7 +10,6 @@
 </head>
 
 <body>
-
     <header>
         <nav class="navbar navbar-expand-lg navbar-light text-white colorPadrao w-100 p-0">
             <div class="container-fluid">
@@ -47,12 +46,13 @@
                             <a class="btn btn-sm btn-outline-warning text-white " asp-area="" asp-controller="Pages"
                                asp-action="Contatos">Contatos</a>
                         </li>
+
                         <li class="nav-item mx-2 my-auto" style="display: block;">
                             <a class="btn btn-sm btn-outline-warning text-white" asp-area="" asp-controller="Pages"
                                asp-action="Login">Login</a>
                         </li>
 
-                        <li class="nav-item mx-2 my-auto btn-group dropstart" style="display: block;">
+                        <li class="nav-item mx-2 my-auto btn-group dropstart" style="display: none;">
                             <button type="button" class="btn btn-sm btn-outline-warning dropdown-toggle text-white" data-bs-toggle="dropdown" aria-expanded="false">
                                 Administração
                             </button>
@@ -84,7 +84,7 @@
                                 <a class="w-100 btn btn-sm btn-outline-warning text-white"
                                    asp-area="" asp-controller="Pages" asp-action="MeusDados">Meus Dados</a>
                                 <a class="w-100 btn btn-sm btn-outline-warning text-white"
-                                   asp-area="" asp-controller="Pages" asp-action="MinhasViagens">Minhas Viagens</a>
+                                   asp-area="" asp-controller="Pages" asp-action="MinhasViagens">Minhas Pacotes</a>
                             </div>
                         </li>
 

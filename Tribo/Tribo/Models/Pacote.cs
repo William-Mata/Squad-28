@@ -9,6 +9,9 @@ namespace Tribo.Models
         [Key]
         public int IdPacote { get; set; }
 
+        [Required(ErrorMessage = "Informe uma descrição.")]
+        public string Descricao { get; set; }
+
         public string Destino { get; set; }
 
         [Required(ErrorMessage = "Informe o valor do pacote.")]
@@ -25,7 +28,8 @@ namespace Tribo.Models
         [ForeignKey("Imagem")]
         public int Id_Imagem { get; set; }
         public virtual Imagem Imagem { get; set; }
-        public virtual Viagem Viagem { get; set; }
+
+        public virtual Cliente Cliente { get; set; }
         public virtual List<Tribo> Tribo { get; set; }
 
     }

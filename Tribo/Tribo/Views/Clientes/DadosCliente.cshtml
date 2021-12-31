@@ -1,0 +1,83 @@
+﻿@model IEnumerable<Cliente>
+
+@{
+    ViewData["Title"] = "DadosCliente";
+}
+
+<h1>Dados Cliente</h1>
+
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Nome)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Email)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Idade)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.CPF)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Pacote.Valor)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Origem)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Pacote.Destino)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Pacote.DataInicio)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Pacote.DataFim)
+            </th>
+            <th>Ações</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Nome)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Email)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Idade)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.CPF)
+                </td>
+                <td>
+                    R$ @Html.DisplayFor(modelItem => item.Pacote.Valor)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Origem)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Pacote.Destino)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Pacote.DataInicio)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Pacote.DataFim)
+                </td>
+
+                <td>
+                    <a asp-action="EditDadosCliente" asp-route-id="@item.IdCliente">Edit</a> |
+                    <a asp-action="DetailDadosCliente" asp-route-id="@item.IdCliente">Details</a> |
+                    <a asp-action="DeleteDadosCliente" asp-route-id="@item.IdCliente">Delete</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

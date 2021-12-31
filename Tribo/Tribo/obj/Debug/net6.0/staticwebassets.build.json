@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "PNRs64NE2RHN/uUUaWOsA940qQsKHjbMDjPDA0dMQ8U=",
+  "Hash": "6Fqpi4dsFNa+/ndbBDCJsVTepFIoKQfEfpdIjghlcOs=",
   "Source": "Tribo",
   "BasePath": "_content/Tribo",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "Tribo\\wwwroot",
       "Source": "Tribo",
-      "ContentRoot": "C:\\Users\\Remakker\\Source\\Repos\\William-Mata\\Squad-28\\Tribo\\Tribo\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Remakker\\Documents\\GitHub\\Squad-28\\Tribo\\Tribo\\wwwroot\\",
       "BasePath": "_content/Tribo",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "C:\\Users\\Remakker\\Source\\Repos\\William-Mata\\Squad-28\\Tribo\\Tribo\\obj\\Debug\\net6.0\\scopedcss\\bundle\\Tribo.styles.css",
+      "Identity": "C:\\Users\\Remakker\\Documents\\GitHub\\Squad-28\\Tribo\\Tribo\\obj\\Debug\\net6.0\\scopedcss\\bundle\\Tribo.styles.css",
       "SourceId": "Tribo",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\Remakker\\Source\\Repos\\William-Mata\\Squad-28\\Tribo\\Tribo\\obj\\Debug\\net6.0\\scopedcss\\bundle\\",
+      "ContentRoot": "C:\\Users\\Remakker\\Documents\\GitHub\\Squad-28\\Tribo\\Tribo\\obj\\Debug\\net6.0\\scopedcss\\bundle\\",
       "BasePath": "_content/Tribo",
       "RelativePath": "Tribo.styles.css",
       "AssetKind": "All",
@@ -31,13 +31,13 @@
       "AssetTraitValue": "ApplicationBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Remakker\\Source\\Repos\\William-Mata\\Squad-28\\Tribo\\Tribo\\obj\\Debug\\net6.0\\scopedcss\\bundle\\Tribo.styles.css"
+      "OriginalItemSpec": "C:\\Users\\Remakker\\Documents\\GitHub\\Squad-28\\Tribo\\Tribo\\obj\\Debug\\net6.0\\scopedcss\\bundle\\Tribo.styles.css"
     },
     {
-      "Identity": "C:\\Users\\Remakker\\Source\\Repos\\William-Mata\\Squad-28\\Tribo\\Tribo\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\Tribo.bundle.scp.css",
+      "Identity": "C:\\Users\\Remakker\\Documents\\GitHub\\Squad-28\\Tribo\\Tribo\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\Tribo.bundle.scp.css",
       "SourceId": "Tribo",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\Remakker\\Source\\Repos\\William-Mata\\Squad-28\\Tribo\\Tribo\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\",
+      "ContentRoot": "C:\\Users\\Remakker\\Documents\\GitHub\\Squad-28\\Tribo\\Tribo\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\",
       "BasePath": "_content/Tribo",
       "RelativePath": "Tribo.bundle.scp.css",
       "AssetKind": "All",
@@ -48,13 +48,13 @@
       "AssetTraitValue": "ProjectBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Remakker\\Source\\Repos\\William-Mata\\Squad-28\\Tribo\\Tribo\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\Tribo.bundle.scp.css"
+      "OriginalItemSpec": "C:\\Users\\Remakker\\Documents\\GitHub\\Squad-28\\Tribo\\Tribo\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\Tribo.bundle.scp.css"
     },
     {
-      "Identity": "C:\\Users\\Remakker\\Source\\Repos\\William-Mata\\Squad-28\\Tribo\\Tribo\\wwwroot\\css\\site.css",
+      "Identity": "C:\\Users\\Remakker\\Documents\\GitHub\\Squad-28\\Tribo\\Tribo\\wwwroot\\css\\site.css",
       "SourceId": "Tribo",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Remakker\\Source\\Repos\\William-Mata\\Squad-28\\Tribo\\Tribo\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Remakker\\Documents\\GitHub\\Squad-28\\Tribo\\Tribo\\wwwroot\\",
       "BasePath": "_content/Tribo",
       "RelativePath": "css/site.css",
       "AssetKind": "All",
@@ -68,10 +68,10 @@
       "OriginalItemSpec": "wwwroot\\css\\site.css"
     },
     {
-      "Identity": "C:\\Users\\Remakker\\Source\\Repos\\William-Mata\\Squad-28\\Tribo\\Tribo\\wwwroot\\favicon.ico.png",
+      "Identity": "C:\\Users\\Remakker\\Documents\\GitHub\\Squad-28\\Tribo\\Tribo\\wwwroot\\favicon.ico.png",
       "SourceId": "Tribo",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Remakker\\Source\\Repos\\William-Mata\\Squad-28\\Tribo\\Tribo\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Remakker\\Documents\\GitHub\\Squad-28\\Tribo\\Tribo\\wwwroot\\",
       "BasePath": "_content/Tribo",
       "RelativePath": "favicon.ico.png",
       "AssetKind": "All",
@@ -85,10 +85,10 @@
       "OriginalItemSpec": "wwwroot\\favicon.ico.png"
     },
     {
-      "Identity": "C:\\Users\\Remakker\\Source\\Repos\\William-Mata\\Squad-28\\Tribo\\Tribo\\wwwroot\\img\\AldeiaRioSilveira.jpg",
+      "Identity": "C:\\Users\\Remakker\\Documents\\GitHub\\Squad-28\\Tribo\\Tribo\\wwwroot\\img\\AldeiaRioSilveira.jpg",
       "SourceId": "Tribo",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Remakker\\Source\\Repos\\William-Mata\\Squad-28\\Tribo\\Tribo\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Remakker\\Documents\\GitHub\\Squad-28\\Tribo\\Tribo\\wwwroot\\",
       "BasePath": "_content/Tribo",
       "RelativePath": "img/AldeiaRioSilveira.jpg",
       "AssetKind": "All",
@@ -102,10 +102,10 @@
       "OriginalItemSpec": "wwwroot\\img\\AldeiaRioSilveira.jpg"
     },
     {
-      "Identity": "C:\\Users\\Remakker\\Source\\Repos\\William-Mata\\Squad-28\\Tribo\\Tribo\\wwwroot\\img\\coment1.png",
+      "Identity": "C:\\Users\\Remakker\\Documents\\GitHub\\Squad-28\\Tribo\\Tribo\\wwwroot\\img\\coment1.png",
       "SourceId": "Tribo",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Remakker\\Source\\Repos\\William-Mata\\Squad-28\\Tribo\\Tribo\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Remakker\\Documents\\GitHub\\Squad-28\\Tribo\\Tribo\\wwwroot\\",
       "BasePath": "_content/Tribo",
       "RelativePath": "img/coment1.png",
       "AssetKind": "All",
@@ -119,10 +119,10 @@
       "OriginalItemSpec": "wwwroot\\img\\coment1.png"
     },
     {
-      "Identity": "C:\\Users\\Remakker\\Source\\Repos\\William-Mata\\Squad-28\\Tribo\\Tribo\\wwwroot\\img\\coment2.png",
+      "Identity": "C:\\Users\\Remakker\\Documents\\GitHub\\Squad-28\\Tribo\\Tribo\\wwwroot\\img\\coment2.png",
       "SourceId": "Tribo",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Remakker\\Source\\Repos\\William-Mata\\Squad-28\\Tribo\\Tribo\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Remakker\\Documents\\GitHub\\Squad-28\\Tribo\\Tribo\\wwwroot\\",
       "BasePath": "_content/Tribo",
       "RelativePath": "img/coment2.png",
       "AssetKind": "All",
@@ -136,10 +136,10 @@
       "OriginalItemSpec": "wwwroot\\img\\coment2.png"
     },
     {
-      "Identity": "C:\\Users\\Remakker\\Source\\Repos\\William-Mata\\Squad-28\\Tribo\\Tribo\\wwwroot\\img\\coment3.jpg",
+      "Identity": "C:\\Users\\Remakker\\Documents\\GitHub\\Squad-28\\Tribo\\Tribo\\wwwroot\\img\\coment3.jpg",
       "SourceId": "Tribo",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Remakker\\Source\\Repos\\William-Mata\\Squad-28\\Tribo\\Tribo\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Remakker\\Documents\\GitHub\\Squad-28\\Tribo\\Tribo\\wwwroot\\",
       "BasePath": "_content/Tribo",
       "RelativePath": "img/coment3.jpg",
       "AssetKind": "All",
@@ -153,10 +153,10 @@
       "OriginalItemSpec": "wwwroot\\img\\coment3.jpg"
     },
     {
-      "Identity": "C:\\Users\\Remakker\\Source\\Repos\\William-Mata\\Squad-28\\Tribo\\Tribo\\wwwroot\\img\\coment4.jpg",
+      "Identity": "C:\\Users\\Remakker\\Documents\\GitHub\\Squad-28\\Tribo\\Tribo\\wwwroot\\img\\coment4.jpg",
       "SourceId": "Tribo",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Remakker\\Source\\Repos\\William-Mata\\Squad-28\\Tribo\\Tribo\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Remakker\\Documents\\GitHub\\Squad-28\\Tribo\\Tribo\\wwwroot\\",
       "BasePath": "_content/Tribo",
       "RelativePath": "img/coment4.jpg",
       "AssetKind": "All",
@@ -170,10 +170,10 @@
       "OriginalItemSpec": "wwwroot\\img\\coment4.jpg"
     },
     {
-      "Identity": "C:\\Users\\Remakker\\Source\\Repos\\William-Mata\\Squad-28\\Tribo\\Tribo\\wwwroot\\img\\coment5.jpg",
+      "Identity": "C:\\Users\\Remakker\\Documents\\GitHub\\Squad-28\\Tribo\\Tribo\\wwwroot\\img\\coment5.jpg",
       "SourceId": "Tribo",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Remakker\\Source\\Repos\\William-Mata\\Squad-28\\Tribo\\Tribo\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Remakker\\Documents\\GitHub\\Squad-28\\Tribo\\Tribo\\wwwroot\\",
       "BasePath": "_content/Tribo",
       "RelativePath": "img/coment5.jpg",
       "AssetKind": "All",
@@ -187,10 +187,10 @@
       "OriginalItemSpec": "wwwroot\\img\\coment5.jpg"
     },
     {
-      "Identity": "C:\\Users\\Remakker\\Source\\Repos\\William-Mata\\Squad-28\\Tribo\\Tribo\\wwwroot\\img\\coment6.jpg",
+      "Identity": "C:\\Users\\Remakker\\Documents\\GitHub\\Squad-28\\Tribo\\Tribo\\wwwroot\\img\\coment6.jpg",
       "SourceId": "Tribo",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Remakker\\Source\\Repos\\William-Mata\\Squad-28\\Tribo\\Tribo\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Remakker\\Documents\\GitHub\\Squad-28\\Tribo\\Tribo\\wwwroot\\",
       "BasePath": "_content/Tribo",
       "RelativePath": "img/coment6.jpg",
       "AssetKind": "All",
@@ -204,10 +204,10 @@
       "OriginalItemSpec": "wwwroot\\img\\coment6.jpg"
     },
     {
-      "Identity": "C:\\Users\\Remakker\\Source\\Repos\\William-Mata\\Squad-28\\Tribo\\Tribo\\wwwroot\\img\\coment9.jpg",
+      "Identity": "C:\\Users\\Remakker\\Documents\\GitHub\\Squad-28\\Tribo\\Tribo\\wwwroot\\img\\coment9.jpg",
       "SourceId": "Tribo",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Remakker\\Source\\Repos\\William-Mata\\Squad-28\\Tribo\\Tribo\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Remakker\\Documents\\GitHub\\Squad-28\\Tribo\\Tribo\\wwwroot\\",
       "BasePath": "_content/Tribo",
       "RelativePath": "img/coment9.jpg",
       "AssetKind": "All",
@@ -221,10 +221,10 @@
       "OriginalItemSpec": "wwwroot\\img\\coment9.jpg"
     },
     {
-      "Identity": "C:\\Users\\Remakker\\Source\\Repos\\William-Mata\\Squad-28\\Tribo\\Tribo\\wwwroot\\img\\delete.png",
+      "Identity": "C:\\Users\\Remakker\\Documents\\GitHub\\Squad-28\\Tribo\\Tribo\\wwwroot\\img\\delete.png",
       "SourceId": "Tribo",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Remakker\\Source\\Repos\\William-Mata\\Squad-28\\Tribo\\Tribo\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Remakker\\Documents\\GitHub\\Squad-28\\Tribo\\Tribo\\wwwroot\\",
       "BasePath": "_content/Tribo",
       "RelativePath": "img/delete.png",
       "AssetKind": "All",
@@ -238,10 +238,10 @@
       "OriginalItemSpec": "wwwroot\\img\\delete.png"
     },
     {
-      "Identity": "C:\\Users\\Remakker\\Source\\Repos\\William-Mata\\Squad-28\\Tribo\\Tribo\\wwwroot\\img\\DessanaTunaka.jpg",
+      "Identity": "C:\\Users\\Remakker\\Documents\\GitHub\\Squad-28\\Tribo\\Tribo\\wwwroot\\img\\DessanaTunaka.jpg",
       "SourceId": "Tribo",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Remakker\\Source\\Repos\\William-Mata\\Squad-28\\Tribo\\Tribo\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Remakker\\Documents\\GitHub\\Squad-28\\Tribo\\Tribo\\wwwroot\\",
       "BasePath": "_content/Tribo",
       "RelativePath": "img/DessanaTunaka.jpg",
       "AssetKind": "All",
@@ -255,10 +255,10 @@
       "OriginalItemSpec": "wwwroot\\img\\DessanaTunaka.jpg"
     },
     {
-      "Identity": "C:\\Users\\Remakker\\Source\\Repos\\William-Mata\\Squad-28\\Tribo\\Tribo\\wwwroot\\img\\edit.png",
+      "Identity": "C:\\Users\\Remakker\\Documents\\GitHub\\Squad-28\\Tribo\\Tribo\\wwwroot\\img\\edit.png",
       "SourceId": "Tribo",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Remakker\\Source\\Repos\\William-Mata\\Squad-28\\Tribo\\Tribo\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Remakker\\Documents\\GitHub\\Squad-28\\Tribo\\Tribo\\wwwroot\\",
       "BasePath": "_content/Tribo",
       "RelativePath": "img/edit.png",
       "AssetKind": "All",
@@ -272,10 +272,10 @@
       "OriginalItemSpec": "wwwroot\\img\\edit.png"
     },
     {
-      "Identity": "C:\\Users\\Remakker\\Source\\Repos\\William-Mata\\Squad-28\\Tribo\\Tribo\\wwwroot\\img\\facebook.png",
+      "Identity": "C:\\Users\\Remakker\\Documents\\GitHub\\Squad-28\\Tribo\\Tribo\\wwwroot\\img\\facebook.png",
       "SourceId": "Tribo",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Remakker\\Source\\Repos\\William-Mata\\Squad-28\\Tribo\\Tribo\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Remakker\\Documents\\GitHub\\Squad-28\\Tribo\\Tribo\\wwwroot\\",
       "BasePath": "_content/Tribo",
       "RelativePath": "img/facebook.png",
       "AssetKind": "All",
@@ -289,10 +289,10 @@
       "OriginalItemSpec": "wwwroot\\img\\facebook.png"
     },
     {
-      "Identity": "C:\\Users\\Remakker\\Source\\Repos\\William-Mata\\Squad-28\\Tribo\\Tribo\\wwwroot\\img\\Guarani.png",
+      "Identity": "C:\\Users\\Remakker\\Documents\\GitHub\\Squad-28\\Tribo\\Tribo\\wwwroot\\img\\Guarani.png",
       "SourceId": "Tribo",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Remakker\\Source\\Repos\\William-Mata\\Squad-28\\Tribo\\Tribo\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Remakker\\Documents\\GitHub\\Squad-28\\Tribo\\Tribo\\wwwroot\\",
       "BasePath": "_content/Tribo",
       "RelativePath": "img/Guarani.png",
       "AssetKind": "All",
@@ -306,10 +306,10 @@
       "OriginalItemSpec": "wwwroot\\img\\Guarani.png"
     },
     {
-      "Identity": "C:\\Users\\Remakker\\Source\\Repos\\William-Mata\\Squad-28\\Tribo\\Tribo\\wwwroot\\img\\home.jpg",
+      "Identity": "C:\\Users\\Remakker\\Documents\\GitHub\\Squad-28\\Tribo\\Tribo\\wwwroot\\img\\home.jpg",
       "SourceId": "Tribo",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Remakker\\Source\\Repos\\William-Mata\\Squad-28\\Tribo\\Tribo\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Remakker\\Documents\\GitHub\\Squad-28\\Tribo\\Tribo\\wwwroot\\",
       "BasePath": "_content/Tribo",
       "RelativePath": "img/home.jpg",
       "AssetKind": "All",
@@ -323,10 +323,10 @@
       "OriginalItemSpec": "wwwroot\\img\\home.jpg"
     },
     {
-      "Identity": "C:\\Users\\Remakker\\Source\\Repos\\William-Mata\\Squad-28\\Tribo\\Tribo\\wwwroot\\img\\home1.jpg",
+      "Identity": "C:\\Users\\Remakker\\Documents\\GitHub\\Squad-28\\Tribo\\Tribo\\wwwroot\\img\\home1.jpg",
       "SourceId": "Tribo",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Remakker\\Source\\Repos\\William-Mata\\Squad-28\\Tribo\\Tribo\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Remakker\\Documents\\GitHub\\Squad-28\\Tribo\\Tribo\\wwwroot\\",
       "BasePath": "_content/Tribo",
       "RelativePath": "img/home1.jpg",
       "AssetKind": "All",
@@ -340,10 +340,10 @@
       "OriginalItemSpec": "wwwroot\\img\\home1.jpg"
     },
     {
-      "Identity": "C:\\Users\\Remakker\\Source\\Repos\\William-Mata\\Squad-28\\Tribo\\Tribo\\wwwroot\\img\\home2.png",
+      "Identity": "C:\\Users\\Remakker\\Documents\\GitHub\\Squad-28\\Tribo\\Tribo\\wwwroot\\img\\home2.png",
       "SourceId": "Tribo",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Remakker\\Source\\Repos\\William-Mata\\Squad-28\\Tribo\\Tribo\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Remakker\\Documents\\GitHub\\Squad-28\\Tribo\\Tribo\\wwwroot\\",
       "BasePath": "_content/Tribo",
       "RelativePath": "img/home2.png",
       "AssetKind": "All",
@@ -357,10 +357,10 @@
       "OriginalItemSpec": "wwwroot\\img\\home2.png"
     },
     {
-      "Identity": "C:\\Users\\Remakker\\Source\\Repos\\William-Mata\\Squad-28\\Tribo\\Tribo\\wwwroot\\img\\home3.jpg",
+      "Identity": "C:\\Users\\Remakker\\Documents\\GitHub\\Squad-28\\Tribo\\Tribo\\wwwroot\\img\\home3.jpg",
       "SourceId": "Tribo",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Remakker\\Source\\Repos\\William-Mata\\Squad-28\\Tribo\\Tribo\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Remakker\\Documents\\GitHub\\Squad-28\\Tribo\\Tribo\\wwwroot\\",
       "BasePath": "_content/Tribo",
       "RelativePath": "img/home3.jpg",
       "AssetKind": "All",
@@ -374,10 +374,10 @@
       "OriginalItemSpec": "wwwroot\\img\\home3.jpg"
     },
     {
-      "Identity": "C:\\Users\\Remakker\\Source\\Repos\\William-Mata\\Squad-28\\Tribo\\Tribo\\wwwroot\\img\\home4.jpeg",
+      "Identity": "C:\\Users\\Remakker\\Documents\\GitHub\\Squad-28\\Tribo\\Tribo\\wwwroot\\img\\home4.jpeg",
       "SourceId": "Tribo",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Remakker\\Source\\Repos\\William-Mata\\Squad-28\\Tribo\\Tribo\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Remakker\\Documents\\GitHub\\Squad-28\\Tribo\\Tribo\\wwwroot\\",
       "BasePath": "_content/Tribo",
       "RelativePath": "img/home4.jpeg",
       "AssetKind": "All",
@@ -391,10 +391,10 @@
       "OriginalItemSpec": "wwwroot\\img\\home4.jpeg"
     },
     {
-      "Identity": "C:\\Users\\Remakker\\Source\\Repos\\William-Mata\\Squad-28\\Tribo\\Tribo\\wwwroot\\img\\home5.png",
+      "Identity": "C:\\Users\\Remakker\\Documents\\GitHub\\Squad-28\\Tribo\\Tribo\\wwwroot\\img\\home5.png",
       "SourceId": "Tribo",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Remakker\\Source\\Repos\\William-Mata\\Squad-28\\Tribo\\Tribo\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Remakker\\Documents\\GitHub\\Squad-28\\Tribo\\Tribo\\wwwroot\\",
       "BasePath": "_content/Tribo",
       "RelativePath": "img/home5.png",
       "AssetKind": "All",
@@ -408,10 +408,10 @@
       "OriginalItemSpec": "wwwroot\\img\\home5.png"
     },
     {
-      "Identity": "C:\\Users\\Remakker\\Source\\Repos\\William-Mata\\Squad-28\\Tribo\\Tribo\\wwwroot\\img\\icon-home.png",
+      "Identity": "C:\\Users\\Remakker\\Documents\\GitHub\\Squad-28\\Tribo\\Tribo\\wwwroot\\img\\icon-home.png",
       "SourceId": "Tribo",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Remakker\\Source\\Repos\\William-Mata\\Squad-28\\Tribo\\Tribo\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Remakker\\Documents\\GitHub\\Squad-28\\Tribo\\Tribo\\wwwroot\\",
       "BasePath": "_content/Tribo",
       "RelativePath": "img/icon-home.png",
       "AssetKind": "All",
@@ -425,10 +425,10 @@
       "OriginalItemSpec": "wwwroot\\img\\icon-home.png"
     },
     {
-      "Identity": "C:\\Users\\Remakker\\Source\\Repos\\William-Mata\\Squad-28\\Tribo\\Tribo\\wwwroot\\img\\icon-home2.png",
+      "Identity": "C:\\Users\\Remakker\\Documents\\GitHub\\Squad-28\\Tribo\\Tribo\\wwwroot\\img\\icon-home2.png",
       "SourceId": "Tribo",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Remakker\\Source\\Repos\\William-Mata\\Squad-28\\Tribo\\Tribo\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Remakker\\Documents\\GitHub\\Squad-28\\Tribo\\Tribo\\wwwroot\\",
       "BasePath": "_content/Tribo",
       "RelativePath": "img/icon-home2.png",
       "AssetKind": "All",
@@ -442,10 +442,10 @@
       "OriginalItemSpec": "wwwroot\\img\\icon-home2.png"
     },
     {
-      "Identity": "C:\\Users\\Remakker\\Source\\Repos\\William-Mata\\Squad-28\\Tribo\\Tribo\\wwwroot\\img\\img-fundo.jpg",
+      "Identity": "C:\\Users\\Remakker\\Documents\\GitHub\\Squad-28\\Tribo\\Tribo\\wwwroot\\img\\img-fundo.jpg",
       "SourceId": "Tribo",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Remakker\\Source\\Repos\\William-Mata\\Squad-28\\Tribo\\Tribo\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Remakker\\Documents\\GitHub\\Squad-28\\Tribo\\Tribo\\wwwroot\\",
       "BasePath": "_content/Tribo",
       "RelativePath": "img/img-fundo.jpg",
       "AssetKind": "All",
@@ -459,10 +459,10 @@
       "OriginalItemSpec": "wwwroot\\img\\img-fundo.jpg"
     },
     {
-      "Identity": "C:\\Users\\Remakker\\Source\\Repos\\William-Mata\\Squad-28\\Tribo\\Tribo\\wwwroot\\img\\img-sobre.png",
+      "Identity": "C:\\Users\\Remakker\\Documents\\GitHub\\Squad-28\\Tribo\\Tribo\\wwwroot\\img\\img-sobre.png",
       "SourceId": "Tribo",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Remakker\\Source\\Repos\\William-Mata\\Squad-28\\Tribo\\Tribo\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Remakker\\Documents\\GitHub\\Squad-28\\Tribo\\Tribo\\wwwroot\\",
       "BasePath": "_content/Tribo",
       "RelativePath": "img/img-sobre.png",
       "AssetKind": "All",
@@ -476,10 +476,10 @@
       "OriginalItemSpec": "wwwroot\\img\\img-sobre.png"
     },
     {
-      "Identity": "C:\\Users\\Remakker\\Source\\Repos\\William-Mata\\Squad-28\\Tribo\\Tribo\\wwwroot\\img\\instagram.png",
+      "Identity": "C:\\Users\\Remakker\\Documents\\GitHub\\Squad-28\\Tribo\\Tribo\\wwwroot\\img\\instagram.png",
       "SourceId": "Tribo",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Remakker\\Source\\Repos\\William-Mata\\Squad-28\\Tribo\\Tribo\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Remakker\\Documents\\GitHub\\Squad-28\\Tribo\\Tribo\\wwwroot\\",
       "BasePath": "_content/Tribo",
       "RelativePath": "img/instagram.png",
       "AssetKind": "All",
@@ -493,10 +493,10 @@
       "OriginalItemSpec": "wwwroot\\img\\instagram.png"
     },
     {
-      "Identity": "C:\\Users\\Remakker\\Source\\Repos\\William-Mata\\Squad-28\\Tribo\\Tribo\\wwwroot\\img\\Jenipapo-Kanindé.jpg",
+      "Identity": "C:\\Users\\Remakker\\Documents\\GitHub\\Squad-28\\Tribo\\Tribo\\wwwroot\\img\\Jenipapo-Kanindé.jpg",
       "SourceId": "Tribo",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Remakker\\Source\\Repos\\William-Mata\\Squad-28\\Tribo\\Tribo\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Remakker\\Documents\\GitHub\\Squad-28\\Tribo\\Tribo\\wwwroot\\",
       "BasePath": "_content/Tribo",
       "RelativePath": "img/Jenipapo-Kanindé.jpg",
       "AssetKind": "All",
@@ -510,10 +510,10 @@
       "OriginalItemSpec": "wwwroot\\img\\Jenipapo-Kanindé.jpg"
     },
     {
-      "Identity": "C:\\Users\\Remakker\\Source\\Repos\\William-Mata\\Squad-28\\Tribo\\Tribo\\wwwroot\\img\\man1.png",
+      "Identity": "C:\\Users\\Remakker\\Documents\\GitHub\\Squad-28\\Tribo\\Tribo\\wwwroot\\img\\man1.png",
       "SourceId": "Tribo",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Remakker\\Source\\Repos\\William-Mata\\Squad-28\\Tribo\\Tribo\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Remakker\\Documents\\GitHub\\Squad-28\\Tribo\\Tribo\\wwwroot\\",
       "BasePath": "_content/Tribo",
       "RelativePath": "img/man1.png",
       "AssetKind": "All",
@@ -527,10 +527,10 @@
       "OriginalItemSpec": "wwwroot\\img\\man1.png"
     },
     {
-      "Identity": "C:\\Users\\Remakker\\Source\\Repos\\William-Mata\\Squad-28\\Tribo\\Tribo\\wwwroot\\img\\man2.png",
+      "Identity": "C:\\Users\\Remakker\\Documents\\GitHub\\Squad-28\\Tribo\\Tribo\\wwwroot\\img\\man2.png",
       "SourceId": "Tribo",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Remakker\\Source\\Repos\\William-Mata\\Squad-28\\Tribo\\Tribo\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Remakker\\Documents\\GitHub\\Squad-28\\Tribo\\Tribo\\wwwroot\\",
       "BasePath": "_content/Tribo",
       "RelativePath": "img/man2.png",
       "AssetKind": "All",
@@ -544,10 +544,10 @@
       "OriginalItemSpec": "wwwroot\\img\\man2.png"
     },
     {
-      "Identity": "C:\\Users\\Remakker\\Source\\Repos\\William-Mata\\Squad-28\\Tribo\\Tribo\\wwwroot\\img\\man3.png",
+      "Identity": "C:\\Users\\Remakker\\Documents\\GitHub\\Squad-28\\Tribo\\Tribo\\wwwroot\\img\\man3.png",
       "SourceId": "Tribo",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Remakker\\Source\\Repos\\William-Mata\\Squad-28\\Tribo\\Tribo\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Remakker\\Documents\\GitHub\\Squad-28\\Tribo\\Tribo\\wwwroot\\",
       "BasePath": "_content/Tribo",
       "RelativePath": "img/man3.png",
       "AssetKind": "All",
@@ -561,10 +561,10 @@
       "OriginalItemSpec": "wwwroot\\img\\man3.png"
     },
     {
-      "Identity": "C:\\Users\\Remakker\\Source\\Repos\\William-Mata\\Squad-28\\Tribo\\Tribo\\wwwroot\\img\\MicrosoftTeams-image.png",
+      "Identity": "C:\\Users\\Remakker\\Documents\\GitHub\\Squad-28\\Tribo\\Tribo\\wwwroot\\img\\MicrosoftTeams-image.png",
       "SourceId": "Tribo",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Remakker\\Source\\Repos\\William-Mata\\Squad-28\\Tribo\\Tribo\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Remakker\\Documents\\GitHub\\Squad-28\\Tribo\\Tribo\\wwwroot\\",
       "BasePath": "_content/Tribo",
       "RelativePath": "img/MicrosoftTeams-image.png",
       "AssetKind": "All",
@@ -578,10 +578,10 @@
       "OriginalItemSpec": "wwwroot\\img\\MicrosoftTeams-image.png"
     },
     {
-      "Identity": "C:\\Users\\Remakker\\Source\\Repos\\William-Mata\\Squad-28\\Tribo\\Tribo\\wwwroot\\img\\o-email.png",
+      "Identity": "C:\\Users\\Remakker\\Documents\\GitHub\\Squad-28\\Tribo\\Tribo\\wwwroot\\img\\o-email.png",
       "SourceId": "Tribo",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Remakker\\Source\\Repos\\William-Mata\\Squad-28\\Tribo\\Tribo\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Remakker\\Documents\\GitHub\\Squad-28\\Tribo\\Tribo\\wwwroot\\",
       "BasePath": "_content/Tribo",
       "RelativePath": "img/o-email.png",
       "AssetKind": "All",
@@ -595,10 +595,10 @@
       "OriginalItemSpec": "wwwroot\\img\\o-email.png"
     },
     {
-      "Identity": "C:\\Users\\Remakker\\Source\\Repos\\William-Mata\\Squad-28\\Tribo\\Tribo\\wwwroot\\img\\Pataxo.jpg",
+      "Identity": "C:\\Users\\Remakker\\Documents\\GitHub\\Squad-28\\Tribo\\Tribo\\wwwroot\\img\\Pataxo.jpg",
       "SourceId": "Tribo",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Remakker\\Source\\Repos\\William-Mata\\Squad-28\\Tribo\\Tribo\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Remakker\\Documents\\GitHub\\Squad-28\\Tribo\\Tribo\\wwwroot\\",
       "BasePath": "_content/Tribo",
       "RelativePath": "img/Pataxo.jpg",
       "AssetKind": "All",
@@ -612,10 +612,10 @@
       "OriginalItemSpec": "wwwroot\\img\\Pataxo.jpg"
     },
     {
-      "Identity": "C:\\Users\\Remakker\\Source\\Repos\\William-Mata\\Squad-28\\Tribo\\Tribo\\wwwroot\\img\\telefone.png",
+      "Identity": "C:\\Users\\Remakker\\Documents\\GitHub\\Squad-28\\Tribo\\Tribo\\wwwroot\\img\\telefone.png",
       "SourceId": "Tribo",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Remakker\\Source\\Repos\\William-Mata\\Squad-28\\Tribo\\Tribo\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Remakker\\Documents\\GitHub\\Squad-28\\Tribo\\Tribo\\wwwroot\\",
       "BasePath": "_content/Tribo",
       "RelativePath": "img/telefone.png",
       "AssetKind": "All",
@@ -629,10 +629,10 @@
       "OriginalItemSpec": "wwwroot\\img\\telefone.png"
     },
     {
-      "Identity": "C:\\Users\\Remakker\\Source\\Repos\\William-Mata\\Squad-28\\Tribo\\Tribo\\wwwroot\\img\\telefone-celular.png",
+      "Identity": "C:\\Users\\Remakker\\Documents\\GitHub\\Squad-28\\Tribo\\Tribo\\wwwroot\\img\\telefone-celular.png",
       "SourceId": "Tribo",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Remakker\\Source\\Repos\\William-Mata\\Squad-28\\Tribo\\Tribo\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Remakker\\Documents\\GitHub\\Squad-28\\Tribo\\Tribo\\wwwroot\\",
       "BasePath": "_content/Tribo",
       "RelativePath": "img/telefone-celular.png",
       "AssetKind": "All",
@@ -646,10 +646,10 @@
       "OriginalItemSpec": "wwwroot\\img\\telefone-celular.png"
     },
     {
-      "Identity": "C:\\Users\\Remakker\\Source\\Repos\\William-Mata\\Squad-28\\Tribo\\Tribo\\wwwroot\\img\\tribo-mascara.jpg",
+      "Identity": "C:\\Users\\Remakker\\Documents\\GitHub\\Squad-28\\Tribo\\Tribo\\wwwroot\\img\\tribo-mascara.jpg",
       "SourceId": "Tribo",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Remakker\\Source\\Repos\\William-Mata\\Squad-28\\Tribo\\Tribo\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Remakker\\Documents\\GitHub\\Squad-28\\Tribo\\Tribo\\wwwroot\\",
       "BasePath": "_content/Tribo",
       "RelativePath": "img/tribo-mascara.jpg",
       "AssetKind": "All",
@@ -663,10 +663,10 @@
       "OriginalItemSpec": "wwwroot\\img\\tribo-mascara.jpg"
     },
     {
-      "Identity": "C:\\Users\\Remakker\\Source\\Repos\\William-Mata\\Squad-28\\Tribo\\Tribo\\wwwroot\\img\\twitter.png",
+      "Identity": "C:\\Users\\Remakker\\Documents\\GitHub\\Squad-28\\Tribo\\Tribo\\wwwroot\\img\\twitter.png",
       "SourceId": "Tribo",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Remakker\\Source\\Repos\\William-Mata\\Squad-28\\Tribo\\Tribo\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Remakker\\Documents\\GitHub\\Squad-28\\Tribo\\Tribo\\wwwroot\\",
       "BasePath": "_content/Tribo",
       "RelativePath": "img/twitter.png",
       "AssetKind": "All",
@@ -680,10 +680,10 @@
       "OriginalItemSpec": "wwwroot\\img\\twitter.png"
     },
     {
-      "Identity": "C:\\Users\\Remakker\\Source\\Repos\\William-Mata\\Squad-28\\Tribo\\Tribo\\wwwroot\\img\\vacina.jpg",
+      "Identity": "C:\\Users\\Remakker\\Documents\\GitHub\\Squad-28\\Tribo\\Tribo\\wwwroot\\img\\vacina.jpg",
       "SourceId": "Tribo",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Remakker\\Source\\Repos\\William-Mata\\Squad-28\\Tribo\\Tribo\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Remakker\\Documents\\GitHub\\Squad-28\\Tribo\\Tribo\\wwwroot\\",
       "BasePath": "_content/Tribo",
       "RelativePath": "img/vacina.jpg",
       "AssetKind": "All",
@@ -697,10 +697,10 @@
       "OriginalItemSpec": "wwwroot\\img\\vacina.jpg"
     },
     {
-      "Identity": "C:\\Users\\Remakker\\Source\\Repos\\William-Mata\\Squad-28\\Tribo\\Tribo\\wwwroot\\img\\ver-detalhes.png",
+      "Identity": "C:\\Users\\Remakker\\Documents\\GitHub\\Squad-28\\Tribo\\Tribo\\wwwroot\\img\\ver-detalhes.png",
       "SourceId": "Tribo",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Remakker\\Source\\Repos\\William-Mata\\Squad-28\\Tribo\\Tribo\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Remakker\\Documents\\GitHub\\Squad-28\\Tribo\\Tribo\\wwwroot\\",
       "BasePath": "_content/Tribo",
       "RelativePath": "img/ver-detalhes.png",
       "AssetKind": "All",
@@ -714,10 +714,10 @@
       "OriginalItemSpec": "wwwroot\\img\\ver-detalhes.png"
     },
     {
-      "Identity": "C:\\Users\\Remakker\\Source\\Repos\\William-Mata\\Squad-28\\Tribo\\Tribo\\wwwroot\\img\\vidas-indigenas-importam.jpg",
+      "Identity": "C:\\Users\\Remakker\\Documents\\GitHub\\Squad-28\\Tribo\\Tribo\\wwwroot\\img\\vidas-indigenas-importam.jpg",
       "SourceId": "Tribo",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Remakker\\Source\\Repos\\William-Mata\\Squad-28\\Tribo\\Tribo\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Remakker\\Documents\\GitHub\\Squad-28\\Tribo\\Tribo\\wwwroot\\",
       "BasePath": "_content/Tribo",
       "RelativePath": "img/vidas-indigenas-importam.jpg",
       "AssetKind": "All",
@@ -731,10 +731,10 @@
       "OriginalItemSpec": "wwwroot\\img\\vidas-indigenas-importam.jpg"
     },
     {
-      "Identity": "C:\\Users\\Remakker\\Source\\Repos\\William-Mata\\Squad-28\\Tribo\\Tribo\\wwwroot\\img\\vidas-indigenas-importam1.jpg",
+      "Identity": "C:\\Users\\Remakker\\Documents\\GitHub\\Squad-28\\Tribo\\Tribo\\wwwroot\\img\\vidas-indigenas-importam1.jpg",
       "SourceId": "Tribo",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Remakker\\Source\\Repos\\William-Mata\\Squad-28\\Tribo\\Tribo\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Remakker\\Documents\\GitHub\\Squad-28\\Tribo\\Tribo\\wwwroot\\",
       "BasePath": "_content/Tribo",
       "RelativePath": "img/vidas-indigenas-importam1.jpg",
       "AssetKind": "All",
@@ -748,10 +748,10 @@
       "OriginalItemSpec": "wwwroot\\img\\vidas-indigenas-importam1.jpg"
     },
     {
-      "Identity": "C:\\Users\\Remakker\\Source\\Repos\\William-Mata\\Squad-28\\Tribo\\Tribo\\wwwroot\\img\\whatsapp.png",
+      "Identity": "C:\\Users\\Remakker\\Documents\\GitHub\\Squad-28\\Tribo\\Tribo\\wwwroot\\img\\whatsapp.png",
       "SourceId": "Tribo",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Remakker\\Source\\Repos\\William-Mata\\Squad-28\\Tribo\\Tribo\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Remakker\\Documents\\GitHub\\Squad-28\\Tribo\\Tribo\\wwwroot\\",
       "BasePath": "_content/Tribo",
       "RelativePath": "img/whatsapp.png",
       "AssetKind": "All",
@@ -765,10 +765,10 @@
       "OriginalItemSpec": "wwwroot\\img\\whatsapp.png"
     },
     {
-      "Identity": "C:\\Users\\Remakker\\Source\\Repos\\William-Mata\\Squad-28\\Tribo\\Tribo\\wwwroot\\img\\woman1.png",
+      "Identity": "C:\\Users\\Remakker\\Documents\\GitHub\\Squad-28\\Tribo\\Tribo\\wwwroot\\img\\woman1.png",
       "SourceId": "Tribo",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Remakker\\Source\\Repos\\William-Mata\\Squad-28\\Tribo\\Tribo\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Remakker\\Documents\\GitHub\\Squad-28\\Tribo\\Tribo\\wwwroot\\",
       "BasePath": "_content/Tribo",
       "RelativePath": "img/woman1.png",
       "AssetKind": "All",
@@ -782,10 +782,10 @@
       "OriginalItemSpec": "wwwroot\\img\\woman1.png"
     },
     {
-      "Identity": "C:\\Users\\Remakker\\Source\\Repos\\William-Mata\\Squad-28\\Tribo\\Tribo\\wwwroot\\img\\woman2.png",
+      "Identity": "C:\\Users\\Remakker\\Documents\\GitHub\\Squad-28\\Tribo\\Tribo\\wwwroot\\img\\woman2.png",
       "SourceId": "Tribo",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Remakker\\Source\\Repos\\William-Mata\\Squad-28\\Tribo\\Tribo\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Remakker\\Documents\\GitHub\\Squad-28\\Tribo\\Tribo\\wwwroot\\",
       "BasePath": "_content/Tribo",
       "RelativePath": "img/woman2.png",
       "AssetKind": "All",
@@ -799,10 +799,10 @@
       "OriginalItemSpec": "wwwroot\\img\\woman2.png"
     },
     {
-      "Identity": "C:\\Users\\Remakker\\Source\\Repos\\William-Mata\\Squad-28\\Tribo\\Tribo\\wwwroot\\img\\woman3.png",
+      "Identity": "C:\\Users\\Remakker\\Documents\\GitHub\\Squad-28\\Tribo\\Tribo\\wwwroot\\img\\woman3.png",
       "SourceId": "Tribo",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Remakker\\Source\\Repos\\William-Mata\\Squad-28\\Tribo\\Tribo\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Remakker\\Documents\\GitHub\\Squad-28\\Tribo\\Tribo\\wwwroot\\",
       "BasePath": "_content/Tribo",
       "RelativePath": "img/woman3.png",
       "AssetKind": "All",
@@ -816,10 +816,10 @@
       "OriginalItemSpec": "wwwroot\\img\\woman3.png"
     },
     {
-      "Identity": "C:\\Users\\Remakker\\Source\\Repos\\William-Mata\\Squad-28\\Tribo\\Tribo\\wwwroot\\img\\Xingu.jpg",
+      "Identity": "C:\\Users\\Remakker\\Documents\\GitHub\\Squad-28\\Tribo\\Tribo\\wwwroot\\img\\Xingu.jpg",
       "SourceId": "Tribo",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Remakker\\Source\\Repos\\William-Mata\\Squad-28\\Tribo\\Tribo\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Remakker\\Documents\\GitHub\\Squad-28\\Tribo\\Tribo\\wwwroot\\",
       "BasePath": "_content/Tribo",
       "RelativePath": "img/Xingu.jpg",
       "AssetKind": "All",
@@ -833,10 +833,10 @@
       "OriginalItemSpec": "wwwroot\\img\\Xingu.jpg"
     },
     {
-      "Identity": "C:\\Users\\Remakker\\Source\\Repos\\William-Mata\\Squad-28\\Tribo\\Tribo\\wwwroot\\img\\Yawanawás.jpg",
+      "Identity": "C:\\Users\\Remakker\\Documents\\GitHub\\Squad-28\\Tribo\\Tribo\\wwwroot\\img\\Yawanawás.jpg",
       "SourceId": "Tribo",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Remakker\\Source\\Repos\\William-Mata\\Squad-28\\Tribo\\Tribo\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Remakker\\Documents\\GitHub\\Squad-28\\Tribo\\Tribo\\wwwroot\\",
       "BasePath": "_content/Tribo",
       "RelativePath": "img/Yawanawás.jpg",
       "AssetKind": "All",
@@ -850,10 +850,10 @@
       "OriginalItemSpec": "wwwroot\\img\\Yawanawás.jpg"
     },
     {
-      "Identity": "C:\\Users\\Remakker\\Source\\Repos\\William-Mata\\Squad-28\\Tribo\\Tribo\\wwwroot\\js\\site.js",
+      "Identity": "C:\\Users\\Remakker\\Documents\\GitHub\\Squad-28\\Tribo\\Tribo\\wwwroot\\js\\site.js",
       "SourceId": "Tribo",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Remakker\\Source\\Repos\\William-Mata\\Squad-28\\Tribo\\Tribo\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Remakker\\Documents\\GitHub\\Squad-28\\Tribo\\Tribo\\wwwroot\\",
       "BasePath": "_content/Tribo",
       "RelativePath": "js/site.js",
       "AssetKind": "All",
@@ -867,10 +867,10 @@
       "OriginalItemSpec": "wwwroot\\js\\site.js"
     },
     {
-      "Identity": "C:\\Users\\Remakker\\Source\\Repos\\William-Mata\\Squad-28\\Tribo\\Tribo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "Identity": "C:\\Users\\Remakker\\Documents\\GitHub\\Squad-28\\Tribo\\Tribo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "SourceId": "Tribo",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Remakker\\Source\\Repos\\William-Mata\\Squad-28\\Tribo\\Tribo\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Remakker\\Documents\\GitHub\\Squad-28\\Tribo\\Tribo\\wwwroot\\",
       "BasePath": "_content/Tribo",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.css",
       "AssetKind": "All",
@@ -884,10 +884,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css"
     },
     {
-      "Identity": "C:\\Users\\Remakker\\Source\\Repos\\William-Mata\\Squad-28\\Tribo\\Tribo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "Identity": "C:\\Users\\Remakker\\Documents\\GitHub\\Squad-28\\Tribo\\Tribo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "SourceId": "Tribo",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Remakker\\Source\\Repos\\William-Mata\\Squad-28\\Tribo\\Tribo\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Remakker\\Documents\\GitHub\\Squad-28\\Tribo\\Tribo\\wwwroot\\",
       "BasePath": "_content/Tribo",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.css.map",
       "AssetKind": "All",
@@ -901,10 +901,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
     },
     {
-      "Identity": "C:\\Users\\Remakker\\Source\\Repos\\William-Mata\\Squad-28\\Tribo\\Tribo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "Identity": "C:\\Users\\Remakker\\Documents\\GitHub\\Squad-28\\Tribo\\Tribo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "SourceId": "Tribo",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Remakker\\Source\\Repos\\William-Mata\\Squad-28\\Tribo\\Tribo\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Remakker\\Documents\\GitHub\\Squad-28\\Tribo\\Tribo\\wwwroot\\",
       "BasePath": "_content/Tribo",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css",
       "AssetKind": "All",
@@ -918,10 +918,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
     },
     {
-      "Identity": "C:\\Users\\Remakker\\Source\\Repos\\William-Mata\\Squad-28\\Tribo\\Tribo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "Identity": "C:\\Users\\Remakker\\Documents\\GitHub\\Squad-28\\Tribo\\Tribo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "SourceId": "Tribo",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Remakker\\Source\\Repos\\William-Mata\\Squad-28\\Tribo\\Tribo\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Remakker\\Documents\\GitHub\\Squad-28\\Tribo\\Tribo\\wwwroot\\",
       "BasePath": "_content/Tribo",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css.map",
       "AssetKind": "All",
@@ -935,10 +935,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\Remakker\\Source\\Repos\\William-Mata\\Squad-28\\Tribo\\Tribo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "Identity": "C:\\Users\\Remakker\\Documents\\GitHub\\Squad-28\\Tribo\\Tribo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
       "SourceId": "Tribo",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Remakker\\Source\\Repos\\William-Mata\\Squad-28\\Tribo\\Tribo\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Remakker\\Documents\\GitHub\\Squad-28\\Tribo\\Tribo\\wwwroot\\",
       "BasePath": "_content/Tribo",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.css",
       "AssetKind": "All",
@@ -952,10 +952,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
     },
     {
-      "Identity": "C:\\Users\\Remakker\\Source\\Repos\\William-Mata\\Squad-28\\Tribo\\Tribo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "Identity": "C:\\Users\\Remakker\\Documents\\GitHub\\Squad-28\\Tribo\\Tribo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
       "SourceId": "Tribo",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Remakker\\Source\\Repos\\William-Mata\\Squad-28\\Tribo\\Tribo\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Remakker\\Documents\\GitHub\\Squad-28\\Tribo\\Tribo\\wwwroot\\",
       "BasePath": "_content/Tribo",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.css.map",
       "AssetKind": "All",
@@ -969,10 +969,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
     },
     {
-      "Identity": "C:\\Users\\Remakker\\Source\\Repos\\William-Mata\\Squad-28\\Tribo\\Tribo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "Identity": "C:\\Users\\Remakker\\Documents\\GitHub\\Squad-28\\Tribo\\Tribo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
       "SourceId": "Tribo",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Remakker\\Source\\Repos\\William-Mata\\Squad-28\\Tribo\\Tribo\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Remakker\\Documents\\GitHub\\Squad-28\\Tribo\\Tribo\\wwwroot\\",
       "BasePath": "_content/Tribo",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min.css",
       "AssetKind": "All",
@@ -986,10 +986,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
     },
     {
-      "Identity": "C:\\Users\\Remakker\\Source\\Repos\\William-Mata\\Squad-28\\Tribo\\Tribo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "Identity": "C:\\Users\\Remakker\\Documents\\GitHub\\Squad-28\\Tribo\\Tribo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
       "SourceId": "Tribo",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Remakker\\Source\\Repos\\William-Mata\\Squad-28\\Tribo\\Tribo\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Remakker\\Documents\\GitHub\\Squad-28\\Tribo\\Tribo\\wwwroot\\",
       "BasePath": "_content/Tribo",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min.css.map",
       "AssetKind": "All",
@@ -1003,10 +1003,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\Remakker\\Source\\Repos\\William-Mata\\Squad-28\\Tribo\\Tribo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "Identity": "C:\\Users\\Remakker\\Documents\\GitHub\\Squad-28\\Tribo\\Tribo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "SourceId": "Tribo",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Remakker\\Source\\Repos\\William-Mata\\Squad-28\\Tribo\\Tribo\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Remakker\\Documents\\GitHub\\Squad-28\\Tribo\\Tribo\\wwwroot\\",
       "BasePath": "_content/Tribo",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css",
       "AssetKind": "All",
@@ -1020,10 +1020,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
     },
     {
-      "Identity": "C:\\Users\\Remakker\\Source\\Repos\\William-Mata\\Squad-28\\Tribo\\Tribo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "Identity": "C:\\Users\\Remakker\\Documents\\GitHub\\Squad-28\\Tribo\\Tribo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "SourceId": "Tribo",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Remakker\\Source\\Repos\\William-Mata\\Squad-28\\Tribo\\Tribo\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Remakker\\Documents\\GitHub\\Squad-28\\Tribo\\Tribo\\wwwroot\\",
       "BasePath": "_content/Tribo",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css.map",
       "AssetKind": "All",
@@ -1037,10 +1037,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
     },
     {
-      "Identity": "C:\\Users\\Remakker\\Source\\Repos\\William-Mata\\Squad-28\\Tribo\\Tribo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "Identity": "C:\\Users\\Remakker\\Documents\\GitHub\\Squad-28\\Tribo\\Tribo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "SourceId": "Tribo",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Remakker\\Source\\Repos\\William-Mata\\Squad-28\\Tribo\\Tribo\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Remakker\\Documents\\GitHub\\Squad-28\\Tribo\\Tribo\\wwwroot\\",
       "BasePath": "_content/Tribo",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css",
       "AssetKind": "All",
@@ -1054,10 +1054,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
     },
     {
-      "Identity": "C:\\Users\\Remakker\\Source\\Repos\\William-Mata\\Squad-28\\Tribo\\Tribo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "Identity": "C:\\Users\\Remakker\\Documents\\GitHub\\Squad-28\\Tribo\\Tribo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "SourceId": "Tribo",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Remakker\\Source\\Repos\\William-Mata\\Squad-28\\Tribo\\Tribo\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Remakker\\Documents\\GitHub\\Squad-28\\Tribo\\Tribo\\wwwroot\\",
       "BasePath": "_content/Tribo",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css.map",
       "AssetKind": "All",
@@ -1071,10 +1071,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\Remakker\\Source\\Repos\\William-Mata\\Squad-28\\Tribo\\Tribo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "Identity": "C:\\Users\\Remakker\\Documents\\GitHub\\Squad-28\\Tribo\\Tribo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "SourceId": "Tribo",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Remakker\\Source\\Repos\\William-Mata\\Squad-28\\Tribo\\Tribo\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Remakker\\Documents\\GitHub\\Squad-28\\Tribo\\Tribo\\wwwroot\\",
       "BasePath": "_content/Tribo",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css",
       "AssetKind": "All",
@@ -1088,10 +1088,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
     },
     {
-      "Identity": "C:\\Users\\Remakker\\Source\\Repos\\William-Mata\\Squad-28\\Tribo\\Tribo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "Identity": "C:\\Users\\Remakker\\Documents\\GitHub\\Squad-28\\Tribo\\Tribo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
       "SourceId": "Tribo",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Remakker\\Source\\Repos\\William-Mata\\Squad-28\\Tribo\\Tribo\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Remakker\\Documents\\GitHub\\Squad-28\\Tribo\\Tribo\\wwwroot\\",
       "BasePath": "_content/Tribo",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map",
       "AssetKind": "All",
@@ -1105,10 +1105,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
     },
     {
-      "Identity": "C:\\Users\\Remakker\\Source\\Repos\\William-Mata\\Squad-28\\Tribo\\Tribo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "Identity": "C:\\Users\\Remakker\\Documents\\GitHub\\Squad-28\\Tribo\\Tribo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "SourceId": "Tribo",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Remakker\\Source\\Repos\\William-Mata\\Squad-28\\Tribo\\Tribo\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Remakker\\Documents\\GitHub\\Squad-28\\Tribo\\Tribo\\wwwroot\\",
       "BasePath": "_content/Tribo",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css",
       "AssetKind": "All",
@@ -1122,10 +1122,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
     },
     {
-      "Identity": "C:\\Users\\Remakker\\Source\\Repos\\William-Mata\\Squad-28\\Tribo\\Tribo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "Identity": "C:\\Users\\Remakker\\Documents\\GitHub\\Squad-28\\Tribo\\Tribo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
       "SourceId": "Tribo",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Remakker\\Source\\Repos\\William-Mata\\Squad-28\\Tribo\\Tribo\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Remakker\\Documents\\GitHub\\Squad-28\\Tribo\\Tribo\\wwwroot\\",
       "BasePath": "_content/Tribo",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map",
       "AssetKind": "All",
@@ -1139,10 +1139,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\Remakker\\Source\\Repos\\William-Mata\\Squad-28\\Tribo\\Tribo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "Identity": "C:\\Users\\Remakker\\Documents\\GitHub\\Squad-28\\Tribo\\Tribo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "SourceId": "Tribo",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Remakker\\Source\\Repos\\William-Mata\\Squad-28\\Tribo\\Tribo\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Remakker\\Documents\\GitHub\\Squad-28\\Tribo\\Tribo\\wwwroot\\",
       "BasePath": "_content/Tribo",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css",
       "AssetKind": "All",
@@ -1156,10 +1156,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
     },
     {
-      "Identity": "C:\\Users\\Remakker\\Source\\Repos\\William-Mata\\Squad-28\\Tribo\\Tribo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "Identity": "C:\\Users\\Remakker\\Documents\\GitHub\\Squad-28\\Tribo\\Tribo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "SourceId": "Tribo",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Remakker\\Source\\Repos\\William-Mata\\Squad-28\\Tribo\\Tribo\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Remakker\\Documents\\GitHub\\Squad-28\\Tribo\\Tribo\\wwwroot\\",
       "BasePath": "_content/Tribo",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css.map",
       "AssetKind": "All",
@@ -1173,10 +1173,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
     },
     {
-      "Identity": "C:\\Users\\Remakker\\Source\\Repos\\William-Mata\\Squad-28\\Tribo\\Tribo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "Identity": "C:\\Users\\Remakker\\Documents\\GitHub\\Squad-28\\Tribo\\Tribo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "SourceId": "Tribo",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Remakker\\Source\\Repos\\William-Mata\\Squad-28\\Tribo\\Tribo\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Remakker\\Documents\\GitHub\\Squad-28\\Tribo\\Tribo\\wwwroot\\",
       "BasePath": "_content/Tribo",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css",
       "AssetKind": "All",
@@ -1190,10 +1190,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
     },
     {
-      "Identity": "C:\\Users\\Remakker\\Source\\Repos\\William-Mata\\Squad-28\\Tribo\\Tribo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "Identity": "C:\\Users\\Remakker\\Documents\\GitHub\\Squad-28\\Tribo\\Tribo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "SourceId": "Tribo",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Remakker\\Source\\Repos\\William-Mata\\Squad-28\\Tribo\\Tribo\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Remakker\\Documents\\GitHub\\Squad-28\\Tribo\\Tribo\\wwwroot\\",
       "BasePath": "_content/Tribo",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css.map",
       "AssetKind": "All",
@@ -1207,10 +1207,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\Remakker\\Source\\Repos\\William-Mata\\Squad-28\\Tribo\\Tribo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "Identity": "C:\\Users\\Remakker\\Documents\\GitHub\\Squad-28\\Tribo\\Tribo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "SourceId": "Tribo",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Remakker\\Source\\Repos\\William-Mata\\Squad-28\\Tribo\\Tribo\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Remakker\\Documents\\GitHub\\Squad-28\\Tribo\\Tribo\\wwwroot\\",
       "BasePath": "_content/Tribo",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css",
       "AssetKind": "All",
@@ -1224,10 +1224,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
     },
     {
-      "Identity": "C:\\Users\\Remakker\\Source\\Repos\\William-Mata\\Squad-28\\Tribo\\Tribo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "Identity": "C:\\Users\\Remakker\\Documents\\GitHub\\Squad-28\\Tribo\\Tribo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
       "SourceId": "Tribo",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Remakker\\Source\\Repos\\William-Mata\\Squad-28\\Tribo\\Tribo\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Remakker\\Documents\\GitHub\\Squad-28\\Tribo\\Tribo\\wwwroot\\",
       "BasePath": "_content/Tribo",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map",
       "AssetKind": "All",
@@ -1241,10 +1241,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
     },
     {
-      "Identity": "C:\\Users\\Remakker\\Source\\Repos\\William-Mata\\Squad-28\\Tribo\\Tribo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "Identity": "C:\\Users\\Remakker\\Documents\\GitHub\\Squad-28\\Tribo\\Tribo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "SourceId": "Tribo",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Remakker\\Source\\Repos\\William-Mata\\Squad-28\\Tribo\\Tribo\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Remakker\\Documents\\GitHub\\Squad-28\\Tribo\\Tribo\\wwwroot\\",
       "BasePath": "_content/Tribo",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css",
       "AssetKind": "All",
@@ -1258,10 +1258,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
     },
     {
-      "Identity": "C:\\Users\\Remakker\\Source\\Repos\\William-Mata\\Squad-28\\Tribo\\Tribo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "Identity": "C:\\Users\\Remakker\\Documents\\GitHub\\Squad-28\\Tribo\\Tribo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
       "SourceId": "Tribo",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Remakker\\Source\\Repos\\William-Mata\\Squad-28\\Tribo\\Tribo\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Remakker\\Documents\\GitHub\\Squad-28\\Tribo\\Tribo\\wwwroot\\",
       "BasePath": "_content/Tribo",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map",
       "AssetKind": "All",
@@ -1275,10 +1275,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\Remakker\\Source\\Repos\\William-Mata\\Squad-28\\Tribo\\Tribo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "Identity": "C:\\Users\\Remakker\\Documents\\GitHub\\Squad-28\\Tribo\\Tribo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "SourceId": "Tribo",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Remakker\\Source\\Repos\\William-Mata\\Squad-28\\Tribo\\Tribo\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Remakker\\Documents\\GitHub\\Squad-28\\Tribo\\Tribo\\wwwroot\\",
       "BasePath": "_content/Tribo",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.css",
       "AssetKind": "All",
@@ -1292,10 +1292,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
     },
     {
-      "Identity": "C:\\Users\\Remakker\\Source\\Repos\\William-Mata\\Squad-28\\Tribo\\Tribo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "Identity": "C:\\Users\\Remakker\\Documents\\GitHub\\Squad-28\\Tribo\\Tribo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
       "SourceId": "Tribo",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Remakker\\Source\\Repos\\William-Mata\\Squad-28\\Tribo\\Tribo\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Remakker\\Documents\\GitHub\\Squad-28\\Tribo\\Tribo\\wwwroot\\",
       "BasePath": "_content/Tribo",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.css.map",
       "AssetKind": "All",
@@ -1309,10 +1309,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
     },
     {
-      "Identity": "C:\\Users\\Remakker\\Source\\Repos\\William-Mata\\Squad-28\\Tribo\\Tribo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "Identity": "C:\\Users\\Remakker\\Documents\\GitHub\\Squad-28\\Tribo\\Tribo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "SourceId": "Tribo",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Remakker\\Source\\Repos\\William-Mata\\Squad-28\\Tribo\\Tribo\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Remakker\\Documents\\GitHub\\Squad-28\\Tribo\\Tribo\\wwwroot\\",
       "BasePath": "_content/Tribo",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min.css",
       "AssetKind": "All",
@@ -1326,10 +1326,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
     },
     {
-      "Identity": "C:\\Users\\Remakker\\Source\\Repos\\William-Mata\\Squad-28\\Tribo\\Tribo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "Identity": "C:\\Users\\Remakker\\Documents\\GitHub\\Squad-28\\Tribo\\Tribo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
       "SourceId": "Tribo",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Remakker\\Source\\Repos\\William-Mata\\Squad-28\\Tribo\\Tribo\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Remakker\\Documents\\GitHub\\Squad-28\\Tribo\\Tribo\\wwwroot\\",
       "BasePath": "_content/Tribo",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min.css.map",
       "AssetKind": "All",
@@ -1343,10 +1343,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\Remakker\\Source\\Repos\\William-Mata\\Squad-28\\Tribo\\Tribo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "Identity": "C:\\Users\\Remakker\\Documents\\GitHub\\Squad-28\\Tribo\\Tribo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
       "SourceId": "Tribo",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Remakker\\Source\\Repos\\William-Mata\\Squad-28\\Tribo\\Tribo\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Remakker\\Documents\\GitHub\\Squad-28\\Tribo\\Tribo\\wwwroot\\",
       "BasePath": "_content/Tribo",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css",
       "AssetKind": "All",
@@ -1360,10 +1360,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
     },
     {
-      "Identity": "C:\\Users\\Remakker\\Source\\Repos\\William-Mata\\Squad-28\\Tribo\\Tribo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "Identity": "C:\\Users\\Remakker\\Documents\\GitHub\\Squad-28\\Tribo\\Tribo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
       "SourceId": "Tribo",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Remakker\\Source\\Repos\\William-Mata\\Squad-28\\Tribo\\Tribo\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Remakker\\Documents\\GitHub\\Squad-28\\Tribo\\Tribo\\wwwroot\\",
       "BasePath": "_content/Tribo",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map",
       "AssetKind": "All",
@@ -1377,10 +1377,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
     },
     {
-      "Identity": "C:\\Users\\Remakker\\Source\\Repos\\William-Mata\\Squad-28\\Tribo\\Tribo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "Identity": "C:\\Users\\Remakker\\Documents\\GitHub\\Squad-28\\Tribo\\Tribo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "SourceId": "Tribo",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Remakker\\Source\\Repos\\William-Mata\\Squad-28\\Tribo\\Tribo\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Remakker\\Documents\\GitHub\\Squad-28\\Tribo\\Tribo\\wwwroot\\",
       "BasePath": "_content/Tribo",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css",
       "AssetKind": "All",
@@ -1394,10 +1394,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
     },
     {
-      "Identity": "C:\\Users\\Remakker\\Source\\Repos\\William-Mata\\Squad-28\\Tribo\\Tribo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "Identity": "C:\\Users\\Remakker\\Documents\\GitHub\\Squad-28\\Tribo\\Tribo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
       "SourceId": "Tribo",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Remakker\\Source\\Repos\\William-Mata\\Squad-28\\Tribo\\Tribo\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Remakker\\Documents\\GitHub\\Squad-28\\Tribo\\Tribo\\wwwroot\\",
       "BasePath": "_content/Tribo",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map",
       "AssetKind": "All",
@@ -1411,10 +1411,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\Remakker\\Source\\Repos\\William-Mata\\Squad-28\\Tribo\\Tribo\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "Identity": "C:\\Users\\Remakker\\Documents\\GitHub\\Squad-28\\Tribo\\Tribo\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "SourceId": "Tribo",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Remakker\\Source\\Repos\\William-Mata\\Squad-28\\Tribo\\Tribo\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Remakker\\Documents\\GitHub\\Squad-28\\Tribo\\Tribo\\wwwroot\\",
       "BasePath": "_content/Tribo",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js",
       "AssetKind": "All",
@@ -1428,10 +1428,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
     },
     {
-      "Identity": "C:\\Users\\Remakker\\Source\\Repos\\William-Mata\\Squad-28\\Tribo\\Tribo\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "Identity": "C:\\Users\\Remakker\\Documents\\GitHub\\Squad-28\\Tribo\\Tribo\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "SourceId": "Tribo",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Remakker\\Source\\Repos\\William-Mata\\Squad-28\\Tribo\\Tribo\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Remakker\\Documents\\GitHub\\Squad-28\\Tribo\\Tribo\\wwwroot\\",
       "BasePath": "_content/Tribo",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js.map",
       "AssetKind": "All",
@@ -1445,10 +1445,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
     },
     {
-      "Identity": "C:\\Users\\Remakker\\Source\\Repos\\William-Mata\\Squad-28\\Tribo\\Tribo\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "Identity": "C:\\Users\\Remakker\\Documents\\GitHub\\Squad-28\\Tribo\\Tribo\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "SourceId": "Tribo",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Remakker\\Source\\Repos\\William-Mata\\Squad-28\\Tribo\\Tribo\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Remakker\\Documents\\GitHub\\Squad-28\\Tribo\\Tribo\\wwwroot\\",
       "BasePath": "_content/Tribo",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js",
       "AssetKind": "All",
@@ -1462,10 +1462,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Identity": "C:\\Users\\Remakker\\Source\\Repos\\William-Mata\\Squad-28\\Tribo\\Tribo\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "Identity": "C:\\Users\\Remakker\\Documents\\GitHub\\Squad-28\\Tribo\\Tribo\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "SourceId": "Tribo",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Remakker\\Source\\Repos\\William-Mata\\Squad-28\\Tribo\\Tribo\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Remakker\\Documents\\GitHub\\Squad-28\\Tribo\\Tribo\\wwwroot\\",
       "BasePath": "_content/Tribo",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js.map",
       "AssetKind": "All",
@@ -1479,10 +1479,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
     },
     {
-      "Identity": "C:\\Users\\Remakker\\Source\\Repos\\William-Mata\\Squad-28\\Tribo\\Tribo\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "Identity": "C:\\Users\\Remakker\\Documents\\GitHub\\Squad-28\\Tribo\\Tribo\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "SourceId": "Tribo",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Remakker\\Source\\Repos\\William-Mata\\Squad-28\\Tribo\\Tribo\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Remakker\\Documents\\GitHub\\Squad-28\\Tribo\\Tribo\\wwwroot\\",
       "BasePath": "_content/Tribo",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.js",
       "AssetKind": "All",
@@ -1496,10 +1496,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
     },
     {
-      "Identity": "C:\\Users\\Remakker\\Source\\Repos\\William-Mata\\Squad-28\\Tribo\\Tribo\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "Identity": "C:\\Users\\Remakker\\Documents\\GitHub\\Squad-28\\Tribo\\Tribo\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
       "SourceId": "Tribo",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Remakker\\Source\\Repos\\William-Mata\\Squad-28\\Tribo\\Tribo\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Remakker\\Documents\\GitHub\\Squad-28\\Tribo\\Tribo\\wwwroot\\",
       "BasePath": "_content/Tribo",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.js.map",
       "AssetKind": "All",
@@ -1513,10 +1513,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
     },
     {
-      "Identity": "C:\\Users\\Remakker\\Source\\Repos\\William-Mata\\Squad-28\\Tribo\\Tribo\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "Identity": "C:\\Users\\Remakker\\Documents\\GitHub\\Squad-28\\Tribo\\Tribo\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "SourceId": "Tribo",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Remakker\\Source\\Repos\\William-Mata\\Squad-28\\Tribo\\Tribo\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Remakker\\Documents\\GitHub\\Squad-28\\Tribo\\Tribo\\wwwroot\\",
       "BasePath": "_content/Tribo",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min.js",
       "AssetKind": "All",
@@ -1530,10 +1530,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
     },
     {
-      "Identity": "C:\\Users\\Remakker\\Source\\Repos\\William-Mata\\Squad-28\\Tribo\\Tribo\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "Identity": "C:\\Users\\Remakker\\Documents\\GitHub\\Squad-28\\Tribo\\Tribo\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
       "SourceId": "Tribo",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Remakker\\Source\\Repos\\William-Mata\\Squad-28\\Tribo\\Tribo\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Remakker\\Documents\\GitHub\\Squad-28\\Tribo\\Tribo\\wwwroot\\",
       "BasePath": "_content/Tribo",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min.js.map",
       "AssetKind": "All",
@@ -1547,10 +1547,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
     },
     {
-      "Identity": "C:\\Users\\Remakker\\Source\\Repos\\William-Mata\\Squad-28\\Tribo\\Tribo\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "Identity": "C:\\Users\\Remakker\\Documents\\GitHub\\Squad-28\\Tribo\\Tribo\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "SourceId": "Tribo",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Remakker\\Source\\Repos\\William-Mata\\Squad-28\\Tribo\\Tribo\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Remakker\\Documents\\GitHub\\Squad-28\\Tribo\\Tribo\\wwwroot\\",
       "BasePath": "_content/Tribo",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.js",
       "AssetKind": "All",
@@ -1564,10 +1564,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js"
     },
     {
-      "Identity": "C:\\Users\\Remakker\\Source\\Repos\\William-Mata\\Squad-28\\Tribo\\Tribo\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "Identity": "C:\\Users\\Remakker\\Documents\\GitHub\\Squad-28\\Tribo\\Tribo\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "SourceId": "Tribo",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Remakker\\Source\\Repos\\William-Mata\\Squad-28\\Tribo\\Tribo\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Remakker\\Documents\\GitHub\\Squad-28\\Tribo\\Tribo\\wwwroot\\",
       "BasePath": "_content/Tribo",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.js.map",
       "AssetKind": "All",
@@ -1581,10 +1581,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
     },
     {
-      "Identity": "C:\\Users\\Remakker\\Source\\Repos\\William-Mata\\Squad-28\\Tribo\\Tribo\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "Identity": "C:\\Users\\Remakker\\Documents\\GitHub\\Squad-28\\Tribo\\Tribo\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "SourceId": "Tribo",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Remakker\\Source\\Repos\\William-Mata\\Squad-28\\Tribo\\Tribo\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Remakker\\Documents\\GitHub\\Squad-28\\Tribo\\Tribo\\wwwroot\\",
       "BasePath": "_content/Tribo",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js",
       "AssetKind": "All",
@@ -1598,10 +1598,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
     },
     {
-      "Identity": "C:\\Users\\Remakker\\Source\\Repos\\William-Mata\\Squad-28\\Tribo\\Tribo\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "Identity": "C:\\Users\\Remakker\\Documents\\GitHub\\Squad-28\\Tribo\\Tribo\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "SourceId": "Tribo",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Remakker\\Source\\Repos\\William-Mata\\Squad-28\\Tribo\\Tribo\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Remakker\\Documents\\GitHub\\Squad-28\\Tribo\\Tribo\\wwwroot\\",
       "BasePath": "_content/Tribo",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js.map",
       "AssetKind": "All",
@@ -1615,10 +1615,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
-      "Identity": "C:\\Users\\Remakker\\Source\\Repos\\William-Mata\\Squad-28\\Tribo\\Tribo\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "Identity": "C:\\Users\\Remakker\\Documents\\GitHub\\Squad-28\\Tribo\\Tribo\\wwwroot\\lib\\bootstrap\\LICENSE",
       "SourceId": "Tribo",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Remakker\\Source\\Repos\\William-Mata\\Squad-28\\Tribo\\Tribo\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Remakker\\Documents\\GitHub\\Squad-28\\Tribo\\Tribo\\wwwroot\\",
       "BasePath": "_content/Tribo",
       "RelativePath": "lib/bootstrap/LICENSE",
       "AssetKind": "All",
@@ -1632,10 +1632,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\LICENSE"
     },
     {
-      "Identity": "C:\\Users\\Remakker\\Source\\Repos\\William-Mata\\Squad-28\\Tribo\\Tribo\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "Identity": "C:\\Users\\Remakker\\Documents\\GitHub\\Squad-28\\Tribo\\Tribo\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "SourceId": "Tribo",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Remakker\\Source\\Repos\\William-Mata\\Squad-28\\Tribo\\Tribo\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Remakker\\Documents\\GitHub\\Squad-28\\Tribo\\Tribo\\wwwroot\\",
       "BasePath": "_content/Tribo",
       "RelativePath": "lib/jquery/dist/jquery.js",
       "AssetKind": "All",
@@ -1649,10 +1649,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.js"
     },
     {
-      "Identity": "C:\\Users\\Remakker\\Source\\Repos\\William-Mata\\Squad-28\\Tribo\\Tribo\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "Identity": "C:\\Users\\Remakker\\Documents\\GitHub\\Squad-28\\Tribo\\Tribo\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "SourceId": "Tribo",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Remakker\\Source\\Repos\\William-Mata\\Squad-28\\Tribo\\Tribo\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Remakker\\Documents\\GitHub\\Squad-28\\Tribo\\Tribo\\wwwroot\\",
       "BasePath": "_content/Tribo",
       "RelativePath": "lib/jquery/dist/jquery.min.js",
       "AssetKind": "All",
@@ -1666,10 +1666,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
-      "Identity": "C:\\Users\\Remakker\\Source\\Repos\\William-Mata\\Squad-28\\Tribo\\Tribo\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "Identity": "C:\\Users\\Remakker\\Documents\\GitHub\\Squad-28\\Tribo\\Tribo\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "SourceId": "Tribo",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Remakker\\Source\\Repos\\William-Mata\\Squad-28\\Tribo\\Tribo\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Remakker\\Documents\\GitHub\\Squad-28\\Tribo\\Tribo\\wwwroot\\",
       "BasePath": "_content/Tribo",
       "RelativePath": "lib/jquery/dist/jquery.min.map",
       "AssetKind": "All",
@@ -1683,10 +1683,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
-      "Identity": "C:\\Users\\Remakker\\Source\\Repos\\William-Mata\\Squad-28\\Tribo\\Tribo\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "Identity": "C:\\Users\\Remakker\\Documents\\GitHub\\Squad-28\\Tribo\\Tribo\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "SourceId": "Tribo",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Remakker\\Source\\Repos\\William-Mata\\Squad-28\\Tribo\\Tribo\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Remakker\\Documents\\GitHub\\Squad-28\\Tribo\\Tribo\\wwwroot\\",
       "BasePath": "_content/Tribo",
       "RelativePath": "lib/jquery/LICENSE.txt",
       "AssetKind": "All",
@@ -1700,10 +1700,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\LICENSE.txt"
     },
     {
-      "Identity": "C:\\Users\\Remakker\\Source\\Repos\\William-Mata\\Squad-28\\Tribo\\Tribo\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "Identity": "C:\\Users\\Remakker\\Documents\\GitHub\\Squad-28\\Tribo\\Tribo\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "SourceId": "Tribo",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Remakker\\Source\\Repos\\William-Mata\\Squad-28\\Tribo\\Tribo\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Remakker\\Documents\\GitHub\\Squad-28\\Tribo\\Tribo\\wwwroot\\",
       "BasePath": "_content/Tribo",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.js",
       "AssetKind": "All",
@@ -1717,10 +1717,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
-      "Identity": "C:\\Users\\Remakker\\Source\\Repos\\William-Mata\\Squad-28\\Tribo\\Tribo\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "Identity": "C:\\Users\\Remakker\\Documents\\GitHub\\Squad-28\\Tribo\\Tribo\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "SourceId": "Tribo",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Remakker\\Source\\Repos\\William-Mata\\Squad-28\\Tribo\\Tribo\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Remakker\\Documents\\GitHub\\Squad-28\\Tribo\\Tribo\\wwwroot\\",
       "BasePath": "_content/Tribo",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.min.js",
       "AssetKind": "All",
@@ -1734,10 +1734,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
-      "Identity": "C:\\Users\\Remakker\\Source\\Repos\\William-Mata\\Squad-28\\Tribo\\Tribo\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "Identity": "C:\\Users\\Remakker\\Documents\\GitHub\\Squad-28\\Tribo\\Tribo\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "SourceId": "Tribo",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Remakker\\Source\\Repos\\William-Mata\\Squad-28\\Tribo\\Tribo\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Remakker\\Documents\\GitHub\\Squad-28\\Tribo\\Tribo\\wwwroot\\",
       "BasePath": "_content/Tribo",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.js",
       "AssetKind": "All",
@@ -1751,10 +1751,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
-      "Identity": "C:\\Users\\Remakker\\Source\\Repos\\William-Mata\\Squad-28\\Tribo\\Tribo\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "Identity": "C:\\Users\\Remakker\\Documents\\GitHub\\Squad-28\\Tribo\\Tribo\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "SourceId": "Tribo",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Remakker\\Source\\Repos\\William-Mata\\Squad-28\\Tribo\\Tribo\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Remakker\\Documents\\GitHub\\Squad-28\\Tribo\\Tribo\\wwwroot\\",
       "BasePath": "_content/Tribo",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.min.js",
       "AssetKind": "All",
@@ -1768,10 +1768,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
-      "Identity": "C:\\Users\\Remakker\\Source\\Repos\\William-Mata\\Squad-28\\Tribo\\Tribo\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "Identity": "C:\\Users\\Remakker\\Documents\\GitHub\\Squad-28\\Tribo\\Tribo\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "SourceId": "Tribo",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Remakker\\Source\\Repos\\William-Mata\\Squad-28\\Tribo\\Tribo\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Remakker\\Documents\\GitHub\\Squad-28\\Tribo\\Tribo\\wwwroot\\",
       "BasePath": "_content/Tribo",
       "RelativePath": "lib/jquery-validation/LICENSE.md",
       "AssetKind": "All",
@@ -1785,10 +1785,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\LICENSE.md"
     },
     {
-      "Identity": "C:\\Users\\Remakker\\Source\\Repos\\William-Mata\\Squad-28\\Tribo\\Tribo\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "Identity": "C:\\Users\\Remakker\\Documents\\GitHub\\Squad-28\\Tribo\\Tribo\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "SourceId": "Tribo",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Remakker\\Source\\Repos\\William-Mata\\Squad-28\\Tribo\\Tribo\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Remakker\\Documents\\GitHub\\Squad-28\\Tribo\\Tribo\\wwwroot\\",
       "BasePath": "_content/Tribo",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js",
       "AssetKind": "All",
@@ -1802,10 +1802,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
     },
     {
-      "Identity": "C:\\Users\\Remakker\\Source\\Repos\\William-Mata\\Squad-28\\Tribo\\Tribo\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "Identity": "C:\\Users\\Remakker\\Documents\\GitHub\\Squad-28\\Tribo\\Tribo\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "SourceId": "Tribo",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Remakker\\Source\\Repos\\William-Mata\\Squad-28\\Tribo\\Tribo\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Remakker\\Documents\\GitHub\\Squad-28\\Tribo\\Tribo\\wwwroot\\",
       "BasePath": "_content/Tribo",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js",
       "AssetKind": "All",
@@ -1819,10 +1819,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Identity": "C:\\Users\\Remakker\\Source\\Repos\\William-Mata\\Squad-28\\Tribo\\Tribo\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "Identity": "C:\\Users\\Remakker\\Documents\\GitHub\\Squad-28\\Tribo\\Tribo\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "SourceId": "Tribo",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Remakker\\Source\\Repos\\William-Mata\\Squad-28\\Tribo\\Tribo\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Remakker\\Documents\\GitHub\\Squad-28\\Tribo\\Tribo\\wwwroot\\",
       "BasePath": "_content/Tribo",
       "RelativePath": "lib/jquery-validation-unobtrusive/LICENSE.txt",
       "AssetKind": "All",

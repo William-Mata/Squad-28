@@ -87,16 +87,16 @@ namespace Tribo.Controllers
 
         /*Crud Clientes*/
 
-        public IActionResult AdministracaoViagens()
+        public IActionResult AdministracaoPacotes()
         {
             ViewBag.cliente = _context.Cliente.ToList();
-            ViewBag.viagem = _context.Viagem.ToList();
+            ViewBag.pacote = _context.Pacote.ToList();
 
             return View();
         }
 
         [HttpGet]
-        public IActionResult EditCliente(int id)
+        public IActionResult EditPacote(int id)
         {
 
             var cliente = _context.Cliente.Where(cl => cl.IdCliente == id).FirstOrDefault();
@@ -107,40 +107,40 @@ namespace Tribo.Controllers
                 return NotFound();
             }
 
-            return PartialView("_ModalViagemEdit", cliente);
+            return PartialView("_ModalPacoteEdit", cliente);
         }
 
 
         [HttpPost]
-        public IActionResult EditCliente(Cliente cliente)
+        public IActionResult EditPacote(Cliente cliente)
         {
 
             _context.Cliente.Update(cliente);
             _context.SaveChanges();
 
 
-            return RedirectToAction("AdministracaoViagens");
+            return RedirectToAction("AdministracaoPacotes");
         }
 
         [HttpGet]
-        public IActionResult DetailsViagem(int id)
+        public IActionResult DetailsPacote(int id)
         {
             var cliente = _context.Cliente.Where(cl => cl.IdCliente == id).FirstOrDefault();
 
-            return PartialView("_ModalViagemDetalhes", cliente); 
+            return PartialView("_ModalPacoteDetalhes", cliente); 
         }
 
         [HttpGet]
-        public IActionResult DeleteViagem(int id)
+        public IActionResult DeletePacote(int id)
         {
             var cliente = _context.Cliente.Where(cl => cl.IdCliente == id).FirstOrDefault();
 
 
-            return PartialView("_ModalViagemDelete", cliente); 
+            return PartialView("_ModalPacoteDelete", cliente); 
         }
 
         [HttpPost]
-        public IActionResult DeleteViagem(Cliente cliente)
+        public IActionResult DeletePacote(Cliente cliente)
         {
             var id = cliente.IdCliente;
 
@@ -156,7 +156,7 @@ namespace Tribo.Controllers
                 return NotFound();
             }
 
-            return RedirectToAction("AdministracaoViagens");
+            return RedirectToAction("AdministracaoPacotes");
         }
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]

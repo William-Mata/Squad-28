@@ -41,7 +41,6 @@ namespace BrasTravel.Controllers
         }
 
     
-
         [HttpPost]
         public IActionResult CreateContato(Contato contato)
         {
@@ -51,78 +50,13 @@ namespace BrasTravel.Controllers
         }
         
         [HttpPost]
-        public IActionResult Create(Cliente cliente)
+        public IActionResult CadastroCliente(Cliente cliente)
         {
             _context.Add(cliente);
             _context.SaveChanges();
             return RedirectToAction("Viagem");
         }
 
-        public IActionResult Viagem()
-        {
-
-            ViewBag.cliente = _context.Cliente.ToList();
-         
-
-            if (ViewBag.cliente == null)
-            {
-                return NotFound();
-            }
-
-
-            return View();
-        }
-
-        public IActionResult Edit(int id)
-        {
-
-            var cliente = _context.Cliente.Where(p => p.IdCliente == id).FirstOrDefault();
-
-     
-
-            if (cliente == null)
-            {
-                return NotFound();
-            }
-
-            return PartialView("_ModalViagemEdit", cliente);
-        }
-
-
-        [HttpPost]
-        public IActionResult Edit(Cliente cliente)
-        {
-            _context.Cliente.Update(cliente);
-            _context.SaveChanges();
-
-            return RedirectToAction("Viagem");
-        }
-
-        public IActionResult Details(int id)
-        {
-            var cliente = _context.Cliente.Where(p => p.IdCliente == id).FirstOrDefault();
-            return PartialView("_ModalViagemDetalhes", cliente); ;
-        }
-
-        [HttpGet]
-        public IActionResult Delete(int id)
-        {
-            var cliente = _context.Cliente.Where(p => p.IdCliente == id).FirstOrDefault();
-
-            return PartialView("_ModalViagemDelete", cliente); ;
-        }
-
-        [HttpPost]
-        public IActionResult Delete(Cliente cliente)
-        {
-            var clienteDel = _context.Cliente.Where(p => p.IdCliente == cliente.IdCliente).FirstOrDefault();
-
-            _context.Cliente.Remove(clienteDel);
-            _context.SaveChanges();
-
-
-            return RedirectToAction("Viagem");
-        }
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()

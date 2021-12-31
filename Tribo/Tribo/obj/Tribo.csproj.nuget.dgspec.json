@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Remakker\\Source\\Repos\\William-Mata\\Squad-28\\Tribo\\Tribo\\Tribo.csproj": {}
+    "C:\\Users\\Remakker\\Documents\\GitHub\\Squad-28\\Tribo\\Tribo\\Tribo.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Remakker\\Source\\Repos\\William-Mata\\Squad-28\\Tribo\\Tribo\\Tribo.csproj": {
+    "C:\\Users\\Remakker\\Documents\\GitHub\\Squad-28\\Tribo\\Tribo\\Tribo.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Remakker\\Source\\Repos\\William-Mata\\Squad-28\\Tribo\\Tribo\\Tribo.csproj",
+        "projectUniqueName": "C:\\Users\\Remakker\\Documents\\GitHub\\Squad-28\\Tribo\\Tribo\\Tribo.csproj",
         "projectName": "Tribo",
-        "projectPath": "C:\\Users\\Remakker\\Source\\Repos\\William-Mata\\Squad-28\\Tribo\\Tribo\\Tribo.csproj",
+        "projectPath": "C:\\Users\\Remakker\\Documents\\GitHub\\Squad-28\\Tribo\\Tribo\\Tribo.csproj",
         "packagesPath": "C:\\Users\\Remakker\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Remakker\\Source\\Repos\\William-Mata\\Squad-28\\Tribo\\Tribo\\obj\\",
+        "outputPath": "C:\\Users\\Remakker\\Documents\\GitHub\\Squad-28\\Tribo\\Tribo\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

@@ -9,6 +9,8 @@ namespace Tribo.Models
         [Key]
         public int IdCliente { get; set; }
 
+        public string tipoUsuario { get; set; }
+
         [Required(ErrorMessage = "Informe seu nome completo.")]
         public string Nome { get; set; }
 
@@ -20,12 +22,11 @@ namespace Tribo.Models
 
         [Required(ErrorMessage = "Informe seu CPF.")]
         public string CPF { get; set; }
+        public string Origem { get; set; }
 
-
-
-        [ForeignKey("Viagem")]
-        public int Id_Viagem { get; set; }
-        public virtual Viagem Viagem { get; set; }
+        [ForeignKey("Pacote")]
+        public int Id_Pacote { get; set; }
+        public virtual Pacote Pacote { get; set; }
 
     }
 
