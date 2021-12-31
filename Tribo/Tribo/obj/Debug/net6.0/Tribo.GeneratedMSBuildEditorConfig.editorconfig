@@ -8,93 +8,93 @@ build_property.PlatformNeutralAssembly =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Tribo
 build_property.RootNamespace = Tribo
-build_property.ProjectDir = C:\Users\Remakker\Source\Repos\William-Mata\Squad-28\Tribo\Tribo\
+build_property.ProjectDir = C:\Users\Remakker\source\repos\William-Mata\Squad-28\Tribo\Tribo\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\Remakker\Source\Repos\William-Mata\Squad-28\Tribo\Tribo
+build_property.MSBuildProjectDirectory = C:\Users\Remakker\source\repos\William-Mata\Squad-28\Tribo\Tribo
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/Remakker/Source/Repos/William-Mata/Squad-28/Tribo/Tribo/Views/Administracao/AdministracaoContatos.cshtml]
+[C:/Users/Remakker/source/repos/William-Mata/Squad-28/Tribo/Tribo/Views/Administracao/AdministracaoContatos.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5pc3RyYWNhb1xBZG1pbmlzdHJhY2FvQ29udGF0b3MuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Remakker/Source/Repos/William-Mata/Squad-28/Tribo/Tribo/Views/Administracao/AdministracaoViagens.cshtml]
+[C:/Users/Remakker/source/repos/William-Mata/Squad-28/Tribo/Tribo/Views/Administracao/AdministracaoViagens.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5pc3RyYWNhb1xBZG1pbmlzdHJhY2FvVmlhZ2Vucy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Remakker/Source/Repos/William-Mata/Squad-28/Tribo/Tribo/Views/Administracao/_ModalContatoDelete.cshtml]
+[C:/Users/Remakker/source/repos/William-Mata/Squad-28/Tribo/Tribo/Views/Administracao/_ModalContatoDelete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5pc3RyYWNhb1xfTW9kYWxDb250YXRvRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Remakker/Source/Repos/William-Mata/Squad-28/Tribo/Tribo/Views/Administracao/_ModalContatoDetalhes.cshtml]
+[C:/Users/Remakker/source/repos/William-Mata/Squad-28/Tribo/Tribo/Views/Administracao/_ModalContatoDetalhes.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5pc3RyYWNhb1xfTW9kYWxDb250YXRvRGV0YWxoZXMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Remakker/Source/Repos/William-Mata/Squad-28/Tribo/Tribo/Views/Administracao/_ModalContatoEdit.cshtml]
+[C:/Users/Remakker/source/repos/William-Mata/Squad-28/Tribo/Tribo/Views/Administracao/_ModalContatoEdit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5pc3RyYWNhb1xfTW9kYWxDb250YXRvRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Remakker/Source/Repos/William-Mata/Squad-28/Tribo/Tribo/Views/Administracao/_ModalViagemDelete.cshtml]
+[C:/Users/Remakker/source/repos/William-Mata/Squad-28/Tribo/Tribo/Views/Administracao/_ModalViagemDelete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5pc3RyYWNhb1xfTW9kYWxWaWFnZW1EZWxldGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Remakker/Source/Repos/William-Mata/Squad-28/Tribo/Tribo/Views/Administracao/_ModalViagemDetalhes.cshtml]
+[C:/Users/Remakker/source/repos/William-Mata/Squad-28/Tribo/Tribo/Views/Administracao/_ModalViagemDetalhes.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5pc3RyYWNhb1xfTW9kYWxWaWFnZW1EZXRhbGhlcy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Remakker/Source/Repos/William-Mata/Squad-28/Tribo/Tribo/Views/Administracao/_ModalViagemEdit.cshtml]
+[C:/Users/Remakker/source/repos/William-Mata/Squad-28/Tribo/Tribo/Views/Administracao/_ModalViagemEdit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5pc3RyYWNhb1xfTW9kYWxWaWFnZW1FZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Remakker/Source/Repos/William-Mata/Squad-28/Tribo/Tribo/Views/Imagens/Index.cshtml]
+[C:/Users/Remakker/source/repos/William-Mata/Squad-28/Tribo/Tribo/Views/Imagens/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW1hZ2Vuc1xJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Remakker/Source/Repos/William-Mata/Squad-28/Tribo/Tribo/Views/Pages/Cadastro.cshtml]
+[C:/Users/Remakker/source/repos/William-Mata/Squad-28/Tribo/Tribo/Views/Pages/Cadastro.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFnZXNcQ2FkYXN0cm8uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Remakker/Source/Repos/William-Mata/Squad-28/Tribo/Tribo/Views/Pages/Contatos.cshtml]
+[C:/Users/Remakker/source/repos/William-Mata/Squad-28/Tribo/Tribo/Views/Pages/Contatos.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFnZXNcQ29udGF0b3MuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Remakker/Source/Repos/William-Mata/Squad-28/Tribo/Tribo/Views/Pages/Home.cshtml]
+[C:/Users/Remakker/source/repos/William-Mata/Squad-28/Tribo/Tribo/Views/Pages/Home.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFnZXNcSG9tZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Remakker/Source/Repos/William-Mata/Squad-28/Tribo/Tribo/Views/Pages/Prevencoes.cshtml]
+[C:/Users/Remakker/source/repos/William-Mata/Squad-28/Tribo/Tribo/Views/Pages/Prevencoes.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFnZXNcUHJldmVuY29lcy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Remakker/Source/Repos/William-Mata/Squad-28/Tribo/Tribo/Views/Pages/Sobre.cshtml]
+[C:/Users/Remakker/source/repos/William-Mata/Squad-28/Tribo/Tribo/Views/Pages/Sobre.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFnZXNcU29icmUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Remakker/Source/Repos/William-Mata/Squad-28/Tribo/Tribo/Views/Pages/TriboParceira.cshtml]
+[C:/Users/Remakker/source/repos/William-Mata/Squad-28/Tribo/Tribo/Views/Pages/TriboParceira.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFnZXNcVHJpYm9QYXJjZWlyYS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Remakker/Source/Repos/William-Mata/Squad-28/Tribo/Tribo/Views/Pages/Tribos.cshtml]
+[C:/Users/Remakker/source/repos/William-Mata/Squad-28/Tribo/Tribo/Views/Pages/Tribos.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFnZXNcVHJpYm9zLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Remakker/Source/Repos/William-Mata/Squad-28/Tribo/Tribo/Views/Shared/Error.cshtml]
+[C:/Users/Remakker/source/repos/William-Mata/Squad-28/Tribo/Tribo/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Remakker/Source/Repos/William-Mata/Squad-28/Tribo/Tribo/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/Remakker/source/repos/William-Mata/Squad-28/Tribo/Tribo/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Remakker/Source/Repos/William-Mata/Squad-28/Tribo/Tribo/Views/_ViewImports.cshtml]
+[C:/Users/Remakker/source/repos/William-Mata/Squad-28/Tribo/Tribo/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Remakker/Source/Repos/William-Mata/Squad-28/Tribo/Tribo/Views/_ViewStart.cshtml]
+[C:/Users/Remakker/source/repos/William-Mata/Squad-28/Tribo/Tribo/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Remakker/Source/Repos/William-Mata/Squad-28/Tribo/Tribo/Views/Shared/_Layout.cshtml]
+[C:/Users/Remakker/source/repos/William-Mata/Squad-28/Tribo/Tribo/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-h9drmuipwl

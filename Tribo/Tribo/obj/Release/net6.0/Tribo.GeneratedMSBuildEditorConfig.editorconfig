@@ -8,11 +8,11 @@ build_property.PlatformNeutralAssembly =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Tribo
 build_property.RootNamespace = Tribo
-build_property.ProjectDir = C:\Users\Remakker\Source\Repos\William-Mata\Squad-28\Tribo\Tribo\
+build_property.ProjectDir = C:\Users\Remakker\source\repos\William-Mata\Squad-28\Tribo\Tribo\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\Remakker\Source\Repos\William-Mata\Squad-28\Tribo\Tribo
+build_property.MSBuildProjectDirectory = C:\Users\Remakker\source\repos\William-Mata\Squad-28\Tribo\Tribo
 build_property._RazorSourceGeneratorDebug = 
 
 [C:/Users/Remakker/source/repos/William-Mata/Squad-28/Tribo/Tribo/Views/Administracao/AdministracaoContatos.cshtml]
@@ -45,26 +45,6 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Users/Remakker/source/repos/William-Mata/Squad-28/Tribo/Tribo/Views/Administracao/_ModalViagemEdit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5pc3RyYWNhb1xfTW9kYWxWaWFnZW1FZGl0LmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/Remakker/source/repos/William-Mata/Squad-28/Tribo/Tribo/Views/Clientes/Create.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpZW50ZXNcQ3JlYXRlLmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/Remakker/source/repos/William-Mata/Squad-28/Tribo/Tribo/Views/Clientes/Delete.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpZW50ZXNcRGVsZXRlLmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/Remakker/source/repos/William-Mata/Squad-28/Tribo/Tribo/Views/Clientes/Details.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpZW50ZXNcRGV0YWlscy5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/Remakker/source/repos/William-Mata/Squad-28/Tribo/Tribo/Views/Clientes/Edit.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpZW50ZXNcRWRpdC5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/Remakker/source/repos/William-Mata/Squad-28/Tribo/Tribo/Views/Clientes/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpZW50ZXNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/Remakker/source/repos/William-Mata/Squad-28/Tribo/Tribo/Views/Imagens/Index.cshtml]
