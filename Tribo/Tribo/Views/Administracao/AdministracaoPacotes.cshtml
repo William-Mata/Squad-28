@@ -70,17 +70,17 @@
                         @item.Pacote.DataFim
                     </td>
                     <td>
-                        <button type="button" class="btn btn-sm btn-outline-warning" data-bs-toggle="modalAjax" data-bs-target="#editarModalC"
+                        <button type="button" class="btn btn-sm btn-outline-warning" data-bs-toggle="modalAjax" data-bs-target="#editarModalAdmPct"
                             data-url="@Url.Action($"EditPacote/{item.IdCliente}")">
                             <img src="~/img/edit.png" />
                         </button>
 
-                        <button type="button" class="btn btn-sm btn-outline-warning mt-1" data-bs-toggle="modalAjax" data-bs-target="#detalhesModalC"
+                        <button type="button" class="btn btn-sm btn-outline-warning mt-1" data-bs-toggle="modalAjax" data-bs-target="#detalhesModalAdmPct"
                             data-url="@Url.Action($"DetailsPacote/{item.IdCliente}")">
                             <img src="~/img/ver-detalhes.png" />
                         </button>
 
-                        <button type="button" class="btn btn-sm btn-outline-warning  mt-1" data-bs-toggle="modalAjax" data-bs-target="#deleteModalC"
+                        <button type="button" class="btn btn-sm btn-outline-warning  mt-1" data-bs-toggle="modalAjax" data-bs-target="#deleteModalAdmPct"
                             data-url="@Url.Action($"DeletePacote/{item.IdCliente}")">
                             <img src="~/img/delete.png" />
                         </button>

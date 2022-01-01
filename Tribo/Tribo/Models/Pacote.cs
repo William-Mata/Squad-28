@@ -30,7 +30,7 @@ namespace Tribo.Models
         public virtual Imagem Imagem { get; set; }
 
         public virtual Cliente Cliente { get; set; }
-        public virtual List<Tribo> Tribo { get; set; }
+        public virtual TriboParceira Tribo { get; set; }
 
     }
 }

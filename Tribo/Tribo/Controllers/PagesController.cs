@@ -40,7 +40,16 @@ namespace BrasTravel.Controllers
             return View();
         }
 
-    
+        public IActionResult CadastrarCliente()
+        {
+            return View();
+        }
+
+        public IActionResult CadastrarTribo()
+        {
+            return View();
+        }
+
         [HttpPost]
         public IActionResult CreateContato(Contato contato)
         {
@@ -54,9 +63,16 @@ namespace BrasTravel.Controllers
         {
             _context.Add(cliente);
             _context.SaveChanges();
-            return RedirectToAction("Viagem");
+            return RedirectToAction("Clientes/DadosCliente");
         }
 
+        [HttpPost]
+        public IActionResult CadastroTribo(Cliente cliente)
+        {
+            _context.Add(cliente);
+            _context.SaveChanges();
+            return RedirectToAction("Tribo/DadosTribo");
+        }
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()

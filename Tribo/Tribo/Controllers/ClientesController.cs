@@ -1,11 +1,4 @@
-﻿#nullable disable
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using Microsoft.AspNetCore.Mvc;
-using Microsoft.AspNetCore.Mvc.Rendering;
-using Microsoft.EntityFrameworkCore;
+﻿using Microsoft.AspNetCore.Mvc;
 using Tribo.Models;
 
 namespace Tribo.Controllers
@@ -198,32 +191,3 @@ namespace Tribo.Controllers
         }
     }
 }
-
-
-/*
-            <div class="form-group">
-                <label asp-for="Pacote.Origem" class="control-label"></label>
-                <input asp-for="Pacote.Origem" class="form-control" />
-                <span asp-validation-for="Pacote.Origem" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="Pacote.Pacote.Destino" class="control-label"></label>
-                <input asp-for="Pacote.Pacote.Destino" class="form-control" />
-                <span asp-validation-for="Pacote.Pacote.Destino" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="Pacote.Pacote.Valor" class="control-label"></label>
-                <input asp-for="Pacote.Pacote.Valor" class="form-control" />
-                <span asp-validation-for="Pacote.Pacote.Valor" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="Pacote.Pacote.DataInicio" class="control-label"></label>
-                <input asp-for="Pacote.Pacote.DataInicio" class="form-control" />
-                <span asp-validation-for="Pacote.Pacote.DataInicio" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="Pacote.Pacote.DataFim" class="control-label"></label>
-                <input asp-for="Pacote.Pacote.DataFim" class="form-control" />
-                <span asp-validation-for="Pacote.Pacote.DataFim" class="text-danger"></span>
-            </div>
-         */

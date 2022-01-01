@@ -8,7 +8,7 @@ namespace Tribo.Models
         { }
 
         public DbSet<Cliente> Cliente { get; set; }
-        public DbSet<Tribo> Tribo { get; set; }
+        public DbSet<TriboParceira> TriboParceira { get; set; }
         public DbSet<Pacote> Pacote { get; set; }
         public DbSet<Imagem> Imagem { get; set; }
         public DbSet<Contato> Contato { get; set; }

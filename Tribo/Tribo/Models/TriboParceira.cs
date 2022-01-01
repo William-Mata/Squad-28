@@ -4,8 +4,8 @@ using System.ComponentModel.DataAnnotations.Schema;
 
 namespace Tribo.Models
 {
-    [Table("Tribo")]
-    public class Tribo
+    [Table("TriboParceira")]
+    public class TriboParceira
     {
 
         [Key]
@@ -23,6 +23,6 @@ namespace Tribo.Models
 
         [ForeignKey("Pacote")]
         public int Id_Pacote { get; set; }
-        public virtual List<Pacote> Pacote { get; set; }
+        public virtual Pacote Pacote { get; set; }
     }
 }

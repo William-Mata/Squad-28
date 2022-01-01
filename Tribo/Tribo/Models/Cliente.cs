@@ -17,6 +17,9 @@ namespace Tribo.Models
         [Required(ErrorMessage = "Informe seu e-mail.")]
         public string Email { get; set; }
 
+        [Required(ErrorMessage = "Informe sua senha.")]
+        public string Senha { get; set; }
+
         [Required(ErrorMessage = "Informe sua idade.")]
         public int Idade { get; set; }
 
