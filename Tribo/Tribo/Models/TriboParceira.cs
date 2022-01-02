@@ -21,8 +21,13 @@ namespace Tribo.Models
         [Required(ErrorMessage = "Informe a senha.")]
         public string Senha { get; set; }
 
+
         [ForeignKey("Pacote")]
         public int Id_Pacote { get; set; }
         public virtual Pacote Pacote { get; set; }
+
+
+        public virtual Admin Admin { get; set; }
+
     }
 }

@@ -23,6 +23,31 @@ namespace Tribo.Controllers
             return View();
         }
 
+
+        public IActionResult CadastrarTribo()
+        {
+            return View();
+        }
+
+
+        [HttpPost]
+        public IActionResult CadastroTribo(TriboParceira triboParceira)
+        {
+            if (ModelState.IsValid)
+            {
+                _context.Add(triboParceira);
+                _context.SaveChanges();
+                return RedirectToAction("Home");
+
+            }
+            else
+            {
+                ModelState.AddModelError("", "Não foi possivel realizar o cadastro.");
+            }
+
+            return View(triboParceira);
+        }
+
         [HttpGet]
         public IActionResult EditDadosTribo(int id)
         {

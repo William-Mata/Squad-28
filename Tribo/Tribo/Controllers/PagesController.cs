@@ -2,6 +2,7 @@
 using Microsoft.AspNetCore.Mvc;
 using System.Diagnostics;
 
+
 namespace BrasTravel.Controllers
 {
     public class PagesController : Controller
@@ -40,14 +41,33 @@ namespace BrasTravel.Controllers
             return View();
         }
 
-        public IActionResult CadastrarCliente()
-        {
-            return View();
-        }
 
-        public IActionResult CadastrarTribo()
+        /* Retorna Dados do Cliente */
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public IActionResult Login(string email, string senha)
         {
+
+            var cliente = _context.Cliente.Where(c => c.Email.Equals(email) && c.Senha.Equals(senha));
+            var admin = _context.Admin.Where(a => a.Email.Equals(email) && a.Senha.Equals(senha));
+            var tribo = _context.TriboParceira.Where(t => t.Email.Equals(email) && t.Senha.Equals(senha));
+
+            if (cliente != null)
+            {
+
+                return RedirectToAction("Clientes", "DadosCliente", cliente);
+            }
+            else if (tribo != null)
+            {
+                return RedirectToAction("Tribos", "DadosTribo", tribo);
+            }
+            else if (admin != null)
+            {
+                return RedirectToAction("Admin", "DadosCliente");
+            }
+
             return View();
+
         }
 
         [HttpPost]
@@ -57,22 +77,9 @@ namespace BrasTravel.Controllers
             _context.SaveChanges();
             return RedirectToAction("Contatos");
         }
-        
-        [HttpPost]
-        public IActionResult CadastroCliente(Cliente cliente)
-        {
-            _context.Add(cliente);
-            _context.SaveChanges();
-            return RedirectToAction("Clientes/DadosCliente");
-        }
 
-        [HttpPost]
-        public IActionResult CadastroTribo(Cliente cliente)
-        {
-            _context.Add(cliente);
-            _context.SaveChanges();
-            return RedirectToAction("Tribo/DadosTribo");
-        }
+
+
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()

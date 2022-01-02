@@ -8,20 +8,9 @@
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
     <link rel="stylesheet" href="~/Tribo.styles.css" asp-append-version="true" />
 
-    <style>
-        select option {
-            background-color: rgba(11, 242, 30, 0);
-            backdrop-filter: blur(20px);
-            -webkit-backdrop-filter: blur(20px);
-            color: white;
-        }
-
-    </style>
 </head>
 
-@{
-    var tipo = "";
-}
+
 
 <body>
     <header>
@@ -86,9 +75,9 @@
                             </button>
                             <div class="dropdown-menu colorPadrao mx-auto p-0" aria-labelledby="dropdownId" style="margin-top: 32px;">
                                 <a class="w-100 btn btn-sm btn-outline-warning text-white"
-                                   asp-area="" asp-controller="Tribo" asp-action="TriboDados">Tribo Dados</a>
+                                   asp-area="" asp-controller="Tribos" asp-action="TriboDados">Tribo Dados</a>
                                 <a class="w-100 btn btn-sm btn-outline-warning text-white"
-                                   asp-area="" asp-controller="Tribo" asp-action="TriboPacotes">Tribo Pacotes</a>
+                                   asp-area="" asp-controller="Tribos" asp-action="TriboPacotes">Tribo Pacotes</a>
                             </div>
                         </li>
 
@@ -99,9 +88,9 @@
                             </button>
                             <div class="dropdown-menu colorPadrao mx-auto p-0" aria-labelledby="dropdownId" style="margin-top: 32px;">
                                 <a class="w-100 btn btn-sm btn-outline-warning text-white"
-                                   asp-area="" asp-controller="Pages" asp-action="MeusDados">Meus Dados</a>
+                                   asp-area="" asp-controller="Clientes" asp-action="MeusDados">Meus Dados</a>
                                 <a class="w-100 btn btn-sm btn-outline-warning text-white"
-                                   asp-area="" asp-controller="Pages" asp-action="MinhasViagens">Minhas Pacotes</a>
+                                   asp-area="" asp-controller="Clientes" asp-action="MinhasViagens">Minhas Pacotes</a>
                             </div>
                         </li>
 
@@ -133,14 +122,20 @@
                         <div class="d-flex flex-column text-center p-2">
                             <form class="bgVidro">
                                 <div class="form-group">
-                                    <input type="email" class="form-control bgVidro" id="email" placeholder="Email...">
+                                    <input type="email" class="form-control bgVidro text-white btn-outline-warning" id="email" placeholder="Email...">
                                 </div>
                                 <div class="form-group">
-                                    <input type="password" class="form-control bgVidro mt-2" id="password" placeholder="Senha...">
+                                    <input type="password" class="form-control bgVidro text-white btn-outline-warning mt-2" id="password" placeholder="Senha...">
                                 </div>
-                                <button type="button" class="btn btn-secondary btn-outline-warning text-white btn-round mb-4 mt-3">Login</button>
+                                <button type="button" class="btn btn-secondary btn-outline-warning text-white btn-round mb-4 mt-3"
+                                        asp-action="Login">
+                                    Login
+                                </button>
                             </form>
                         </div>
+
+
+
 
                         <div class="accordion" id="accordionExample">
 
@@ -159,18 +154,18 @@
 
                                         <div class="form-title text-center">
                                             <h4>Selecione a sua opção de cadastro</h4>
-  
+
                                         </div>
 
                                         <div class="text-center mb-2">
-                                            <a class="text-white mb-2 mx-auto" asp-area="" asp-controller="Pages"
+                                            <a class="text-white mb-2 mx-auto" asp-area="" asp-controller="Clientes"
                                                asp-action="CadastrarCliente">
-                                               Sou Cliente - Quero conhecer a cultura Indigena
+                                                Sou Cliente - Quero conhecer a cultura Indigena
                                             </a>
                                         </div>
 
                                         <div class="text-center mt-2">
-                                            <a class="text-white mb-2 mx-auto" asp-area="" asp-controller="Pages"
+                                            <a class="text-white mb-2 mx-auto" asp-area="" asp-controller="Tribos"
                                                asp-action="CadastrarTribo" id="btnConfirmar">
                                                 Sou Representante da Tribo - Quero fornecer experiencia e conhecimento cultural
                                             </a>

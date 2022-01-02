@@ -1,5 +1,17 @@
 ﻿let valor;
 
+
+function Login(id) {
+
+    if (id > 0) {
+        alert("Logado com sucesso!");
+
+    } else if(id > 0) {
+        alert("E-mail e/ou Senha Inválida.");
+    }
+
+}
+
 function Contato() {
     let msg = document.getElementById("msg");
 

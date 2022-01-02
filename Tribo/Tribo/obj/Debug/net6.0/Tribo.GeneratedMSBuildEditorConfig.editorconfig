@@ -47,6 +47,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5pc3RyYWNhb1xfTW9kYWxQYWNvdGVFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/Remakker/Documents/GitHub/Squad-28/Tribo/Tribo/Views/Clientes/CadastrarCliente.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpZW50ZXNcQ2FkYXN0cmFyQ2xpZW50ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/Remakker/Documents/GitHub/Squad-28/Tribo/Tribo/Views/Clientes/DadosCliente.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpZW50ZXNcRGFkb3NDbGllbnRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
@@ -79,16 +83,12 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpZW50ZXNcX01vZGFsUGFjb3RlQ2xFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/Remakker/Documents/GitHub/Squad-28/Tribo/Tribo/Views/Imagens/DeleteImagem.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW1hZ2Vuc1xEZWxldGVJbWFnZW0uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/Remakker/Documents/GitHub/Squad-28/Tribo/Tribo/Views/Imagens/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW1hZ2Vuc1xJbmRleC5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/Remakker/Documents/GitHub/Squad-28/Tribo/Tribo/Views/Pages/CadastrarCliente.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFnZXNcQ2FkYXN0cmFyQ2xpZW50ZS5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/Remakker/Documents/GitHub/Squad-28/Tribo/Tribo/Views/Pages/CadastrarTribo.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFnZXNcQ2FkYXN0cmFyVHJpYm8uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/Remakker/Documents/GitHub/Squad-28/Tribo/Tribo/Views/Pages/Contatos.cshtml]
@@ -117,6 +117,10 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Users/Remakker/Documents/GitHub/Squad-28/Tribo/Tribo/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Remakker/Documents/GitHub/Squad-28/Tribo/Tribo/Views/Tribos/CadastrarTribo.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVHJpYm9zXENhZGFzdHJhclRyaWJvLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/Remakker/Documents/GitHub/Squad-28/Tribo/Tribo/Views/Tribos/DadosTribo.cshtml]

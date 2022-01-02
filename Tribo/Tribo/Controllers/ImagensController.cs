@@ -61,7 +61,7 @@ namespace AspNetCore_EnviaExibeImagem.Controllers
         }
 
         [HttpPost]
-        public IActionResult DeleteContato(Imagem imagem)
+        public IActionResult DeleteImagem(Imagem imagem)
         {
             var id = imagem.IdImg;
 

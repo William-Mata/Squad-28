@@ -4,6 +4,8 @@ namespace Tribo.Models
 {
     public class TriboDbContext : DbContext
     {
+       
+
         public TriboDbContext(DbContextOptions<TriboDbContext> options) : base(options)
         { }
 
@@ -13,6 +15,7 @@ namespace Tribo.Models
         public DbSet<Imagem> Imagem { get; set; }
         public DbSet<Contato> Contato { get; set; }
 
+        public DbSet<Admin> Admin { get; set; }
     }
 
 

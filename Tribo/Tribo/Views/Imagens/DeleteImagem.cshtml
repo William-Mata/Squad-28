@@ -1,0 +1,22 @@
+﻿@model Tribo.Models.Imagem
+
+@{
+    ViewData["Title"] = "DeleteImagem";
+}
+
+<h1>DeleteImagem</h1>
+
+<h3>Are you sure you want to delete this?</h3>
+<div>
+    <h4>Imagem</h4>
+    <hr />
+  
+        <img src="/Imagens/VerImagem/@Model.IdImg" />
+ 
+
+    <form asp-action="DeleteImagem">
+        <input type="hidden" asp-for="IdImg" />
+        <input type="submit" value="Delete" class="btn btn-danger" /> |
+        <a asp-action="Index">Back to List</a>
+    </form>
+</div>

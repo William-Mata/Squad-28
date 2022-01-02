@@ -21,6 +21,31 @@ namespace Tribo.Controllers
             return View();
         }
 
+
+
+        public IActionResult CadastrarCliente()
+        {
+            return View();
+        }
+
+        [HttpPost]
+        public IActionResult CadastroCliente(Cliente cliente)
+        {
+            if (ModelState.IsValid)
+            {
+                _context.Add(cliente);
+                _context.SaveChanges();
+                return RedirectToAction("Home");
+
+            }
+            else
+            {
+                ModelState.AddModelError("", "Não foi possivel realizar o cadastro.");
+            }
+
+            return View(cliente);
+        }
+
         [HttpGet]
         public IActionResult EditDadosCliente(int id)
         {

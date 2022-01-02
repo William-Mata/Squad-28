@@ -19,6 +19,7 @@ namespace Tribo.Models
         [Required(ErrorMessage = "Informe sua Mensagem de texto")]
         public string Mensagem { get; set; }
 
+        public virtual Admin Admin { get; set; }
 
     }
 }
