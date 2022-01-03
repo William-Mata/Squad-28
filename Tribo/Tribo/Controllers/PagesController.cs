@@ -42,33 +42,37 @@ namespace BrasTravel.Controllers
         }
 
 
-        /* Retorna Dados do Cliente */
-        [HttpPost]
-        [ValidateAntiForgeryToken]
-        public IActionResult Login(string email, string senha)
+        [HttpGet]
+        public IActionResult Logar(string email, string senha)
         {
 
-            var cliente = _context.Cliente.Where(c => c.Email.Equals(email) && c.Senha.Equals(senha));
-            var admin = _context.Admin.Where(a => a.Email.Equals(email) && a.Senha.Equals(senha));
-            var tribo = _context.TriboParceira.Where(t => t.Email.Equals(email) && t.Senha.Equals(senha));
+            var cliente = _context.Cliente.Where(c => c.Email.Equals(email) && c.Senha.Equals(senha)).FirstOrDefault();
+            var tribo = _context.TriboParceira.Where(t => t.Email.Equals(email) && t.Senha.Equals(senha)).FirstOrDefault();
+            var admin = _context.Admin.Where(a => a.Email.Equals(email) && a.Senha.Equals(senha)).FirstOrDefault();
+
+
 
             if (cliente != null)
             {
 
-                return RedirectToAction("Clientes", "DadosCliente", cliente);
+                return RedirectToAction("MeusDados", "Clientes", new { id = cliente.IdCliente });
             }
             else if (tribo != null)
             {
-                return RedirectToAction("Tribos", "DadosTribo", tribo);
+                return RedirectToAction("DadosTribo", "Tribos", new { id = tribo.IdTribo });
             }
             else if (admin != null)
             {
-                return RedirectToAction("Admin", "DadosCliente");
+                return RedirectToAction("AdministracaoContatos", "Administracao");
             }
-
-            return View();
+          
+                ModelState.AddModelError("CustomError", "E-mail ou Senha inválida.");
+                return View();
+          
 
         }
+
+
 
         [HttpPost]
         public IActionResult CreateContato(Contato contato)

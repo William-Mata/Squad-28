@@ -15,10 +15,21 @@ namespace Tribo.Controllers
         /*Crud Clientes*/
 
         /* Retorna Dados do Cliente */
-        public IActionResult DadosCliente(int id)
+        public IActionResult MeusDados(int id)
         {
-            var cliente = _context.Cliente.Where(cl => cl.IdCliente == id).FirstOrDefault();
-            return View();
+            ViewBag.cliente = _context.Cliente.Where(cl => cl.IdCliente == id).FirstOrDefault();
+
+            if (ViewBag.cliente != null)
+            {
+                return View(ViewBag.cliente);
+            }
+            else
+            {
+
+                return NotFound();
+            }
+
+
         }
 
 
@@ -29,21 +40,28 @@ namespace Tribo.Controllers
         }
 
         [HttpPost]
-        public IActionResult CadastroCliente(Cliente cliente)
+        public IActionResult CadastrarCliente(Cliente cliente)
         {
-            if (ModelState.IsValid)
+
+
+
+            var clienteTeste = _context.Cliente.Where(c => c.Email.Equals(cliente.Email) || c.IdCliente.Equals(cliente.IdCliente)).FirstOrDefault();
+
+            if (clienteTeste == null)
             {
                 _context.Add(cliente);
                 _context.SaveChanges();
-                return RedirectToAction("Home");
 
+                return RedirectToAction("Home", "Pages");
             }
             else
             {
                 ModelState.AddModelError("", "Não foi possivel realizar o cadastro.");
+                return View();
+
             }
 
-            return View(cliente);
+
         }
 
         [HttpGet]
@@ -70,7 +88,8 @@ namespace Tribo.Controllers
             _context.SaveChanges();
 
 
-            return RedirectToAction("DadosCliente");
+
+            return RedirectToAction("MeusDados", new { id = cliente.IdCliente });
         }
 
 
@@ -109,8 +128,13 @@ namespace Tribo.Controllers
                 return NotFound();
             }
 
-            return RedirectToAction("Home");
+            return RedirectToAction("Home", "Pages");
         }
+
+
+
+
+
 
         /* Retorna Dados do Cliente e a Pacote */
         public IActionResult PacoteCliente(int id)
@@ -118,12 +142,19 @@ namespace Tribo.Controllers
 
             var cliente = _context.Cliente.Where(cl => cl.IdCliente == id).FirstOrDefault();
 
-            if (cliente != null)
-            {
-                ViewBag.pacote = _context.Pacote.Where(v => v.IdPacote == cliente.Id_Pacote).FirstOrDefault();
-            }
+            ViewBag.pacote = _context.Pacote.Where(v => v.IdPacote == cliente.Id_Pacote).FirstOrDefault();
 
-            return View();
+
+
+            if (ViewBag.pacote != null)
+            {
+                return View(ViewBag.pacote);
+            }
+            else
+            {
+
+                return NotFound();
+            }
         }
 
         [HttpGet]
@@ -131,8 +162,8 @@ namespace Tribo.Controllers
         {
 
             var cliente = _context.Cliente.Where(cl => cl.IdCliente == id).FirstOrDefault();
-            
-            if(cliente != null)
+
+            if (cliente != null)
             {
                 ViewBag.pacote = _context.Pacote.Where(v => v.IdPacote == cliente.Id_Pacote).FirstOrDefault();
 
@@ -162,7 +193,8 @@ namespace Tribo.Controllers
             _context.Cliente.Update(cliente);
             _context.SaveChanges();
 
-            return RedirectToAction("PacoteCliente");
+
+            return RedirectToAction("PacoteCliente", new { id = cliente.IdCliente} );
         }
 
 
@@ -192,7 +224,7 @@ namespace Tribo.Controllers
                 var pacote = _context.Pacote.Where(v => v.IdPacote == cliente.Id_Pacote).FirstOrDefault();
             }
 
-            return PartialView("_ModalPacoteClDelete", cliente); 
+            return PartialView("_ModalPacoteClDelete", cliente);
         }
 
         [HttpPost]

@@ -23,11 +23,11 @@ namespace Tribo.Models
 
 
         [ForeignKey("Pacote")]
-        public int Id_Pacote { get; set; }
-        public virtual Pacote Pacote { get; set; }
+        public int? Id_Pacote { get; set; }
+        public virtual Pacote? Pacote { get; set; }
 
 
-        public virtual Admin Admin { get; set; }
+        public virtual Admin? Admin { get; set; }
 
     }
 }

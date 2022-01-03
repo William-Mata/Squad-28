@@ -4,91 +4,81 @@
     ViewData["Title"] = "Administracao";
 }
 
+<div class="bgVidro text-center p-2">
+    <h1>Pacotes do Cliente</h1>
+</div>
 
 <div class="container-fluid" id="ModalAqui">
 </div>
 
-<div class="container-fluid m-0 bgVidro shadow-lg rounded py-3">
-<h4 class="text-center mb-3">Administração - Viagens</h4>
+<table class="table bgVidro text-white text-center">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Nome)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Origem)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Pacote.Destino)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Pacote.Valor)
+            </th>
+             <th>
+                @Html.DisplayNameFor(model => model.Pacote.DataInicio)
+            </th>
+             <th>
+                @Html.DisplayNameFor(model => model.Pacote.DataFim)
+            </th>
 
-    <table class="table text-white">
-        <thead>
-            <tr>
-                <th>
-                    @Html.DisplayNameFor(model => model.Nome)
-                </th>
-                <th>
-                    @Html.DisplayNameFor(model => model.Idade)
-                </th>
-                <th>
-                    @Html.DisplayNameFor(model => model.CPF)
-                </th>
-                <th>
-                    @Html.DisplayNameFor(model => model.Origem)
-                </th>
-                 <th>
-                    @Html.DisplayNameFor(model => model.Pacote.Destino)
-                </th>
-                 <th>
-                    @Html.DisplayNameFor(model => model.Pacote.Valor)
-                </th>
-                 <th>
-                    @Html.DisplayNameFor(model => model.Pacote.DataInicio)
-                </th>
-                 <th>
-                    @Html.DisplayNameFor(model => model.Pacote.DataFim)
-                </th>
-                <th>Ações</th>
-            </tr>
-        </thead>
-        <tbody>
-            @foreach (var item in ViewBag.cliente)
-            {
-                <tr>
-                    <td>
-                        @item.Nome
-                    </td>
-                    <td>
-                        @item.Idade
-                    </td>
-                    <td>
-                        @item.CPF
-                    </td>
-                     <td>
-                        @item.Origem
-                    </td>
-                     <td>
-                        @item.Pacote.Destino
-                    </td>
-                     <td>
-                       R$: @item.Pacote.Valor
-                    </td>
-                     <td>
-                        @item.Pacote.DataInicio
-                    </td>
-                    <td>
-                        @item.Pacote.DataFim
-                    </td>
-                    <td>
-                        <button type="button" class="btn btn-sm btn-outline-warning" data-bs-toggle="modalAjax" data-bs-target="#editarModalPctCl"
-                            data-url="@Url.Action($"EditPacote/{item.IdCliente}")">
-                            <img src="~/img/edit.png" />
-                        </button>
+            <th>Ações</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => @Model.Nome)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => @Model.Origem)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => @Model.Pacote.Destino)
 
-                        <button type="button" class="btn btn-sm btn-outline-warning mt-1" data-bs-toggle="modalAjax" data-bs-target="#detalhesModalPctCl"
-                            data-url="@Url.Action($"DetailsPacote/{item.IdCliente}")">
-                            <img src="~/img/ver-detalhes.png" />
-                        </button>
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => @Model.Pacote.Valor)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => @Model.Pacote.DataInicio)
+            </td>
+             <td>
+                @Html.DisplayFor(modelItem => @Model.Pacote.DataFim)
+            </td>
+            <td>
+                <button type="button" class="btn btn-sm btn-outline-warning" data-bs-toggle="modalAjax" data-bs-target="#editarModalPctCl"
+                        data-url="@Url.Action($"EditPacoteCliente/{@Model.IdCliente}")">
+                    <img src="~/img/edit.png" />
+                </button>
 
-                        <button type="button" class="btn btn-sm btn-outline-warning  mt-1" data-bs-toggle="modalAjax" data-bs-target="#deleteModalPctCl"
-                            data-url="@Url.Action($"DeletePacote/{item.IdCliente}")">
-                            <img src="~/img/delete.png" />
-                        </button>
-                    </td>
-                </tr>
-            }
-        </tbody>
-    </table>
+                <button type="button" class="btn btn-sm btn-outline-warning mt-1" data-bs-toggle="modalAjax" data-bs-target="#detalhesModalPctCl"
+                        data-url="@Url.Action($"DetailPacoteCliente/{@Model.IdCliente}")">
+                    <img src="~/img/ver-detalhes.png" />
+                </button>
+
+                <button type="button" class="btn btn-sm btn-outline-warning  mt-1" data-bs-toggle="modalAjax" data-bs-target="#deleteModalPctCl"
+                        data-url="@Url.Action($"DeletePacoteCliente/{@Model.IdCliente}")">
+                    <img src="~/img/delete.png" />
+                </button>
+
+
+            </td>
+        </tr>
+        }
+    </tbody>
+</table>
 </div>
 
 

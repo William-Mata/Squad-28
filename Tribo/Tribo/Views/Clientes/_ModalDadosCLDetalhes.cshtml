@@ -1,18 +1,18 @@
-﻿@model Cliente
+﻿@model global::Tribo.Models.Cliente
 
 
-<div class="modal fade bg-transparent" id="detalhesModalClDa">
+<div class="modal fade" id="detalhesModalClDa">
     <div class="modal-dialog modal-dialog-centered modal-lg ">
-        <div class="modal-content colorBlue">
+        <div class="modal-content bgVidro">
             <div class="modal-header">
                 <h5 class="modal-title" id="editarVModalLabel">Dados do Cliente</h5>
                 <button type="button" class="btn-close btn-outline-warning bg-warning" data-bs-dismiss="modal"
                         aria-label="Close"></button>
             </div>
             <div class="modal-body m-0 p-0 justify-content-center align-content-center">
-                <form class="m-0 p-0 py-3">
-                    <div class="row">
-                        <div class="col-11 col-md-11 col-sm-11 col-lg-11 mx-auto">
+                <form>
+                    <div class="row px-4 py-2">
+                        <div class="col-8 col-md-8 col-sm-8 col-lg-8">
                             <div class="form-group mb-3">
                                 <div class="row">
                                     <div class="col border border-1 border-warning rounded ">
@@ -38,7 +38,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="form-group mb-3">
+                            <div class="form-group ">
                                 <div class="row">
                                     <div class="col border border-1 border-warning rounded ">
                                         <label asp-for="CPF" class="control-label text-white mt-1">CPF: @Model.CPF</label>
@@ -47,7 +47,7 @@
                             </div>
                         </div>                
                     </div>
-                    <div class="form-group m-0 p-0 mt-3">
+                    <div class="form-group my-0 py-0">
                         <div class="modal-footer">
                             <button type="button" class="btn btn-outline-warning text-white"
                                     data-bs-dismiss="modal">

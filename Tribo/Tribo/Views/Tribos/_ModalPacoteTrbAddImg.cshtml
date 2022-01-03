@@ -1,0 +1,39 @@
+﻿@model Pacote
+
+
+<div class="modal fade bg-transparent" id="AddImgModalPct">
+    <div class="modal-dialog modal-dialog-centered modal-lg ">
+        <div class="modal-content bgVidro">
+            <div class="modal-header">
+                <h5 class="modal-title" id="editarVModalLabel">Detalhes Do Pacote</h5>
+                <button type="button" class="btn-close btn-outline-warning bg-warning" data-bs-dismiss="modal"
+                        aria-label="Close"></button>
+            </div>
+            <div class="modal-body m-0 p-0 justify-content-center align-content-center">
+                <form asp-action="AddImagem" enctype="multipart/form-data" method="post">
+                    <input type="hidden" asp-for="IdPacote" />
+                    <input type="hidden" asp-for="Descricao" />
+                    <input type="hidden" asp-for="Destino" />
+                     <input type="hidden" asp-for="Valor" />
+                    <input type="hidden" asp-for="DataInicio" />
+                    <input type="hidden" asp-for="DataFim" />
+                    <div class="form-group m-0 p-0 mt-3">
+                        <input type="file" name="arquivos" />
+                        <br />
+                        <button>Enviar Imagem</button>
+                    </div>
+                    <div class="form-group m-0 p-0 mt-3">
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-outline-warning text-white"
+                                    data-bs-dismiss="modal">
+                                Sair
+                            </button>
+                        </div>
+                    </div>
+                </form>
+
+            </div>
+
+        </div>
+    </div>
+</div>

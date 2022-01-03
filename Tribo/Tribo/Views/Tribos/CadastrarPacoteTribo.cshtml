@@ -1,0 +1,63 @@
+﻿@model Tribo.Models.TriboParceira
+
+@{
+    ViewData["Title"] = "Cadastrar Pacote";
+}
+
+<h1>CadastrarPacoteTribo</h1>
+
+<h4>Pacote</h4>
+<hr />
+<div class="row">
+    <form asp-action="CadastrarPacoteTribo">
+        <div class="col-6 col-sm-6 col-md-6 col-lg-6">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <input type="hidden" asp-for="IdTribo" class="form-control" />
+                <input type="hidden" asp-for="tipoUsuario" class="form-control" />
+                <input type="hidden" asp-for="NomeTribo" class="form-control" />
+                <input type="hidden" asp-for="Email" class="form-control" />
+                <input type="hidden" asp-for="Senha" class="form-control" />
+
+                <label asp-for="Pacote.Descricao" class="control-label"></label>
+                <textarea rows="5" asp-for="Pacote.Descricao" class="form-control"> </textarea>
+                <span asp-validation-for="Pacote.Descricao" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Pacote.Destino" class="control-label"></label>
+                <input asp-for="Pacote.Destino" class="form-control" />
+                <span asp-validation-for="Pacote.Destino" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Pacote.Valor" class="control-label"></label>
+                <input asp-for="Pacote.Valor" class="form-control" />
+                <span asp-validation-for="Pacote.Valor" class="text-danger"></span>
+            </div>
+
+        </div>
+
+        <div class="col-6 col-sm-6 col-md-6 col-lg-6">
+            <div class="form-group">
+                <label asp-for="Pacote.DataInicio" class="control-label"></label>
+                <input asp-for="Pacote.DataInicio" class="form-control" />
+                <span asp-validation-for="Pacote.DataInicio" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Pacote.DataFim" class="control-label"></label>
+                <input asp-for="Pacote.DataFim" class="form-control" />
+                <span asp-validation-for="Pacote.DataFim" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Cadastrar" class="btn btn-primary" />
+            </div>
+        </div>
+    </form>
+</div>
+
+
+
+@section Scripts {
+    @{
+    await Html.RenderPartialAsync("_ValidationScriptsPartial");
+}
+}

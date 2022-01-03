@@ -1,0 +1,91 @@
+﻿@model global::Tribo.Models.TriboParceira
+
+@{
+    ViewData["Title"] = "Pacotes Tribo";
+}
+
+
+<div class="container-fluid" id="ModalAqui">
+</div>
+
+<div class="container-fluid m-0 bgVidro shadow-lg rounded py-3">
+    <h4 class="text-center mb-3">Tribo - Pacote</h4>
+
+    <table class="table text-white text-center">
+        <thead>
+            <tr>
+                <th>
+                    @Html.DisplayNameFor(model => model.Pacote.Destino)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Pacote.Valor)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Pacote.DataInicio)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Pacote.DataFim)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Pacote.Imagem)
+                </th>
+                <th>Ações</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => @Model.Pacote.Descricao)
+                </td>
+                <td>
+                    R$: @Html.DisplayFor(modelItem => @Model.Pacote.Valor)
+
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => @Model.Pacote.DataInicio)
+
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => @Model.Pacote.DataFim)
+
+                </td>
+                <td>
+                    @if (@Model.Pacote.Id_Imagem != null)
+                    {
+                        <a><img src="/Imagens/VerImagem/@Model.Pacote.Id_Imagem" width="50px" height="50px" /></a>
+                        
+                    }
+
+                </td>
+
+                <td>
+                    <button type="button" class="btn btn-sm btn-outline-warning" data-bs-toggle="modalAjax" data-bs-target="#editarModalPctCl"
+                            data-url="@Url.Action($"EditPacoteTribo/{@Model.IdTribo}")">
+                        <img src="~/img/edit.png" />
+                    </button>
+
+                    <button type="button" class="btn btn-sm btn-outline-warning mt-1" data-bs-toggle="modalAjax" data-bs-target="#detalhesModalPctCl"
+                            data-url="@Url.Action($"DetailPacoteTribo/{@Model.IdTribo}")">
+                        <img src="~/img/ver-detalhes.png" />
+                    </button>
+
+                    <button type="button" class="btn btn-sm btn-outline-warning  mt-1" data-bs-toggle="modalAjax" data-bs-target="#deleteModalPctCl"
+                            data-url="@Url.Action($"DeletePacoteTribo/{@Model.IdTribo}")">
+                        <img src="~/img/delete.png" />
+                    </button>
+                    <button type="button" class="btn btn-sm btn-outline-warning  mt-1" data-bs-toggle="modalAjax" data-bs-target="#AddImgModalPct"
+                            data-url="@Url.Action($"AddImagem/{@Model.Id_Pacote}")">
+                        <img src="~/img/image.png" />
+                    </button>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+
+
+@section Scripts {
+    @{
+    await Html.RenderPartialAsync("_ValidationScriptsPartial");
+}
+}

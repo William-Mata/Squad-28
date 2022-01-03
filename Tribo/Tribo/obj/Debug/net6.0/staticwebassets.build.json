@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "6Fqpi4dsFNa+/ndbBDCJsVTepFIoKQfEfpdIjghlcOs=",
+  "Hash": "7gfOoYdY6d6AOunKXbDCkYCmQ/HLCJHkdSTMKlD8Vuo=",
   "Source": "Tribo",
   "BasePath": "_content/Tribo",
   "Mode": "Default",
@@ -440,6 +440,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\img\\icon-home2.png"
+    },
+    {
+      "Identity": "C:\\Users\\Remakker\\Documents\\GitHub\\Squad-28\\Tribo\\Tribo\\wwwroot\\img\\image.png",
+      "SourceId": "Tribo",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Remakker\\Documents\\GitHub\\Squad-28\\Tribo\\Tribo\\wwwroot\\",
+      "BasePath": "_content/Tribo",
+      "RelativePath": "img/image.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\image.png"
     },
     {
       "Identity": "C:\\Users\\Remakker\\Documents\\GitHub\\Squad-28\\Tribo\\Tribo\\wwwroot\\img\\img-fundo.jpg",

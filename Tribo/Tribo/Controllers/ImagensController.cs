@@ -21,7 +21,7 @@ namespace AspNetCore_EnviaExibeImagem.Controllers
         }
 
         [HttpPost]
-        public IActionResult UploadImagem(IList<IFormFile> arquivos)
+        public IActionResult UploadImagem(IList<IFormFile> arquivos, int id)
         {
             IFormFile imagemEnviada = arquivos.FirstOrDefault();
             if (imagemEnviada != null || imagemEnviada.ContentType.ToLower().StartsWith("image/"))
@@ -35,11 +35,17 @@ namespace AspNetCore_EnviaExibeImagem.Controllers
                     Dados = ms.ToArray(),
                     ContentType = imagemEnviada.ContentType
                 };
+
+                var pacote = _context.Pacote.Where(p => p.IdPacote == id).FirstOrDefault();
+
+                pacote.Imagem = imagemEntity;
+
+                _context.Update(pacote);
                 _context.Imagem.Add(imagemEntity);
                 _context.SaveChanges();
             }
 
-            return RedirectToAction("Index");
+            return RedirectToAction();
         }
 
         [HttpGet]

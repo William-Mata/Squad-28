@@ -1,21 +1,21 @@
-﻿@model global::Tribo.Models.TriboParceira
+﻿@model global::Tribo.Models.Cliente
 
 @{
-    ViewData["Title"] = "DadosTribo";
+    ViewData["Title"] = "Dados do Cliente";
 }
 
-<div class="bgVidro rounded text-center p-3">
-    <h1>Dados da Tribo</h1>
+<div class="bgVidro text-center p-2">
+    <h1>Dados do Cliente</h1>
 </div>
 
 <div class="container-fluid" id="ModalAqui">
 </div>
 
-<table class="table text-center mt-2 p-5 text-white bgVidro rounded">
+<table class="table bgVidro text-white text-center">
     <thead>
         <tr>
             <th>
-                @Html.DisplayNameFor(model => model.NomeTribo)
+                @Html.DisplayNameFor(model => model.Nome)
             </th>
             <th>
                 @Html.DisplayNameFor(model => model.Email)
@@ -23,38 +23,52 @@
             <th>
                 @Html.DisplayNameFor(model => model.Senha)
             </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Idade)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.CPF)
+            </th>
+
             <th>Ações</th>
         </tr>
     </thead>
     <tbody>
-
         <tr>
             <td>
-                @Html.DisplayFor(modelItem => @Model.NomeTribo)
+                @Html.DisplayFor(modelItem => @Model.Nome)
             </td>
             <td>
                 @Html.DisplayFor(modelItem => @Model.Email)
             </td>
             <td>
                 *********
+
             </td>
             <td>
+                @Html.DisplayFor(modelItem => @Model.Idade)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => @Model.CPF)
+            </td>
+
+
+            <td>
                 <button type="button" class="btn btn-sm btn-outline-warning" data-bs-toggle="modalAjax" data-bs-target="#editarModalClDa"
-                        data-url="@Url.Action($"EditDadosTribo/{@Model.IdTribo}")">
+                        data-url="@Url.Action($"EditDadosCliente/{@Model.IdCliente}")">
                     <img src="~/img/edit.png" />
                 </button>
 
                 <button type="button" class="btn btn-sm btn-outline-warning mt-1" data-bs-toggle="modalAjax" data-bs-target="#detalhesModalClDa"
-                        data-url="@Url.Action($"DetailDadosTribo/{Model.IdTribo}")">
+                        data-url="@Url.Action($"DetailDadosCliente/{Model.IdCliente}")">
                     <img src="~/img/ver-detalhes.png" />
                 </button>
 
                 <button type="button" class="btn btn-sm btn-outline-warning  mt-1" data-bs-toggle="modalAjax" data-bs-target="#deleteModalClDa"
-                        data-url="@Url.Action($"DeleteDadosTribo/{@Model.IdTribo}")">
+                        data-url="@Url.Action($"DeleteDadosCliente/{@Model.IdCliente}")">
                     <img src="~/img/delete.png" />
                 </button>
             </td>
         </tr>
-
     </tbody>
 </table>
