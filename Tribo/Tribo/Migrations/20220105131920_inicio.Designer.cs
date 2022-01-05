@@ -12,8 +12,8 @@ using Tribo.Models;
 namespace Tribo.Migrations
 {
     [DbContext(typeof(TriboDbContext))]
-    [Migration("20220103175743_teste")]
-    partial class teste
+    [Migration("20220105131920_inicio")]
+    partial class inicio
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {

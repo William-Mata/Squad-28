@@ -125,6 +125,7 @@ namespace Tribo.Controllers
         }
 
         /* Retorna Dados do Tribo e a Pacote */
+        [HttpGet]
         public IActionResult PacoteTribo(int id)
         {
 
@@ -141,8 +142,6 @@ namespace Tribo.Controllers
             {
                 return RedirectToAction("CadastrarPacoteTribo", new { id = tribo_parceira.IdTribo });
             }
-
-
 
         }
 
@@ -180,20 +179,31 @@ namespace Tribo.Controllers
         [HttpGet]
         public IActionResult AddImagem(int id)
         {
-            var pacote = _context.Pacote.Where(p => p.IdPacote == id).FirstOrDefault();
+            if (id == 0 || id == null)
+            {
+                var pacote = _context.Pacote.Where(p => p.IdPacote == id).FirstOrDefault();
+                return PartialView("_ModalPacoteTrbAddImg", pacote);
 
-            return PartialView("_ModalPacoteTrbAddImg", pacote);
+            }
+            else
+            {
+                return View();
+
+            }
+
         }
 
         [HttpPost]
         public IActionResult AddImagem(IList<IFormFile> arquivos, Pacote pacote)
         {
+            var tribo = _context.TriboParceira.Where(t => t.Id_Pacote == pacote.IdPacote).FirstOrDefault();
+
+
             IFormFile imagemEnviada = arquivos.FirstOrDefault();
             if (imagemEnviada != null || imagemEnviada.ContentType.ToLower().StartsWith("image/"))
             {
                 MemoryStream ms = new MemoryStream();
                 imagemEnviada.OpenReadStream().CopyTo(ms);
-
                 Imagem imagemEntity = new Imagem()
                 {
                     Nome = imagemEnviada.Name,
@@ -202,19 +212,34 @@ namespace Tribo.Controllers
                 };
 
 
-                pacote.Imagem = imagemEntity;
+                if (pacote.Id_Imagem == null)
+                {
 
-                _context.Update(pacote);
-                _context.Imagem.Add(imagemEntity);
-                _context.SaveChanges();
+                    _context.Imagem.Add(imagemEntity);
+                    pacote.Imagem = imagemEntity;
+                    _context.Pacote.Update(pacote);
+                    _context.SaveChanges();
+
+                }
+                else if (pacote.Id_Imagem != null)
+                {
+                    imagemEntity.IdImg = (int)pacote.Id_Imagem;
+
+
+                    _context.Imagem.Update(imagemEntity);
+                    _context.SaveChanges();
+
+
+                }
+
+
             }
-            else
-            {
 
-            }
+            return RedirectToAction("PacoteTribo", new { id = tribo.IdTribo });
 
-            return RedirectToAction("PacoteTribo", new {id = pacote.Tribo.IdTribo});
+
         }
+
 
         [HttpGet]
         public IActionResult EditPacoteTribo(int id)
