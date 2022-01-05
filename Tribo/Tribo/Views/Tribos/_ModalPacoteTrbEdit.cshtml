@@ -11,16 +11,16 @@
             </div>
             <div class="modal-body m-0 p-0 justify-content-center align-content-center">
 
-                <form asp-action="EditPacoteTribo" class="m-0 p-0 py-3">
+                <form asp-action="EditPacoteTribo" class="m-0 p-0">
                     <div asp-validation-summary="ModelOnly" class="text-danger"></div>
-                    <div class="row">
+                    <div class="row px-4 py-3">
                         <div class="col-6 col-sm-6 col-md-6 col-lg-6 mx-auto">
                             <div class="form-group mb-3">
                                 <div class="row">
-                                    <div class="col-2 col-sm-2 col-md-2 col-lg-2 border border-1 border-warning rounded ">
+                                    <div class="col-3 col-sm-3 col-md-3 col-lg-3 border border-1 border-warning rounded ">
                                         <label asp-for="Pacote.Destino" class="control-label text-white mt-1">Destino:</label>
                                     </div>
-                                    <div class="col-6 col-sm-6 col-md-6 col-lg-6">
+                                    <div class="col-8 col-sm-8 col-md-8 col-lg-8">
                                         <input asp-for="Pacote.Destino"
                                                class="form-control text-white bg-transparent btn-outline-warning" />
                                     </div>
@@ -33,37 +33,35 @@
                                         <input type="hidden" asp-for="IdTribo" />
                                         <label asp-for="Pacote.Descricao" class="control-label text-white mt-1">Descrição:</label>
                                     </div>
-                                    <div class="col-3 col-sm-3 col-md-3 col-lg-3">
+                                    <div class="col-8 col-sm-8 col-md-8 col-lg-8">
                                         <input asp-for="Pacote.Descricao"
-                                               class="form-control text-white bg-transparent btn-outline-warning" readonly />
+                                               class="form-control text-white bg-transparent btn-outline-warning" />
                                     </div>
                                     <span asp-validation-for="Pacote.Descricao" class="text-warning"></span>
                                 </div>
                             </div>
-
-                        </div>
-
-                        <div class="col-5 col-sm-5 col-md-5 col-lg-5 mx-auto">
-
-
                             <div class="form-group mb-3">
                                 <div class="row">
-                                    <div class="col-2 col-sm-2 col-md-2 col-lg-2 border border-1 border-warning rounded ">
+                                    <div class="col-3 col-sm-3 col-md-3 col-lg-3 border border-1 border-warning rounded ">
                                         <label asp-for="Pacote.Valor" class="control-label text-white mt-1">Valor:</label>
                                     </div>
-                                    <div class="col-6 col-sm-6 col-md-6 col-lg-6">
+                                    <div class="col-8 col-sm-8 col-md-8 col-lg-8">
                                         <input asp-for="Pacote.Valor"
                                                class="form-control text-white bg-transparent btn-outline-warning" />
                                     </div>
                                     <span asp-validation-for="Pacote.Valor" class="text-warning"></span>
                                 </div>
                             </div>
+                        </div>
+
+                        <div class="col-6 col-sm-6 col-md-6 col-lg-6 mx-auto">
+
                             <div class="form-group mb-3">
                                 <div class="row">
-                                    <div class="col-2 col-sm-2 col-md-2 col-lg-2 border border-1 border-warning rounded ">
+                                    <div class="col-4 col-sm-4 col-md-4 col-lg-4 border border-1 border-warning rounded ">
                                         <label asp-for="Pacote.DataInicio" class="control-label text-white mt-1">Data Inicial:</label>
                                     </div>
-                                    <div class="col-6 col-sm-6 col-md-6 col-lg-6">
+                                    <div class="col-7 col-sm-7 col-md-7 col-lg-7">
                                         <input asp-for="Pacote.DataInicio"
                                                class="form-control text-white bg-transparent btn-outline-warning" />
                                     </div>
@@ -72,37 +70,25 @@
                             </div>
                             <div class="form-group mb-3">
                                 <div class="row">
-                                    <div class="col-2 col-sm-2 col-md-2 col-lg-2 border border-1 border-warning rounded ">
+                                    <div class="col-4 col-sm-4 col-md-4 col-lg-4 border border-1 border-warning rounded ">
                                         <label asp-for="Pacote.DataFim" class="control-label text-white mt-1">Data Fim:</label>
                                     </div>
-                                    <div class="col-6 col-sm-6 col-md-6 col-lg-6">
+                                    <div class="col-7 col-sm-7 col-md-7 col-lg-7">
                                         <input asp-for="Pacote.DataFim"
                                                class="form-control text-white bg-transparent btn-outline-warning" />
                                     </div>
                                     <span asp-validation-for="Pacote.DataFim" class="text-warning"></span>
                                 </div>
                             </div>
-
-                            <div class="form-group mb-3">
-                                <div class="row">
-                                    <img src="/Imagens/VerImagem/@Model.Pacote.Id_Imagem" />
-
-                                    <form action="/Imagens/UploadImagem" enctype="multipart/form-data" method="post">
-                                        <input type="file" name="arquivos" />
-                                        <br />
-                                        <button>Enviar Imagem</button>
-                                    </form>
-                                </div>
-                            </div>
                         </div>
                     </div>
-                    <div class="form-group mt-3">
+                    <div class="form-group p-0 m-0">
                         <div class="modal-footer">
-                            <button type="button" class="btn btn-outline-warning text-white"
+                            <button type="button" class="btn btn-secondary btn-outline-warning text-white"
                                     data-bs-dismiss="modal">
                                 Sair
                             </button>
-                            <button type="submit" data-bs-save="modal" class="btn btn-outline-warning text-white">Alterar</button>
+                            <button type="submit" data-bs-save="modal" class="btn btn-secondary btn-outline-warning text-white">Alterar</button>
                         </div>
                     </div>
                 </form>

@@ -846,3 +846,4 @@ C:\Users\Remakker\Documents\GitHub\Squad\Tribo\Tribo\obj\Debug\net6.0\Tribo.dll
 C:\Users\Remakker\Documents\GitHub\Squad\Tribo\Tribo\obj\Debug\net6.0\ref\Tribo.dll
 C:\Users\Remakker\Documents\GitHub\Squad\Tribo\Tribo\obj\Debug\net6.0\Tribo.pdb
 C:\Users\Remakker\Documents\GitHub\Squad\Tribo\Tribo\obj\Debug\net6.0\Tribo.genruntimeconfig.cache
+C:\Users\Remakker\Documents\GitHub\Squad\Tribo\Tribo\bin\Debug\net6.0\Tribo.dll
