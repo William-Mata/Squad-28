@@ -18,6 +18,9 @@
                     @Html.DisplayNameFor(model => model.Pacote.Destino)
                 </th>
                 <th>
+                    @Html.DisplayNameFor(model => model.Pacote.Descricao)
+                </th>
+                <th>
                     @Html.DisplayNameFor(model => model.Pacote.Valor)
                 </th>
                 <th>
@@ -34,6 +37,9 @@
         </thead>
         <tbody>
             <tr>
+                 <td>
+                    @Html.DisplayFor(modelItem => @Model.Pacote.Destino)
+                </td>
                 <td>
                     @Html.DisplayFor(modelItem => @Model.Pacote.Descricao)
                 </td>
@@ -59,21 +65,21 @@
                 </td>
 
                 <td>
-                    <button type="button" class="btn btn-sm btn-outline-warning" data-bs-toggle="modalAjax" data-bs-target="#editarModalPctCl"
+                    <button type="button" class="btn btn-sm btn-secondary btn-outline-warning" data-bs-toggle="modalAjax" data-bs-target="#editarModalPctCl"
                             data-url="@Url.Action($"EditPacoteTribo/{@Model.IdTribo}")">
                         <img src="~/img/edit.png" />
                     </button>
 
-                    <button type="button" class="btn btn-sm btn-outline-warning mt-1" data-bs-toggle="modalAjax" data-bs-target="#detalhesModalPctCl"
+                    <button type="button" class="btn btn-sm btn-secondary btn-outline-warning mt-1" data-bs-toggle="modalAjax" data-bs-target="#detalhesModalPctCl"
                             data-url="@Url.Action($"DetailPacoteTribo/{@Model.IdTribo}")">
                         <img src="~/img/ver-detalhes.png" />
                     </button>
 
-                    <button type="button" class="btn btn-sm btn-outline-warning  mt-1" data-bs-toggle="modalAjax" data-bs-target="#deleteModalPctCl"
+                    <button type="button" class="btn btn-sm btn-secondary btn-outline-warning  mt-1" data-bs-toggle="modalAjax" data-bs-target="#deleteModalPctCl"
                             data-url="@Url.Action($"DeletePacoteTribo/{@Model.IdTribo}")">
                         <img src="~/img/delete.png" />
                     </button>
-                    <button type="button" class="btn btn-sm btn-outline-warning  mt-1" data-bs-toggle="modalAjax" data-bs-target="#addImgModalPct"
+                    <button type="button" class="btn btn-sm btn-secondary btn-outline-warning  mt-1" data-bs-toggle="modalAjax" data-bs-target="#addImgModalPct"
                             data-url="@Url.Action($"AddImagem/{@Model.Id_Pacote}")">
                         <img src="~/img/image.png" />
                     </button>

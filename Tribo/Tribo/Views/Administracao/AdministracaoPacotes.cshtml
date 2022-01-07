@@ -4,13 +4,15 @@
     ViewData["Title"] = "Administracao";
 }
 
+<div class="bgVidro rounded text-center p-3">
+    <h1>Administração - Pacotes</h1>
+</div>
 
 <div class="container-fluid" id="ModalAqui">
 </div>
 
-<div class="container-fluid m-0 bgVidro shadow-lg rounded py-3">
-<h4 class="text-center mb-3">Administração - Viagens</h4>
 
+<div class="container-fluid m-0 bgVidro shadow-lg rounded py-3">
     <table class="table text-white">
         <thead>
             <tr>
@@ -26,16 +28,16 @@
                 <th>
                     @Html.DisplayNameFor(model => model.Origem)
                 </th>
-                 <th>
+                <th>
                     @Html.DisplayNameFor(model => model.Pacote.Destino)
                 </th>
-                 <th>
+                <th>
                     @Html.DisplayNameFor(model => model.Pacote.Valor)
                 </th>
-                 <th>
+                <th>
                     @Html.DisplayNameFor(model => model.Pacote.DataInicio)
                 </th>
-                 <th>
+                <th>
                     @Html.DisplayNameFor(model => model.Pacote.DataFim)
                 </th>
                 <th>Ações</th>
@@ -54,33 +56,47 @@
                     <td>
                         @item.CPF
                     </td>
-                     <td>
+                    <td>
                         @item.Origem
                     </td>
-                     <td>
-                        @item.Pacote.Destino
-                    </td>
-                     <td>
-                       R$: @item.Pacote.Valor
-                    </td>
-                     <td>
-                        @item.Pacote.DataInicio
+                    <td>
+                        @if (@item.Id_Pacote <= 0)
+                        {
+                            @item.Pacote.Destino
+                        }
                     </td>
                     <td>
-                        @item.Pacote.DataFim
+                        R$:
+                        @if (@item.Id_Pacote <= 0)
+                        {
+                            @item.Pacote.Valor
+                            
+                        }
                     </td>
                     <td>
-                        <button type="button" class="btn btn-sm btn-outline-warning" data-bs-toggle="modalAjax" data-bs-target="#editarModalAdmPct"
+                        @if (@item.Id_Pacote <= 0)
+                        {
+                            @item.Pacote.DataInicio
+                        }
+                    </td>
+                    <td>
+                        @if (@item.Id_Pacote <= 0)
+                        {
+                            @item.Pacote.DataFim
+                        }
+                    </td>
+                    <td>
+                        <button type="button" class="btn btn-sm btn-secondary btn-outline-warning" data-bs-toggle="modalAjax" data-bs-target="#editarModalAdmPct"
                             data-url="@Url.Action($"EditPacote/{item.IdCliente}")">
                             <img src="~/img/edit.png" />
                         </button>
 
-                        <button type="button" class="btn btn-sm btn-outline-warning mt-1" data-bs-toggle="modalAjax" data-bs-target="#detalhesModalAdmPct"
+                        <button type="button" class="btn btn-sm btn-secondary btn-outline-warning mt-1" data-bs-toggle="modalAjax" data-bs-target="#detalhesModalAdmPct"
                             data-url="@Url.Action($"DetailsPacote/{item.IdCliente}")">
                             <img src="~/img/ver-detalhes.png" />
                         </button>
 
-                        <button type="button" class="btn btn-sm btn-outline-warning  mt-1" data-bs-toggle="modalAjax" data-bs-target="#deleteModalAdmPct"
+                        <button type="button" class="btn btn-sm btn-secondary btn-outline-warning  mt-1" data-bs-toggle="modalAjax" data-bs-target="#deleteModalAdmPct"
                             data-url="@Url.Action($"DeletePacote/{item.IdCliente}")">
                             <img src="~/img/delete.png" />
                         </button>
@@ -90,7 +106,6 @@
         </tbody>
     </table>
 </div>
-
 
 @section Scripts {
     @{

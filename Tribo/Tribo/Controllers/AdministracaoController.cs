@@ -90,10 +90,12 @@ namespace Tribo.Controllers
         public IActionResult AdministracaoPacotes()
         {
             ViewBag.cliente = _context.Cliente.ToList();
-            ViewBag.pacote = _context.Pacote.ToList();
+     
 
             return View();
         }
+
+
 
         [HttpGet]
         public IActionResult EditPacote(int id)

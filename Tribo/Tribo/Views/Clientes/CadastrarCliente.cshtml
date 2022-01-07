@@ -52,7 +52,7 @@
                             <label asp-for="CPF" class="control-label text-white mt-1">CPF:</label>
                         </div>
                         <div class="col-4 col-sm-4 col-md-4 col-lg-4">
-                            <input asp-for="CPF"
+                            <input asp-for="CPF" type="number" min="10000000000" max="99999999999"
                                    class="form-control text-white bg-transparent btn-outline-warning" />
                         </div>
                         <span asp-validation-for="CPF" class="text-warning"></span>

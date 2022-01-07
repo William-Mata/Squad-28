@@ -1,11 +1,11 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Tribo.Models;
 
-namespace AspNetCore_EnviaExibeImagem.Controllers
+namespace Imagens.Controllers
 {
     public class ImagensController : Controller
     {
-    
+
         private TriboDbContext _context;
 
         public ImagensController(TriboDbContext context)
@@ -52,8 +52,11 @@ namespace AspNetCore_EnviaExibeImagem.Controllers
         public FileStreamResult VerImagem(int id)
         {
             Imagem imagem = _context.Imagem.FirstOrDefault(m => m.IdImg == id);
+
             MemoryStream ms = new MemoryStream(imagem.Dados);
             return new FileStreamResult(ms, imagem.ContentType);
+
+
         }
 
 

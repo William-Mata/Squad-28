@@ -38,6 +38,7 @@ namespace Tribo.Controllers
         public IActionResult CadastrarTribo()
         {
             return View();
+
         }
 
 
@@ -111,7 +112,7 @@ namespace Tribo.Controllers
 
             var tribo_parceiraDel = _context.TriboParceira.Find(id);
 
-            if ((id > 0) && (id != null))
+            if ((id > 0))
             {
                 _context.TriboParceira.Remove(tribo_parceiraDel);
                 _context.SaveChanges();
@@ -138,9 +139,13 @@ namespace Tribo.Controllers
                 ViewBag.pacote = _context.Pacote.Where(v => v.IdPacote == tribo_parceira.Id_Pacote).FirstOrDefault();
                 return View(tribo_parceira);
             }
+            else if (tribo_parceira != null)
+            {
+                return RedirectToAction("CadastrarPacoteTribo", new { id = tribo_parceira.IdTribo });
+            }
             else
             {
-                return RedirectToAction("PacoteTribo", new { id = tribo_parceira.IdTribo });
+                return RedirectToAction("Home", "Pages");
             }
 
         }
@@ -149,18 +154,26 @@ namespace Tribo.Controllers
 
         public IActionResult CadastrarPacoteTribo(int id)
         {
+
             var tribo = _context.TriboParceira.Where(tb => tb.IdTribo == id).FirstOrDefault();
 
-            return View(tribo);
+            if (tribo != null)
+            {
+                return View(tribo);
+
+            }
+            else
+            {
+                return RedirectToAction("Home", "Pages");
+            }
         }
 
         [HttpPost]
         public IActionResult CadastrarPacoteTribo(TriboParceira tribo)
         {
 
-            if ((tribo != null))
+            if (tribo != null)
             {
-
                 _context.Pacote.Add(tribo.Pacote);
                 _context.TriboParceira.Update(tribo);
                 _context.SaveChanges();
@@ -181,15 +194,6 @@ namespace Tribo.Controllers
         {
             var pacote = _context.Pacote.Where(p => p.IdPacote == id).FirstOrDefault();
             return PartialView("_ModalPacoteTrbAddImg", pacote);
-            if (id == 0 || id == null)
-            {
-
-            }
-            else
-            {
-                return View();
-
-            }
 
         }
 
@@ -200,7 +204,7 @@ namespace Tribo.Controllers
 
 
             IFormFile imagemEnviada = arquivos.FirstOrDefault();
-            if (imagemEnviada != null || imagemEnviada.ContentType.ToLower().StartsWith("image/"))
+            if (imagemEnviada != null)
             {
                 MemoryStream ms = new MemoryStream();
                 imagemEnviada.OpenReadStream().CopyTo(ms);
@@ -224,16 +228,9 @@ namespace Tribo.Controllers
                     imagemEntity.IdImg = (int)pacote.Id_Imagem;
                     _context.Imagem.Update(imagemEntity);
                     _context.SaveChanges();
-
-
                 }
-
-
             }
-
             return RedirectToAction("PacoteTribo", new { id = tribo.IdTribo });
-
-
         }
 
 
@@ -243,42 +240,31 @@ namespace Tribo.Controllers
 
             var tribo_parceira = _context.TriboParceira.Where(cl => cl.IdTribo == id).FirstOrDefault();
 
-            if (tribo_parceira != null)
-            {
-                ViewBag.pacote = _context.Pacote.Where(v => v.IdPacote == tribo_parceira.Id_Pacote).FirstOrDefault();
-                ViewBag.imagem = _context.Imagem.Where(i => i.IdImg == tribo_parceira.Pacote.Id_Imagem).FirstOrDefault();
-            }
+            var pacote = _context.Pacote.Where(pc => pc.IdPacote == tribo_parceira.Id_Pacote).FirstOrDefault();
+
 
             if (tribo_parceira == null)
             {
                 return NotFound();
             }
 
-            return PartialView("_ModalPacoteTrbEdit", tribo_parceira);
+            return PartialView("_ModalPacoteTrbEdit", pacote);
         }
 
 
         [HttpPost]
-        public IActionResult EditPacoteTribo(TriboParceira tribo_parceira)
+        public IActionResult EditPacoteTribo(Pacote pacote)
         {
-
-            var IdP = tribo_parceira.Id_Pacote;
-            var pacote = _context.Pacote.Find(IdP);
-
-            var IdI = tribo_parceira.Pacote.Id_Imagem;
-            var img = _context.Imagem.Find(IdI);
-
+            var tribo = _context.TriboParceira.Where(pc => pc.Id_Pacote == pacote.IdPacote).FirstOrDefault();
 
             if (pacote != null)
             {
                 _context.Pacote.Update(pacote);
-
+                _context.SaveChanges();
 
             }
 
-            _context.SaveChanges();
-
-            return RedirectToAction("PacoteTribo" );
+            return RedirectToAction("PacoteTribo", new { id = tribo.IdTribo });
         }
 
 
@@ -287,11 +273,11 @@ namespace Tribo.Controllers
         public IActionResult DetailPacoteTribo(int id)
         {
 
-            var tribo_parceira = _context.TriboParceira.Where(cl => cl.IdTribo == id).FirstOrDefault();
+            var tribo_parceira = _context.TriboParceira.Where(tb => tb.IdTribo == id).FirstOrDefault();
 
             if (tribo_parceira != null)
             {
-                ViewBag.pacote = _context.Pacote.Where(v => v.IdPacote == tribo_parceira.Id_Pacote).FirstOrDefault();
+                ViewBag.pacote = _context.Pacote.Where(p => p.IdPacote == tribo_parceira.Id_Pacote).FirstOrDefault();
             };
 
             return PartialView("_ModalPacoteTrbDetalhes", tribo_parceira);
@@ -316,13 +302,16 @@ namespace Tribo.Controllers
         {
             var tribo_parceiraDel = _context.TriboParceira.Where(tb => tb.IdTribo == tribo_parceira.IdTribo).FirstOrDefault();
             var pacote = _context.Pacote.Where(p => p.IdPacote == tribo_parceiraDel.Id_Pacote).FirstOrDefault();
-            var img = _context.Imagem.Where(i => i.IdImg == tribo_parceiraDel.Pacote.Id_Imagem).FirstOrDefault();
+            var img = _context.Imagem.Where(i => i.IdImg == pacote.Id_Imagem).FirstOrDefault();
 
 
             if ((tribo_parceira.IdTribo > 0) && (tribo_parceira.IdTribo != null))
             {
+                if (img != null)
+                {
+                    _context.Imagem.Remove(img);
+                }
                 _context.Pacote.Remove(pacote);
-                _context.Imagem.Remove(img);
                 _context.SaveChanges();
             }
             else
@@ -330,7 +319,7 @@ namespace Tribo.Controllers
                 return NotFound();
             }
 
-            return RedirectToAction("PacotesTribo");
+            return RedirectToAction("DadosTribo", new { id = tribo_parceira.IdTribo });
         }
     }
 }

@@ -1,9 +1,9 @@
 ﻿@model Cliente
 
 
-<div class="modal fade bg-transparent" id="deleteModalAdmPct">
+<div class="modal fade" id="deleteModalAdmPct">
     <div class="modal-dialog modal-dialog-centered modal-lg ">
-        <div class="modal-content colorBlue">
+        <div class="modal-content bgVidro">
             <div class="modal-header">
                 <h5 class="modal-title" id="deletarVModalLabel">Cancelar Viagem</h5>
                 <button type="button" class="btn-close btn-outline-warning bg-warning" data-bs-dismiss="modal"
@@ -11,8 +11,8 @@
             </div>
             <div class="modal-body m-0 p-0 justify-content-center align-content-center">
 
-                <form asp-action="DeletePacote" class="m-0 p-0 py-3">
-                    <div class="row">
+                <form asp-action="DeletePacote">
+                    <div class="row p-0 py-3">
 
                         <div asp-validation-summary="ModelOnly" class="text-danger"></div>
                         <div class="col-5 col-md-5 col-sm-5 col-lg-5 mx-auto">

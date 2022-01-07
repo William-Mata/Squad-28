@@ -3,7 +3,7 @@ using Microsoft.AspNetCore.Mvc;
 using System.Diagnostics;
 
 
-namespace BrasTravel.Controllers
+namespace Tribo.Controllers
 {
     public class PagesController : Controller
     {
@@ -33,7 +33,16 @@ namespace BrasTravel.Controllers
 
         public IActionResult Tribos()
         {
+            ViewBag.pacotes = _context.Pacote.ToList();
             return View();
+        }
+
+        [HttpGet]
+        public IActionResult Tribos(int id)
+        {
+            var cliente = _context.Cliente.Where(cl => cl.IdCliente == id).FirstOrDefault();
+            ViewBag.pacotes = _context.Pacote.ToList();
+            return View(cliente);
         }
 
         public IActionResult Prevencoes()
@@ -65,10 +74,10 @@ namespace BrasTravel.Controllers
             {
                 return RedirectToAction("AdministracaoContatos", "Administracao");
             }
-          
-                ModelState.AddModelError("CustomError", "E-mail ou Senha inválida.");
-                return View();
-          
+
+            ModelState.AddModelError("CustomError", "E-mail ou Senha inválida.");
+            return View();
+
 
         }
 
@@ -83,7 +92,38 @@ namespace BrasTravel.Controllers
         }
 
 
+        [HttpGet]
+        public IActionResult Comprar(int id)
+        {
 
+            //var idc = Convert.ToInt64(ids.Substring(0, ids.IndexOf(".")));
+            //var idp = Convert.ToInt64(ids.Substring(ids.IndexOf("."), ids.Length));
+
+            var cliente = _context.Cliente.Where(cl => cl.IdCliente == id).FirstOrDefault();
+
+            if (cliente != null)
+            {
+            // ViewBag.pacote = _context.Pacote.Where(pc => pc.IdPacote == idp).FirstOrDefault();
+             return View(cliente);
+            }
+
+            return View();
+
+
+        }
+
+        [HttpPost]
+        public IActionResult Comprar(Cliente cliente)
+        {
+            if (cliente != null)
+            {
+                _context.Cliente.Update(cliente);
+                _context.SaveChanges();
+            }
+
+            return RedirectToAction("MeuPacote", "Clientes", new { id = cliente.IdCliente });
+
+        }
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()

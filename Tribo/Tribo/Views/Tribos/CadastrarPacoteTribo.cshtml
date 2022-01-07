@@ -3,61 +3,101 @@
 @{
     ViewData["Title"] = "Cadastrar Pacote";
 }
+<div class="mb-1 p-0 m-0 text-center bgVidro rounded">
+    <h1>Cadastrar Pacote</h1>
+    <hr />
+</div>
 
-<h1>CadastrarPacoteTribo</h1>
-
-<h4>Pacote</h4>
-<hr />
-<div class="row">
-    <form asp-action="CadastrarPacoteTribo">
-        <div class="col-6 col-sm-6 col-md-6 col-lg-6">
-            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
-            <div class="form-group">
+<div class="container m-0 p-0 justify-content-center bgVidro rounded">
+    <div class="row px-3 py-4 m-0">
+        <div class="col-12 col-sm-12 col-md-12 col-lg-12">
+            <form asp-action="CadastrarPacoteTribo">
+                <div asp-validation-summary="ModelOnly" class="text-danger"></div>
                 <input type="hidden" asp-for="IdTribo" class="form-control" />
                 <input type="hidden" asp-for="tipoUsuario" class="form-control" />
                 <input type="hidden" asp-for="NomeTribo" class="form-control" />
                 <input type="hidden" asp-for="Email" class="form-control" />
                 <input type="hidden" asp-for="Senha" class="form-control" />
 
-                <label asp-for="Pacote.Descricao" class="control-label"></label>
-                <textarea rows="5" asp-for="Pacote.Descricao" class="form-control"> </textarea>
-                <span asp-validation-for="Pacote.Descricao" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="Pacote.Destino" class="control-label"></label>
-                <input asp-for="Pacote.Destino" class="form-control" />
-                <span asp-validation-for="Pacote.Destino" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="Pacote.Valor" class="control-label"></label>
-                <input asp-for="Pacote.Valor" class="form-control" />
-                <span asp-validation-for="Pacote.Valor" class="text-danger"></span>
-            </div>
+                <div class="row">
+                    <div class="col-6 col-sm-6 col-md-6 col-lg-6 mx-auto">
+                        <div class="form-group mb-3">
+                            <div class="row">
+                                <div class="col-3 col-sm-3 col-md-3 col-lg-3 m-0 p-0">
+                                    <span asp-for="Pacote.Destino" class="input-group-text text-white bg-transparent btn-outline-warning">Destino: </span>
+                                </div>
+                                <div class="col-8 col-sm-8 col-md-8 col-lg-8 m-0">
+                                    <input asp-for="Pacote.Destino" class="form-control text-white bg-transparent btn-outline-warning" placeholder="Destino"/>
+                                    <span asp-validation-for="Pacote.Destino" class="text-danger"></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-group ">
+                            <div class="row">
+                                <div class="col-3 col-sm-3 col-md-3 col-lg-3 m-0 p-0">
+                                    <span asp-for="Pacote.Descricao" class="input-group-text text-white bg-transparent btn-outline-warning">Descrição: </span>
+                                </div>
+                                <div class="col-8 col-sm-8 col-md-8 col-lg-8 m-0">
+                                    <textarea rows="5" asp-for="Pacote.Descricao" class="form-control text-white bg-transparent btn-outline-warning" placeholder="Descrição"> </textarea>
+                                    <span asp-validation-for="Pacote.Descricao" class="text-danger"></span>
+                                </div>
+                            </div>
+                        </div>
 
-        </div>
 
-        <div class="col-6 col-sm-6 col-md-6 col-lg-6">
-            <div class="form-group">
-                <label asp-for="Pacote.DataInicio" class="control-label"></label>
-                <input asp-for="Pacote.DataInicio" class="form-control" />
-                <span asp-validation-for="Pacote.DataInicio" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="Pacote.DataFim" class="control-label"></label>
-                <input asp-for="Pacote.DataFim" class="form-control" />
-                <span asp-validation-for="Pacote.DataFim" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <input type="submit" value="Cadastrar" class="btn btn-primary" />
-            </div>
+                    </div>
+
+                    <div class="col-6 col-sm-6 col-md-6 col-lg-6 mx-auto">
+                        <div class="form-group mb-3">
+                            <div class="row">
+                                <div class="col-3 col-sm-3 col-md-3 col-lg-3 m-0 p-0">
+                                    <span asp-for="Pacote.Valor" class="input-group-text text-white bg-transparent btn-outline-warning">Valor: </span>
+                                </div>
+                                <div class="col-6 col-sm-6 col-md-6 col-lg-6 m-0">
+                                    <input type="number" asp-for="Pacote.Valor" min="0" placeholder="2.000" class="form-control text-white bg-transparent btn-outline-warning"/>
+                                    <span asp-validation-for="Pacote.Valor" class="text-danger"></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-group mb-3">
+                            <div class="row">
+                                <div class="col-3 col-sm-3 col-md-3 col-lg-3 m-0 p-0">
+                                    <span asp-for="Pacote.DataInicio" class="input-group-text text-white bg-transparent btn-outline-warning">Data Inicial: </span>
+                                </div>
+                                <div class="col-6 col-sm-6 col-md-6 col-lg-6 m-0">
+                                    <input asp-for="Pacote.DataInicio" class="form-control text-white bg-transparent btn-outline-warning" />
+                                    <span asp-validation-for="Pacote.DataInicio" class="text-danger"></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <div class="row">
+                                <div class="col-3 col-sm-3 col-md-3 col-lg-3 m-0 p-0">
+                                    <span asp-for="Pacote.DataFim" class="input-group-text text-white bg-transparent btn-outline-warning">Data Final:</span>
+                                </div>
+                                <div class="col-6 col-sm-6 col-md-6 col-lg-6 m-0">
+                                    <input asp-for="Pacote.DataFim" class="form-control text-white bg-transparent btn-outline-warning" />
+                                    <span asp-validation-for="Pacote.DataFim" class="text-danger"></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="form-group d-flex mt-5 ">
+                    <input type="submit" value="Cadastrar" class="btn btn-secondary text-white btn-outline-warning mx-auto" />
+                </div>
+
+            </form>
         </div>
-    </form>
+    </div>
 </div>
+
 
 
 
 @section Scripts {
     @{
     await Html.RenderPartialAsync("_ValidationScriptsPartial");
-}
-}
+    }
+    }

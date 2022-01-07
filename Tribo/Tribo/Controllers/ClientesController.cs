@@ -11,22 +11,22 @@ namespace Tribo.Controllers
         {
             _context = context;
         }
-
+                              
         /*Crud Clientes*/
 
         /* Retorna Dados do Cliente */
         public IActionResult MeusDados(int id)
         {
-            ViewBag.cliente = _context.Cliente.Where(cl => cl.IdCliente == id).FirstOrDefault();
+           var cliente = _context.Cliente.Where(cl => cl.IdCliente == id).FirstOrDefault();
 
-            if (ViewBag.cliente != null)
+            if (cliente != null)
             {
-                return View(ViewBag.cliente);
+                return View(cliente);
             }
             else
             {
 
-                return NotFound();
+                return RedirectToAction("Home", "Pages");
             }
 
 
@@ -137,67 +137,27 @@ namespace Tribo.Controllers
 
 
         /* Retorna Dados do Cliente e a Pacote */
-        public IActionResult PacoteCliente(int id)
+        [HttpGet]
+        public IActionResult MeuPacote(int id)
         {
 
             var cliente = _context.Cliente.Where(cl => cl.IdCliente == id).FirstOrDefault();
 
-            ViewBag.pacote = _context.Pacote.Where(v => v.IdPacote == cliente.Id_Pacote).FirstOrDefault();
 
-
-
-            if (ViewBag.pacote != null)
+            if ((cliente != null) && (cliente.Id_Pacote != null))
             {
-                return View(ViewBag.pacote);
+                ViewBag.pacote = _context.Pacote.Where(p => p.IdPacote == cliente.Id_Pacote).FirstOrDefault();
+                return View(cliente);
+            }
+            else if (cliente != null)
+            {
+                return RedirectToAction("Tribos", "Pages", new { id = cliente.IdCliente });
             }
             else
             {
-
-                return NotFound();
+                return RedirectToAction("Tribos", "Pages");
             }
         }
-
-        [HttpGet]
-        public IActionResult EditPacoteCliente(int id)
-        {
-
-            var cliente = _context.Cliente.Where(cl => cl.IdCliente == id).FirstOrDefault();
-
-            if (cliente != null)
-            {
-                ViewBag.pacote = _context.Pacote.Where(v => v.IdPacote == cliente.Id_Pacote).FirstOrDefault();
-
-            }
-
-            if (cliente == null)
-            {
-                return NotFound();
-            }
-
-            return PartialView("_ModalPacoteClEdit", cliente);
-        }
-
-
-        [HttpPost]
-        public IActionResult EditPacoteCliente(Cliente cliente)
-        {
-
-            var IdV = cliente.Id_Pacote;
-            var pacote = _context.Pacote.Find(IdV);
-
-            if (pacote != null)
-            {
-                _context.Pacote.Remove(pacote);
-
-            }
-            _context.Cliente.Update(cliente);
-            _context.SaveChanges();
-
-
-            return RedirectToAction("PacoteCliente", new { id = cliente.IdCliente} );
-        }
-
-
 
         [HttpGet]
         public IActionResult DetailPacoteCliente(int id)
@@ -207,7 +167,7 @@ namespace Tribo.Controllers
 
             if (cliente != null)
             {
-                ViewBag.pacote = _context.Pacote.Where(v => v.IdPacote == cliente.Id_Pacote).FirstOrDefault();
+                ViewBag.pacote = _context.Pacote.Where(p => p.IdPacote == cliente.Id_Pacote).FirstOrDefault();
             };
 
             return PartialView("_ModalPacoteClDetalhes", cliente);
@@ -221,7 +181,7 @@ namespace Tribo.Controllers
 
             if (cliente != null)
             {
-                var pacote = _context.Pacote.Where(v => v.IdPacote == cliente.Id_Pacote).FirstOrDefault();
+                ViewBag.pacote = _context.Pacote.Where(v => v.IdPacote == cliente.Id_Pacote).FirstOrDefault();
             }
 
             return PartialView("_ModalPacoteClDelete", cliente);
@@ -231,12 +191,11 @@ namespace Tribo.Controllers
         public IActionResult DeletePacoteCliente(Cliente cliente)
         {
             var clienteDel = _context.Cliente.Where(cl => cl.IdCliente == cliente.IdCliente).FirstOrDefault();
-            var pacote = _context.Pacote.Where(v => v.IdPacote == cliente.Id_Pacote).FirstOrDefault();
 
             if ((cliente.IdCliente > 0) && (cliente.IdCliente != null))
             {
-                _context.Cliente.Remove(clienteDel);
-                _context.Pacote.Remove(pacote);
+                clienteDel.Id_Pacote = null;
+                _context.Cliente.Update(clienteDel);
                 _context.SaveChanges();
             }
             else
@@ -244,7 +203,7 @@ namespace Tribo.Controllers
                 return NotFound();
             }
 
-            return RedirectToAction("Home");
+            return RedirectToAction("MeusDados", new { id = clienteDel.IdCliente });
         }
     }
 }

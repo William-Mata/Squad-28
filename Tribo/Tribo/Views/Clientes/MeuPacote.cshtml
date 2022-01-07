@@ -1,11 +1,11 @@
 ﻿@model global::Tribo.Models.Cliente
 
 @{
-    ViewData["Title"] = "Administracao";
+    ViewData["Title"] = "Pacote Cliente";
 }
 
 <div class="bgVidro text-center p-2">
-    <h1>Pacotes do Cliente</h1>
+    <h1>Pacote do Cliente</h1>
 </div>
 
 <div class="container-fluid" id="ModalAqui">
@@ -49,7 +49,7 @@
 
             </td>
             <td>
-                @Html.DisplayFor(modelItem => @Model.Pacote.Valor)
+              R$  @Html.DisplayFor(modelItem => @Model.Pacote.Valor)
             </td>
             <td>
                 @Html.DisplayFor(modelItem => @Model.Pacote.DataInicio)
@@ -58,17 +58,12 @@
                 @Html.DisplayFor(modelItem => @Model.Pacote.DataFim)
             </td>
             <td>
-                <button type="button" class="btn btn-sm btn-outline-warning" data-bs-toggle="modalAjax" data-bs-target="#editarModalPctCl"
-                        data-url="@Url.Action($"EditPacoteCliente/{@Model.IdCliente}")">
-                    <img src="~/img/edit.png" />
-                </button>
-
-                <button type="button" class="btn btn-sm btn-outline-warning mt-1" data-bs-toggle="modalAjax" data-bs-target="#detalhesModalPctCl"
+                <button type="button" class="btn btn-sm btn-secondary btn-outline-warning mt-1" data-bs-toggle="modalAjax" data-bs-target="#detalhesModalPctCl"
                         data-url="@Url.Action($"DetailPacoteCliente/{@Model.IdCliente}")">
                     <img src="~/img/ver-detalhes.png" />
                 </button>
 
-                <button type="button" class="btn btn-sm btn-outline-warning  mt-1" data-bs-toggle="modalAjax" data-bs-target="#deleteModalPctCl"
+                <button type="button" class="btn btn-sm btn-secondary  btn-outline-warning  mt-1" data-bs-toggle="modalAjax" data-bs-target="#deleteModalPctCl"
                         data-url="@Url.Action($"DeletePacoteCliente/{@Model.IdCliente}")">
                     <img src="~/img/delete.png" />
                 </button>

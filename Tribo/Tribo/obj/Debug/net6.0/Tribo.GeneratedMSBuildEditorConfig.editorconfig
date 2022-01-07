@@ -51,12 +51,12 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpZW50ZXNcQ2FkYXN0cmFyQ2xpZW50ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Remakker/Documents/GitHub/Squad/Tribo/Tribo/Views/Clientes/MeusDados.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpZW50ZXNcTWV1c0RhZG9zLmNzaHRtbA==
+[C:/Users/Remakker/Documents/GitHub/Squad/Tribo/Tribo/Views/Clientes/MeuPacote.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpZW50ZXNcTWV1UGFjb3RlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Remakker/Documents/GitHub/Squad/Tribo/Tribo/Views/Clientes/PacotesCliente.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpZW50ZXNcUGFjb3Rlc0NsaWVudGUuY3NodG1s
+[C:/Users/Remakker/Documents/GitHub/Squad/Tribo/Tribo/Views/Clientes/MeusDados.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpZW50ZXNcTWV1c0RhZG9zLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/Remakker/Documents/GitHub/Squad/Tribo/Tribo/Views/Clientes/_ModalDadosCLDelete.cshtml]
@@ -77,10 +77,6 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Users/Remakker/Documents/GitHub/Squad/Tribo/Tribo/Views/Clientes/_ModalPacoteClDetalhes.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpZW50ZXNcX01vZGFsUGFjb3RlQ2xEZXRhbGhlcy5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/Remakker/Documents/GitHub/Squad/Tribo/Tribo/Views/Clientes/_ModalPacoteClEdit.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpZW50ZXNcX01vZGFsUGFjb3RlQ2xFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/Remakker/Documents/GitHub/Squad/Tribo/Tribo/Views/Imagens/DeleteImagem.cshtml]

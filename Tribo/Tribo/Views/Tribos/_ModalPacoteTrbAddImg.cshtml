@@ -7,8 +7,8 @@
         <div class="modal-content bgVidro">
             <div class="modal-header">
                 <h5 class="modal-title" id="editarVModalLabel">Adicionar Imagem</h5>
-                <button type="button" class="btn-close btn-outline-warning bg-warning" data-bs-dismiss="modal"
-                        aria-label="Close"></button>
+                <button type="button" class="btn btn-secondary btn-outline-warning text-white" data-bs-dismiss="modal"
+                        aria-label="Close">X</button>
             </div>
             <div class="modal-body m-0 p-0">
                 <form asp-action="AddImagem" enctype="multipart/form-data" method="post">
@@ -20,14 +20,14 @@
                     <input type="hidden" asp-for="DataFim" />
                     <input type="hidden" asp-for="Id_Imagem" />
                     <div class="form-group container w-75 justify-content-center p-3 mt-3">
-                        <input type="file" name="arquivos" data-placeholder="Nenhuma imagem ainda foi escolhida"
+                        <input type="file" name="arquivos" data-placeholder="Nenhuma imagem foi escolhida"
                         data-btnClass="btn-secondary btn-outline-warning text-white" data-size="nr" 
                         data-buttonBefore="true" data-text="Escolha a Imagem" class="filestyle mx-auto mb-2" />
                         
                         <br />
-                        <button class="btn btn-md btn-secondary btn-outline-warning text-white">Enviar Imagem</button>
+                        <button class="btn btn-secondary btn-outline-warning text-white">Enviar Imagem</button>
                     </div>
-                    <div class="form-group m-0 p-0 mt-3">
+                    <div class="form-group">
                         <div class="modal-footer">
                             <button type="button" class="btn btn-secondary btn-outline-warning text-white"
                                     data-bs-dismiss="modal">

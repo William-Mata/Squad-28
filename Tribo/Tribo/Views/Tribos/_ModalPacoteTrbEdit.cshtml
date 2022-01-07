@@ -1,4 +1,4 @@
-﻿@model TriboParceira
+﻿@model Pacote
 
 
 <div class="modal fade bg-transparent" id="editarModalPctTrb">
@@ -18,38 +18,40 @@
                             <div class="form-group mb-3">
                                 <div class="row">
                                     <div class="col-3 col-sm-3 col-md-3 col-lg-3 border border-1 border-warning rounded ">
-                                        <label asp-for="Pacote.Destino" class="control-label text-white mt-1">Destino:</label>
+                                        <input type="hidden" asp-for="IdPacote" />
+                                        <input type="hidden" asp-for="Id_Imagem" />
+                                        <label asp-for="Destino" class="control-label text-white mt-1">Destino:</label>
                                     </div>
                                     <div class="col-8 col-sm-8 col-md-8 col-lg-8">
-                                        <input asp-for="Pacote.Destino"
+                                        <input asp-for="Destino"
                                                class="form-control text-white bg-transparent btn-outline-warning" />
                                     </div>
-                                    <span asp-validation-for="Pacote.Destino" class="text-warning"></span>
+                                    <span asp-validation-for="Destino" class="text-warning"></span>
                                 </div>
                             </div>
                             <div class="form-group mb-3">
                                 <div class="row">
                                     <div class="col-3 col-sm-3 col-md-3 col-lg-3 border border-1 border-warning rounded ">
-                                        <input type="hidden" asp-for="IdTribo" />
-                                        <label asp-for="Pacote.Descricao" class="control-label text-white mt-1">Descrição:</label>
+
+                                        <label asp-for="Descricao" class="control-label text-white mt-1">Descrição:</label>
                                     </div>
                                     <div class="col-8 col-sm-8 col-md-8 col-lg-8">
-                                        <input asp-for="Pacote.Descricao"
+                                        <input asp-for="Descricao"
                                                class="form-control text-white bg-transparent btn-outline-warning" />
                                     </div>
-                                    <span asp-validation-for="Pacote.Descricao" class="text-warning"></span>
+                                    <span asp-validation-for="Descricao" class="text-warning"></span>
                                 </div>
                             </div>
                             <div class="form-group mb-3">
                                 <div class="row">
                                     <div class="col-3 col-sm-3 col-md-3 col-lg-3 border border-1 border-warning rounded ">
-                                        <label asp-for="Pacote.Valor" class="control-label text-white mt-1">Valor:</label>
+                                        <label asp-for="Valor" class="control-label text-white mt-1">Valor:</label>
                                     </div>
                                     <div class="col-8 col-sm-8 col-md-8 col-lg-8">
-                                        <input asp-for="Pacote.Valor"
+                                        <input type="number" asp-for="Valor" step="1.00" min="0" placeholder="2.000"
                                                class="form-control text-white bg-transparent btn-outline-warning" />
                                     </div>
-                                    <span asp-validation-for="Pacote.Valor" class="text-warning"></span>
+                                    <span asp-validation-for="Valor" class="text-warning"></span>
                                 </div>
                             </div>
                         </div>
@@ -59,25 +61,25 @@
                             <div class="form-group mb-3">
                                 <div class="row">
                                     <div class="col-4 col-sm-4 col-md-4 col-lg-4 border border-1 border-warning rounded ">
-                                        <label asp-for="Pacote.DataInicio" class="control-label text-white mt-1">Data Inicial:</label>
+                                        <label asp-for="DataInicio" class="control-label text-white mt-1">Data Inicial:</label>
                                     </div>
                                     <div class="col-7 col-sm-7 col-md-7 col-lg-7">
-                                        <input asp-for="Pacote.DataInicio"
+                                        <input asp-for="DataInicio"
                                                class="form-control text-white bg-transparent btn-outline-warning" />
                                     </div>
-                                    <span asp-validation-for="Pacote.DataInicio" class="text-warning"></span>
+                                    <span asp-validation-for="DataInicio" class="text-warning"></span>
                                 </div>
                             </div>
                             <div class="form-group mb-3">
                                 <div class="row">
                                     <div class="col-4 col-sm-4 col-md-4 col-lg-4 border border-1 border-warning rounded ">
-                                        <label asp-for="Pacote.DataFim" class="control-label text-white mt-1">Data Fim:</label>
+                                        <label asp-for="DataFim" class="control-label text-white mt-1">Data Fim:</label>
                                     </div>
                                     <div class="col-7 col-sm-7 col-md-7 col-lg-7">
-                                        <input asp-for="Pacote.DataFim"
+                                        <input asp-for="DataFim"
                                                class="form-control text-white bg-transparent btn-outline-warning" />
                                     </div>
-                                    <span asp-validation-for="Pacote.DataFim" class="text-warning"></span>
+                                    <span asp-validation-for="DataFim" class="text-warning"></span>
                                 </div>
                             </div>
                         </div>
