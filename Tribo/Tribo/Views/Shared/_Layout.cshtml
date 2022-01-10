@@ -1,5 +1,5 @@
 ﻿<!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -8,9 +8,6 @@
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
     <link rel="stylesheet" href="~/Tribo.styles.css" asp-append-version="true" />
 </head>
-
-
-
 <body>
     <header>
         <nav class="navbar navbar-expand-lg navbar-light text-white colorPadrao w-100 p-0">
@@ -48,149 +45,25 @@
                             <a class="btn btn-sm btn-outline-warning text-white " asp-area="" asp-controller="Pages"
                                asp-action="Contatos">Contatos</a>
                         </li>
-
-                        <li class="nav-item mx-2 my-auto" style="display: block;">
-                            <a class="btn btn-sm btn-outline-warning text-white" data-bs-toggle="modal" data-bs-target="#loginModal">Login</a>
-                        </li>
-
-                        <li class="nav-item mx-2 my-auto btn-group dropstart" style="display: block;">
-                            <button type="button" class="btn btn-sm btn-outline-warning dropdown-toggle text-white" data-bs-toggle="dropdown" aria-expanded="false">
-                                Administração
-                            </button>
-                            <div class="dropdown-menu colorPadrao mx-auto p-0" aria-labelledby="dropdownId" style="margin-top: 32px;">
-
-                                <a class="btn btn-sm btn-outline-warning text-white w-100"
-                                   asp-area="" asp-controller="Administracao" asp-action="AdministracaoContatos">Caixa de Contatos</a>
-                                <a class="btn btn-sm btn-outline-warning text-white w-100"
-                                   asp-area="" asp-controller="Administracao" asp-action="AdministracaoPacotes">Lista de Pacotes</a>
-                            </div>
-                        </li>
-
-
-                        <li class="nav-item mx-2 my-auto btn-group dropstart" style="display: block;">
-                            <button type="button" class="btn btn-sm btn-outline-warning dropdown-toggle text-white"
-                                    data-bs-toggle="dropdown" aria-expanded="false">
-                                Tribo Parceira
-                            </button>
-                            <div class="dropdown-menu colorPadrao mx-auto p-0" aria-labelledby="dropdownId" style="margin-top: 32px;">
-                                <a class="w-100 btn btn-sm btn-outline-warning text-white"
-                                   asp-area="" asp-controller="Tribos" asp-action="DadosTribo">Tribo Dados</a>
-                                <a class="w-100 btn btn-sm btn-outline-warning text-white"
-                                   asp-area="" asp-controller="Tribos" asp-action="PacoteTribo">Tribo Pacotes</a>
-                            </div>
-                        </li>
-
-                        <li class="nav-item mx-2 my-auto btn-group dropstart" style="display: block;">
-                            <button type="button" class="btn btn-sm btn-outline-warning dropdown-toggle text-white"
-                                    data-bs-toggle="dropdown" aria-expanded="false">
-                                Cliente
-                            </button>
-                            <div class="dropdown-menu colorPadrao mx-auto p-0" aria-labelledby="dropdownId" style="margin-top: 32px;">
-                                <a class="w-100 btn btn-sm btn-outline-warning text-white"
-                                   asp-area="" asp-controller="Clientes" asp-action="MeusDados">Meus Dados</a>
-                                <a class="w-100 btn btn-sm btn-outline-warning text-white"
-                                   asp-area="" asp-controller="Clientes" asp-action="MeuPacote">Meus Pacotes</a>
-                            </div>
-                        </li>
-
                     </ul>
+                    <partial name="_LoginPartial" />
                 </div>
             </div>
         </nav>
     </header>
 
-    <div class="container py-3">
 
-        <div class="modal fade" id="loginModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-            <div class="modal-dialog modal-dialog-centered" role="document">
-                <div class="modal-content bgVidro">
-
-                    <div class="modal-header d-flex justify-content-end">
-                        <div class="row">
-                            <button type="button" class="btn btn-sm btn-secondary btn-outline-warning text-white" data-bs-dismiss="modal"
-                                    aria-label="Close">
-                                &times;
-                            </button>
-                        </div>
-                    </div>
-
-                    <div class="modal-body m-0 p-0">
-                        <div class="form-title text-center modal-title mb-3">
-                            <h4 class="modal-title text-center" id="exampleModalLabel">Área de acesso</h4>
-                        </div>
-                        <div class="d-flex flex-column text-center p-2">
-                            <form asp-controller="Pages" asp-action="Logar" class="bgVidro">
-                                @Html.ValidationMessage("CustomError")
-                                <div class="form-group">
-                                    <input type="email" class="form-control bgVidro text-white btn-outline-warning" id="email" placeholder="Email...">
-                                </div>
-                                <div class="form-group">
-                                    <input type="password" class="form-control bgVidro text-white btn-outline-warning mt-2" id="password" placeholder="Senha...">
-                                </div>
-                                <button type="button" class="btn btn-secondary btn-outline-warning text-white btn-round mb-4 mt-3">
-
-                                    Login
-                                </button>
-                            </form>
-                        </div>
-
-                        <div class="accordion" id="accordionExample">
-
-
-                            <div class="card bgVidro">
-                                <div class="card-header  d-flex justify-content-center" id="headingOne">
-                                    <div>
-                                        <a class="text-white mx-auto mb-2" href="#" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">Ainda não tem cadastro? Cadastre-se aqui.</a>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
-                                <div class="modal-footer d-flex justify-content-center m-0 p-0">
-                                    <div class="card-body">
-
-                                        <div class="form-title text-center">
-                                            <h4>Selecione a sua opção de cadastro</h4>
-
-                                        </div>
-
-                                        <div class="text-center mb-2">
-                                            <a class="text-white mb-2 mx-auto" asp-area="" asp-controller="Clientes"
-                                               asp-action="CadastrarCliente">
-                                                Sou Cliente - Quero conhecer a cultura Indigena
-                                            </a>
-                                        </div>
-
-                                        <div class="text-center mt-2">
-                                            <a class="text-white mb-2 mx-auto" asp-area="" asp-controller="Tribos"
-                                               asp-action="CadastrarTribo" id="btnConfirmar">
-                                                Sou Representante da Tribo - Quero fornecer experiencia e conhecimento cultural
-                                            </a>
-                                        </div>
-
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-
-                    </div>
-                </div>
-            </div>
-        </div>
+    <div class="container">
         <main role="main" class="pb-3">
             @RenderBody()
         </main>
     </div>
 
-
-    <footer class="w-100 border-top footer colorPadrao text-white">
-        <div class="container text-center">
+    <footer class="border-top footer text-white colorPadrao text-center">
+        <div class="container ">
             &copy; 2021 - Tribo - <a asp-area="" asp-controller="Pages" asp-action="Contatos">Contatos</a>
         </div>
     </footer>
-
-
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <script src="~/js/site.js" asp-append-version="true"></script>

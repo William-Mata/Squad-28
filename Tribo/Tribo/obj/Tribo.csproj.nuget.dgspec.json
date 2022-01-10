@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Remakker\\Documents\\GitHub\\Squad\\Tribo\\Tribo\\Tribo.csproj": {}
+    "C:\\Users\\Remakker\\Desktop\\tribo-squad-28-master\\Tribo\\Tribo.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Remakker\\Documents\\GitHub\\Squad\\Tribo\\Tribo\\Tribo.csproj": {
+    "C:\\Users\\Remakker\\Desktop\\tribo-squad-28-master\\Tribo\\Tribo.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Remakker\\Documents\\GitHub\\Squad\\Tribo\\Tribo\\Tribo.csproj",
+        "projectUniqueName": "C:\\Users\\Remakker\\Desktop\\tribo-squad-28-master\\Tribo\\Tribo.csproj",
         "projectName": "Tribo",
-        "projectPath": "C:\\Users\\Remakker\\Documents\\GitHub\\Squad\\Tribo\\Tribo\\Tribo.csproj",
+        "projectPath": "C:\\Users\\Remakker\\Desktop\\tribo-squad-28-master\\Tribo\\Tribo.csproj",
         "packagesPath": "C:\\Users\\Remakker\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Remakker\\Documents\\GitHub\\Squad\\Tribo\\Tribo\\obj\\",
+        "outputPath": "C:\\Users\\Remakker\\Desktop\\tribo-squad-28-master\\Tribo\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -44,13 +44,15 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
-            "Microsoft.EntityFrameworkCore": {
+            "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
               "target": "Package",
               "version": "[6.0.1, )"
             },
-            "Microsoft.EntityFrameworkCore.Design": {
-              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
-              "suppressParent": "All",
+            "Microsoft.AspNetCore.Identity.UI": {
               "target": "Package",
               "version": "[6.0.1, )"
             },

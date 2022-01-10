@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31919.166
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tribo", "Tribo\Tribo.csproj", "{926455F5-81F9-43CE-A337-8C0A44368632}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tribo", "Tribo\Tribo.csproj", "{83BEF581-20D7-41F5-A32A-6F67B8EA19F4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,15 +11,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{926455F5-81F9-43CE-A337-8C0A44368632}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{926455F5-81F9-43CE-A337-8C0A44368632}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{926455F5-81F9-43CE-A337-8C0A44368632}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{926455F5-81F9-43CE-A337-8C0A44368632}.Release|Any CPU.Build.0 = Release|Any CPU
+		{83BEF581-20D7-41F5-A32A-6F67B8EA19F4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{83BEF581-20D7-41F5-A32A-6F67B8EA19F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{83BEF581-20D7-41F5-A32A-6F67B8EA19F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{83BEF581-20D7-41F5-A32A-6F67B8EA19F4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {8F60B037-AD30-4C3C-BB6B-45F7AC446B2D}
+		SolutionGuid = {5B0AC3C3-4008-4481-9313-DF7E8688F2AB}
 	EndGlobalSection
 EndGlobal

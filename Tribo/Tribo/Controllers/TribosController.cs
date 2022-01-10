@@ -1,10 +1,13 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
+using Tribo.Data;
 using Tribo.Models;
 
 namespace Tribo.Controllers
 {
     public class TribosController : Controller
-    {
+    {        
+
         private readonly TriboDbContext _context;
 
         public TribosController(TriboDbContext context)
@@ -12,11 +15,10 @@ namespace Tribo.Controllers
             _context = context;
         }
 
-
-
         /*Crud Tribos*/
 
         /* Retorna Dados do Tribo */
+        [Authorize(Roles = "Tribo,Admin")]
         public IActionResult DadosTribo(int id)
         {
 
@@ -34,13 +36,11 @@ namespace Tribo.Controllers
 
         }
 
-
         public IActionResult CadastrarTribo()
         {
             return View();
 
         }
-
 
         [HttpPost]
         public IActionResult CadastrarTribo(TriboParceira triboParceira)
@@ -321,6 +321,7 @@ namespace Tribo.Controllers
 
             return RedirectToAction("DadosTribo", new { id = tribo_parceira.IdTribo });
         }
+
+
     }
 }
-

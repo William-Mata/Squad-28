@@ -1,5 +1,8 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Identity;
+using Microsoft.AspNetCore.Mvc;
 using System.Diagnostics;
+using Tribo.Data;
 using Tribo.Models;
 
 namespace Tribo.Controllers
@@ -11,9 +14,11 @@ namespace Tribo.Controllers
         public AdministracaoController(TriboDbContext context)
         {
             _context = context;
+
         }
 
         /*Crud Contatos*/
+        [Authorize(Roles = "Admin")]
         public IActionResult AdministracaoContatos()
         {
             ViewBag.contatos = _context.Contato.ToList();
@@ -47,7 +52,7 @@ namespace Tribo.Controllers
 
             return RedirectToAction("AdministracaoContatos");
         }
-        
+
         [HttpGet]
         public IActionResult DetailsContato(int id)
         {
@@ -72,7 +77,7 @@ namespace Tribo.Controllers
 
             var contatoDel = _context.Contato.Find(id);
 
-            if ((id > 0) && (id != null)) 
+            if ((id > 0) && (id != null))
             {
                 _context.Contato.Remove(contatoDel);
                 _context.SaveChanges();
@@ -90,7 +95,7 @@ namespace Tribo.Controllers
         public IActionResult AdministracaoPacotes()
         {
             ViewBag.cliente = _context.Cliente.ToList();
-     
+
 
             return View();
         }
@@ -129,7 +134,7 @@ namespace Tribo.Controllers
         {
             var cliente = _context.Cliente.Where(cl => cl.IdCliente == id).FirstOrDefault();
 
-            return PartialView("_ModalPacoteDetalhes", cliente); 
+            return PartialView("_ModalPacoteDetalhes", cliente);
         }
 
         [HttpGet]
@@ -138,7 +143,7 @@ namespace Tribo.Controllers
             var cliente = _context.Cliente.Where(cl => cl.IdCliente == id).FirstOrDefault();
 
 
-            return PartialView("_ModalPacoteDelete", cliente); 
+            return PartialView("_ModalPacoteDelete", cliente);
         }
 
         [HttpPost]
@@ -166,6 +171,7 @@ namespace Tribo.Controllers
         {
             return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
         }
-    }
 
+
+    }
 }

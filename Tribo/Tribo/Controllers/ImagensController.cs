@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using Tribo.Data;
 using Tribo.Models;
 
 namespace Imagens.Controllers

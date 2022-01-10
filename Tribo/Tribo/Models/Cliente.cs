@@ -9,8 +9,6 @@ namespace Tribo.Models
         [Key]
         public int IdCliente { get; set; }
 
-        public string tipoUsuario { get; set; }
-
         [Required(ErrorMessage = "Informe seu nome completo.")]
         public string Nome { get; set; }
 

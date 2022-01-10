@@ -42,17 +42,17 @@
                         @item.Mensagem
                     </td>
                     <td>
-                        <button type="button" class="btn btn-sm btn-secondary   btn-outline-warning" data-bs-toggle="modalAjax" data-bs-target="#editarModalAdmCnt"
+                        <button type="button" class="btn btn-sm btn-secondary btn-outline-warning" data-bs-toggle="modalAjax" data-bs-target="#editarModalAdmCnt"
                             data-url="@Url.Action($"EditContato/{item.IdContato}")">
                             <img src="~/img/edit.png" />
                         </button>
 
-                        <button type="button" class="btn btn-sm btn-secondary   btn-outline-warning mt-1" data-bs-toggle="modalAjax" data-bs-target="#detalhesModalAdmCnt"
+                        <button type="button" class="btn btn-sm btn-secondary btn-outline-warning mt-1" data-bs-toggle="modalAjax" data-bs-target="#detalhesModalAdmCnt"
                             data-url="@Url.Action($"DetailsContato/{item.IdContato}")">
                             <img src="~/img/ver-detalhes.png" />
                         </button>
 
-                        <button type="button" class="btn btn-sm btn-secondary   btn-outline-warning  mt-1" data-bs-toggle="modalAjax" data-bs-target="#deleteModalAdmCnt"
+                        <button type="button" class="btn btn-sm btn-secondary btn-outline-warning  mt-1" data-bs-toggle="modalAjax" data-bs-target="#deleteModalAdmCnt"
                             data-url="@Url.Action($"DeleteContato/{item.IdContato}")">
                             <img src="~/img/delete.png" />
                         </button>

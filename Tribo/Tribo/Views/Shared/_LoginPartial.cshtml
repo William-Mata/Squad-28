@@ -1,0 +1,85 @@
+﻿@using Microsoft.AspNetCore.Identity
+@inject SignInManager<IdentityUser> SignInManager
+@inject UserManager<IdentityUser> UserManager
+
+<ul class="navbar-nav">
+
+    @if (SignInManager.IsSignedIn(User))
+    {
+        @if (User.IsInRole("Admin"))
+        {
+            <li class="nav-item mx-2 my-auto btn-group dropstart">
+                <button type="button" class="btn btn-sm btn-outline-warning dropdown-toggle text-white" data-bs-toggle="dropdown" aria-expanded="false">
+                    Administração
+                </button>
+                <div class="dropdown-menu colorPadrao mx-auto p-0" aria-labelledby="dropdownId" style="margin-top: 32px;">
+
+                    <a class="btn btn-sm btn-outline-warning text-white w-100"
+               asp-area="" asp-controller="Administracao" asp-action="AdministracaoContatos">Caixa de Contatos</a>
+                    <a class="btn btn-sm btn-outline-warning text-white w-100"
+               asp-area="" asp-controller="Administracao" asp-action="AdministracaoPacotes">Lista de Pacotes</a>
+                    <a class="w-100 btn btn-sm btn-outline-warning text-white" asp-area="" asp-controller="Role" asp-action="Roles">Roles</a>
+
+                </div>
+            </li>
+            <li class="nav-item">
+            </li>
+
+        }
+        @if (User.IsInRole("Cliente"))
+        {
+            <li class="nav-item mx-2 my-auto btn-group dropstart">
+                <a class="btn btn-sm btn-outline-warning text-white" asp-area="Identity" asp-page="/Account/Manage/Index" title="Manage">Olá, @User.Identity.Name</a>
+                <button type="button" class="btn btn-sm btn-outline-warning dropdown-toggle text-white"
+                data-bs-toggle="dropdown" aria-expanded="false">
+                    Cliente
+                </button>
+                <div class="dropdown-menu colorPadrao mx-auto p-0" aria-labelledby="dropdownId" style="margin-top: 32px;">
+                    <a class="w-100 btn btn-sm btn-outline-warning text-white"
+               asp-area="" asp-controller="Clientes" asp-action="MeusDados">Meus Dados</a>
+                    <a class="w-100 btn btn-sm btn-outline-warning text-white"
+               asp-area="" asp-controller="Clientes" asp-action="MeuPacote">Meus Pacotes</a>
+                    <a class="form-inline" asp-area="Identity" asp-page="/Account/Logout" asp-route-returnUrl="@Url.Action("Index", "Home", new { area = "" })">
+                        <a type="submit" class="w-100 btn btn-sm btn-outline-warning text-white">Sair</a>
+                    </a>
+                </div>
+            </li>
+        }
+        @if (User.IsInRole("Tribo"))
+        {
+
+            <li class="nav-item mx-2 my-auto btn-group dropstart">
+                <a type="button" class="btn btn-sm btn-outline-warning dropdown-toggle text-white"
+                data-bs-toggle="dropdown" aria-expanded="false">
+                    Tribo Parceira
+                </a>
+                <div class="dropdown-menu colorPadrao mx-auto p-0" aria-labelledby="dropdownId" style="margin-top: 32px;">
+                    <a class="w-100 btn btn-sm btn-outline-warning text-white"
+               asp-area="" asp-controller="Tribos" asp-action="DadosTribo">Tribo Dados</a>
+                    <a class="w-100 btn btn-sm btn-outline-warning text-white"
+               asp-area="" asp-controller="Tribos" asp-action="PacoteTribo">Tribo Pacotes</a>
+                </div>
+            </li>
+        }
+
+        <li class="nav-item mx-2 my-auto">
+            <a class="btn btn-sm btn-outline-warning text-white" asp-area="Identity" asp-page="/Account/Manage/Index" title="Manage">Hello @User.Identity?.Name!</a>
+        </li>
+        <li class="nav-item mx-2 my-auto">
+            <form class="form-inline" asp-area="Identity" asp-page="/Account/Logout" asp-route-returnUrl="@Url.Action("Home", "Pages", new { area = "" })">
+                <button type="submit" class="btn btn-sm btn-outline-warning text-white">Sair</button>
+            </form>
+        </li>
+
+    }
+    else
+    {
+        <li class="nav-item mx-2 my-auto">
+            <a class="btn btn-sm btn-outline-warning text-white" asp-area="Identity" asp-page="/Account/Login">Entrar</a>
+        </li>
+        <li class="nav-item mx-2 my-auto">
+            <a class="btn btn-sm btn-outline-warning text-white" asp-area="Identity" asp-page="/Account/Register">Resgistrar</a>
+        </li>
+    
+    }
+</ul>

@@ -1,23 +1,25 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
+using Tribo.Data;
 using Tribo.Models;
 
 namespace Tribo.Controllers
 {
     public class ClientesController : Controller
     {
+       
+
         private readonly TriboDbContext _context;
 
         public ClientesController(TriboDbContext context)
         {
             _context = context;
         }
-                              
-        /*Crud Clientes*/
 
-        /* Retorna Dados do Cliente */
+        [Authorize(Roles = "Cliente,Admin")]
         public IActionResult MeusDados(int id)
         {
-           var cliente = _context.Cliente.Where(cl => cl.IdCliente == id).FirstOrDefault();
+            var cliente = _context.Cliente.Where(cl => cl.IdCliente == id).FirstOrDefault();
 
             if (cliente != null)
             {
@@ -32,8 +34,6 @@ namespace Tribo.Controllers
 
         }
 
-
-
         public IActionResult CadastrarCliente()
         {
             return View();
@@ -42,8 +42,6 @@ namespace Tribo.Controllers
         [HttpPost]
         public IActionResult CadastrarCliente(Cliente cliente)
         {
-
-
 
             var clienteTeste = _context.Cliente.Where(c => c.Email.Equals(cliente.Email) || c.IdCliente.Equals(cliente.IdCliente)).FirstOrDefault();
 
@@ -60,8 +58,6 @@ namespace Tribo.Controllers
                 return View();
 
             }
-
-
         }
 
         [HttpGet]
@@ -69,8 +65,6 @@ namespace Tribo.Controllers
         {
 
             var cliente = _context.Cliente.Where(cl => cl.IdCliente == id).FirstOrDefault();
-
-
             if (cliente == null)
             {
                 return NotFound();
@@ -83,11 +77,8 @@ namespace Tribo.Controllers
         [HttpPost]
         public IActionResult EditDadosCliente(Cliente cliente)
         {
-
             _context.Cliente.Update(cliente);
             _context.SaveChanges();
-
-
 
             return RedirectToAction("MeusDados", new { id = cliente.IdCliente });
         }
@@ -98,7 +89,6 @@ namespace Tribo.Controllers
         public IActionResult DetailDadosCliente(int id)
         {
             var cliente = _context.Cliente.Where(cl => cl.IdCliente == id).FirstOrDefault();
-
             return PartialView("_ModalDadosClDetalhes", cliente);
         }
 
@@ -106,8 +96,6 @@ namespace Tribo.Controllers
         public IActionResult DeleteDadosCliente(int id)
         {
             var cliente = _context.Cliente.Where(cl => cl.IdCliente == id).FirstOrDefault();
-
-
             return PartialView("_ModalDadosClDelete", cliente);
         }
 
@@ -115,7 +103,6 @@ namespace Tribo.Controllers
         public IActionResult DeleteDadosCliente(Cliente cliente)
         {
             var id = cliente.IdCliente;
-
             var clienteDel = _context.Cliente.Find(id);
 
             if ((id > 0) && (id != null))
@@ -130,11 +117,6 @@ namespace Tribo.Controllers
 
             return RedirectToAction("Home", "Pages");
         }
-
-
-
-
-
 
         /* Retorna Dados do Cliente e a Pacote */
         [HttpGet]

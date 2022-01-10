@@ -104,3 +104,7 @@ table tr td{
 }
 
 
+select option {
+    background: rgba(0, 0, 0, 0.4);
+    color: white;
+}
