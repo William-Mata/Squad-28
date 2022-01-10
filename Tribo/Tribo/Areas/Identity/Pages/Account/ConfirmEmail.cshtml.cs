@@ -45,6 +45,8 @@ namespace Tribo.Areas.Identity.Pages.Account
             code = Encoding.UTF8.GetString(WebEncoders.Base64UrlDecode(code));
             var result = await _userManager.ConfirmEmailAsync(user, code);
             StatusMessage = result.Succeeded ? "Obrigado por confirmar seu e-mail. " : " Erro ao confirmar seu e-mail.";
+
+            if()
             return Page();
         }
     }
