@@ -26,7 +26,7 @@ namespace Tribo.Models
 
         [ForeignKey("Pacote")]
         public int? Id_Pacote { get; set; }
-        public virtual Pacote? Pacote { get; set; }
+        public virtual Pacote Pacote { get; set; }
 
         [Required(ErrorMessage = "É necessario o email da tribo.")]
         public string Email_User { get; set; }

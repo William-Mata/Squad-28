@@ -300,9 +300,7 @@ namespace Tribo.Migrations
 
                     b.HasKey("IdCliente");
 
-                    b.HasIndex("Id_Pacote")
-                        .IsUnique()
-                        .HasFilter("[Id_Pacote] IS NOT NULL");
+                    b.HasIndex("Id_Pacote");
 
                     b.ToTable("Cliente");
                 });
@@ -428,9 +426,7 @@ namespace Tribo.Migrations
 
                     b.HasKey("IdTribo");
 
-                    b.HasIndex("Id_Pacote")
-                        .IsUnique()
-                        .HasFilter("[Id_Pacote] IS NOT NULL");
+                    b.HasIndex("Id_Pacote");
 
                     b.ToTable("TriboParceira");
                 });
@@ -516,8 +512,8 @@ namespace Tribo.Migrations
             modelBuilder.Entity("Tribo.Models.Cliente", b =>
                 {
                     b.HasOne("Tribo.Models.Pacote", "Pacote")
-                        .WithOne("Cliente")
-                        .HasForeignKey("Tribo.Models.Cliente", "Id_Pacote");
+                        .WithMany("Cliente")
+                        .HasForeignKey("Id_Pacote");
 
                     b.Navigation("Pacote");
                 });
@@ -534,8 +530,8 @@ namespace Tribo.Migrations
             modelBuilder.Entity("Tribo.Models.TriboParceira", b =>
                 {
                     b.HasOne("Tribo.Models.Pacote", "Pacote")
-                        .WithOne("Tribo")
-                        .HasForeignKey("Tribo.Models.TriboParceira", "Id_Pacote");
+                        .WithMany("Tribo")
+                        .HasForeignKey("Id_Pacote");
 
                     b.Navigation("Pacote");
                 });
@@ -563,11 +559,9 @@ namespace Tribo.Migrations
                     b.Navigation("Admin")
                         .IsRequired();
 
-                    b.Navigation("Cliente")
-                        .IsRequired();
+                    b.Navigation("Cliente");
 
-                    b.Navigation("Tribo")
-                        .IsRequired();
+                    b.Navigation("Tribo");
                 });
 
             modelBuilder.Entity("Tribo.Models.TriboParceira", b =>

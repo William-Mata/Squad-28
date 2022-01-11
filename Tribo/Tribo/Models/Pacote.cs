@@ -28,8 +28,8 @@ namespace Tribo.Models
         public int? Id_Imagem { get; set; }
         public virtual Imagem? Imagem { get; set; }
 
-        public virtual Cliente Cliente { get; set; }
-        public virtual TriboParceira Tribo { get; set; }
+        public virtual List<Cliente> Cliente { get; set; }
+        public virtual List<TriboParceira> Tribo { get; set; }
         public virtual Admin Admin { get; set; }
 
     }
