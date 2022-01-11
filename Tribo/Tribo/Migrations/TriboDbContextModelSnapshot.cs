@@ -8,7 +8,7 @@ using Tribo.Data;
 
 #nullable disable
 
-namespace Tribo.Data.Migrations
+namespace Tribo.Migrations
 {
     [DbContext(typeof(TriboDbContext))]
     partial class TriboDbContextModelSnapshot : ModelSnapshot
@@ -226,15 +226,11 @@ namespace Tribo.Data.Migrations
 
             modelBuilder.Entity("Tribo.Models.Admin", b =>
                 {
-                    b.Property<int>("Id")
+                    b.Property<int>("IdAdmin")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("int");
 
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"), 1L, 1);
-
-                    b.Property<string>("Email")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("IdAdmin"), 1L, 1);
 
                     b.Property<int?>("Id_Cliente")
                         .HasColumnType("int");
@@ -248,11 +244,7 @@ namespace Tribo.Data.Migrations
                     b.Property<int?>("Id_TriboParceira")
                         .HasColumnType("int");
 
-                    b.Property<string>("Senha")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.HasKey("Id");
+                    b.HasKey("IdAdmin");
 
                     b.HasIndex("Id_Cliente")
                         .IsUnique()
@@ -285,7 +277,11 @@ namespace Tribo.Data.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<string>("Email")
+                    b.Property<string>("Celular")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Email_User")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
@@ -300,10 +296,6 @@ namespace Tribo.Data.Migrations
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("Origem")
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("Senha")
-                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.HasKey("IdCliente");
@@ -411,7 +403,19 @@ namespace Tribo.Data.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("IdTribo"), 1L, 1);
 
-                    b.Property<string>("Email")
+                    b.Property<string>("Celular")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Cidade")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Email_User")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Estado")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
@@ -419,14 +423,6 @@ namespace Tribo.Data.Migrations
                         .HasColumnType("int");
 
                     b.Property<string>("NomeTribo")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("Senha")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("tipoUsuario")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 

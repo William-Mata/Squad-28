@@ -1,96 +1,84 @@
 ﻿@model global::Tribo.Models.Cliente
 @{
-    ViewData["Title"] = "Cadastro de Cliente";
+    ViewData["Title"] = "Formulario de Dados do Cliente";
 }
-<div class="mb-1 p-0 m-0 text-center bgVidro rounded">
-    <h1>Cadastro de Cliente</h1>
+<div class="mb-1 px-5 py-4 text-center bgVidro rounded">
+    <h1>Formulario de Dados do Cliente</h1>
     <hr />
 </div>
 
 
-<div class="w-100 m-0 p-0 justify-content-center bgVidro rounded">
-    <div class="row px-3 py-4 m-0">
-        <div class="col-12 col-sm-12 col-md-12 col-lg-12">
-            <form asp-action="CadastrarCliente">
+<div class="w-100 justify-content-center p-5 bgVidro rounded">
+    <form asp-action="CadastrarCliente">
+        <div class="row justify-content-center">
+            <div class="col-5 col-sm-5 col-md-5 col-lg-5 mx-auto">
                 <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                <input asp-for="Email_User" type="hidden"
+                       value="@User.Identity.Name" class="form-control" />
                 <div class="form-group mb-3">
                     <div class="row">
-                        <div class="col-2 col-sm-2 col-md-2 col-lg-2 border border-1 border-warning rounded">
+                        <div class="col-4 col-sm-4 col-md-4 col-lg-4 border border-1 border-warning rounded">
                             <label asp-for="Nome" class="control-label text-white mt-1 text-center">
                                 Nome Completo:
                             </label>
                         </div>
-                        <div class="col-6 col-sm-6 col-md-6 col-lg-6">
+                        <div class="col-8 col-sm-8 col-md-8 col-lg-8">
                             <input asp-for="Nome"
                                    class="form-control text-white bg-transparent btn-outline-warning" />
                         </div>
                         <span asp-validation-for="Nome" class="text-warning"></span>
                     </div>
                 </div>
-                <div class="form-group mb-3">
-                    <div class="row">
-                        <div class="col-1 col-sm-1 col-md-1 col-lg-1 border border-1 border-warning rounded ">
-                            <label asp-for="Email" class="control-label text-white mt-1">
-                                E-mail:
-                            </label>
-                        </div>
-                        <div class="col-6 col-sm-6 col-md-6 col-lg-6">
-                            <input asp-for="Email"
-                                   class="form-control text-white bg-transparent btn-outline-warning" />
-                        </div>
-                        <span asp-validation-for="Email" class="text-warning"></span>
-                    </div>
-                </div>
-                 <div class="form-group mb-3">
-                    <div class="row">
-                        <div class="col-1 col-sm-1 col-md-1 col-lg-1 border border-1 border-warning rounded ">
-                            <label asp-for="CPF" class="control-label text-white mt-1">CPF:</label>
-                        </div>
-                        <div class="col-4 col-sm-4 col-md-4 col-lg-4">
-                            <input asp-for="CPF" type="number" min="10000000000" max="99999999999"
-                                   class="form-control text-white bg-transparent btn-outline-warning" />
-                        </div>
-                        <span asp-validation-for="CPF" class="text-warning"></span>
-                    </div>
-                </div>
-                <div class="form-group mb-3">
-                    <div class="row">
-                        <div class="col-1 col-sm-1 col-md-1 col-lg-1 border border-1 border-warning rounded ">
-                            <label asp-for="Senha" class="control-label text-white mt-1">
-                                Senha:
-                            </label>
-                        </div>
-                        <div class="col-3 col-sm-3 col-md-3 col-lg-3 ">
-                            <input asp-for="Senha" type="password"
-                                   class="form-control text-white bg-transparent btn-outline-warning" />
-                        </div>
-                        <span asp-validation-for="Senha" class="text-warning"></span>
-                    </div>
-                </div>
 
                 <div class="form-group mb-3">
                     <div class="row">
-                        <div class="col-1 col-sm-1 col-md-1 col-lg-1 border border-1 border-warning rounded ">
+                        <div class="col-2 col-sm-2 col-md-2 col-lg-2 border border-1 border-warning rounded ">
                             <label asp-for="Idade" class="control-label text-white mt-1">Idade:</label>
                         </div>
-                        <div class="col-1 col-sm-1 col-md-1 col-lg-1">
+                        <div class="col-3 col-sm-3 col-md-3 col-lg-3">
                             <input asp-for="Idade"
                                    class="form-control text-white bg-transparent btn-outline-warning" />
                         </div>
                         <span asp-validation-for="Idade" class="text-warning"></span>
                     </div>
                 </div>
-               
-                <div class="form-group">
-                    <div class="row justify-content-center">
-                        <div class="col-1 col-sm-1 col-md-1 col-lg-1">
-                            <input type="submit" value="Cadastrar" class="btn btn-md btn-secondary btn-outline-warning text-white m-0" />
+            </div>
+
+            <div class="col-5 col-sm-5 col-md-5 col-lg-5 mx-auto">
+                <div class="form-group mb-3">
+                    <div class="row">
+                        <div class="col-2 col-sm-2 col-md-2 col-lg-2 border border-1 border-warning rounded ">
+                            <label asp-for="CPF" class="control-label text-white mt-1">CPF:</label>
                         </div>
+                        <div class="col-8 col-sm-8 col-md-8 col-lg-8">
+                            <input asp-for="CPF" type="number" min="10000000000" max="99999999999"
+                                   class="form-control text-white bg-transparent btn-outline-warning" />
+                        </div>
+                        <span asp-validation-for="CPF" class="text-warning"></span>
                     </div>
                 </div>
-            </form>
+
+                <div class="form-group mb-3">
+                    <div class="row">
+                        <div class="col-2 col-sm-2 col-md-2 col-lg-2 border border-1 border-warning rounded ">
+                            <label asp-for="Celular" class="control-label text-white mt-1">Celular:</label>
+                        </div>
+                        <div class="col-6 col-sm-6 col-md-6 col-lg-6">
+                            <input asp-for="Celular" class="form-control text-white bg-transparent btn-outline-warning" />
+                        </div>
+                        <span asp-validation-for="Celular" class="text-warning"></span>
+                    </div>
+                </div>
+            </div>
         </div>
-    </div>
+        <div class="form-group">
+            <div class="row justify-content-center">
+                <div class="col-2 col-sm-2 col-md-2 col-lg-2">
+                    <input type="submit" value="Cadastrar" class="btn btn-md btn-secondary btn-outline-warning text-white" />
+                </div>
+            </div>
+        </div>
+    </form>
 </div>
 
 

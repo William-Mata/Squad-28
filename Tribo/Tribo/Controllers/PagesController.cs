@@ -2,6 +2,7 @@
 using Microsoft.AspNetCore.Mvc;
 using System.Diagnostics;
 using Tribo.Data;
+using System.Security.Claims;
 
 namespace Tribo.Controllers
 {
@@ -31,18 +32,22 @@ namespace Tribo.Controllers
             return View();
         }
 
+
         public IActionResult Tribos()
         {
-            ViewBag.pacotes = _context.Pacote.ToList();
-            return View();
-        }
+            var userEmail = this.User.FindFirstValue(ClaimTypes.Name);
+            if (userEmail != null)
+            {
+                var cliente = _context.Cliente.Where(cl => cl.Email_User.Equals(userEmail)).FirstOrDefault();
+                ViewBag.pacotes = _context.Pacote.ToList();
+                return View(cliente);
+            }
+            else
+            {
+                ViewBag.pacotes = _context.Pacote.ToList();
+                return View();
 
-        [HttpGet]
-        public IActionResult Tribos(int id)
-        {
-            var cliente = _context.Cliente.Where(cl => cl.IdCliente == id).FirstOrDefault();
-            ViewBag.pacotes = _context.Pacote.ToList();
-            return View(cliente);
+            }
         }
 
         public IActionResult Prevencoes()
@@ -61,13 +66,15 @@ namespace Tribo.Controllers
 
 
         [HttpGet]
-        public IActionResult Comprar(int id)
+        public IActionResult Comprar()
         {
-            var cliente = _context.Cliente.Where(cl => cl.IdCliente == id).FirstOrDefault();
+            var userEmail = this.User.FindFirstValue(ClaimTypes.Name);
+
+            var cliente = _context.Cliente.Where(cl => cl.Email_User.Equals(userEmail)).FirstOrDefault();
 
             if (cliente != null)
             {
-             return View(cliente);
+                return View(cliente);
             }
 
             return View();

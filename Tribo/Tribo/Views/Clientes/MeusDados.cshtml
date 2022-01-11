@@ -18,18 +18,14 @@
                 @Html.DisplayNameFor(model => model.Nome)
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.Email)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Senha)
-            </th>
-            <th>
                 @Html.DisplayNameFor(model => model.Idade)
             </th>
             <th>
                 @Html.DisplayNameFor(model => model.CPF)
             </th>
-
+             <th>
+                @Html.DisplayNameFor(model => model.Celular)
+            </th>
             <th>Ações</th>
         </tr>
     </thead>
@@ -39,19 +35,15 @@
                 @Html.DisplayFor(modelItem => @Model.Nome)
             </td>
             <td>
-                @Html.DisplayFor(modelItem => @Model.Email)
-            </td>
-            <td>
-                *********
-
-            </td>
-            <td>
                 @Html.DisplayFor(modelItem => @Model.Idade)
             </td>
             <td>
                 @Html.DisplayFor(modelItem => @Model.CPF)
             </td>
-
+               <td>
+                @Html.DisplayFor(modelItem => @Model.Celular)
+            </td>
+             
 
             <td>
                 <button type="button" class="btn btn-sm btn-secondary  btn-outline-warning" data-bs-toggle="modalAjax" data-bs-target="#editarModalClDa"

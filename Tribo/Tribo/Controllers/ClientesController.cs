@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
+using System.Security.Claims;
 using Tribo.Data;
 using Tribo.Models;
 
@@ -17,20 +18,29 @@ namespace Tribo.Controllers
         }
 
         [Authorize(Roles = "Cliente,Admin")]
-        public IActionResult MeusDados(int id)
+        public IActionResult MeusDados()
         {
-            var cliente = _context.Cliente.Where(cl => cl.IdCliente == id).FirstOrDefault();
+            var userEmail = this.User.FindFirstValue(ClaimTypes.Name);
+            var cliente = _context.Cliente.Where(cl => cl.Email_User.Equals(userEmail)).FirstOrDefault();
 
-            if (cliente != null)
+
+            if (userEmail != null)
             {
-                return View(cliente);
+
+                if (cliente != null)
+                {
+                    return View(cliente);
+                }
+                else
+                {
+                    return RedirectToAction("CadastrarCliente", "Clientes");
+                }
             }
             else
             {
-
-                return RedirectToAction("Home", "Pages");
+                return RedirectToAction("Pages", "Home");
             }
-
+         
 
         }
 
@@ -42,10 +52,7 @@ namespace Tribo.Controllers
         [HttpPost]
         public IActionResult CadastrarCliente(Cliente cliente)
         {
-
-            var clienteTeste = _context.Cliente.Where(c => c.Email.Equals(cliente.Email) || c.IdCliente.Equals(cliente.IdCliente)).FirstOrDefault();
-
-            if (clienteTeste == null)
+            if (cliente != null)
             {
                 _context.Add(cliente);
                 _context.SaveChanges();
@@ -58,6 +65,7 @@ namespace Tribo.Controllers
                 return View();
 
             }
+
         }
 
         [HttpGet]
@@ -123,7 +131,8 @@ namespace Tribo.Controllers
         public IActionResult MeuPacote(int id)
         {
 
-            var cliente = _context.Cliente.Where(cl => cl.IdCliente == id).FirstOrDefault();
+            var userEmail = this.User.FindFirstValue(ClaimTypes.Name);
+            var cliente = _context.Cliente.Where(cl => cl.Email_User.Equals(userEmail)).FirstOrDefault();
 
 
             if ((cliente != null) && (cliente.Id_Pacote != null))

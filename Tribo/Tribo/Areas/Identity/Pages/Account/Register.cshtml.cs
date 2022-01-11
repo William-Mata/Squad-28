@@ -30,14 +30,15 @@ namespace Tribo.Areas.Identity.Pages.Account
         private readonly ILogger<RegisterModel> _logger;
         private readonly IEmailSender _emailSender;
         private readonly RoleManager<IdentityRole> _roleManager;
-
+        // private readonly AspNetUserManager<IdentityUser> _aspNetUserManager;
         public RegisterModel(
-            UserManager<IdentityUser> userManager,
-            IUserStore<IdentityUser> userStore,
-            SignInManager<IdentityUser> signInManager,
-            ILogger<RegisterModel> logger,
-            IEmailSender emailSender,
-            RoleManager<IdentityRole> roleManager)
+           UserManager<IdentityUser> userManager,
+           IUserStore<IdentityUser> userStore,
+           SignInManager<IdentityUser> signInManager,
+           ILogger<RegisterModel> logger,
+           IEmailSender emailSender,
+           RoleManager<IdentityRole> roleManager)
+           // AspNetUserManager<IdentityUser> aspNetUserManager)
         {
             _userManager = userManager;
             _userStore = userStore;
@@ -46,6 +47,7 @@ namespace Tribo.Areas.Identity.Pages.Account
             _logger = logger;
             _emailSender = emailSender;
             _roleManager = roleManager;
+            // _aspNetUserManager = aspNetUserManager;
         }
 
         /// <summary>
@@ -116,12 +118,20 @@ namespace Tribo.Areas.Identity.Pages.Account
 
         public async Task<IActionResult> OnPostAsync(string returnUrl = null)
         {
+            // var testeEmail = UserStore
+
+            //.Users.Where(u => u.Email.Equals(Input.Email)).FirstOrDefault();
+            //  if (testeEmail != null)
+            //  {
             returnUrl ??= Url.Content("~/");
             ExternalLogins = (await _signInManager.GetExternalAuthenticationSchemesAsync()).ToList();
             var role = _roleManager.FindByIdAsync(Input.Name).Result;
             if (ModelState.IsValid)
             {
+
                 var user = CreateUser();
+
+
 
                 await _userStore.SetUserNameAsync(user, Input.Email, CancellationToken.None);
                 await _emailStore.SetEmailAsync(user, Input.Email, CancellationToken.None);
@@ -129,6 +139,8 @@ namespace Tribo.Areas.Identity.Pages.Account
 
                 if (result.Succeeded)
                 {
+
+
                     _logger.LogInformation("Usuario criado com sucesso.");
                     await _userManager.AddToRoleAsync(user, role.Name);
 
@@ -156,13 +168,19 @@ namespace Tribo.Areas.Identity.Pages.Account
                         return LocalRedirect(returnUrl);
                     }
 
-                    return LocalRedirect(returnUrl);
+
                 }
-                foreach (var error in result.Errors)
-                {
-                    ModelState.AddModelError(string.Empty, error.Description);
-                }
+                //foreach (var error in result.Errors)
+                //{
+                   
+                //    ModelState.AddModelError(string.Empty, error.Description);
+                //}
+
             }
+
+
+            //}
+
 
             //If we got this far, something failed, redisplay form
             return Page();

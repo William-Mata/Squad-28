@@ -1,9 +1,14 @@
 ﻿let valor;
 let pacote;
 
-function CompraPct() {
+function CompraPct(verificar) {
 
-    alert("Você precisa está logado para realizar uma comprar.");
+    if (verificar == "Deslogado") {
+        alert("Você precisa está logado para realizar uma comprar.");
+
+    } else if (verificar == "NCliente") {
+        alert("Você precisa ser Cliente e está com seus dados cadastrado, para realizar uma compra.")
+    }
 
 
 }

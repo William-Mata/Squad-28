@@ -9,11 +9,11 @@ using Tribo.Data;
 
 #nullable disable
 
-namespace Tribo.Data.Migrations
+namespace Tribo.Migrations
 {
     [DbContext(typeof(TriboDbContext))]
-    [Migration("20220108172946_Primeira")]
-    partial class Primeira
+    [Migration("20220110173747_tribo")]
+    partial class tribo
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -226,6 +226,213 @@ namespace Tribo.Data.Migrations
                     b.ToTable("AspNetUserTokens", (string)null);
                 });
 
+            modelBuilder.Entity("Tribo.Models.Admin", b =>
+                {
+                    b.Property<int>("IdAdmin")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("IdAdmin"), 1L, 1);
+
+                    b.Property<int?>("Id_Cliente")
+                        .HasColumnType("int");
+
+                    b.Property<int?>("Id_Contato")
+                        .HasColumnType("int");
+
+                    b.Property<int?>("Id_Pacote")
+                        .HasColumnType("int");
+
+                    b.Property<int?>("Id_TriboParceira")
+                        .HasColumnType("int");
+
+                    b.HasKey("IdAdmin");
+
+                    b.HasIndex("Id_Cliente")
+                        .IsUnique()
+                        .HasFilter("[Id_Cliente] IS NOT NULL");
+
+                    b.HasIndex("Id_Contato")
+                        .IsUnique()
+                        .HasFilter("[Id_Contato] IS NOT NULL");
+
+                    b.HasIndex("Id_Pacote")
+                        .IsUnique()
+                        .HasFilter("[Id_Pacote] IS NOT NULL");
+
+                    b.HasIndex("Id_TriboParceira")
+                        .IsUnique()
+                        .HasFilter("[Id_TriboParceira] IS NOT NULL");
+
+                    b.ToTable("Admin");
+                });
+
+            modelBuilder.Entity("Tribo.Models.Cliente", b =>
+                {
+                    b.Property<int>("IdCliente")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("IdCliente"), 1L, 1);
+
+                    b.Property<string>("CPF")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Celular")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<int?>("Id_Pacote")
+                        .HasColumnType("int");
+
+                    b.Property<int>("Idade")
+                        .HasColumnType("int");
+
+                    b.Property<string>("Nome")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Origem")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("IdCliente");
+
+                    b.HasIndex("Id_Pacote")
+                        .IsUnique()
+                        .HasFilter("[Id_Pacote] IS NOT NULL");
+
+                    b.ToTable("Cliente");
+                });
+
+            modelBuilder.Entity("Tribo.Models.Contato", b =>
+                {
+                    b.Property<int>("IdContato")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("IdContato"), 1L, 1);
+
+                    b.Property<string>("Email")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Mensagem")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Nome")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("IdContato");
+
+                    b.ToTable("Contato");
+                });
+
+            modelBuilder.Entity("Tribo.Models.Imagem", b =>
+                {
+                    b.Property<int>("IdImg")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("IdImg"), 1L, 1);
+
+                    b.Property<string>("ContentType")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<byte[]>("Dados")
+                        .IsRequired()
+                        .HasColumnType("varbinary(max)");
+
+                    b.Property<string>("Nome")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("IdImg");
+
+                    b.ToTable("Imagem");
+                });
+
+            modelBuilder.Entity("Tribo.Models.Pacote", b =>
+                {
+                    b.Property<int>("IdPacote")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("IdPacote"), 1L, 1);
+
+                    b.Property<DateTime>("DataFim")
+                        .HasColumnType("datetime2");
+
+                    b.Property<DateTime>("DataInicio")
+                        .HasColumnType("datetime2");
+
+                    b.Property<string>("Descricao")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Destino")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<int?>("Id_Imagem")
+                        .HasColumnType("int");
+
+                    b.Property<string>("Valor")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("IdPacote");
+
+                    b.HasIndex("Id_Imagem")
+                        .IsUnique()
+                        .HasFilter("[Id_Imagem] IS NOT NULL");
+
+                    b.ToTable("Pacote");
+                });
+
+            modelBuilder.Entity("Tribo.Models.TriboParceira", b =>
+                {
+                    b.Property<int>("IdTribo")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("IdTribo"), 1L, 1);
+
+                    b.Property<string>("Celular")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Cidade")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Email_User")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Estado")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<int?>("Id_Pacote")
+                        .HasColumnType("int");
+
+                    b.Property<string>("NomeTribo")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("IdTribo");
+
+                    b.HasIndex("Id_Pacote")
+                        .IsUnique()
+                        .HasFilter("[Id_Pacote] IS NOT NULL");
+
+                    b.ToTable("TriboParceira");
+                });
+
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRoleClaim<string>", b =>
                 {
                     b.HasOne("Microsoft.AspNetCore.Identity.IdentityRole", null)
@@ -275,6 +482,95 @@ namespace Tribo.Data.Migrations
                         .HasForeignKey("UserId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
+                });
+
+            modelBuilder.Entity("Tribo.Models.Admin", b =>
+                {
+                    b.HasOne("Tribo.Models.Cliente", "Cliente")
+                        .WithOne("Admin")
+                        .HasForeignKey("Tribo.Models.Admin", "Id_Cliente");
+
+                    b.HasOne("Tribo.Models.Contato", "Contato")
+                        .WithOne("Admin")
+                        .HasForeignKey("Tribo.Models.Admin", "Id_Contato");
+
+                    b.HasOne("Tribo.Models.Pacote", "Pacote")
+                        .WithOne("Admin")
+                        .HasForeignKey("Tribo.Models.Admin", "Id_Pacote");
+
+                    b.HasOne("Tribo.Models.TriboParceira", "TriboParceira")
+                        .WithOne("Admin")
+                        .HasForeignKey("Tribo.Models.Admin", "Id_TriboParceira");
+
+                    b.Navigation("Cliente");
+
+                    b.Navigation("Contato");
+
+                    b.Navigation("Pacote");
+
+                    b.Navigation("TriboParceira");
+                });
+
+            modelBuilder.Entity("Tribo.Models.Cliente", b =>
+                {
+                    b.HasOne("Tribo.Models.Pacote", "Pacote")
+                        .WithOne("Cliente")
+                        .HasForeignKey("Tribo.Models.Cliente", "Id_Pacote");
+
+                    b.Navigation("Pacote");
+                });
+
+            modelBuilder.Entity("Tribo.Models.Pacote", b =>
+                {
+                    b.HasOne("Tribo.Models.Imagem", "Imagem")
+                        .WithOne("Pacote")
+                        .HasForeignKey("Tribo.Models.Pacote", "Id_Imagem");
+
+                    b.Navigation("Imagem");
+                });
+
+            modelBuilder.Entity("Tribo.Models.TriboParceira", b =>
+                {
+                    b.HasOne("Tribo.Models.Pacote", "Pacote")
+                        .WithOne("Tribo")
+                        .HasForeignKey("Tribo.Models.TriboParceira", "Id_Pacote");
+
+                    b.Navigation("Pacote");
+                });
+
+            modelBuilder.Entity("Tribo.Models.Cliente", b =>
+                {
+                    b.Navigation("Admin")
+                        .IsRequired();
+                });
+
+            modelBuilder.Entity("Tribo.Models.Contato", b =>
+                {
+                    b.Navigation("Admin")
+                        .IsRequired();
+                });
+
+            modelBuilder.Entity("Tribo.Models.Imagem", b =>
+                {
+                    b.Navigation("Pacote")
+                        .IsRequired();
+                });
+
+            modelBuilder.Entity("Tribo.Models.Pacote", b =>
+                {
+                    b.Navigation("Admin")
+                        .IsRequired();
+
+                    b.Navigation("Cliente")
+                        .IsRequired();
+
+                    b.Navigation("Tribo")
+                        .IsRequired();
+                });
+
+            modelBuilder.Entity("Tribo.Models.TriboParceira", b =>
+                {
+                    b.Navigation("Admin");
                 });
 #pragma warning restore 612, 618
         }

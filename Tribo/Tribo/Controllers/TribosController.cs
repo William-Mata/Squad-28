@@ -1,37 +1,49 @@
 ﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
+using System.Security.Claims;
 using Tribo.Data;
 using Tribo.Models;
+using System.Security.Claims;
 
 namespace Tribo.Controllers
 {
     public class TribosController : Controller
-    {        
+    {
 
         private readonly TriboDbContext _context;
+
 
         public TribosController(TriboDbContext context)
         {
             _context = context;
         }
 
-        /*Crud Tribos*/
 
+        /*Crud Tribos*/
         /* Retorna Dados do Tribo */
         [Authorize(Roles = "Tribo,Admin")]
-        public IActionResult DadosTribo(int id)
+        public IActionResult DadosTribo()
         {
+            var userEmail = this.User.FindFirstValue(ClaimTypes.Name);
+            ViewBag.tribo_parceira = _context.TriboParceira.Where(tb => tb.Email_User.Equals(userEmail)).FirstOrDefault();
 
-            ViewBag.tribo_parceira = _context.TriboParceira.Where(tb => tb.IdTribo == id).FirstOrDefault();
 
-            if (ViewBag.tribo_parceira != null)
+            if (userEmail != null)
             {
-                return View(ViewBag.tribo_parceira);
+
+                if (ViewBag.tribo_parceira != null)
+                {
+                    return View(ViewBag.tribo_parceira);
+                }
+                else
+                {
+                    return RedirectToAction("CadastrarTribo", "Tribos");
+                }
             }
             else
             {
-
-                return RedirectToAction("Home", "Pages");
+                return RedirectToAction("Pages", "Home");
             }
 
         }
@@ -39,16 +51,13 @@ namespace Tribo.Controllers
         public IActionResult CadastrarTribo()
         {
             return View();
-
         }
 
         [HttpPost]
         public IActionResult CadastrarTribo(TriboParceira triboParceira)
         {
 
-            var triboTeste = _context.TriboParceira.Where(t => t.Email.Equals(triboParceira.Email) || t.IdTribo.Equals(triboParceira.IdTribo)).FirstOrDefault();
-
-            if (triboTeste == null)
+            if (triboParceira != null)
             {
                 _context.Add(triboParceira);
                 _context.SaveChanges();
@@ -127,10 +136,11 @@ namespace Tribo.Controllers
 
         /* Retorna Dados do Tribo e a Pacote */
         [HttpGet]
-        public IActionResult PacoteTribo(int id)
+        public IActionResult PacoteTribo()
         {
+            var userEmail = this.User.FindFirstValue(ClaimTypes.Name);
 
-            var tribo_parceira = _context.TriboParceira.Where(pc => pc.IdTribo == id).FirstOrDefault();
+            var tribo_parceira = _context.TriboParceira.Where(pc => pc.Email_User == userEmail).FirstOrDefault();
 
 
 
@@ -152,11 +162,12 @@ namespace Tribo.Controllers
 
         [HttpGet]
 
-        public IActionResult CadastrarPacoteTribo(int id)
+        public IActionResult CadastrarPacoteTribo()
         {
+            var userEmail = this.User.FindFirstValue(ClaimTypes.Name);
 
-            var tribo = _context.TriboParceira.Where(tb => tb.IdTribo == id).FirstOrDefault();
-
+            var tribo = _context.TriboParceira.Where(pc => pc.Email_User == userEmail).FirstOrDefault();
+       
             if (tribo != null)
             {
                 return View(tribo);

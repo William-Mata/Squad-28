@@ -14,10 +14,12 @@
             <form asp-action="CadastrarPacoteTribo">
                 <div asp-validation-summary="ModelOnly" class="text-danger"></div>
                 <input type="hidden" asp-for="IdTribo" class="form-control" />
-                <input type="hidden" asp-for="tipoUsuario" class="form-control" />
                 <input type="hidden" asp-for="NomeTribo" class="form-control" />
-                <input type="hidden" asp-for="Email" class="form-control" />
-                <input type="hidden" asp-for="Senha" class="form-control" />
+                <input type="hidden" asp-for="Celular" class="form-control" />
+                <input type="hidden" asp-for="Estado" class="form-control" />
+                <input type="hidden" asp-for="Cidade" class="form-control" />
+                <input type="hidden" asp-for="Email_User" class="form-control" />
+
 
                 <div class="row">
                     <div class="col-6 col-sm-6 col-md-6 col-lg-6 mx-auto">
@@ -27,23 +29,22 @@
                                     <span asp-for="Pacote.Destino" class="input-group-text text-white bg-transparent btn-outline-warning">Destino: </span>
                                 </div>
                                 <div class="col-8 col-sm-8 col-md-8 col-lg-8 m-0">
-                                    <input asp-for="Pacote.Destino" class="form-control text-white bg-transparent btn-outline-warning" placeholder="Destino"/>
-                                    <span asp-validation-for="Pacote.Destino" class="text-danger"></span>
+                                    <input asp-for="Pacote.Destino" class="form-control text-white bg-transparent btn-outline-warning" placeholder="Destino" />
                                 </div>
+                                <span asp-validation-for="Pacote.Destino" class="text-danger"></span>
                             </div>
                         </div>
-                        <div class="form-group ">
+                        <div class="form-group">
                             <div class="row">
                                 <div class="col-3 col-sm-3 col-md-3 col-lg-3 m-0 p-0">
                                     <span asp-for="Pacote.Descricao" class="input-group-text text-white bg-transparent btn-outline-warning">Descrição: </span>
                                 </div>
                                 <div class="col-8 col-sm-8 col-md-8 col-lg-8 m-0">
                                     <textarea rows="5" asp-for="Pacote.Descricao" class="form-control text-white bg-transparent btn-outline-warning" placeholder="Descrição"> </textarea>
-                                    <span asp-validation-for="Pacote.Descricao" class="text-danger"></span>
                                 </div>
+                                <span asp-validation-for="Pacote.Descricao" class="text-danger"></span>
                             </div>
                         </div>
-
 
                     </div>
 
@@ -54,7 +55,7 @@
                                     <span asp-for="Pacote.Valor" class="input-group-text text-white bg-transparent btn-outline-warning">Valor: </span>
                                 </div>
                                 <div class="col-6 col-sm-6 col-md-6 col-lg-6 m-0">
-                                    <input type="number" asp-for="Pacote.Valor" min="0" placeholder="2.000" class="form-control text-white bg-transparent btn-outline-warning"/>
+                                    <input type="number" asp-for="Pacote.Valor" min="0" placeholder="2.000" class="form-control text-white bg-transparent btn-outline-warning" />
                                     <span asp-validation-for="Pacote.Valor" class="text-danger"></span>
                                 </div>
                             </div>
@@ -77,8 +78,8 @@
                                 </div>
                                 <div class="col-6 col-sm-6 col-md-6 col-lg-6 m-0">
                                     <input asp-for="Pacote.DataFim" class="form-control text-white bg-transparent btn-outline-warning" />
-                                    <span asp-validation-for="Pacote.DataFim" class="text-danger"></span>
                                 </div>
+                                    <span asp-validation-for="Pacote.DataFim" class="text-danger"></span>
                             </div>
                         </div>
                     </div>

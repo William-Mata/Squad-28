@@ -15,13 +15,16 @@
     <thead>
         <tr>
             <th>
-                @Html.DisplayNameFor(model => model.NomeTribo)
+               Nome da Tribo
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.Email)
+                @Html.DisplayNameFor(model => model.Celular)
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.Senha)
+                @Html.DisplayNameFor(model => model.Estado)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Cidade)
             </th>
             <th>Ações</th>
         </tr>
@@ -33,10 +36,13 @@
                 @Html.DisplayFor(modelItem => @Model.NomeTribo)
             </td>
             <td>
-                @Html.DisplayFor(modelItem => @Model.Email)
+                @Html.DisplayFor(modelItem => @Model.Celular)
             </td>
             <td>
-                *********
+                @Html.DisplayFor(modelItem => @Model.Estado)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => @Model.Cidade)
             </td>
             <td>
                 <button type="button" class="btn btn-sm btn-secondary btn-outline-warning" data-bs-toggle="modalAjax" data-bs-target="#editarModalClDa"

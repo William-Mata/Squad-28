@@ -1,15 +1,13 @@
-﻿using System.ComponentModel.DataAnnotations.Schema;
+﻿using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace Tribo.Models
 {
+    [Table("Admin")]
     public class Admin
     {
-        public int Id { get; set; }
-
-        public string Email  { get; set; }
-
-        public string Senha  { get; set; }
-
+        [Key]
+        public int IdAdmin { get; set; }
 
         [ForeignKey("Cliente")]
         public int? Id_Cliente { get; set; }
@@ -27,6 +25,6 @@ namespace Tribo.Models
         public int? Id_Pacote { get; set; }
         public virtual Pacote? Pacote { get; set; }
 
-
+      
     }
 }

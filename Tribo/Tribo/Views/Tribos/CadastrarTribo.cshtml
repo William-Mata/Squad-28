@@ -1,11 +1,11 @@
 ﻿@model global::Tribo.Models.TriboParceira
 
 @{
-    ViewData["Title"] = "Cadastro da Tribo";
+    ViewData["Title"] = "Formulario dos Dados da Tribo";
 }
 
-<div class="mb-1 p-0 m-0 text-center bgVidro rounded">
-    <h1>Cadastro da Tribo - Sejá bem vindo(a)!!!</h1>
+<div class="mb-1 p-3 text-center bgVidro rounded">
+    <h1>Formulario dos Dados da Tribo - Sejá bem vindo(a)!!!</h1>
     <hr />
 </div>
 
@@ -13,67 +13,79 @@
 <div class="w-100 m-0 p-0 justify-content-center bgVidro rounded">
     <form asp-action="CadastrarTribo">
         <div asp-validation-summary="ModelOnly" class="text-danger"></div>
-        <div class="form-group" style="display: none;">
-            <label asp-for="tipoUsuario" class="control-label"></label>
-            <input asp-for="tipoUsuario" class="form-control" value="Tribo" />
-            <span asp-validation-for="tipoUsuario" class="text-danger"></span>
-        </div>
         <div class="row px-3 py-4 m-0">
-            <div class="col-12 col-sm-12 col-md-12 col-lg-12">
-                <div class="col-6 col-sm-6 col-md-6 col-lg-6">
-                    <div class="form-group mb-3">
-                        <div class="row">
-                            <div class="col-3 col-sm-3 col-md-3 col-lg-3 border border-1 border-warning rounded ">
-                                <label asp-for="NomeTribo" class="control-label text-white mt-1 text-center">
-                                    Nome da Tribo:
-                                </label>
-                            </div>
-                            <div class="col-8 col-sm-8 col-md-8 col-lg-8">
-                                <input asp-for="NomeTribo"
-                                       class="form-control text-white bg-transparent btn-outline-warning" />
-                            </div>
-                            <span asp-validation-for="NomeTribo" class="text-warning"></span>
+            <div class="col-6 col-sm-6 col-md-6 col-lg-6">
+                <input asp-for="Email_User" type="hidden"
+                       value="@User.Identity.Name" class="form-control" />
+                <div class="form-group mb-3">
+                    <div class="row">
+                        <div class="col-3 col-sm-3 col-md-3 col-lg-3 border border-1 border-warning rounded ">
+                            <label asp-for="NomeTribo" class="control-label text-white mt-1 text-center">
+                                Nome da Tribo:
+                            </label>
                         </div>
-                    </div>
-                    <div class="form-group mb-3">
-                        <div class="row">
-                            <div class="col-2 col-sm-2 col-md-2 col-lg-2 border border-1 border-warning rounded ">
-                                <label asp-for="Email" class="control-label text-white mt-1">
-                                    E-mail:
-                                </label>
-                            </div>
-                            <div class="col-8 col-sm-8 col-md-8 col-lg-8">
-                                <input asp-for="Email"
-                                       class="form-control text-white bg-transparent btn-outline-warning" />
-                            </div>
-                            <span asp-validation-for="Email" class="text-warning"></span>
+                        <div class="col-8 col-sm-8 col-md-8 col-lg-8">
+                            <input asp-for="NomeTribo"
+                                   class="form-control text-white bg-transparent btn-outline-warning" />
                         </div>
-                    </div>
-
-                    <div class="form-group mb-3">
-                        <div class="row">
-                            <div class="col-2 col-sm-2 col-md-2 col-lg-2 border border-1 border-warning rounded ">
-                                <label asp-for="Senha" class="control-label text-white mt-1">
-                                    Senha:
-                                </label>
-                            </div>
-                            <div class="col-5 col-sm-5 col-md-5 col-lg-5 ">
-                                <input asp-for="Senha" type="password"
-                                       class="form-control text-white bg-transparent btn-outline-warning" />
-                            </div>
-                            <span asp-validation-for="Senha" class="text-warning"></span>
-                        </div>
+                        <span asp-validation-for="NomeTribo" class="text-warning"></span>
                     </div>
                 </div>
-                <div class="form-group">
-                    <div class="row justify-content-center">
-                        <div class="col-1 col-sm-1 col-md-1 col-lg-1">
-                            <input type="submit" value="Cadastrar" class="btn btn-md btn-secondary btn-outline-warning text-white m-0" />
+                <div class="form-group mb-3">
+                    <div class="row">
+                        <div class="col-3 col-sm-3 col-md-3 col-lg-3 border border-1 border-warning rounded ">
+                            <label asp-for="Celular" class="control-label text-white mt-1 text-center">
+                                Celular:
+                            </label>
                         </div>
+                        <div class="col-8 col-sm-8 col-md-8 col-lg-8">
+                            <input asp-for="Celular"
+                                   class="form-control text-white bg-transparent btn-outline-warning" />
+                        </div>
+                        <span asp-validation-for="Celular" class="text-warning"></span>
                     </div>
                 </div>
+            </div>
+            <div class="col-6 col-sm-6 col-md-6 col-lg-6">
+                <div class="form-group mb-3">
+                    <div class="row">
+                        <div class="col-3 col-sm-3 col-md-3 col-lg-3 border border-1 border-warning rounded ">
+                            <label asp-for="Estado" class="control-label text-white mt-1 text-center">
+                                Estado:
+                            </label>
+                        </div>
+                        <div class="col-8 col-sm-8 col-md-8 col-lg-8">
+                            <input asp-for="Estado"
+                                   class="form-control text-white bg-transparent btn-outline-warning" />
+                        </div>
+                        <span asp-validation-for="Estado" class="text-warning"></span>
+                    </div>
+                </div>
+                <div class="form-group mb-3">
+                    <div class="row">
+                        <div class="col-3 col-sm-3 col-md-3 col-lg-3 border border-1 border-warning rounded ">
+                            <label asp-for="Cidade" class="control-label text-white mt-1 text-center">
+                                Cidade:
+                            </label>
+                        </div>
+                        <div class="col-8 col-sm-8 col-md-8 col-lg-8">
+                            <input asp-for="Cidade"
+                                   class="form-control text-white bg-transparent btn-outline-warning" />
+                        </div>
+                        <span asp-validation-for="Cidade" class="text-warning"></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="form-group">
+            <div class="row justify-content-center">
+                <div class="col-1 col-sm-1 col-md-1 col-lg-1">
+                    <input type="submit" value="Cadastrar" class="btn btn-md btn-secondary
+                             btn-outline-warning text-white m-0"/>
+                </div>
+            </div>
+        </div>
     </form>
-</div>
 </div>
 
 
