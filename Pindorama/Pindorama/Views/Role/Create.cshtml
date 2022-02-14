@@ -1,0 +1,45 @@
+﻿@model Microsoft.AspNetCore.Identity.IdentityRole
+@{
+    ViewData["Title"] = "Create";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<div class="colorPadrao2 rounded text-center p-3">
+    <h1>Administração - Criar Role</h1>
+    <hr />
+</div>
+
+
+<div class="container-fluid m-0 colorPadrao2 shadow-lg rounded p-3">
+    <div class="row px-3 py-4 justify-content-center">
+        <div class="col-8 col-sm-8 col-md-8 col-lg-8">
+            <form asp-action="Create">
+                <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                <div class="form-group mb-3">
+                    <div class="row justify-content-center">
+                        <div class="col-2 col-sm-2 col-md-2 col-lg-2 pe-0">
+                            <span  class="form-control bg-transparent btn-outline-warning">Nome: </span>
+
+                        </div>
+                        <div class="col-6 col-sm-6 col-md-6 col-lg-6">
+                            <input asp-for="Name" class="form-control text-center bg-transparent btn-outline-warning" />
+                            <span asp-validation-for="Name" class="text-warning"></span>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="row justify-content-center">
+                    <div class="col-8 col-sm-8 col-md-8 col-lg-8">
+                        <button type="submit" class="btn w-100 text-white colorPadrao btn-outline-warning mb-3">Crear Role</button>
+                         <a asp-action="Roles" class="btn w-100 text-white colorPadrao btn-outline-warning ">Lista de Roles</a>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    @{
+    await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+    }

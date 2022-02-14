@@ -1,0 +1,99 @@
+﻿@model global::Pindorama.Models.AldeiaParceira
+
+@{
+    ViewData["Title"] = "Artesanatos Aldeia";
+}
+
+
+<div class="container-fluid" id="ModalAqui">
+</div>
+
+<div class="row m-0 colorPadrao2 shadow-lg rounded py-3">
+    <h4 class="text-center mb-3 text-break">Aldeia - Artesanatos</h4>
+
+    <table class="table text-center">
+        <thead>
+            <tr>
+                <th>
+                    Tipo
+                </th>
+                <th>
+                    Descricao
+                </th>
+                <th>
+                    Valor
+                </th>
+                <th>
+                    Imagem
+                </th>
+                <th>Ações</th>
+            </tr>
+        </thead>
+        <tbody>
+            @if (@ViewBag.artesanatos != null)
+            {
+                @foreach (var artesanato in @ViewBag.artesanatos)
+                {
+                    if (artesanato != null)
+                    {
+                        <tr>
+                            <td>
+                                @artesanato.Tipo
+                            </td>
+                            <td>
+                                @artesanato.Descricao
+                            </td>
+                            <td>
+                                R$: @artesanato.Valor
+
+                            </td>
+                            <td>
+                                @if (@artesanato.Id_Imagem != null)
+                                {
+                                    <a><img src="/Imagens/VerImagem/@artesanato.Id_Imagem" width="50" height="50" /></a>
+                                }
+
+                            </td>
+                            <td>
+                                <button type="button" class="btn btn-sm colorPadrao btn-outline-warning" data-bs-toggle="modalAjax" data-bs-target="#editarModalArtTrb"
+                            data-url="@Url.Action($"EditArtesanatoAldeia/{@artesanato.IdArtesanato}")">
+                                    <img src="~/img/edit.png" />
+                                </button>
+
+                                <button type="button" class="btn btn-sm colorPadrao btn-outline-warning mt-1" data-bs-toggle="modalAjax" data-bs-target="#detalhesModalArtTrb"
+                            data-url="@Url.Action($"DetailArtesanatoAldeia/{@artesanato.IdArtesanato}")">
+                                    <img src="~/img/ver-detalhes.png" />
+                                </button>
+
+                                <button type="button" class="btn btn-sm colorPadrao btn-outline-warning mt-1" data-bs-toggle="modalAjax" data-bs-target="#deleteModalArtTrb"
+                            data-url="@Url.Action($"DeleteArtesanatoAldeia/{@artesanato.IdArtesanato}")">
+                                    <img src="~/img/delete.png" />
+                                </button>
+                                <button type="button" class="btn btn-sm colorPadrao btn-outline-warning mt-1" data-bs-toggle="modalAjax" data-bs-target="#addImgModalArt"
+                            data-url="@Url.Action($"AddImagemArt/{@artesanato.IdArtesanato}")">
+                                    <img src="~/img/image.png" />
+                                </button>
+                            </td>
+                        </tr>
+                    }
+                }
+            }
+        </tbody>
+    </table>
+
+    <div class="row justify-content-center mx-0 py-3">
+        <hr />
+        <div class="col-12 col-sm-10 col-md-5 col-lg-3">
+            <a asp-controller="Aldeias" asp-action="CadastrarArtesanatoAldeia" class="btn w-100 btn-md text-white colorPadrao btn-outline-warning">
+                Cadastrar Artesanato
+            </a>
+        </div>
+    </div>
+</div>
+
+
+@section Scripts {
+    @{
+    await Html.RenderPartialAsync("_ValidationScriptsPartial");
+}
+}

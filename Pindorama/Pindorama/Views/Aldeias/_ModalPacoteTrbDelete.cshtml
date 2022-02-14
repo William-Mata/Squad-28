@@ -1,0 +1,91 @@
+﻿@model Pacote
+
+
+<div class="modal fade bg-transparent" id="deleteModalPctTrb">
+    <div class="modal-dialog modal-dialog-centered modal-lg ">
+        <div class="modal-content colorPadrao2">
+            <div class="modal-header">
+                <h5 class="modal-title" id="deletarVModalLabel">Deletar Pacote</h5>
+                <button type="button" class="btn colorPadrao btn-outline-warning text-white" data-bs-dismiss="modal"
+                        aria-label="Close">
+                    X
+                </button>
+            </div>
+            <div class="modal-body m-0 p-0">
+                <form asp-action="DeletePacoteAldeia" class="m-0 p-0 ">
+                   <input class="d-none" asp-for="IdPacote"/>
+                   <input class="d-none" asp-for="Id_Imagem"/>
+                    <input class="d-none" asp-for="Aldeia.IdAldeia"/>
+
+                    <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                    <div class="row justify-content-center py-3">
+                        <div class="col-11 col-md-11 col-sm-11 col-lg-5 mx-auto">
+                            <div class="form-group mb-3">
+                                <div class="row">
+                                    <div class="col border border-1 border-warning rounded ">
+                                        <label asp-for="Destino" class="control-label mt-1">Destino: @Model.Destino</label>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form-group mb-3">
+                                <div class="row">
+                                    <div class="col border border-1 border-warning rounded ">
+                                        <label asp-for="Valor" class="control-label mt-1">Valor: R$ @Model.Valor</label>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="form-group mb-3">
+                                <div class="row">
+                                    <div class="col border border-1 border-warning rounded ">
+                                        <label asp-for="Descricao" class="control-label mt-1">Descrição: @Model.Descricao</label>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-11 col-md-11 col-sm-11 col-lg-5 mx-auto">
+
+                            <div class="form-group mb-3">
+                                <div class="row">
+                                    <div class="col border border-1 border-warning rounded ">
+                                        <label asp-for="DataInicio" class="control-label mt-1">Data de Ida: @Model.DataInicio</label>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form-group mb-3">
+                                <div class="row">
+                                    <div class="col border border-1 border-warning rounded ">
+                                        <label class="control-label mt-1">Data de Volta: @Model.DataFim</label>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form-group ">
+                                <div class="row">
+                                    <div class="col border border-1 border-warning rounded ">
+                                        <label class="control-label mt-1">Imagem: </label>
+                                        @if (@Model.Id_Imagem != null)
+                                        {
+                                            <a><img src="/Imagens/VerImagem/@Model.Id_Imagem" width="100" height="100" /></a>
+                                        }
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="form-group m-0 p-0">
+                        <div class="modal-footer">
+                            <button type="button" class="btn colorPadrao btn-outline-warning text-white"
+                                    data-bs-dismiss="modal">
+                                Sair
+                            </button>
+                            <button type="submit" data-bs-save="modal" class="btn colorPadrao btn-outline-warning text-white">Apagar Pacote</button>
+                        </div>
+                    </div>
+
+                </form>
+
+            </div>
+        </div>
+    </div>
+</div>

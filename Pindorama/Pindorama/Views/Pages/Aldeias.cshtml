@@ -1,0 +1,218 @@
+﻿@model Cliente
+@{
+    ViewData["Title"] = "Aldeias";
+}
+
+
+
+<div class="modal fade" id="modalComprarPacote">
+    <div class="modal-dialog modal-dialog-centered modal-lg">
+        <div class="modal-content colorPadrao2">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Comprar Passagens</h5>
+                <button type="button" class="btn colorPadrao btn-outline-warning text-white" data-bs-dismiss="modal"
+                        aria-label="Close">
+                    X
+                </button>
+            </div>
+
+            <div class="modal-body p-0 m-0">
+                @if (@Model != null)
+                {
+                    <form asp-action="ComprarPct">
+                        <div class="row py-3 px-3 m-0">
+                            <div class="col-12 col-sm-12 col-md-12 col-lg-6">
+                                <div class="form-group mb-3">
+                                    <div class="row">
+                                        <input asp-for="Pacote[0].IdPacote" type="hidden" id="idpacote" class="form-control" />
+
+                                        <div class="col-2 col-sm-2 col-md-2 col-lg-3 border border-1 border-warning rounded ">
+                                            <label asp-for="Nome" class="control-label mt-1">
+                                                Nome:
+                                            </label>
+                                        </div>
+                                        <div class="col-10 col-sm-10 col-md-10 col-lg-9 ">
+                                            <input asp-for="Nome"
+                                               class="form-control bg-transparent btn-outline-warning" readonly />
+                                        </div>
+                                        <span asp-validation-for="Nome"></span>
+                                    </div>
+                                </div>
+                                <div class="form-group mb-3">
+                                    <div class="row">
+                                        <div class="col-2 col-sm-2 col-md-2 col-lg-3  border border-1 border-warning rounded ">
+                                            <label asp-for="Idade" class="control-label mt-1">Idade:</label>
+                                        </div>
+                                        <div class="col-2 col-sm-2 col-md-2 col-lg-6 ">
+                                            <input asp-for="Idade"
+                                               class="form-control bg-transparent btn-outline-warning" readonly />
+                                        </div>
+                                        <span asp-validation-for="Idade"></span>
+                                    </div>
+                                </div>
+                                <div class="form-group mb-3">
+                                    <div class="row">
+                                        <div class="col-2 col-sm-2 col-md-2 col-lg-2  border border-1 border-warning rounded ">
+                                            <label asp-for="CPF" class="control-label mt-1">CPF:</label>
+                                        </div>
+                                        <div class="col-6 col-sm-6 col-md-6 col-lg-10 ">
+                                            <input asp-for="CPF"
+                                               class="form-control bg-transparent btn-outline-warning" readonly />
+                                        </div>
+                                        <span asp-validation-for="CPF"></span>
+                                    </div>
+                                </div>
+                                <div class="form-group mb-3">
+                                    <div class="row">
+                                        <div class="col-2 col-sm-2 col-md-2 col-lg-2  border border-1 border-warning rounded ">
+                                            <label class="control-label mt-1">Valor:</label>
+                                        </div>
+                                        <div class="col-6 col-sm-6 col-md-6 col-lg-10 ">
+                                            <input class="form-control bg-transparent btn-outline-warning" readonly id="valor" />
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="form-group mb-3">
+                                    <div class="row">
+                                        <div class="col-2 col-sm-2 col-md-2 col-lg-3  border border-1 border-warning rounded ">
+                                            <label class="control-label mt-1">Cupom:</label>
+                                        </div>
+                                        <div class="col-6 col-sm-6 col-md-6 col-lg-9 ">
+                                            <input class="form-control bg-transparent btn-outline-warning" id="cupom" />
+                                        </div>
+                                        <span id="AspCp"></span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 col-sm-12 col-md-12 col-lg-6">
+                                <div class="form-group mb-3">
+                                    <div class="row">
+                                        <div class="col-2 col-sm-2 col-md-2 col-lg-3 border border-1 border-warning rounded ">
+                                            <label class="control-label mt-1">Destino:</label>
+                                        </div>
+                                        <div class="col-10 col-sm-10 col-md-10 col-lg-9">
+                                            <input class="form-control bg-transparent btn-outline-warning" id="destino" readonly />
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="form-group mb-3">
+                                    <div class="row">
+                                        <div class="col-2 col-sm-2 col-md-2 col-lg-3  border border-1 border-warning rounded ">
+                                            <label class="control-label mt-1">Origem:</label>
+                                        </div>
+                                        <div class="col-10 col-sm-10 col-md-10 col-lg-9">
+                                            <input asp-for="Origem" class="form-control bg-transparent btn-outline-warning" />
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="form-group mb-3">
+                                    <div class="row">
+                                        <div class="col-3 col-sm-3 col-md-3 col-lg-3 border border-1 border-warning rounded ">
+                                            <label class="control-label mt-1">Data de Ida:</label>
+                                        </div>
+                                        <div class="col-5 col-sm-5 col-md-5 col-lg-9">
+                                            <input type="datetime" class="form-control bg-transparent btn-outline-warning" id="dataida" readonly />
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="form-group mb-3">
+                                    <div class="row">
+                                        <div class="col-3 col-sm-3 col-md-3 col-lg-4 border border-1 border-warning rounded ">
+                                            <label class="control-label mt-1">Data de Volta:</label>
+                                        </div>
+                                        <div class="col-5 col-sm-5 col-md-5 col-lg-8">
+                                            <input type="datetime" class="form-control bg-transparent btn-outline-warning" id="datavolta" readonly />
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-group m-0 p-0">
+                            <div class="modal-footer">
+                                <button type="button" class="btn colorPadrao btn-outline-warning text-white" onclick="Desconto();"> Aplicar Desconto </button>
+                                <button type="button" class="btn colorPadrao btn-outline-warning text-white"
+                                    data-bs-dismiss="modal">
+                                    Sair
+                                </button>
+                                <input type="submit" value="Comprar" class="btn colorPadrao btn-outline-warning text-white" />
+                            </div>
+                        </div>
+                    </form>
+                }
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="row m-0 p-0">
+
+    @if(@TempData["msg"] != null)
+    {
+        <div class="alert alert-danger text-center" role="alert">
+            @TempData["msg"]
+        </div>
+    }
+
+    @foreach (var item in ViewBag.pacotes)
+    {
+        @if (item != null)
+        {
+            var idc = "collapseExample" + @item.IdPacote.ToString();
+
+            <div class="col-6 col-sm-6 col-md-4 col-lg-3 mb-3">
+                <div class="card colorPadrao2 rounded">
+                    <a data-bs-toggle="modal" data-bs-target="#exampleModal" href="#"
+               onclick="Pacote(@item.IdPacote.ToString());">
+                        @if (@item.Id_Imagem != null)
+                        {
+                            <img src="/Imagens/VerImagem/@item.Id_Imagem" class="card-img-top img-fluid">
+                        }
+                    </a>
+                    <div class="card-body">
+                        <div id="card">
+                            <h5 class="card-title">@item.Destino</h5>
+                            <p class="fs-6 m-0">Valor: R$ @item.Valor</p>
+                            <p class="fs-6 m-0">Data de Ida: @item.DataInicio</p>
+                            <p class="fs-6 m-0">Data de Volta: @item.DataFim</p>
+                        </div>
+                        <a class="fs-6 text-black-50" data-bs-toggle="collapse" href="#@idc" role="button" aria-expanded="false" aria-controls="@idc">
+                            Leia mais sobre a tibro
+                        </a>
+                        <hr />
+                        <div class="collapse mt-2" id="@idc">
+                            <p class="fs-6">
+                                @item.Descricao
+                            </p>
+                        </div>
+                        <div id="@item.IdPacote.ToString()" style="display: none;">
+                            <p>@item.IdPacote</p>
+                            <p>@item.Descricao.ToString()</p>
+                            <p>@item.Valor</p>
+                            <p>@item.Destino</p>
+                            <p>@item.DataInicio</p>
+                            <p>@item.DataFim</p>
+                        </div>
+                    </div>
+                    @if (@Model != null)
+                    {
+                        <input type="submit" value="Comprar" class="btn colorPadrao btn-outline-warning text-white" data-bs-toggle="modal" data-bs-target="#modalComprarPacote" href="#"
+                   onclick="Pacote(@item.IdPacote.ToString());" />
+                    }
+                    else
+                    {
+                        <input type="submit" value="Comprar" class="btn colorPadrao btn-outline-warning text-white"
+                   onclick="CompraPct();" />
+                    }
+                </div>
+            </div>
+
+        }
+    }
+</div>
+
+@section Scripts {
+        @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+        }
+        }
+

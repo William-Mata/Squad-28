@@ -1,0 +1,87 @@
+﻿@model IEnumerable<Cliente>
+
+@{
+    ViewData["Title"] = "Administracao";
+}
+
+<div class="container-fluid" id="ModalAqui">
+</div>
+
+
+<div class="row colorPadrao2 text-center text-break justify-content-center rounded py-3">
+     <h1>Administração - Artesanatos</h1>
+
+    <table class="table mt-2">
+        <thead>
+            <tr>
+                <th>
+                    @Html.DisplayNameFor(model => model.Nome)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Idade)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.CPF)
+                </th>
+                <th>
+                    Tipo
+                </th>
+                <th>
+                    Descrição
+                </th>
+                <th>
+                   Valor
+                </th>
+                <th>Ações</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in @Model)
+            {
+                @foreach (var pacote in item.Artesanato)
+                {
+                    <tr>
+                        <td>
+                            @item.Nome
+                        </td>
+                        <td>
+                            @item.Idade
+                        </td>
+                        <td>
+                            @item.CPF
+                        </td>
+                        @if (@item.Artesanato != null)
+                        {
+                            <td>
+                                @pacote.Tipo
+                            </td>
+                             <td>
+                                @pacote.Descricao
+                            </td>
+                            <td>
+                                R$: @pacote.Valor
+                            </td>
+                        }
+                        <td>
+                            <button type="button" class="btn btn-sm colorPadrao btn-outline-warning mt-1" data-bs-toggle="modalAjax" data-bs-target="#detalhesModalAdmPct"
+                            data-url="@Url.Action($"DetailsArtesanato", new {pacote.IdArtesanato, item.IdCliente})">
+                                <img src="~/img/ver-detalhes.png" />
+                            </button>
+                            <button type="button" class="btn btn-sm colorPadrao btn-outline-warning  mt-1" data-bs-toggle="modalAjax" data-bs-target="#deleteModalAdmPct"
+                            data-url="@Url.Action($"DeleteArtesanato", new {pacote.IdArtesanato, item.IdCliente})">
+                                <img src="~/img/delete.png" />
+                            </button>
+                        </td>
+                    </tr>
+                }
+            }
+        </tbody>
+    </table>
+</div>
+
+
+@section Scripts {
+    @{
+    await Html.RenderPartialAsync("_ValidationScriptsPartial");
+}
+}

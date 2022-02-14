@@ -1,0 +1,93 @@
+﻿@model global::Pindorama.Models.Contato
+@{
+    ViewData["Title"] = "Contatos";
+}
+
+
+<aside class="colorPadrao2 rounded">
+    <div class="container p-5">
+        <div class="row text-break">
+            <div class="col-12 col-sm-12 col-md-6 col-lg-6 shadow rounded p-3 mb-3">
+                <h1 class="display-3">Contatos</h1>
+                <p class="lead fs-3">Entre em contato conosco</p>
+                <hr class="my-2">
+                <div class="row">
+                    <div class="col-12 col-sm-12 col-md-6 col-lg-6">
+                        <p>
+                            <img src="~/img/whatsapp.png"> 021 99999-8888
+                        </p>
+                        <p>
+                            <img src="~/img/telefone-celular.png"> 021 98888-7777
+                        </p>
+                        <p>
+                            <img src="~/img/telefone.png"> 021 2222-3333
+                        </p>
+                        <p>
+                            <img src="~/img/telefone.png"> 0800 4002-8922
+                        </p>
+                    </div>
+
+                    <div class="col-12 col-sm-12 col-md-6 col-lg-6">
+
+                        <p>
+                            <img src="~/img/o-email.png"> Pindorama@email.com
+                        </p>
+                        <p>
+                            <img src="~/img/facebook.png"> Facebook.com/Pindorama
+                        </p>
+                        <p>
+                            <img src="~/img/twitter.png"> Twitter.com/Pindorama
+                        </p>
+                        <p>
+                            <img src="~/img/instagram.png"> Instagram.com/Pindorama
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-sm-12 col-md-6 col-lg-6 shadow rounded mb-3 p-3">
+                <form asp-action="CreateContato">
+                    <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                    <div class="form-group d-inline-flex mb-3">
+                        <span asp-for="Nome" class="input-group-text bg-transparent btn-outline-warning">Nome</span>
+                        <input asp-for="Nome" type="text"
+                               class="form-control bg-transparent btn-outline-warning"
+                               value="Fulano beutrano">
+                        <span asp-validation-for="Nome" ></span>
+                    </div>
+                    <div class="form-group d-inline-flex mb-3">
+                        <span asp-for="Email"
+                              class="input-group-text bg-transparent btn-outline-warning">E-mail</span>
+                        <input asp-for="Email" type="text"
+                               class="form-control bg-transparent btn-outline-warning"
+                               value="email@example.com">
+                        <span asp-validation-for="Email" class="text-danger"></span>
+                    </div>
+                    <div class="form-group">
+                        <span asp-for="Mensagem"
+                              class="input-group-text bg-transparent btn-outline-warning">Mensagem</span>
+                        <textarea asp-for="Mensagem"
+                                  class="form-control bg-transparent btn-outline-warning mt-1"
+                                  rows="5">Digite o motivo do contato...</textarea>
+                        <span asp-validation-for="Mensagem" ></span>
+                    </div>
+                    <div class="form-group d-flex justify-content-center mt-2">
+                        <button type="submit" value="Create"
+                                class="btn w-25 text-white colorPadrao btn-outline-warning">
+                            Enviar
+                        </button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+</aside>
+
+
+
+@section Scripts {
+    @{
+    await Html.RenderPartialAsync("_ValidationScriptsPartial");
+}
+}

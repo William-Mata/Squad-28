@@ -1,0 +1,113 @@
+﻿@using Microsoft.AspNetCore.Identity
+@inject SignInManager<IdentityUser> SignInManager
+@inject UserManager<IdentityUser> UserManager
+
+
+
+
+    @if (SignInManager.IsSignedIn(User))
+{
+    @if (User.IsInRole("Admin"))
+    {
+        <li class="nav-item mx-2 my-1 dropdown">
+            <button class="btn btn-md w-100  btn-outline-warning text-white dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Olá, @User.Identity.Name
+            </button>
+
+            <ul class="dropdown-menu colorPadrao mx-auto p-0" aria-labelledby="navbarDropdown">
+                <li>
+                    <a class="w-100 btn btn-md btn-outline-warning text-white" asp-area="Identity"
+               asp-page="/Account/Manage/Index" title="Manage">Gerenciar Conta</a>
+                </li>
+                <li>
+                    <a class="btn btn-md btn-outline-warning text-white w-100"
+               asp-area="" asp-controller="Administracao" asp-action="AdministracaoContatos">Caixa de Contatos</a>
+                </li>
+
+                <li>
+                    <a class="btn btn-md btn-outline-warning text-white w-100"
+               asp-area="" asp-controller="Administracao" asp-action="AdministracaoPacotes">Lista de Pacotes</a>
+                </li>
+                <li>
+                    <a class="btn btn-md btn-outline-warning text-white w-100"
+               asp-area="" asp-controller="Administracao" asp-action="AdministracaoArtesanatos">Lista de Artesanatos</a>
+                </li>
+
+                <li><a class="w-100 btn btn-md btn-outline-warning text-white" asp-area="" asp-controller="Role" asp-action="Roles">Roles</a></li>
+                <li>
+                    <form class="form-inline" asp-area="Identity" asp-page="/Account/Logout" asp-route-returnUrl="@Url.Page("/", new { area = "Pages" })" method="post">
+                        <button type="submit" class="w-100 btn btn-md btn-outline-warning text-white">Sair</button>
+                    </form>
+                </li>
+            </ul>
+        </li>
+
+    }
+    @if (User.IsInRole("Cliente"))
+    {
+        <li class="nav-item mx-2 my-1 dropdown">
+            <button class="btn btn-md w-100 btn-outline-warning text-white dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-target="#navbarDropdown" data-bs-toggle="dropdown" aria-expanded="false">
+                Olá, @User.Identity.Name
+            </button>
+
+            <ul class="dropdown-menu colorPadrao mx-auto p-0" aria-labelledby="navbarDropdown">
+                <li><a class="w-100 btn btn-md btn-outline-warning text-white" asp-area="Identity"
+               asp-page="/Account/Manage/Index" title="Manage">Gerenciar Conta</a>
+                </li>
+                <li><a class="w-100 btn btn-md btn-outline-warning text-white"
+               asp-area="" asp-controller="Clientes" asp-action="MeusDados">Meus Dados</a>
+                </li>
+                <li><a class="w-100 btn btn-md btn-outline-warning text-white"
+               asp-area="" asp-controller="Clientes" asp-action="MeusPacotes">Meus Pacotes</a>
+                </li>
+                <li><a class="w-100 btn btn-md btn-outline-warning text-white"
+               asp-area="" asp-controller="Clientes" asp-action="MeusArtesanatos">Meus Artesanatos</a>
+                </li>
+                <li><form class="form-inline" asp-area="Identity" asp-page="/Account/Logout" asp-route-returnUrl="@Url.Page("/", new { area = "Pages" })" method="post">
+                        <button type="submit" class="w-100 btn btn-md btn-outline-warning text-white">Sair</button>
+                    </form></li>
+            </ul>
+        </li>
+    }
+    @if (User.IsInRole("Aldeia"))
+    {
+        <li class="nav-item mx-2 my-1 dropdown">
+            <button class="btn btn-md w-100  btn-outline-warning text-white dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Olá, @User.Identity.Name
+            </button>
+            <ul class="dropdown-menu colorPadrao mx-auto p-0" aria-labelledby="navbarDropdown">
+                <li><a class="w-100 btn btn-md btn-outline-warning text-white" asp-area="Identity" asp-page="/Account/Manage/Index" title="Manage">Gerenciar Conta</a></li>
+                <li>
+                    <a class="w-100 btn btn-md btn-outline-warning text-white"
+               asp-area="" asp-controller="Aldeias" asp-action="DadosAldeia">Aldeia Dados</a>
+                </li>
+                <li>
+                    <a class="w-100 btn btn-md btn-outline-warning text-white"
+               asp-area="" asp-controller="Aldeias" asp-action="PacoteAldeia">Aldeia Pacotes</a>
+                </li>
+                <li>
+                    <a class="w-100 btn btn-md btn-outline-warning text-white"
+               asp-area="" asp-controller="Aldeias" asp-action="ArtesanatoAldeia">Aldeia Artesanatos</a>
+                </li>
+                <li>
+                    <form class="form-inline" asp-area="Identity" asp-page="/Account/Logout" asp-route-returnUrl="@Url.Page("/", new { area = "Pages" })" method="post">
+                        <button type="submit" class="w-100 btn btn-md btn-outline-warning text-white">Sair</button>
+                    </form>
+                </li>
+            </ul>
+        </li>
+
+    }
+
+}
+else
+{
+    <li class="nav-item mx-2 my-1">
+        <a class="btn btn-md w-100 btn-outline-warning text-white" asp-area="Identity" asp-page="/Account/Login">Entrar</a>
+    </li>
+    <li class="nav-item mx-2 my-1">
+        <a class="btn btn-md w-100 btn-outline-warning text-white" asp-area="Identity" asp-page="/Account/Register">Resgistrar</a>
+    </li>
+
+}
+

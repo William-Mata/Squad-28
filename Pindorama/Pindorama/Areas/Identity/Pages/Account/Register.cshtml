@@ -1,0 +1,79 @@
+﻿@page
+@model RegisterModel
+@{
+    ViewData["Title"] = "Registrar Usuario";
+}
+
+<div class="row justify-content-center text-break text-center">
+    <div class="col-11 col-sm-11 col-md-10 col-lg-8 p-4 colorPadrao2 rounded">
+        <h1>Cadastro de Usuario</h1>
+        <hr />
+
+
+
+        <form id="registerForm" asp-route-returnUrl="@Model.ReturnUrl" method="post">
+            <div asp-validation-summary="ModelOnly" id="erroRegistro" class="row text-center"></div>
+            <div class="form-floating mb-3">
+                <div class="row">
+                    <div class="col-3 col-sm-2 col-md-2 col-lg-2 pe-0 border border-1 border-warning rounded">
+                        <label asp-for="Input.Email" class="control-label mt-1 ">E-mail:</label>
+                    </div>
+                    <div class="col-8 col-sm-8 col-md-8 col-lg-6">
+                        <input asp-for="Input.Email" class="form-control bg-transparent btn-outline-warning" autocomplete="username" aria-required="true" />
+                    </div>
+                    <span asp-validation-for="Input.Email" ></span>
+                </div>
+            </div>
+            <div class="form-floating mb-3">
+                <div class="row">
+                    <div class="col-3 col-sm-3 col-md-2 col-lg-2 pe-0 border border-1 border-warning rounded ">
+                        <label asp-for="Input.Password" class="control-label mt-1">Senha:</label>
+                    </div>
+                    <div class="col-6 col-sm-6 col-md-6 col-lg-4">
+                        <input asp-for="Input.Password" class="form-control bg-transparent btn-outline-warning" autocomplete="new-password" aria-required="true" />
+                    </div>
+                    <span asp-validation-for="Input.Password" ></span>
+                </div>
+            </div>
+            <div class="form-floating mb-3">
+                <div class="row">
+                    <div class="col-5 col-sm-6 col-md-4 col-lg-3 pe-0 border border-1 border-warning rounded ">
+                        <label asp-for="Input.ConfirmPassword" class="control-label mt-1 text-center"> Confirmar Senha:</label>
+                    </div>
+                    <div class="col-6 col-sm-6 col-md-6 col-lg-4">
+                        <input asp-for="Input.ConfirmPassword" class="form-control bg-transparent btn-outline-warning" autocomplete="new-password" aria-required="true" />
+                    </div>
+                    <span asp-validation-for="Input.ConfirmPassword" ></span>
+                </div>
+            </div>
+            <div class="form-floating mb-3">
+                <div class="row">
+                    <div class="col-5 col-sm-5 col-md-4 col-lg-3 border border-1 border-warning rounded ">
+                        <label class="control-label mt-1 text-center">
+                            Tipo de usuario:
+                        </label>
+                    </div>
+                    <div class="col-5 col-sm-5 col-md-3 col-lg-3">
+                        <select asp-for="Input.Name" class="text-center bg-transparent btn-outline-warning py-1 rounded w-100" oninput="roleName()" id="rolename">
+                            <option>Escolha o tipo</option>
+                            <option>Cliente</option>
+                            <option>Aldeia</option>
+                            <option>Admin</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+            <div class="form-floating">
+                <div class="row justify-content-center">
+                    <div class="col-6 col-sm-6 col-md-6 col-lg-6">
+                        <button id="registerSubmit" type="submit" class="btn w-100 text-white colorPadrao btn-outline-warning">Registrar</button>
+                    </div>
+                </div>
+            </div>
+        </form>
+    </div>
+</div>
+
+@section Scripts {
+<partial name="_ValidationScriptsPartial" />
+}

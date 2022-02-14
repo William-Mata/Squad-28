@@ -1,0 +1,22 @@
+/* _content/Tribo/Views/Shared/_Layout.cshtml.rz.scp.css */
+/* Please see documentation at https://docs.microsoft.com/aspnet/core/client-side/bundling-and-minification
+for details on configuring this project to bundle and minify static web assets. */
+
+
+*[b-h9drmuipwl]{
+    color: #3b4c42;
+}
+
+
+.footer[b-h9drmuipwl] {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  white-space: nowrap;
+  line-height: 60px;
+}
+
+#erroRegistro li[b-h9drmuipwl]{
+    list-style: none;
+    list-style-type: none;
+}

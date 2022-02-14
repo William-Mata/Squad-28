@@ -1,0 +1,73 @@
+﻿@model global::Pindorama.Models.Cliente
+
+@{
+    ViewData["Title"] = "Artesanatos Cliente";
+}
+
+
+<div class="container-fluid" id="ModalAqui">
+</div>
+
+<div class="row colorPadrao2 text-center text-break justify-content-center rounded py-3">
+    <h1>Artesanatos do Cliente</h1>
+
+    <table class="table mt-2">
+        <thead>
+            <tr>
+                <th>
+                    @Html.DisplayNameFor(model => model.Nome)
+                </th>
+                <th>
+                    Tipo
+                </th>
+                <th>
+                    Descrição
+                </th>
+                <th>
+                    Valor
+                </th>
+                <th>Ações</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var artesanato in @ViewBag.artesanatos)
+            {
+                if (artesanato != null)
+                {
+                    <tr>
+                        <td>
+                            @Html.DisplayFor(modelItem => @Model.Nome)
+                        </td>
+                        <td>
+                            @artesanato.Tipo
+                        </td>
+                        <td>
+                            @artesanato.Descricao
+                        </td>
+                        <td>
+                            R$ @artesanato.Valor
+                        </td>
+                        <td>
+                            <button type="button" class="btn btn-sm colorPadrao btn-outline-warning mt-1" data-bs-toggle="modalAjax" data-bs-target="#detalhesModalArtCl"
+                            data-url="@Url.Action($"DetailArtesanatoCliente/{artesanato.IdArtesanato}")">
+                                <img src="~/img/ver-detalhes.png" />
+                            </button>
+
+                            <button type="button" class="btn btn-sm colorPadrao btn-outline-warning mt-1" data-bs-toggle="modalAjax" data-bs-target="#deleteModalArtCl"
+                            data-url="@Url.Action($"DeleteArtesanatoCliente/{artesanato.IdArtesanato}")">
+                                <img src="~/img/delete.png" />
+                            </button>
+                        </td>
+                    </tr>
+                }
+            }
+        </tbody>
+    </table>
+</div>
+
+
+@section Scripts {
+    @{
+    await Html.RenderPartialAsync("_ValidationScriptsPartial");
+}
+}

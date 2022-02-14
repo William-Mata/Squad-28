@@ -1,0 +1,1422 @@
+﻿++Solução 'Tribo' ‎(1 de 1 projeto)
+i:{00000000-0000-0000-0000-000000000000}:Tribo.sln
+++Documentos de Script
+++jquery.min.js
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\wwwroot\lib\jquery\dist\jquery.min.js
+++bootstrap.bundle.min.js
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js
+++site.js
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\wwwroot\js\site.js
+++aspnetcore-browser-refresh.js
+++browserLink
+++Tribo
+i:{00000000-0000-0000-0000-000000000000}:Tribo
+++Connected Services 
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:>1231
+++Dependências
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:>1230
+++Properties
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\properties\
+++wwwroot
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\wwwroot\
+++css
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\wwwroot\css\
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\wwwroot\js\bootstrap-filestyle-2.1.0\test\css\
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\wwwroot\lib\bootstrap\dist\css\
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\wwwroot\js\bootstrap-filestyle-2.1.0\test\open-iconic\font\css\
+++img
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\wwwroot\img\
+++js
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\wwwroot\js\
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\wwwroot\js\bootstrap-filestyle-2.1.0\test\js\
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\wwwroot\lib\bootstrap\dist\js\
+++bootstrap-filestyle-2.1.0
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\wwwroot\js\bootstrap-filestyle-2.1.0\
+++lib
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\wwwroot\lib\
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\bin\debug\net6.0\runtimes\unix\lib\
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\bin\debug\net6.0\runtimes\win\lib\
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\bin\debug\net6.0\runtimes\win-arm\lib\
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\bin\debug\net6.0\runtimes\win-arm64\lib\
+++favicon.ico.png
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\wwwroot\favicon.ico.png
+++Areas
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\areas\
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\obj\debug\net6.0\scopedcss\areas\
+++Identity
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\areas\identity\
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\obj\debug\net6.0\scopedcss\areas\identity\
+++Pages
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\areas\identity\pages\
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\views\pages\
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\obj\debug\net6.0\scopedcss\areas\identity\pages\
+++Account
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\areas\identity\pages\account\
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\obj\debug\net6.0\scopedcss\areas\identity\pages\account\
+++Manage
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\areas\identity\pages\account\manage\
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\obj\debug\net6.0\scopedcss\areas\identity\pages\account\manage\
+++_Layout.cshtml
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\areas\identity\pages\account\manage\_layout.cshtml
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\views\shared\_layout.cshtml
+++_ManageNav.cshtml
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\areas\identity\pages\account\manage\_managenav.cshtml
+++_ViewImports.cshtml
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\areas\identity\pages\account\manage\_viewimports.cshtml
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\areas\identity\pages\account\_viewimports.cshtml
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\areas\identity\pages\_viewimports.cshtml
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\views\_viewimports.cshtml
+++ChangePassword.cshtml
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\areas\identity\pages\account\manage\changepassword.cshtml
+++DeletePersonalData.cshtml
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\areas\identity\pages\account\manage\deletepersonaldata.cshtml
+++Email.cshtml
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\areas\identity\pages\account\manage\email.cshtml
+++Index.cshtml
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\areas\identity\pages\account\manage\index.cshtml
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\views\imagens\index.cshtml
+++ManageNavPages.cs
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\areas\identity\pages\account\manage\managenavpages.cs
+++SetPassword.cshtml
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\areas\identity\pages\account\manage\setpassword.cshtml
+++ConfirmEmailChange.cshtml
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\areas\identity\pages\account\confirmemailchange.cshtml
+++Login.cshtml
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\areas\identity\pages\account\login.cshtml
+++Logout.cshtml
+++Register.cshtml
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\areas\identity\pages\account\register.cshtml
+++Register.cshtml.cs
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\areas\identity\pages\account\register.cshtml.cs
+++_ValidationScriptsPartial.cshtml
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\areas\identity\pages\_validationscriptspartial.cshtml
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\views\shared\_validationscriptspartial.cshtml
+++_ViewStart.cshtml
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\areas\identity\pages\_viewstart.cshtml
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\controllers\_viewstart.cshtml
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\views\_viewstart.cshtml
+++Controllers
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\controllers\
+++AdministracaoController.cs
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\controllers\administracaocontroller.cs
+++ClientesController.cs
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\controllers\clientescontroller.cs
+++ImagensController.cs
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\controllers\imagenscontroller.cs
+++PagesController.cs
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\controllers\pagescontroller.cs
+++RoleController.cs
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\controllers\rolecontroller.cs
+++TribosController.cs
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\controllers\triboscontroller.cs
+++Data
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\data\
+++Migrations
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\data\migrations\
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\migrations\
+++Models
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\models\
+++Views
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\views\
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\obj\debug\net6.0\scopedcss\views\
+++Administracao
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\views\administracao\
+++Clientes
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\views\clientes\
+++Imagens
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\views\imagens\
+++Contatos.cshtml
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\views\pages\contatos.cshtml
+++Home.cshtml
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\views\pages\home.cshtml
+++Prevencoes.cshtml
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\views\pages\prevencoes.cshtml
+++Sobre.cshtml
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\views\pages\sobre.cshtml
+++Tribos.cshtml
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\views\pages\tribos.cshtml
+++Role
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\views\role\
+++Shared
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\views\shared\
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\obj\debug\net6.0\scopedcss\views\shared\
+++Tribos
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\views\tribos\
+++appsettings.json
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\appsettings.json
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\bin\debug\net6.0\appsettings.json
+++Program.cs
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\program.cs
+++ScaffoldingReadMe.txt
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\scaffoldingreadme.txt
+++LocalDB do SQL Server Express (Local) (ConnectionStrings:DefaultConnection)
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:>1260
+++Analisadores
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:analisadores
+++Estruturas
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:estruturas
+++Pacotes
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:pacotes
+++launchSettings.json
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\properties\launchsettings.json
+++serviceDependencies.json
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\properties\servicedependencies.json
+++site.css
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\wwwroot\css\site.css
+++AldeiaRioSilveira.jpg
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\wwwroot\img\aldeiariosilveira.jpg
+++background2.png
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\wwwroot\img\background2.png
+++coment1.png
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\wwwroot\img\coment1.png
+++coment2.png
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\wwwroot\img\coment2.png
+++coment3.jpg
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\wwwroot\img\coment3.jpg
+++coment4.jpg
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\wwwroot\img\coment4.jpg
+++coment5.jpg
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\wwwroot\img\coment5.jpg
+++coment6.jpg
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\wwwroot\img\coment6.jpg
+++coment9.jpg
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\wwwroot\img\coment9.jpg
+++delete.png
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\wwwroot\img\delete.png
+++DessanaTunaka.jpg
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\wwwroot\img\dessanatunaka.jpg
+++edit.png
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\wwwroot\img\edit.png
+++facebook.png
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\wwwroot\img\facebook.png
+++Guarani.png
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\wwwroot\img\guarani.png
+++home.jpg
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\wwwroot\img\home.jpg
+++home1.jpg
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\wwwroot\img\home1.jpg
+++home2.png
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\wwwroot\img\home2.png
+++home3.jpg
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\wwwroot\img\home3.jpg
+++home4.jpeg
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\wwwroot\img\home4.jpeg
+++home5.png
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\wwwroot\img\home5.png
+++icon-home3.png
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\wwwroot\img\icon-home3.png
+++icon-home-official.png
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\wwwroot\img\icon-home-official.png
+++icon-home-official1.png
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\wwwroot\img\icon-home-official1.png
+++image.png
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\wwwroot\img\image.png
+++img-sobre.png
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\wwwroot\img\img-sobre.png
+++img-tribo.png
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\wwwroot\img\img-tribo.png
+++inserirProdutos.htm
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\wwwroot\img\inserirprodutos.htm
+++instagram.png
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\wwwroot\img\instagram.png
+++Jenipapo-Kanindé.jpg
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\wwwroot\img\jenipapo-kanindé.jpg
+++man1.png
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\wwwroot\img\man1.png
+++man2.png
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\wwwroot\img\man2.png
+++man3.png
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\wwwroot\img\man3.png
+++Object-Relational Mapping.pdf
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\wwwroot\img\object-relational mapping.pdf
+++o-email.png
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\wwwroot\img\o-email.png
+++Pataxo.jpg
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\wwwroot\img\pataxo.jpg
+++prevencao1.jpg
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\wwwroot\img\prevencao1.jpg
+++prevencao2.jpg
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\wwwroot\img\prevencao2.jpg
+++prevencao3.jpg
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\wwwroot\img\prevencao3.jpg
+++prevencao4.jpg
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\wwwroot\img\prevencao4.jpg
+++sobre.png
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\wwwroot\img\sobre.png
+++telefone.png
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\wwwroot\img\telefone.png
+++telefone-celular.png
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\wwwroot\img\telefone-celular.png
+++twitter.png
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\wwwroot\img\twitter.png
+++ver-detalhes.png
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\wwwroot\img\ver-detalhes.png
+++whatsapp.png
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\wwwroot\img\whatsapp.png
+++woman1.png
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\wwwroot\img\woman1.png
+++woman2.png
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\wwwroot\img\woman2.png
+++woman3.png
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\wwwroot\img\woman3.png
+++Xingu.jpg
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\wwwroot\img\xingu.jpg
+++Yawanawás.jpg
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\wwwroot\img\yawanawás.jpg
+++src
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\wwwroot\js\bootstrap-filestyle-2.1.0\src\
+++test
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\wwwroot\js\bootstrap-filestyle-2.1.0\test\
+++bootstrap-filestyle.jquery.json
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\wwwroot\js\bootstrap-filestyle-2.1.0\bootstrap-filestyle.jquery.json
+++bower.json
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\wwwroot\js\bootstrap-filestyle-2.1.0\bower.json
+++composer.json
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\wwwroot\js\bootstrap-filestyle-2.1.0\composer.json
+++LICENSE-MIT
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\wwwroot\js\bootstrap-filestyle-2.1.0\license-mit
+++package.json
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\wwwroot\js\bootstrap-filestyle-2.1.0\package.json
+++README.md
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\wwwroot\js\bootstrap-filestyle-2.1.0\readme.md
+++bootstrap
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\wwwroot\lib\bootstrap\
+++jquery
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\wwwroot\lib\jquery\
+++jquery-validation
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\wwwroot\lib\jquery-validation\
+++jquery-validation-unobtrusive
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\wwwroot\lib\jquery-validation-unobtrusive\
+++ChangePassword.cshtml.cs
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\areas\identity\pages\account\manage\changepassword.cshtml.cs
+++DeletePersonalData.cshtml.cs
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\areas\identity\pages\account\manage\deletepersonaldata.cshtml.cs
+++Email.cshtml.cs
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\areas\identity\pages\account\manage\email.cshtml.cs
+++Index.cshtml.cs
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\areas\identity\pages\account\manage\index.cshtml.cs
+++SetPassword.cshtml.cs
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\areas\identity\pages\account\manage\setpassword.cshtml.cs
+++ConfirmEmailChange.cshtml.cs
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\areas\identity\pages\account\confirmemailchange.cshtml.cs
+++Login.cshtml.cs
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\areas\identity\pages\account\login.cshtml.cs
+++Logout.cshtml.cs
+++TriboDbContext.cs
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\data\tribodbcontext.cs
+++20220209142605_tribo.cs
+++TriboDbContextModelSnapshot.cs
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\migrations\tribodbcontextmodelsnapshot.cs
+++Admin.cs
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\models\admin.cs
+++Cliente.cs
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\models\cliente.cs
+++Contato.cs
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\models\contato.cs
+++ErrorViewModel.cs
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\models\errorviewmodel.cs
+++Imagem.cs
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\models\imagem.cs
+++Pacote.cs
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\models\pacote.cs
+++TriboParceira.cs
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\models\triboparceira.cs
+++_ModalContatoDelete.cshtml
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\views\administracao\_modalcontatodelete.cshtml
+++_ModalContatoDetalhes.cshtml
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\views\administracao\_modalcontatodetalhes.cshtml
+++_ModalContatoEdit.cshtml
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\views\administracao\_modalcontatoedit.cshtml
+++_ModalPacoteDelete.cshtml
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\views\administracao\_modalpacotedelete.cshtml
+++_ModalPacoteDetalhes.cshtml
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\views\administracao\_modalpacotedetalhes.cshtml
+++_ModalPacoteEdit.cshtml
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\views\administracao\_modalpacoteedit.cshtml
+++AdministracaoContatos.cshtml
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\views\administracao\administracaocontatos.cshtml
+++AdministracaoPacotes.cshtml
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\views\administracao\administracaopacotes.cshtml
+++_ModalDadosCLDelete.cshtml
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\views\clientes\_modaldadoscldelete.cshtml
+++_ModalDadosCLDetalhes.cshtml
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\views\clientes\_modaldadoscldetalhes.cshtml
+++_ModalDadosCLEdit.cshtml
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\views\clientes\_modaldadoscledit.cshtml
+++_ModalPacoteClDelete.cshtml
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\views\clientes\_modalpacotecldelete.cshtml
+++_ModalPacoteClDetalhes.cshtml
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\views\clientes\_modalpacotecldetalhes.cshtml
+++CadastrarCliente.cshtml
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\views\clientes\cadastrarcliente.cshtml
+++MeuPacote.cshtml
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\views\clientes\meupacote.cshtml
+++MeusDados.cshtml
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\views\clientes\meusdados.cshtml
+++DeleteImagem.cshtml
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\views\imagens\deleteimagem.cshtml
+++Create.cshtml
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\views\role\create.cshtml
+++Roles.cshtml
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\views\role\roles.cshtml
+++_LoginPartial.cshtml
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\views\shared\_loginpartial.cshtml
+++Error.cshtml
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\views\shared\error.cshtml
+++_ModalDadosTrbDelete.cshtml
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\views\tribos\_modaldadostrbdelete.cshtml
+++_ModalDadosTrbDetalhes.cshtml
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\views\tribos\_modaldadostrbdetalhes.cshtml
+++_ModalDadosTrbEdit.cshtml
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\views\tribos\_modaldadostrbedit.cshtml
+++_ModalPacoteTrbAddImg.cshtml
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\views\tribos\_modalpacotetrbaddimg.cshtml
+++_ModalPacoteTrbDelete.cshtml
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\views\tribos\_modalpacotetrbdelete.cshtml
+++_ModalPacoteTrbDetalhes.cshtml
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\views\tribos\_modalpacotetrbdetalhes.cshtml
+++_ModalPacoteTrbEdit.cshtml
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\views\tribos\_modalpacotetrbedit.cshtml
+++CadastrarPacoteTribo.cshtml
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\views\tribos\cadastrarpacotetribo.cshtml
+++CadastrarTribo.cshtml
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\views\tribos\cadastrartribo.cshtml
+++DadosTribo.cshtml
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\views\tribos\dadostribo.cshtml
+++PacoteTribo.cshtml
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\views\tribos\pacotetribo.cshtml
+++appsettings.Development.json
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\appsettings.development.json
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\bin\debug\net6.0\appsettings.development.json
+++MessagePackAnalyzer
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\.nuget\packages\messagepackanalyzer\2.1.152\analyzers\dotnet\messagepackanalyzer.dll
+++Microsoft.AspNetCore.Analyzers
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk.web\analyzers\cs\microsoft.aspnetcore.analyzers.dll
+++Microsoft.AspNetCore.App.Analyzers
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.0\analyzers\dotnet\cs\microsoft.aspnetcore.app.analyzers.dll
+++Microsoft.AspNetCore.App.CodeFixes
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.0\analyzers\dotnet\cs\microsoft.aspnetcore.app.codefixes.dll
+++Microsoft.AspNetCore.Components.Analyzers
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk.web\analyzers\cs\microsoft.aspnetcore.components.analyzers.dll
+++Microsoft.AspNetCore.Mvc.Analyzers
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk.web\analyzers\cs\microsoft.aspnetcore.mvc.analyzers.dll
+++Microsoft.AspNetCore.Razor.Internal.SourceGenerator.Transport
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk.razor\source-generators\microsoft.aspnetcore.razor.internal.sourcegenerator.transport.dll
+++Microsoft.CodeAnalysis.Analyzers
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\.nuget\packages\microsoft.codeanalysis.analyzers\3.3.2\analyzers\dotnet\cs\microsoft.codeanalysis.analyzers.dll
+++Microsoft.CodeAnalysis.CSharp.Analyzers
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\.nuget\packages\microsoft.codeanalysis.analyzers\3.3.2\analyzers\dotnet\cs\microsoft.codeanalysis.csharp.analyzers.dll
+++Microsoft.CodeAnalysis.CSharp.NetAnalyzers
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
+++Microsoft.CodeAnalysis.NetAnalyzers
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
+++Microsoft.EntityFrameworkCore.Analyzers
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\.nuget\packages\microsoft.entityframeworkcore.analyzers\6.0.1\analyzers\dotnet\cs\microsoft.entityframeworkcore.analyzers.dll
+++Microsoft.Extensions.Logging.Generators
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.0\analyzers\dotnet\roslyn4.0\cs\microsoft.extensions.logging.generators.dll
+++Microsoft.NET.Sdk.Razor.SourceGenerators
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk.razor\source-generators\microsoft.net.sdk.razor.sourcegenerators.dll
+++System.Text.Json.SourceGeneration
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\program files\dotnet\packs\microsoft.netcore.app.ref\6.0.1\analyzers\dotnet\cs\system.text.json.sourcegeneration.dll
+++Microsoft.AspNetCore.App
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\microsoft.aspnetcore.app
+++Microsoft.NETCore.App
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\microsoft.netcore.app
+++Microsoft.AspNet.Identity.Core (2.2.3)
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:>1255
+++Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore (6.0.0)
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:>1254
+++Microsoft.AspNetCore.Identity.EntityFrameworkCore (6.0.1)
+++Microsoft.AspNetCore.Identity.UI (6.0.1)
+++Microsoft.EntityFrameworkCore.SqlServer (6.0.1)
+++Microsoft.EntityFrameworkCore.Tools (6.0.1)
+++Microsoft.VisualStudio.Web.CodeGeneration.Design (6.0.1)
+++serviceDependencies.local.json
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\properties\servicedependencies.local.json
+++bootstrap-filestyle.js
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\wwwroot\js\bootstrap-filestyle-2.1.0\src\bootstrap-filestyle.js
+++fonts
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\wwwroot\js\bootstrap-filestyle-2.1.0\test\fonts\
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\wwwroot\js\bootstrap-filestyle-2.1.0\test\open-iconic\font\fonts\
+++open-iconic
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\wwwroot\js\bootstrap-filestyle-2.1.0\test\open-iconic\
+++upload
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\wwwroot\js\bootstrap-filestyle-2.1.0\test\upload\
+++index.html
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\wwwroot\js\bootstrap-filestyle-2.1.0\test\index.html
+++upload.php
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\wwwroot\js\bootstrap-filestyle-2.1.0\test\upload.php
+++dist
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\wwwroot\lib\bootstrap\dist\
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\wwwroot\lib\jquery\dist\
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\wwwroot\lib\jquery-validation\dist\
+++LICENSE
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\wwwroot\lib\bootstrap\license
+++LICENSE.txt
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\wwwroot\lib\jquery\license.txt
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\wwwroot\lib\jquery-validation-unobtrusive\license.txt
+++LICENSE.md
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\wwwroot\lib\jquery-validation\license.md
+++jquery.validate.unobtrusive.js
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\wwwroot\lib\jquery-validation-unobtrusive\jquery.validate.unobtrusive.js
+++20220209142605_tribo.Designer.cs
+++_Layout.cshtml.css
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\views\shared\_layout.cshtml.css
+++bootstrap-filestyle.min.js
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\wwwroot\js\bootstrap-filestyle-2.1.0\src\bootstrap-filestyle.min.js
+++bootstrap.min.css
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\wwwroot\js\bootstrap-filestyle-2.1.0\test\css\bootstrap.min.css
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\wwwroot\lib\bootstrap\dist\css\bootstrap.min.css
+++glyphicons-halflings-regular.eot
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\wwwroot\js\bootstrap-filestyle-2.1.0\test\fonts\glyphicons-halflings-regular.eot
+++glyphicons-halflings-regular.svg
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\wwwroot\js\bootstrap-filestyle-2.1.0\test\fonts\glyphicons-halflings-regular.svg
+++glyphicons-halflings-regular.ttf
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\wwwroot\js\bootstrap-filestyle-2.1.0\test\fonts\glyphicons-halflings-regular.ttf
+++glyphicons-halflings-regular.woff
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\wwwroot\js\bootstrap-filestyle-2.1.0\test\fonts\glyphicons-halflings-regular.woff
+++bootstrap.min.js
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\wwwroot\js\bootstrap-filestyle-2.1.0\test\js\bootstrap.min.js
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\wwwroot\lib\bootstrap\dist\js\bootstrap.min.js
+++font
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\wwwroot\js\bootstrap-filestyle-2.1.0\test\open-iconic\font\
+++.folder
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\wwwroot\js\bootstrap-filestyle-2.1.0\test\upload\.folder
+++jquery.js
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\wwwroot\lib\jquery\dist\jquery.js
+++additional-methods.js
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\wwwroot\lib\jquery-validation\dist\additional-methods.js
+++jquery.validate.js
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\wwwroot\lib\jquery-validation\dist\jquery.validate.js
+++jquery.validate.unobtrusive.min.js
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\wwwroot\lib\jquery-validation-unobtrusive\jquery.validate.unobtrusive.min.js
+++bootstrap.css
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\wwwroot\lib\bootstrap\dist\css\bootstrap.css
+++bootstrap-grid.css
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css
+++bootstrap-reboot.css
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.css
+++bootstrap-utilities.css
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.css
+++bootstrap.js
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\wwwroot\lib\bootstrap\dist\js\bootstrap.js
+++additional-methods.min.js
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\wwwroot\lib\jquery-validation\dist\additional-methods.min.js
+++jquery.validate.min.js
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\wwwroot\lib\jquery-validation\dist\jquery.validate.min.js
+++open-iconic-bootstrap.css
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\wwwroot\js\bootstrap-filestyle-2.1.0\test\open-iconic\font\css\open-iconic-bootstrap.css
+++open-iconic.eot
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\wwwroot\js\bootstrap-filestyle-2.1.0\test\open-iconic\font\fonts\open-iconic.eot
+++open-iconic.otf
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\wwwroot\js\bootstrap-filestyle-2.1.0\test\open-iconic\font\fonts\open-iconic.otf
+++open-iconic.svg
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\wwwroot\js\bootstrap-filestyle-2.1.0\test\open-iconic\font\fonts\open-iconic.svg
+++open-iconic.ttf
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\wwwroot\js\bootstrap-filestyle-2.1.0\test\open-iconic\font\fonts\open-iconic.ttf
+++open-iconic.woff
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\wwwroot\js\bootstrap-filestyle-2.1.0\test\open-iconic\font\fonts\open-iconic.woff
+++bootstrap.css.map
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\wwwroot\lib\bootstrap\dist\css\bootstrap.css.map
+++bootstrap.rtl.css
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.css
+++bootstrap-grid.css.map
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css.map
+++bootstrap-grid.min.css
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.min.css
+++bootstrap-grid.rtl.css
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.css
+++bootstrap-reboot.css.map
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.css.map
+++bootstrap-reboot.min.css
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.min.css
+++bootstrap-reboot.rtl.css
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.css
+++bootstrap-utilities.css.map
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.css.map
+++bootstrap-utilities.min.css
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.min.css
+++bootstrap-utilities.rtl.css
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.css
+++bootstrap.bundle.js
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.js
+++bootstrap.esm.js
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\wwwroot\lib\bootstrap\dist\js\bootstrap.esm.js
+++bootstrap.js.map
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\wwwroot\lib\bootstrap\dist\js\bootstrap.js.map
+++jquery.min.map
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\wwwroot\lib\jquery\dist\jquery.min.map
+++bootstrap.min.css.map
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\wwwroot\lib\bootstrap\dist\css\bootstrap.min.css.map
+++bootstrap.rtl.css.map
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.css.map
+++bootstrap.rtl.min.css
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.min.css
+++bootstrap-grid.min.css.map
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.min.css.map
+++bootstrap-grid.rtl.css.map
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.css.map
+++bootstrap-grid.rtl.min.css
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.min.css
+++bootstrap-reboot.min.css.map
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.min.css.map
+++bootstrap-reboot.rtl.css.map
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.css.map
+++bootstrap-reboot.rtl.min.css
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.min.css
+++bootstrap-utilities.min.css.map
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.min.css.map
+++bootstrap-utilities.rtl.css.map
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.css.map
+++bootstrap-utilities.rtl.min.css
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.min.css
+++bootstrap.bundle.js.map
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.js.map
+++bootstrap.esm.js.map
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\wwwroot\lib\bootstrap\dist\js\bootstrap.esm.js.map
+++bootstrap.esm.min.js
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\wwwroot\lib\bootstrap\dist\js\bootstrap.esm.min.js
+++bootstrap.min.js.map
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\wwwroot\lib\bootstrap\dist\js\bootstrap.min.js.map
+++bootstrap.rtl.min.css.map
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.min.css.map
+++bootstrap-grid.rtl.min.css.map
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.min.css.map
+++bootstrap-reboot.rtl.min.css.map
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.min.css.map
+++bootstrap-utilities.rtl.min.css.map
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.min.css.map
+++bootstrap.bundle.min.js.map
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js.map
+++bootstrap.esm.min.js.map
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\wwwroot\lib\bootstrap\dist\js\bootstrap.esm.min.js.map
+++.editorconfig
+++Microsoft.VisualStudio.Web.CodeGeneration.Design (6.0.2)
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:>1264
+++Microsoft.EntityFrameworkCore.SqlServer (6.0.2)
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:>1265
+++Microsoft.EntityFrameworkCore.Tools (6.0.2)
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:>1266
+++Microsoft.AspNetCore.Identity.UI (6.0.2)
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:>1267
+++Microsoft.AspNetCore.Identity.EntityFrameworkCore (6.0.2)
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:>1268
+++RegisterConfirmation.cshtml
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\areas\identity\pages\account\registerconfirmation.cshtml
+++RegisterConfirmation.cshtml.cs
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\areas\identity\pages\account\registerconfirmation.cshtml.cs
+++VM5
+++localhost:7060
+++Register
+++AccessDenied.cshtml
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\areas\identity\pages\account\accessdenied.cshtml
+++AccessDenied.cshtml.cs
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\areas\identity\pages\account\accessdenied.cshtml.cs
+++ConfirmEmail.cshtml
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\areas\identity\pages\account\confirmemail.cshtml
+++ConfirmEmail.cshtml.cs
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\areas\identity\pages\account\confirmemail.cshtml.cs
+++bin
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\bin\
+++Debug
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\bin\debug\
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\obj\debug\
+++net6.0
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\bin\debug\net6.0\
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\bin\debug\net6.0\runtimes\win-arm\lib\net6.0\
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\bin\debug\net6.0\runtimes\win-arm64\lib\net6.0\
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\obj\debug\net6.0\
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\obj\release\net6.0\
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\bin\release\net6.0\
+++cs
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\bin\debug\net6.0\cs\
+++de
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\bin\debug\net6.0\de\
+++es
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\bin\debug\net6.0\es\
+++fr
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\bin\debug\net6.0\fr\
+++it
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\bin\debug\net6.0\it\
+++ja
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\bin\debug\net6.0\ja\
+++ko
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\bin\debug\net6.0\ko\
+++pl
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\bin\debug\net6.0\pl\
+++pt-BR
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\bin\debug\net6.0\pt-br\
+++ref
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\bin\debug\net6.0\ref\
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\obj\debug\net6.0\ref\
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\obj\release\net6.0\ref\
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\bin\release\net6.0\ref\
+++ru
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\bin\debug\net6.0\ru\
+++runtimes
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\bin\debug\net6.0\runtimes\
+++tr
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\bin\debug\net6.0\tr\
+++zh-Hans
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\bin\debug\net6.0\zh-hans\
+++zh-Hant
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\bin\debug\net6.0\zh-hant\
+++dotnet-aspnet-codegenerator-design.dll
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\bin\debug\net6.0\dotnet-aspnet-codegenerator-design.dll
+++Humanizer.dll
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\bin\debug\net6.0\humanizer.dll
+++MessagePack.Annotations.dll
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\bin\debug\net6.0\messagepack.annotations.dll
+++MessagePack.dll
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\bin\debug\net6.0\messagepack.dll
+++Microsoft.AspNet.Identity.Core.dll
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\bin\debug\net6.0\microsoft.aspnet.identity.core.dll
+++Microsoft.AspNetCore.Cryptography.Internal.dll
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\bin\debug\net6.0\microsoft.aspnetcore.cryptography.internal.dll
+++Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\bin\debug\net6.0\microsoft.aspnetcore.cryptography.keyderivation.dll
+++Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.dll
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\bin\debug\net6.0\microsoft.aspnetcore.diagnostics.entityframeworkcore.dll
+++Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\bin\debug\net6.0\microsoft.aspnetcore.identity.entityframeworkcore.dll
+++Microsoft.AspNetCore.Identity.UI.dll
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\bin\debug\net6.0\microsoft.aspnetcore.identity.ui.dll
+++Microsoft.AspNetCore.Razor.Language.dll
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\bin\debug\net6.0\microsoft.aspnetcore.razor.language.dll
+++Microsoft.Bcl.AsyncInterfaces.dll
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\bin\debug\net6.0\microsoft.bcl.asyncinterfaces.dll
+++Microsoft.Build.Locator.dll
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\bin\debug\net6.0\microsoft.build.locator.dll
+++Microsoft.CodeAnalysis.AnalyzerUtilities.dll
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\bin\debug\net6.0\microsoft.codeanalysis.analyzerutilities.dll
+++Microsoft.CodeAnalysis.CSharp.dll
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\bin\debug\net6.0\microsoft.codeanalysis.csharp.dll
+++Microsoft.CodeAnalysis.CSharp.Features.dll
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\bin\debug\net6.0\microsoft.codeanalysis.csharp.features.dll
+++Microsoft.CodeAnalysis.CSharp.Scripting.dll
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\bin\debug\net6.0\microsoft.codeanalysis.csharp.scripting.dll
+++Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\bin\debug\net6.0\microsoft.codeanalysis.csharp.workspaces.dll
+++Microsoft.CodeAnalysis.dll
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\bin\debug\net6.0\microsoft.codeanalysis.dll
+++Microsoft.CodeAnalysis.Features.dll
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\bin\debug\net6.0\microsoft.codeanalysis.features.dll
+++Microsoft.CodeAnalysis.Razor.dll
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\bin\debug\net6.0\microsoft.codeanalysis.razor.dll
+++Microsoft.CodeAnalysis.Scripting.dll
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\bin\debug\net6.0\microsoft.codeanalysis.scripting.dll
+++Microsoft.CodeAnalysis.VisualBasic.dll
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\bin\debug\net6.0\microsoft.codeanalysis.visualbasic.dll
+++Microsoft.CodeAnalysis.VisualBasic.Features.dll
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\bin\debug\net6.0\microsoft.codeanalysis.visualbasic.features.dll
+++Microsoft.CodeAnalysis.VisualBasic.Workspaces.dll
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\bin\debug\net6.0\microsoft.codeanalysis.visualbasic.workspaces.dll
+++Microsoft.CodeAnalysis.Workspaces.dll
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\bin\debug\net6.0\microsoft.codeanalysis.workspaces.dll
+++Microsoft.CodeAnalysis.Workspaces.MSBuild.dll
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\bin\debug\net6.0\microsoft.codeanalysis.workspaces.msbuild.dll
+++Microsoft.Data.SqlClient.dll
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\bin\debug\net6.0\microsoft.data.sqlclient.dll
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\bin\debug\net6.0\runtimes\unix\lib\netcoreapp3.1\microsoft.data.sqlclient.dll
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\bin\debug\net6.0\runtimes\win\lib\netcoreapp3.1\microsoft.data.sqlclient.dll
+++Microsoft.DiaSymReader.dll
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\bin\debug\net6.0\microsoft.diasymreader.dll
+++Microsoft.DotNet.Scaffolding.Shared.dll
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\bin\debug\net6.0\microsoft.dotnet.scaffolding.shared.dll
+++Microsoft.EntityFrameworkCore.Abstractions.dll
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\bin\debug\net6.0\microsoft.entityframeworkcore.abstractions.dll
+++Microsoft.EntityFrameworkCore.Design.dll
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\bin\debug\net6.0\microsoft.entityframeworkcore.design.dll
+++Microsoft.EntityFrameworkCore.dll
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\bin\debug\net6.0\microsoft.entityframeworkcore.dll
+++Microsoft.EntityFrameworkCore.Relational.dll
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\bin\debug\net6.0\microsoft.entityframeworkcore.relational.dll
+++Microsoft.EntityFrameworkCore.SqlServer.dll
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\bin\debug\net6.0\microsoft.entityframeworkcore.sqlserver.dll
+++Microsoft.Extensions.Caching.Memory.dll
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\bin\debug\net6.0\microsoft.extensions.caching.memory.dll
+++Microsoft.Extensions.FileProviders.Embedded.dll
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\bin\debug\net6.0\microsoft.extensions.fileproviders.embedded.dll
+++Microsoft.Extensions.Identity.Core.dll
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\bin\debug\net6.0\microsoft.extensions.identity.core.dll
+++Microsoft.Extensions.Identity.Stores.dll
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\bin\debug\net6.0\microsoft.extensions.identity.stores.dll
+++Microsoft.Identity.Client.dll
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\bin\debug\net6.0\microsoft.identity.client.dll
+++Microsoft.IdentityModel.JsonWebTokens.dll
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\bin\debug\net6.0\microsoft.identitymodel.jsonwebtokens.dll
+++Microsoft.IdentityModel.Logging.dll
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\bin\debug\net6.0\microsoft.identitymodel.logging.dll
+++Microsoft.IdentityModel.Protocols.dll
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\bin\debug\net6.0\microsoft.identitymodel.protocols.dll
+++Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\bin\debug\net6.0\microsoft.identitymodel.protocols.openidconnect.dll
+++Microsoft.IdentityModel.Tokens.dll
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\bin\debug\net6.0\microsoft.identitymodel.tokens.dll
+++Microsoft.VisualStudio.Debugger.Contracts.dll
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\bin\debug\net6.0\microsoft.visualstudio.debugger.contracts.dll
+++Microsoft.VisualStudio.Web.CodeGeneration.Core.dll
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\bin\debug\net6.0\microsoft.visualstudio.web.codegeneration.core.dll
+++Microsoft.VisualStudio.Web.CodeGeneration.dll
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\bin\debug\net6.0\microsoft.visualstudio.web.codegeneration.dll
+++Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.dll
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\bin\debug\net6.0\microsoft.visualstudio.web.codegeneration.entityframeworkcore.dll
+++Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\bin\debug\net6.0\microsoft.visualstudio.web.codegeneration.templating.dll
+++Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\bin\debug\net6.0\microsoft.visualstudio.web.codegeneration.utils.dll
+++Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\bin\debug\net6.0\microsoft.visualstudio.web.codegenerators.mvc.dll
+++Microsoft.Win32.SystemEvents.dll
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\bin\debug\net6.0\microsoft.win32.systemevents.dll
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\bin\debug\net6.0\runtimes\win\lib\netcoreapp3.0\microsoft.win32.systemevents.dll
+++Newtonsoft.Json.dll
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\bin\debug\net6.0\newtonsoft.json.dll
+++NuGet.Common.dll
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\bin\debug\net6.0\nuget.common.dll
+++NuGet.Configuration.dll
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\bin\debug\net6.0\nuget.configuration.dll
+++NuGet.DependencyResolver.Core.dll
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\bin\debug\net6.0\nuget.dependencyresolver.core.dll
+++NuGet.Frameworks.dll
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\bin\debug\net6.0\nuget.frameworks.dll
+++NuGet.LibraryModel.dll
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\bin\debug\net6.0\nuget.librarymodel.dll
+++NuGet.Packaging.dll
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\bin\debug\net6.0\nuget.packaging.dll
+++NuGet.ProjectModel.dll
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\bin\debug\net6.0\nuget.projectmodel.dll
+++NuGet.Protocol.dll
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\bin\debug\net6.0\nuget.protocol.dll
+++NuGet.Versioning.dll
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\bin\debug\net6.0\nuget.versioning.dll
+++System.Composition.AttributedModel.dll
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\bin\debug\net6.0\system.composition.attributedmodel.dll
+++System.Composition.Convention.dll
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\bin\debug\net6.0\system.composition.convention.dll
+++System.Composition.Hosting.dll
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\bin\debug\net6.0\system.composition.hosting.dll
+++System.Composition.Runtime.dll
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\bin\debug\net6.0\system.composition.runtime.dll
+++System.Composition.TypedParts.dll
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\bin\debug\net6.0\system.composition.typedparts.dll
+++System.Configuration.ConfigurationManager.dll
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\bin\debug\net6.0\system.configuration.configurationmanager.dll
+++System.Drawing.Common.dll
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\bin\debug\net6.0\system.drawing.common.dll
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\bin\debug\net6.0\runtimes\unix\lib\netcoreapp3.0\system.drawing.common.dll
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\bin\debug\net6.0\runtimes\win\lib\netcoreapp3.0\system.drawing.common.dll
+++System.IdentityModel.Tokens.Jwt.dll
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\bin\debug\net6.0\system.identitymodel.tokens.jwt.dll
+++System.Runtime.Caching.dll
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\bin\debug\net6.0\system.runtime.caching.dll
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\bin\debug\net6.0\runtimes\win\lib\netstandard2.0\system.runtime.caching.dll
+++System.Security.Cryptography.ProtectedData.dll
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\bin\debug\net6.0\system.security.cryptography.protecteddata.dll
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\bin\debug\net6.0\runtimes\win\lib\netstandard2.0\system.security.cryptography.protecteddata.dll
+++System.Security.Permissions.dll
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\bin\debug\net6.0\system.security.permissions.dll
+++System.Windows.Extensions.dll
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\bin\debug\net6.0\system.windows.extensions.dll
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\bin\debug\net6.0\runtimes\win\lib\netcoreapp3.0\system.windows.extensions.dll
+++Tribo.deps.json
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\bin\debug\net6.0\tribo.deps.json
+++Tribo.dll
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\bin\debug\net6.0\tribo.dll
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\bin\debug\net6.0\ref\tribo.dll
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\obj\debug\net6.0\tribo.dll
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\obj\debug\net6.0\ref\tribo.dll
+++Tribo.exe
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\bin\debug\net6.0\tribo.exe
+++Tribo.pdb
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\bin\debug\net6.0\tribo.pdb
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\obj\debug\net6.0\tribo.pdb
+++Tribo.runtimeconfig.json
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\bin\debug\net6.0\tribo.runtimeconfig.json
+++Tribo.staticwebassets.runtime.json
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\bin\debug\net6.0\tribo.staticwebassets.runtime.json
+++Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\bin\debug\net6.0\cs\microsoft.codeanalysis.csharp.features.resources.dll
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\bin\debug\net6.0\de\microsoft.codeanalysis.csharp.features.resources.dll
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\bin\debug\net6.0\es\microsoft.codeanalysis.csharp.features.resources.dll
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\bin\debug\net6.0\fr\microsoft.codeanalysis.csharp.features.resources.dll
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\bin\debug\net6.0\it\microsoft.codeanalysis.csharp.features.resources.dll
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\bin\debug\net6.0\ja\microsoft.codeanalysis.csharp.features.resources.dll
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\bin\debug\net6.0\ko\microsoft.codeanalysis.csharp.features.resources.dll
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\bin\debug\net6.0\pl\microsoft.codeanalysis.csharp.features.resources.dll
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\bin\debug\net6.0\pt-br\microsoft.codeanalysis.csharp.features.resources.dll
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\bin\debug\net6.0\ru\microsoft.codeanalysis.csharp.features.resources.dll
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\bin\debug\net6.0\tr\microsoft.codeanalysis.csharp.features.resources.dll
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\bin\debug\net6.0\zh-hans\microsoft.codeanalysis.csharp.features.resources.dll
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\bin\debug\net6.0\zh-hant\microsoft.codeanalysis.csharp.features.resources.dll
+++Microsoft.CodeAnalysis.CSharp.resources.dll
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\bin\debug\net6.0\cs\microsoft.codeanalysis.csharp.resources.dll
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\bin\debug\net6.0\de\microsoft.codeanalysis.csharp.resources.dll
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\bin\debug\net6.0\es\microsoft.codeanalysis.csharp.resources.dll
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\bin\debug\net6.0\fr\microsoft.codeanalysis.csharp.resources.dll
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\bin\debug\net6.0\it\microsoft.codeanalysis.csharp.resources.dll
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\bin\debug\net6.0\ja\microsoft.codeanalysis.csharp.resources.dll
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\bin\debug\net6.0\ko\microsoft.codeanalysis.csharp.resources.dll
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\bin\debug\net6.0\pl\microsoft.codeanalysis.csharp.resources.dll
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\bin\debug\net6.0\pt-br\microsoft.codeanalysis.csharp.resources.dll
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\bin\debug\net6.0\ru\microsoft.codeanalysis.csharp.resources.dll
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\bin\debug\net6.0\tr\microsoft.codeanalysis.csharp.resources.dll
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\bin\debug\net6.0\zh-hans\microsoft.codeanalysis.csharp.resources.dll
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\bin\debug\net6.0\zh-hant\microsoft.codeanalysis.csharp.resources.dll
+++Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\bin\debug\net6.0\cs\microsoft.codeanalysis.csharp.scripting.resources.dll
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\bin\debug\net6.0\de\microsoft.codeanalysis.csharp.scripting.resources.dll
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\bin\debug\net6.0\es\microsoft.codeanalysis.csharp.scripting.resources.dll
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\bin\debug\net6.0\fr\microsoft.codeanalysis.csharp.scripting.resources.dll
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\bin\debug\net6.0\it\microsoft.codeanalysis.csharp.scripting.resources.dll
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\bin\debug\net6.0\ja\microsoft.codeanalysis.csharp.scripting.resources.dll
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\bin\debug\net6.0\ko\microsoft.codeanalysis.csharp.scripting.resources.dll
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\bin\debug\net6.0\pl\microsoft.codeanalysis.csharp.scripting.resources.dll
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\bin\debug\net6.0\pt-br\microsoft.codeanalysis.csharp.scripting.resources.dll
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\bin\debug\net6.0\ru\microsoft.codeanalysis.csharp.scripting.resources.dll
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\bin\debug\net6.0\tr\microsoft.codeanalysis.csharp.scripting.resources.dll
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\bin\debug\net6.0\zh-hans\microsoft.codeanalysis.csharp.scripting.resources.dll
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\bin\debug\net6.0\zh-hant\microsoft.codeanalysis.csharp.scripting.resources.dll
+++Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\bin\debug\net6.0\cs\microsoft.codeanalysis.csharp.workspaces.resources.dll
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\bin\debug\net6.0\de\microsoft.codeanalysis.csharp.workspaces.resources.dll
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\bin\debug\net6.0\es\microsoft.codeanalysis.csharp.workspaces.resources.dll
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\bin\debug\net6.0\fr\microsoft.codeanalysis.csharp.workspaces.resources.dll
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\bin\debug\net6.0\it\microsoft.codeanalysis.csharp.workspaces.resources.dll
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\bin\debug\net6.0\ja\microsoft.codeanalysis.csharp.workspaces.resources.dll
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\bin\debug\net6.0\ko\microsoft.codeanalysis.csharp.workspaces.resources.dll
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\bin\debug\net6.0\pl\microsoft.codeanalysis.csharp.workspaces.resources.dll
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\bin\debug\net6.0\pt-br\microsoft.codeanalysis.csharp.workspaces.resources.dll
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\bin\debug\net6.0\ru\microsoft.codeanalysis.csharp.workspaces.resources.dll
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\bin\debug\net6.0\tr\microsoft.codeanalysis.csharp.workspaces.resources.dll
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\bin\debug\net6.0\zh-hans\microsoft.codeanalysis.csharp.workspaces.resources.dll
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\bin\debug\net6.0\zh-hant\microsoft.codeanalysis.csharp.workspaces.resources.dll
+++Microsoft.CodeAnalysis.Features.resources.dll
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\bin\debug\net6.0\cs\microsoft.codeanalysis.features.resources.dll
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\bin\debug\net6.0\de\microsoft.codeanalysis.features.resources.dll
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\bin\debug\net6.0\es\microsoft.codeanalysis.features.resources.dll
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\bin\debug\net6.0\fr\microsoft.codeanalysis.features.resources.dll
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\bin\debug\net6.0\it\microsoft.codeanalysis.features.resources.dll
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\bin\debug\net6.0\ja\microsoft.codeanalysis.features.resources.dll
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\bin\debug\net6.0\ko\microsoft.codeanalysis.features.resources.dll
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\bin\debug\net6.0\pl\microsoft.codeanalysis.features.resources.dll
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\bin\debug\net6.0\pt-br\microsoft.codeanalysis.features.resources.dll
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\bin\debug\net6.0\ru\microsoft.codeanalysis.features.resources.dll
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\bin\debug\net6.0\tr\microsoft.codeanalysis.features.resources.dll
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\bin\debug\net6.0\zh-hans\microsoft.codeanalysis.features.resources.dll
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\bin\debug\net6.0\zh-hant\microsoft.codeanalysis.features.resources.dll
+++Microsoft.CodeAnalysis.resources.dll
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\bin\debug\net6.0\cs\microsoft.codeanalysis.resources.dll
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\bin\debug\net6.0\de\microsoft.codeanalysis.resources.dll
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\bin\debug\net6.0\es\microsoft.codeanalysis.resources.dll
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\bin\debug\net6.0\fr\microsoft.codeanalysis.resources.dll
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\bin\debug\net6.0\it\microsoft.codeanalysis.resources.dll
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\bin\debug\net6.0\ja\microsoft.codeanalysis.resources.dll
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\bin\debug\net6.0\ko\microsoft.codeanalysis.resources.dll
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\bin\debug\net6.0\pl\microsoft.codeanalysis.resources.dll
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\bin\debug\net6.0\pt-br\microsoft.codeanalysis.resources.dll
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\bin\debug\net6.0\ru\microsoft.codeanalysis.resources.dll
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\bin\debug\net6.0\tr\microsoft.codeanalysis.resources.dll
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\bin\debug\net6.0\zh-hans\microsoft.codeanalysis.resources.dll
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\bin\debug\net6.0\zh-hant\microsoft.codeanalysis.resources.dll
+++Microsoft.CodeAnalysis.Scripting.resources.dll
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\bin\debug\net6.0\cs\microsoft.codeanalysis.scripting.resources.dll
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\bin\debug\net6.0\de\microsoft.codeanalysis.scripting.resources.dll
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\bin\debug\net6.0\es\microsoft.codeanalysis.scripting.resources.dll
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\bin\debug\net6.0\fr\microsoft.codeanalysis.scripting.resources.dll
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\bin\debug\net6.0\it\microsoft.codeanalysis.scripting.resources.dll
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\bin\debug\net6.0\ja\microsoft.codeanalysis.scripting.resources.dll
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\bin\debug\net6.0\ko\microsoft.codeanalysis.scripting.resources.dll
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\bin\debug\net6.0\pl\microsoft.codeanalysis.scripting.resources.dll
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\bin\debug\net6.0\pt-br\microsoft.codeanalysis.scripting.resources.dll
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\bin\debug\net6.0\ru\microsoft.codeanalysis.scripting.resources.dll
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\bin\debug\net6.0\tr\microsoft.codeanalysis.scripting.resources.dll
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\bin\debug\net6.0\zh-hans\microsoft.codeanalysis.scripting.resources.dll
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\bin\debug\net6.0\zh-hant\microsoft.codeanalysis.scripting.resources.dll
+++Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\bin\debug\net6.0\cs\microsoft.codeanalysis.visualbasic.features.resources.dll
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\bin\debug\net6.0\de\microsoft.codeanalysis.visualbasic.features.resources.dll
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\bin\debug\net6.0\es\microsoft.codeanalysis.visualbasic.features.resources.dll
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\bin\debug\net6.0\fr\microsoft.codeanalysis.visualbasic.features.resources.dll
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\bin\debug\net6.0\it\microsoft.codeanalysis.visualbasic.features.resources.dll
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\bin\debug\net6.0\ja\microsoft.codeanalysis.visualbasic.features.resources.dll
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\bin\debug\net6.0\ko\microsoft.codeanalysis.visualbasic.features.resources.dll
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\bin\debug\net6.0\pl\microsoft.codeanalysis.visualbasic.features.resources.dll
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\bin\debug\net6.0\pt-br\microsoft.codeanalysis.visualbasic.features.resources.dll
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\bin\debug\net6.0\ru\microsoft.codeanalysis.visualbasic.features.resources.dll
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\bin\debug\net6.0\tr\microsoft.codeanalysis.visualbasic.features.resources.dll
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\bin\debug\net6.0\zh-hans\microsoft.codeanalysis.visualbasic.features.resources.dll
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\bin\debug\net6.0\zh-hant\microsoft.codeanalysis.visualbasic.features.resources.dll
+++Microsoft.CodeAnalysis.VisualBasic.resources.dll
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\bin\debug\net6.0\cs\microsoft.codeanalysis.visualbasic.resources.dll
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\bin\debug\net6.0\de\microsoft.codeanalysis.visualbasic.resources.dll
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\bin\debug\net6.0\es\microsoft.codeanalysis.visualbasic.resources.dll
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\bin\debug\net6.0\fr\microsoft.codeanalysis.visualbasic.resources.dll
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\bin\debug\net6.0\it\microsoft.codeanalysis.visualbasic.resources.dll
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\bin\debug\net6.0\ja\microsoft.codeanalysis.visualbasic.resources.dll
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\bin\debug\net6.0\ko\microsoft.codeanalysis.visualbasic.resources.dll
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\bin\debug\net6.0\pl\microsoft.codeanalysis.visualbasic.resources.dll
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\bin\debug\net6.0\pt-br\microsoft.codeanalysis.visualbasic.resources.dll
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\bin\debug\net6.0\ru\microsoft.codeanalysis.visualbasic.resources.dll
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\bin\debug\net6.0\tr\microsoft.codeanalysis.visualbasic.resources.dll
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\bin\debug\net6.0\zh-hans\microsoft.codeanalysis.visualbasic.resources.dll
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\bin\debug\net6.0\zh-hant\microsoft.codeanalysis.visualbasic.resources.dll
+++Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\bin\debug\net6.0\cs\microsoft.codeanalysis.visualbasic.workspaces.resources.dll
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\bin\debug\net6.0\de\microsoft.codeanalysis.visualbasic.workspaces.resources.dll
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\bin\debug\net6.0\es\microsoft.codeanalysis.visualbasic.workspaces.resources.dll
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\bin\debug\net6.0\fr\microsoft.codeanalysis.visualbasic.workspaces.resources.dll
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\bin\debug\net6.0\it\microsoft.codeanalysis.visualbasic.workspaces.resources.dll
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\bin\debug\net6.0\ja\microsoft.codeanalysis.visualbasic.workspaces.resources.dll
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\bin\debug\net6.0\ko\microsoft.codeanalysis.visualbasic.workspaces.resources.dll
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\bin\debug\net6.0\pl\microsoft.codeanalysis.visualbasic.workspaces.resources.dll
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\bin\debug\net6.0\pt-br\microsoft.codeanalysis.visualbasic.workspaces.resources.dll
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\bin\debug\net6.0\ru\microsoft.codeanalysis.visualbasic.workspaces.resources.dll
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\bin\debug\net6.0\tr\microsoft.codeanalysis.visualbasic.workspaces.resources.dll
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\bin\debug\net6.0\zh-hans\microsoft.codeanalysis.visualbasic.workspaces.resources.dll
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\bin\debug\net6.0\zh-hant\microsoft.codeanalysis.visualbasic.workspaces.resources.dll
+++Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\bin\debug\net6.0\cs\microsoft.codeanalysis.workspaces.msbuild.resources.dll
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\bin\debug\net6.0\de\microsoft.codeanalysis.workspaces.msbuild.resources.dll
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\bin\debug\net6.0\es\microsoft.codeanalysis.workspaces.msbuild.resources.dll
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\bin\debug\net6.0\fr\microsoft.codeanalysis.workspaces.msbuild.resources.dll
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\bin\debug\net6.0\it\microsoft.codeanalysis.workspaces.msbuild.resources.dll
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\bin\debug\net6.0\ja\microsoft.codeanalysis.workspaces.msbuild.resources.dll
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\bin\debug\net6.0\ko\microsoft.codeanalysis.workspaces.msbuild.resources.dll
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\bin\debug\net6.0\pl\microsoft.codeanalysis.workspaces.msbuild.resources.dll
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\bin\debug\net6.0\pt-br\microsoft.codeanalysis.workspaces.msbuild.resources.dll
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\bin\debug\net6.0\ru\microsoft.codeanalysis.workspaces.msbuild.resources.dll
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\bin\debug\net6.0\tr\microsoft.codeanalysis.workspaces.msbuild.resources.dll
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\bin\debug\net6.0\zh-hans\microsoft.codeanalysis.workspaces.msbuild.resources.dll
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\bin\debug\net6.0\zh-hant\microsoft.codeanalysis.workspaces.msbuild.resources.dll
+++Microsoft.CodeAnalysis.Workspaces.resources.dll
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\bin\debug\net6.0\cs\microsoft.codeanalysis.workspaces.resources.dll
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\bin\debug\net6.0\de\microsoft.codeanalysis.workspaces.resources.dll
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\bin\debug\net6.0\es\microsoft.codeanalysis.workspaces.resources.dll
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\bin\debug\net6.0\fr\microsoft.codeanalysis.workspaces.resources.dll
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\bin\debug\net6.0\it\microsoft.codeanalysis.workspaces.resources.dll
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\bin\debug\net6.0\ja\microsoft.codeanalysis.workspaces.resources.dll
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\bin\debug\net6.0\ko\microsoft.codeanalysis.workspaces.resources.dll
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\bin\debug\net6.0\pl\microsoft.codeanalysis.workspaces.resources.dll
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\bin\debug\net6.0\pt-br\microsoft.codeanalysis.workspaces.resources.dll
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\bin\debug\net6.0\ru\microsoft.codeanalysis.workspaces.resources.dll
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\bin\debug\net6.0\tr\microsoft.codeanalysis.workspaces.resources.dll
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\bin\debug\net6.0\zh-hans\microsoft.codeanalysis.workspaces.resources.dll
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\bin\debug\net6.0\zh-hant\microsoft.codeanalysis.workspaces.resources.dll
+++unix
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\bin\debug\net6.0\runtimes\unix\
+++win
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\bin\debug\net6.0\runtimes\win\
+++win-arm
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\bin\debug\net6.0\runtimes\win-arm\
+++win-arm64
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\bin\debug\net6.0\runtimes\win-arm64\
+++win-x64
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\bin\debug\net6.0\runtimes\win-x64\
+++win-x86
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\bin\debug\net6.0\runtimes\win-x86\
+++native
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\bin\debug\net6.0\runtimes\win-arm\native\
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\bin\debug\net6.0\runtimes\win-arm64\native\
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\bin\debug\net6.0\runtimes\win-x64\native\
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\bin\debug\net6.0\runtimes\win-x86\native\
+++netcoreapp3.0
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\bin\debug\net6.0\runtimes\unix\lib\netcoreapp3.0\
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\bin\debug\net6.0\runtimes\win\lib\netcoreapp3.0\
+++netcoreapp3.1
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\bin\debug\net6.0\runtimes\unix\lib\netcoreapp3.1\
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\bin\debug\net6.0\runtimes\win\lib\netcoreapp3.1\
+++netstandard2.0
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\bin\debug\net6.0\runtimes\win\lib\netstandard2.0\
+++Microsoft.Data.SqlClient.SNI.dll
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\bin\debug\net6.0\runtimes\win-arm\native\microsoft.data.sqlclient.sni.dll
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\bin\debug\net6.0\runtimes\win-arm64\native\microsoft.data.sqlclient.sni.dll
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\bin\debug\net6.0\runtimes\win-x64\native\microsoft.data.sqlclient.sni.dll
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\bin\debug\net6.0\runtimes\win-x86\native\microsoft.data.sqlclient.sni.dll
+++dotnet-aspnet-codegenerator-design.exe
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\bin\debug\net6.0\runtimes\win-arm\lib\net6.0\dotnet-aspnet-codegenerator-design.exe
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\bin\debug\net6.0\runtimes\win-arm64\lib\net6.0\dotnet-aspnet-codegenerator-design.exe
+++obj
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\obj\
+++project.assets.json
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\obj\project.assets.json
+++project.nuget.cache
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\obj\project.nuget.cache
+++staticwebassets.pack.sentinel
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\obj\staticwebassets.pack.sentinel
+++Tribo.csproj.nuget.dgspec.json
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\obj\tribo.csproj.nuget.dgspec.json
+++Tribo.csproj.nuget.g.props
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\obj\tribo.csproj.nuget.g.props
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\obj\tribo.csproj.nuget.g.props
+++Tribo.csproj.nuget.g.targets
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\obj\tribo.csproj.nuget.g.targets
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\obj\tribo.csproj.nuget.g.targets
+++scopedcss
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\obj\debug\net6.0\scopedcss\
+++staticwebassets
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\obj\debug\net6.0\staticwebassets\
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\obj\release\net6.0\staticwebassets\
+++.NETCoreApp,Version=v6.0.AssemblyAttributes.cs
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\obj\debug\net6.0\.netcoreapp,version=v6.0.assemblyattributes.cs
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\obj\release\net6.0\.netcoreapp,version=v6.0.assemblyattributes.cs
+++apphost.exe
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\obj\debug\net6.0\apphost.exe
+++project.razor.json
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\obj\debug\net6.0\project.razor.json
+++staticwebassets.build.json
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\obj\debug\net6.0\staticwebassets.build.json
+++staticwebassets.development.json
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\obj\debug\net6.0\staticwebassets.development.json
+++Tribo.AssemblyInfo.cs
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\obj\debug\net6.0\tribo.assemblyinfo.cs
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\obj\release\net6.0\tribo.assemblyinfo.cs
+++Tribo.AssemblyInfoInputs.cache
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\obj\debug\net6.0\tribo.assemblyinfoinputs.cache
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\obj\release\net6.0\tribo.assemblyinfoinputs.cache
+++Tribo.assets.cache
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\obj\debug\net6.0\tribo.assets.cache
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\obj\release\net6.0\tribo.assets.cache
+++Tribo.csproj.AssemblyReference.cache
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\obj\debug\net6.0\tribo.csproj.assemblyreference.cache
+++Tribo.csproj.CopyComplete
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\obj\debug\net6.0\tribo.csproj.copycomplete
+++Tribo.csproj.CoreCompileInputs.cache
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\obj\debug\net6.0\tribo.csproj.corecompileinputs.cache
+++Tribo.csproj.FileListAbsolute.txt
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\obj\debug\net6.0\tribo.csproj.filelistabsolute.txt
+++Tribo.GeneratedMSBuildEditorConfig.editorconfig
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\obj\debug\net6.0\tribo.generatedmsbuildeditorconfig.editorconfig
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\obj\release\net6.0\tribo.generatedmsbuildeditorconfig.editorconfig
+++Tribo.genruntimeconfig.cache
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\obj\debug\net6.0\tribo.genruntimeconfig.cache
+++Tribo.GlobalUsings.g.cs
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\obj\debug\net6.0\tribo.globalusings.g.cs
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\obj\release\net6.0\tribo.globalusings.g.cs
+++Tribo.MvcApplicationPartsAssemblyInfo.cache
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\obj\debug\net6.0\tribo.mvcapplicationpartsassemblyinfo.cache
+++Tribo.MvcApplicationPartsAssemblyInfo.cs
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\obj\debug\net6.0\tribo.mvcapplicationpartsassemblyinfo.cs
+++Tribo.RazorAssemblyInfo.cache
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\obj\debug\net6.0\tribo.razorassemblyinfo.cache
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\obj\release\net6.0\tribo.razorassemblyinfo.cache
+++Tribo.RazorAssemblyInfo.cs
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\obj\debug\net6.0\tribo.razorassemblyinfo.cs
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\obj\release\net6.0\tribo.razorassemblyinfo.cs
+++bundle
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\obj\debug\net6.0\scopedcss\bundle\
+++projectbundle
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\obj\debug\net6.0\scopedcss\projectbundle\
+++Tribo.styles.css
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\obj\debug\net6.0\scopedcss\bundle\tribo.styles.css
+++Tribo.bundle.scp.css
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\obj\debug\net6.0\scopedcss\projectbundle\tribo.bundle.scp.css
+++_Layout.cshtml.rz.scp.css
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\obj\debug\net6.0\scopedcss\views\shared\_layout.cshtml.rz.scp.css
+++serviceDependencies.local.json.user
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\properties\servicedependencies.local.json.user
+++Importações
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:>1283
+++Sdk.props
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk.web\sdk\sdk.props
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.illink.tasks\sdk\sdk.props
+++Sdk.targets
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk.web\sdk\sdk.targets
+++Sdk.props (C:\Program Files\dotnet\sdk\6.0.101\Sdks\Microsoft.NET.Sdk\Sdk)
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\sdk\sdk.props
+++Sdk.props (C:\Program Files\dotnet\sdk\6.0.101\Sdks\Microsoft.NET.Sdk.Razor\Sdk)
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk.razor\sdk\sdk.props
+++Sdk.props (C:\Program Files\dotnet\sdk\6.0.101\Sdks\Microsoft.NET.Sdk.Web.ProjectSystem\Sdk)
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk.web.projectsystem\sdk\sdk.props
+++Sdk.props (C:\Program Files\dotnet\sdk\6.0.101\Sdks\Microsoft.NET.Sdk.Publish\Sdk)
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk.publish\sdk\sdk.props
+++Sdk.targets (C:\Program Files\dotnet\sdk\6.0.101\Sdks\Microsoft.NET.Sdk\Sdk)
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\sdk\sdk.targets
+++Sdk.targets (C:\Program Files\dotnet\sdk\6.0.101\Sdks\Microsoft.NET.Sdk.Razor\Sdk)
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk.razor\sdk\sdk.targets
+++Sdk.targets (C:\Program Files\dotnet\sdk\6.0.101\Sdks\Microsoft.NET.Sdk.Web.ProjectSystem\Sdk)
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk.web.projectsystem\sdk\sdk.targets
+++Sdk.targets (C:\Program Files\dotnet\sdk\6.0.101\Sdks\Microsoft.NET.Sdk.Publish\Sdk)
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk.publish\sdk\sdk.targets
+++Microsoft.Common.props
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\program files\microsoft visual studio\2022\community\msbuild\current\microsoft.common.props
+++Microsoft.NET.Sdk.props
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\targets\microsoft.net.sdk.props
+++Sdk.Razor.CurrentVersion.props
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk.razor\targets\sdk.razor.currentversion.props
+++Microsoft.NET.Sdk.Web.ProjectSystem.props
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk.web.projectsystem\targets\microsoft.net.sdk.web.projectsystem.props
+++Microsoft.NET.Sdk.Publish.props
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk.publish\targets\microsoft.net.sdk.publish.props
+++Microsoft.NET.Sdk.BeforeCommon.targets
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\targets\microsoft.net.sdk.beforecommon.targets
+++Microsoft.CSharp.targets
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\program files\microsoft visual studio\2022\community\msbuild\current\bin\amd64\microsoft.csharp.targets
+++Microsoft.NET.Sdk.targets
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\targets\microsoft.net.sdk.targets
+++Microsoft.NET.Compatibility.targets
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\targets\microsoft.net.compatibility.targets
+++NuGet.Build.Tasks.Pack.targets
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\program files\dotnet\sdk\6.0.101\sdks\nuget.build.tasks.pack\build\nuget.build.tasks.pack.targets
+++Sdk.Razor.CurrentVersion.targets
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk.razor\targets\sdk.razor.currentversion.targets
+++Microsoft.NET.Sdk.Web.ProjectSystem.targets
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk.web.projectsystem\targets\microsoft.net.sdk.web.projectsystem.targets
+++Microsoft.NET.Sdk.Publish.targets
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk.publish\targets\microsoft.net.sdk.publish.targets
+++Microsoft.NuGet.ImportBefore.props
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\program files\microsoft visual studio\2022\community\msbuild\current\imports\microsoft.common.props\importbefore\microsoft.nuget.importbefore.props
+++NuGet.props
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\program files\microsoft visual studio\2022\community\common7\ide\commonextensions\microsoft\nuget\nuget.props
+++Microsoft.NET.Sdk.DefaultItems.props
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\targets\microsoft.net.sdk.defaultitems.props
+++Microsoft.NET.Sdk.ImportWorkloads.props
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\targets\microsoft.net.sdk.importworkloads.props
+++Microsoft.NET.SupportedTargetFrameworks.props
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\targets\microsoft.net.supportedtargetframeworks.props
+++Microsoft.NET.SupportedPlatforms.props
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\targets\microsoft.net.supportedplatforms.props
+++Microsoft.NET.WindowsSdkSupportedTargetPlatforms.props
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\targets\microsoft.net.windowssdksupportedtargetplatforms.props
+++Microsoft.NET.Sdk.CSharp.props
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\targets\microsoft.net.sdk.csharp.props
+++Microsoft.NET.ILLink.props
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\targets\microsoft.net.illink.props
+++Microsoft.NET.Compatibility.props
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\targets\microsoft.net.compatibility.props
+++Microsoft.NET.PackTool.props
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\targets\microsoft.net.packtool.props
+++Microsoft.NET.PackProjectTool.props
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\targets\microsoft.net.packprojecttool.props
+++Microsoft.NET.Sdk.WindowsDesktop.props
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk.windowsdesktop\targets\microsoft.net.sdk.windowsdesktop.props
+++Microsoft.NET.Windows.props
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\targets\microsoft.net.windows.props
+++Sdk.Razor.StaticAssets.ProjectSystem.props
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk.razor\sdk\sdk.razor.staticassets.projectsystem.props
+++Microsoft.TypeScript.Default.props
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\program files\microsoft visual studio\2022\community\msbuild\microsoft\visualstudio\v17.0\typescript\microsoft.typescript.default.props
+++Microsoft.NET.Sdk.Web.DefaultItems.props
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk.web.projectsystem\targets\microsoft.net.sdk.web.defaultitems.props
+++Microsoft.NET.DefaultAssemblyInfo.targets
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\targets\microsoft.net.defaultassemblyinfo.targets
+++Microsoft.NET.DefaultOutputPaths.targets
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\targets\microsoft.net.defaultoutputpaths.targets
+++Microsoft.NET.Sdk.ImportPublishProfile.targets
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\targets\microsoft.net.sdk.importpublishprofile.targets
+++Microsoft.NET.TargetFrameworkInference.targets
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\targets\microsoft.net.targetframeworkinference.targets
+++Microsoft.NET.Sdk.Razor.BeforeCommon.targets
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk.razor\targets\microsoft.net.sdk.razor.beforecommon.targets
+++Microsoft.NET.Sdk.ImportWorkloads.targets
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\targets\microsoft.net.sdk.importworkloads.targets
+++Microsoft.NET.RuntimeIdentifierInference.targets
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\targets\microsoft.net.runtimeidentifierinference.targets
+++Microsoft.NET.EolTargetFrameworks.targets
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\targets\microsoft.net.eoltargetframeworks.targets
+++Microsoft.NET.NuGetOfflineCache.targets
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\targets\microsoft.net.nugetofflinecache.targets
+++Microsoft.Managed.Before.targets
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\program files\microsoft visual studio\2022\community\msbuild\current\bin\amd64\microsoft.managed.before.targets
+++Microsoft.CSharp.CurrentVersion.targets
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\program files\microsoft visual studio\2022\community\msbuild\current\bin\amd64\microsoft.csharp.currentversion.targets
+++Microsoft.Managed.After.targets
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\program files\microsoft visual studio\2022\community\msbuild\current\bin\amd64\microsoft.managed.after.targets
+++Microsoft.NET.Sdk.Common.targets
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\targets\microsoft.net.sdk.common.targets
+++Microsoft.PackageDependencyResolution.targets
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\targets\microsoft.packagedependencyresolution.targets
+++Microsoft.NET.Sdk.DefaultItems.targets
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\targets\microsoft.net.sdk.defaultitems.targets
+++Microsoft.NET.Sdk.FrameworkReferenceResolution.targets
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\targets\microsoft.net.sdk.frameworkreferenceresolution.targets
+++Microsoft.NET.Sdk.Shared.targets
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\targets\microsoft.net.sdk.shared.targets
+++Microsoft.NET.DisableStandardFrameworkResolution.targets
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\targets\microsoft.net.disablestandardframeworkresolution.targets
+++Microsoft.NET.DesignerSupport.targets
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\targets\microsoft.net.designersupport.targets
+++Microsoft.NET.GenerateAssemblyInfo.targets
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\targets\microsoft.net.generateassemblyinfo.targets
+++Microsoft.NET.GenerateGlobalUsings.targets
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\targets\microsoft.net.generateglobalusings.targets
+++Microsoft.NET.GenerateSupportedRuntime.targets
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\targets\microsoft.net.generatesupportedruntime.targets
+++Microsoft.NET.ComposeStore.targets
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\targets\microsoft.net.composestore.targets
+++Microsoft.NET.CrossGen.targets
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\targets\microsoft.net.crossgen.targets
+++Microsoft.NET.ObsoleteReferences.targets
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\targets\microsoft.net.obsoletereferences.targets
+++Microsoft.NET.Publish.targets
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\targets\microsoft.net.publish.targets
+++Microsoft.NET.PackTool.targets
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\targets\microsoft.net.packtool.targets
+++Microsoft.NET.PackProjectTool.targets
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\targets\microsoft.net.packprojecttool.targets
+++Microsoft.NET.PreserveCompilationContext.targets
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\targets\microsoft.net.preservecompilationcontext.targets
+++Microsoft.NET.ConflictResolution.targets
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\targets\microsoft.net.conflictresolution.targets
+++Microsoft.NET.Sdk.CSharp.targets
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\targets\microsoft.net.sdk.csharp.targets
+++Microsoft.NET.ILLink.targets
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\targets\microsoft.net.illink.targets
+++Microsoft.NET.Sdk.Analyzers.targets
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\targets\microsoft.net.sdk.analyzers.targets
+++Microsoft.NET.Compatibility.Common.targets
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\targets\microsoft.net.compatibility.common.targets
+++Microsoft.NET.Sdk.Razor.Configuration.targets
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk.razor\targets\microsoft.net.sdk.razor.configuration.targets
+++Microsoft.NET.Sdk.Razor.CodeGeneration.targets
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk.razor\targets\microsoft.net.sdk.razor.codegeneration.targets
+++Microsoft.NET.Sdk.Razor.SourceGenerators.targets
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk.razor\targets\microsoft.net.sdk.razor.sourcegenerators.targets
+++Microsoft.NET.Sdk.Razor.StaticWebAssets.targets
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk.razor\targets\microsoft.net.sdk.razor.staticwebassets.targets
+++Microsoft.NET.Sdk.Razor.ScopedCss.targets
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk.razor\targets\microsoft.net.sdk.razor.scopedcss.targets
+++Microsoft.NET.Sdk.Razor.JSModules.targets
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk.razor\targets\microsoft.net.sdk.razor.jsmodules.targets
+++Microsoft.NET.Sdk.Razor.GenerateAssemblyInfo.targets
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk.razor\targets\microsoft.net.sdk.razor.generateassemblyinfo.targets
+++Microsoft.NET.Sdk.Razor.MvcApplicationPartsDiscovery.targets
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk.razor\targets\microsoft.net.sdk.razor.mvcapplicationpartsdiscovery.targets
+++Microsoft.NET.Sdk.Razor.DesignTime.targets
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\program files\microsoft visual studio\2022\community\msbuild\microsoft\visualstudio\razor\microsoft.net.sdk.razor.designtime.targets
+++Microsoft.TypeScript.targets
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\program files\microsoft visual studio\2022\community\msbuild\microsoft\visualstudio\v17.0\typescript\microsoft.typescript.targets
+++Microsoft.TypeScript.DotNetCore.targets
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\program files\microsoft visual studio\2022\community\msbuild\microsoft\visualstudio\v17.0\typescript\microsoft.typescript.dotnetcore.targets
+++Microsoft.Web.Designtime.targets
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\program files\microsoft visual studio\2022\community\msbuild\microsoft\visualstudio\managed.web\microsoft.web.designtime.targets
+++Default.pubxml
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk.publish\targets\publishprofiles\default.pubxml
+++Microsoft.NET.Sdk.Publish.ComputeFiles.targets
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk.publish\targets\computetargets\microsoft.net.sdk.publish.computefiles.targets
+++Microsoft.NET.Sdk.Publish.FilterFiles.targets
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk.publish\targets\copytargets\microsoft.net.sdk.publish.filterfiles.targets
+++Microsoft.NET.Sdk.Publish.CopyFiles.targets
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk.publish\targets\copytargets\microsoft.net.sdk.publish.copyfiles.targets
+++Microsoft.NET.Sdk.Publish.TransformFiles.targets
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk.publish\targets\transformtargets\microsoft.net.sdk.publish.transformfiles.targets
+++Microsoft.NET.Sdk.Publish.FileSystem.targets
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk.publish\targets\publishtargets\microsoft.net.sdk.publish.filesystem.targets
+++Microsoft.NET.Sdk.DotNetCLITool.targets
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk.publish\targets\dotnetclitooltargets\microsoft.net.sdk.dotnetclitool.targets
+++Microsoft.EntityFrameworkCore.Design.props
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\.nuget\packages\microsoft.entityframeworkcore.design\6.0.2\build\net6.0\microsoft.entityframeworkcore.design.props
+++Microsoft.AspNetCore.Identity.UI.props
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\.nuget\packages\microsoft.aspnetcore.identity.ui\6.0.2\build\microsoft.aspnetcore.identity.ui.props
+++Microsoft.NuGet.props
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\program files\microsoft visual studio\2022\community\msbuild\microsoft\nuget\17.0\microsoft.nuget.props
+++Microsoft.NETCoreSdk.BundledVersions.props
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\program files\dotnet\sdk\6.0.101\microsoft.netcoresdk.bundledversions.props
+++Microsoft.NET.Sdk.WindowsDesktop.WindowsForms.props
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk.windowsdesktop\targets\microsoft.net.sdk.windowsdesktop.windowsforms.props
+++Microsoft.NET.Sdk.WindowsDesktop.WPF.props
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk.windowsdesktop\targets\microsoft.net.sdk.windowsdesktop.wpf.props
+++WorkloadManifest.targets (C:\Program Files\dotnet\sdk-manifests\6.0.100\microsoft.net.sdk.android)
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\program files\dotnet\sdk-manifests\6.0.100\microsoft.net.sdk.android\workloadmanifest.targets
+++WorkloadManifest.targets (C:\Program Files\dotnet\sdk-manifests\6.0.100\microsoft.net.sdk.ios)
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\program files\dotnet\sdk-manifests\6.0.100\microsoft.net.sdk.ios\workloadmanifest.targets
+++WorkloadManifest.targets (C:\Program Files\dotnet\sdk-manifests\6.0.100\microsoft.net.sdk.maccatalyst)
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\program files\dotnet\sdk-manifests\6.0.100\microsoft.net.sdk.maccatalyst\workloadmanifest.targets
+++WorkloadManifest.targets (C:\Program Files\dotnet\sdk-manifests\6.0.100\microsoft.net.sdk.macos)
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\program files\dotnet\sdk-manifests\6.0.100\microsoft.net.sdk.macos\workloadmanifest.targets
+++WorkloadManifest.targets (C:\Program Files\dotnet\sdk-manifests\6.0.100\microsoft.net.sdk.maui)
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\program files\dotnet\sdk-manifests\6.0.100\microsoft.net.sdk.maui\workloadmanifest.targets
+++WorkloadManifest.targets (C:\Program Files\dotnet\sdk-manifests\6.0.100\microsoft.net.sdk.tvos)
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\program files\dotnet\sdk-manifests\6.0.100\microsoft.net.sdk.tvos\workloadmanifest.targets
+++WorkloadManifest.targets (C:\Program Files\dotnet\sdk-manifests\6.0.100\microsoft.net.workload.emscripten)
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\program files\dotnet\sdk-manifests\6.0.100\microsoft.net.workload.emscripten\workloadmanifest.targets
+++WorkloadManifest.targets (C:\Program Files\dotnet\sdk-manifests\6.0.100\microsoft.net.workload.mono.toolchain)
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\program files\dotnet\sdk-manifests\6.0.100\microsoft.net.workload.mono.toolchain\workloadmanifest.targets
+++Microsoft.CSharp.Core.targets
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\program files\microsoft visual studio\2022\community\msbuild\current\bin\roslyn\microsoft.csharp.core.targets
+++Microsoft.CSharp.DesignTime.targets
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\program files\microsoft visual studio\2022\community\msbuild\microsoft\visualstudio\managed\microsoft.csharp.designtime.targets
+++Microsoft.Common.targets
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\program files\microsoft visual studio\2022\community\msbuild\current\bin\amd64\microsoft.common.targets
+++Microsoft.ServiceModel.targets
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\program files\microsoft visual studio\2022\community\msbuild\current\bin\amd64\microsoft.servicemodel.targets
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\windows\microsoft.net\framework\v4.0.30319\microsoft.servicemodel.targets
+++Microsoft.NET.Sdk.DefaultItems.Shared.targets
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\targets\microsoft.net.sdk.defaultitems.shared.targets
+++Microsoft.NETCoreSdk.BundledCliTools.props
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\program files\dotnet\sdk\6.0.101\microsoft.netcoresdk.bundledclitools.props
+++Microsoft.NET.DefaultPackageConflictOverrides.targets
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\targets\microsoft.net.defaultpackageconflictoverrides.targets
+++Microsoft.CodeAnalysis.NetAnalyzers.props
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\analyzers\build\microsoft.codeanalysis.netanalyzers.props
+++Microsoft.CodeAnalysis.NetAnalyzers.targets
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\analyzers\build\microsoft.codeanalysis.netanalyzers.targets
+++Microsoft.NET.ILLink.Tasks.props
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.illink.tasks\build\microsoft.net.illink.tasks.props
+++System.Windows.Forms.Analyzers.props
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk.windowsdesktop\targets\system.windows.forms.analyzers.props
+++Microsoft.Managed.Core.targets
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\program files\microsoft visual studio\2022\community\msbuild\current\bin\roslyn\microsoft.managed.core.targets
+++Microsoft.Managed.DesignTime.targets
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\program files\microsoft visual studio\2022\community\msbuild\microsoft\visualstudio\managed\microsoft.managed.designtime.targets
+++Microsoft.Common.CurrentVersion.targets
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\program files\microsoft visual studio\2022\community\msbuild\current\bin\amd64\microsoft.common.currentversion.targets
+++Microsoft.Managed.Core.CurrentVersions.targets
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\program files\microsoft visual studio\2022\community\msbuild\current\bin\roslyn\microsoft.managed.core.currentversions.targets
+++Microsoft.Cpp.VCLibs120Universal.targets
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\program files\microsoft visual studio\2022\community\msbuild\current\microsoft.common.targets\importbefore\microsoft.cpp.vclibs120universal.targets
+++Tribo.csproj.user
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\tribo.csproj.user
+++Microsoft.NET.props
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\program files\microsoft visual studio\2022\community\msbuild\current\bin\amd64\microsoft.net.props
+++Microsoft.CodeAnalysis.targets
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\program files\microsoft visual studio\2022\community\msbuild\microsoft\visualstudio\v17.0\codeanalysis\microsoft.codeanalysis.targets
+++Microsoft.Xaml.targets
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\program files\microsoft visual studio\2022\community\msbuild\current\bin\amd64\microsoft.xaml.targets
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\windows\microsoft.net\framework\v4.0.30319\microsoft.xaml.targets
+++Microsoft.WorkflowBuildExtensions.targets
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\program files\microsoft visual studio\2022\community\msbuild\current\bin\amd64\microsoft.workflowbuildextensions.targets
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\windows\microsoft.net\framework\v4.0.30319\microsoft.workflowbuildextensions.targets
+++Microsoft.TeamTest.targets
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\program files\microsoft visual studio\2022\community\msbuild\microsoft\visualstudio\v17.0\teamtest\microsoft.teamtest.targets
+++NuGet.targets
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\program files\microsoft visual studio\2022\community\common7\ide\commonextensions\microsoft\nuget\nuget.targets
+++Microsoft.DesktopBridge.ImportAfter.targets
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\program files\microsoft visual studio\2022\community\msbuild\current\microsoft.common.targets\importafter\microsoft.desktopbridge.importafter.targets
+++Microsoft.Docker.ImportAfter.targets
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\program files\microsoft visual studio\2022\community\msbuild\current\microsoft.common.targets\importafter\microsoft.docker.importafter.targets
+++Microsoft.NET.Build.Extensions.targets
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\program files\microsoft visual studio\2022\community\msbuild\current\microsoft.common.targets\importafter\microsoft.net.build.extensions.targets
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\program files\microsoft visual studio\2022\community\msbuild\microsoft\microsoft.net.build.extensions\microsoft.net.build.extensions.targets
+++Microsoft.NuGet.ImportAfter.targets
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\program files\microsoft visual studio\2022\community\msbuild\current\microsoft.common.targets\importafter\microsoft.nuget.importafter.targets
+++Microsoft.Web.ImportAfter.targets
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\program files\microsoft visual studio\2022\community\msbuild\current\microsoft.common.targets\importafter\microsoft.web.importafter.targets
+++Microsoft.AspNetCore.Identity.UI.targets
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\.nuget\packages\microsoft.aspnetcore.identity.ui\6.0.2\buildtransitive\microsoft.aspnetcore.identity.ui.targets
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\.nuget\packages\microsoft.aspnetcore.identity.ui\6.0.2\build\microsoft.aspnetcore.identity.ui.targets
+++Microsoft.DesktopBridge.Common.targets
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\program files\microsoft visual studio\2022\community\msbuild\microsoft\desktopbridge\microsoft.desktopbridge.common.targets
+++Microsoft.Docker.targets
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\program files\microsoft visual studio\2022\community\msbuild\sdks\microsoft.docker.sdk\build\microsoft.docker.targets
+++Microsoft.Web.IISSupport.targets
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\program files\microsoft visual studio\2022\community\msbuild\microsoft\visualstudio\managed.web\microsoft.web.iissupport.targets
+++Microsoft.AspNetCore.StaticWebAssets.targets
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\.nuget\packages\microsoft.aspnetcore.identity.ui\6.0.2\build\microsoft.aspnetcore.staticwebassets.targets
+++Microsoft.AspNetCore.StaticWebAssets.V5.targets
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\.nuget\packages\microsoft.aspnetcore.identity.ui\6.0.2\build\microsoft.aspnetcore.staticwebassets.v5.targets
+++Release
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\obj\release\
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\bin\release\
+++DownloadPersonalData.cshtml
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\areas\identity\pages\account\manage\downloadpersonaldata.cshtml
+++DownloadPersonalData.cshtml.cs
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\areas\identity\pages\account\manage\downloadpersonaldata.cshtml.cs
+++PersonalData.cshtml
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\areas\identity\pages\account\manage\personaldata.cshtml
+++PersonalData.cshtml.cs
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\areas\identity\pages\account\manage\personaldata.cshtml.cs
+++20220210173401_tribo.cs
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\migrations\20220210173401_tribo.cs
+++20220210173401_tribo.Designer.cs
+i:{83bef581-20d7-41f5-a32a-6f67b8ea19f4}:c:\users\remakker\documents\github\squad\tribo\tribo\migrations\20220210173401_tribo.designer.cs

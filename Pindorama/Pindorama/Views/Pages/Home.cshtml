@@ -1,0 +1,133 @@
+﻿@{
+    ViewData["Title"] = "Bem vindo(o) a ";
+}
+
+
+<aside>
+
+    <div class="row colorPadrao2 justify-content-center mx-auto shadow rounded m-2 py-2">
+
+        <div class="col-10 col-md-10 col-sm-10 col-lg-10 m-1 p-3 text-center rounded tex">
+
+            <h2>Seja bem vindo(a), venha fazer parte da nossa Aldeia!</h2>
+            <p>
+                O que vai fazer nas suas férias? feriados? que tal conhecer uma aldeia indígena perto de voce?
+            </p>
+        </div>
+    </div>
+
+    <div class="row colorPadrao2 rounded justify-content-center mx-auto shadow m-2 py-2">
+      <div class="col-10 col-md-10 col-sm-10 col-lg-10 m-1 p-3 rounded">
+            <h3 class="text-center shadow-lg rounded py-1">Aldeias Parceiras</h3>
+            <div id="carouselExampleCaptions1" class="carousel slide d-flex justify-content-center shadow rounded" data-bs-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-bs-target="#carouselExampleCaptions1" data-bs-slide-to="0" class="active"></li>
+                    <li data-bs-target="#carouselExampleCaptions1" data-bs-slide-to="1"></li>
+                    <li data-bs-target="#carouselExampleCaptions1" data-bs-slide-to="2"></li>
+                    <li data-bs-target="#carouselExampleCaptions1" data-bs-slide-to="3"></li>
+                    <li data-bs-target="#carouselExampleCaptions1" data-bs-slide-to="4"></li>
+                </ol>
+                <a class="btn" asp-controller="Pages" asp-action="Aldeias">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="/img/home1.jpg"  class="mx-auto imgIndex rounded">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="/img/home2.png" class="mx-auto imgIndex rounded">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="/img/home3.jpg" class="mx-auto imgIndex rounded">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="/img/home4.jpeg" class="mx-auto imgIndex rounded">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="/img/home5.png" class="mx-auto imgIndex rounded">
+                        </div>
+                    </div>
+                </a>
+                <a class="carousel-control-prev" href="#carouselExampleCaptions1" role="button"
+                   data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleCaptions1" role="button"
+                   data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <div class="row colorPadrao2 justify-content-center shadow py-2 rounded mx-auto my-3">
+
+            <div class="col-11 col-sm-11 col-md-5 col-lg-5 m-1 rounded shadow colorPadrao" id="comentarios">
+                <div class="row d-flex px-0 py-3">
+                    <div class="col-2 col-sm-2 col-md-2 col-lg-2  me-4">
+
+                        <img src="/img/coment1.png"
+                             class="d-flex mx-auto">
+                    </div>
+                    <div class="col-12 col-md-12 col-sm-12 col-lg-9 text-wrap">
+                        <h3 class="text-white">Monica Santos </h3>
+                        <hr class="my-2 text-white">
+                        <p class="fs-5 text-white">
+                            As viagens são grandes professoras. Viajantes dão um passo importante para quebrar preconceitos, sair da zona de conforto, se abrir para o diferente. Viajar tanto me fez ser uma pessoa com a mente mais curiosa, a cabeça mais aberta e um interesse maior em conhecer o outro.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-11 col-sm-11 col-md-5 col-lg-5 m-1 rounded shadow colorPadrao" id="comentarios">
+                <div class="row d-flex px-0 py-3">
+                    <div class="col-2 col-md-2 col-sm-2 col-lg-2 me-4">
+                        <img src="/img/coment2.png"
+                             class="d-flex mx-auto">
+                    </div>
+                    <div class="col-12 col-md-12 col-sm-12 col-lg-9 text-wrap">
+                        <h3 class="text-white">Jose Nascimeno</h3>
+                        <hr class="my-2 text-white">
+                        <p class="fs-5 text-white">
+                            Às vezes, precisamos viajar para bem longe para nos encontrarmos bem de perto. Além de um episódio turístico em outro país, outra cultura, outro modo de viver a vida, viajar também pode ser uma jornada para dentro de si mesmo.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-11 col-sm-11 col-md-5 col-lg-5 m-1 rounded shadow colorPadrao" id="comentarios">
+                <div class="row d-flex px-0 py-3">
+                    <div class="col-2 col-md-2 col-sm-2 col-lg-2 me-4">
+                        <img src="/img/coment3.jpg"
+                             class="d-flex mx-auto">
+                    </div>
+                    <div class="col-12 col-md-12 col-sm-12 col-lg-9 text-wrap">
+                        <h3 class="text-white">Rose Perreira</h3>
+                        <hr class="my-2 text-white">
+                        <p class="fs-5 text-white">
+                            Viajar tem a ver com viver experiências: quanto mais completa de passeios, culturas, aventuras, descobertas e imersões sua viagem for, mais rico fica seu repertório e mais valem os dias fora de casa.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-11 col-sm-11 col-md-5 col-lg-5 m-1 rounded shadow colorPadrao" id="comentarios">
+                <div class="row d-flex px-0 py-3">
+                    <div class="col-2 col-md-2 col-sm-2 col-lg-2 me-4">
+
+                        <img src="/img/coment4.jpg"
+                             class="d-flex mx-auto">
+                    </div>
+                    <div class="col-12 col-md-12 col-sm-12 col-lg-9 text-wrap ">
+                        <h3 class="text-white">Izaquel Lopes</h3>
+                        <hr class="my-2 text-white">
+                        <p class="fs-5 text-white">
+                            Viajar é uma das melhores maneiras de expandir horizontes sobre a vida. Viajando, a gente pode não perceber, mas aprende muito sobre história, sociedade, valores, política, economia…
+                        </p>
+                    </div>
+                </div>
+            </div>
+       </div>
+
+
+</aside>

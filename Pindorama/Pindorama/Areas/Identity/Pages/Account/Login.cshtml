@@ -1,0 +1,59 @@
+﻿@page
+@model LoginModel
+
+@{
+    ViewData["Title"] = "Acessar a Conta";
+}
+
+<aside>
+    <div class="row justify-content-center text-break text-center">
+        <div class="col-11 col-sm-11 col-md-8 col-lg-6 py-4 colorPadrao2 rounded">
+            <h1>Login de Usuario</h1>
+            <hr />
+            <form id="account" method="post">
+                <div asp-validation-summary="ModelOnly" id="erroRegistro"></div>
+                <div class="form-floating">
+                    <div class="row justify-content-center">
+                        <div class="col-3 col-sm-3 col-md-3 col-lg-2 border border-1 border-warning rounded">
+                            <label asp-for="Input.Email" class="control-label mt-1 ">E-mail:</label>
+                        </div>
+                        <div class="col-8 col-sm-8 col-md-8 col-lg-8">
+                            <input asp-for="Input.Email" class="form-control colorPadrao2 btn-outline-warning" placeholder="Email" autocomplete="username" aria-required="true" />
+                        </div>
+                        <span asp-validation-for="Input.Email"></span>
+                    </div>
+                </div>
+                <div class="form-floatin mt-2">
+                    <div class="row justify-content-center">
+                        <div class="col-3 col-sm-3 col-md-3 col-lg-2 border border-1 border-warning rounded ">
+                            <label asp-for="Input.Password" class="control-label mt-1">Senha:</label>
+                        </div>
+                        <div class="col-8 col-sm-8 col-md-8 col-lg-8">
+                            <input asp-for="Input.Password" class="form-control colorPadrao2  btn-outline-warning" placeholder="Senha" autocomplete="current-password" aria-required="true" />
+                        </div>
+                        <span asp-validation-for="Input.Password"></span>
+                    </div>
+                </div>
+                <div class="form-floating">
+                    <div class="row justify-content-center">
+                        <div class="col-4 col-sm-4 col-md-4 col-lg-4">
+                            <button id="login-submit" type="submit" class="btn w-100 text-white colorPadrao btn-outline-warning btn-round mb-4 mt-3">
+                                Login
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="text-center">
+                    <p>
+                        <a asp-page="./Register" asp-route-returnUrl="@Model.ReturnUrl" class="">Criar novo usuario</a>
+                    </p>
+                </div>
+            </form>
+        </div>
+    </div>
+</aside>
+
+@section Scripts {
+<partial name="_ValidationScriptsPartial" />
+}
+

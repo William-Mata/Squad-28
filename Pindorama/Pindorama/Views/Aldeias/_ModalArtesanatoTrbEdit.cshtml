@@ -1,0 +1,76 @@
+﻿@model Artesanato
+
+
+<div class="modal fade bg-transparent" id="editarModalArtTrb">
+    <div class="modal-dialog modal-dialog-centered modal-lg ">
+        <div class="modal-content colorPadrao2">
+            <div class="modal-header">
+                <h5 class="modal-title" id="editarModalLabel">Alterar Artesanato</h5>
+                <button type="button" class="btn btn-outline-warning text-white colorPadrao" data-bs-dismiss="modal"
+                        aria-label="Close">
+                    X
+                </button>
+            </div>
+            <div class="modal-body p-0">
+                <form asp-action="EditArtesanatoAldeia" class="m-0 p-0">
+                    <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                    <div class="row justify-content-center p-3">
+                        <div class="col-11 col-md-11 col-sm-11 col-lg-6 mx-auto">
+                            <div class="form-group mb-3">
+                                <div class="row ">
+                                    <div class="col-4 col-sm-4 col-md-3 col-lg-4 border border-1 border-warning rounded ">
+                                        <input type="hidden" asp-for="IdArtesanato" />
+                                        <input type="hidden" asp-for="Id_Imagem" />
+                                        <label asp-for="Tipo" class="control-label mt-1">Destino:</label>
+                                    </div>
+                                    <div class="col-8 col-sm-8 col-md-8 col-lg-8">
+                                        <input asp-for="Tipo"
+                                               class="form-control bg-transparent btn-outline-warning" />
+                                    </div>
+                                    <span asp-validation-for="Tipo"></span>
+                                </div>
+                            </div>
+                            <div class="form-group mb-3">
+                                <div class="row">
+                                    <div class="col-3 col-sm-3 col-md-3 col-lg-4 border border-1 border-warning rounded ">
+                                        <label asp-for="Valor" class="control-label mt-1">Valor:</label>
+                                    </div>
+                                    <div class="col-8 col-sm-8 col-md-8 col-lg-8">
+                                        <input type="number" asp-for="Valor" step="1.00" min="0" placeholder="2.000"
+                                               class="form-control bg-transparent btn-outline-warning" />
+                                    </div>
+                                    <span asp-validation-for="Valor"></span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-11 col-md-11 col-sm-11 col-lg-6 mx-auto">
+                            <div class="form-group mb-3">
+                                <div class="row">
+                                    <div class="col-4 col-sm-4 col-md-3 col-lg-4 border border-1 border-warning rounded ">
+                                        <label asp-for="Descricao" class="control-label mt-1">Descrição:</label>
+                                    </div>
+                                    <div class="col-8 col-sm-8 col-md-8 col-lg-8">
+                                        <textarea asp-for="Descricao" rows="5"
+                                                  class="form-control bg-transparent btn-outline-warning"> </textarea>
+                                    </div>
+                                    <span asp-validation-for="Descricao"></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-group p-0 m-0">
+                        <div class="modal-footer">
+                            <button type="button" class="btn colorPadrao btn-outline-warning text-white"
+                                    data-bs-dismiss="modal">
+                                Sair
+                            </button>
+                            <button type="submit" data-bs-save="modal" class="btn colorPadrao btn-outline-warning text-white">Alterar</button>
+                        </div>
+                    </div>
+                </form>
+
+            </div>
+        </div>
+    </div>
+</div>

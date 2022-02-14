@@ -1,0 +1,24 @@
+/* _content/Pindorama/Views/Shared/_Layout.cshtml.rz.scp.css */
+/* Please see documentation at https://docs.microsoft.com/aspnet/core/client-side/bundling-and-minification
+for details on configuring this project to bundle and minify static web assets. */
+
+
+*[b-xoyfte3xby] {
+    color: #3b4c42;
+    margin: 0;
+    padding: 0;
+}
+
+
+footer[b-xoyfte3xby] {
+    position: absolute;
+    bottom: 0;
+    line-height: 90px;
+    width: 100%;
+    white-space: nowrap;
+}
+
+#erroRegistro li[b-xoyfte3xby] {
+    list-style: none;
+    list-style-type: none;
+}
