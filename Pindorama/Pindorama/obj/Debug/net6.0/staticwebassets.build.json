@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "HsP7Tmxs64hPb5Cxn3R1ZxdhD/1uw9IrSrJEP9rlLC0=",
+  "Hash": "kLl2bc9xIwefK+iDUd9hr2toHrnXwNZ2Sulc8tc2Q5g=",
   "Source": "Pindorama",
   "BasePath": "_content/Pindorama",
   "Mode": "Default",
@@ -1528,6 +1528,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\img\\image.png"
+    },
+    {
+      "Identity": "C:\\Users\\Remakker\\Documents\\GitHub\\Squad\\Pindorama\\Pindorama\\wwwroot\\img\\Indio-computador.png",
+      "SourceId": "Pindorama",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Remakker\\Documents\\GitHub\\Squad\\Pindorama\\Pindorama\\wwwroot\\",
+      "BasePath": "_content/Pindorama",
+      "RelativePath": "img/Indio-computador.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\Indio-computador.png"
     },
     {
       "Identity": "C:\\Users\\Remakker\\Documents\\GitHub\\Squad\\Pindorama\\Pindorama\\wwwroot\\img\\instagram.png",

@@ -23,6 +23,9 @@ if (app.Environment.IsDevelopment())
 else
 {
     app.UseExceptionHandler("/Home/Error");
+
+    //Data Source=SQL5097.site4now.net; Initial Catalog = db_a82f30_pindoramanew; User Id = db_a82f30_pindoramanew_admin; Password = Wm#26637997"
+
     // The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
     app.UseHsts();
 }

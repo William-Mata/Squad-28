@@ -1,0 +1,308 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = Pindorama
+build_property.RootNamespace = Pindorama
+build_property.ProjectDir = C:\Users\Remakker\Documents\GitHub\Squad\Pindorama\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\Remakker\Documents\GitHub\Squad\Pindorama
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/Remakker/Documents/GitHub/Squad/Pindorama/Pindorama/Areas/Identity/Pages/Account/AccessDenied.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGluZG9yYW1hXEFyZWFzXElkZW50aXR5XFBhZ2VzXEFjY291bnRcQWNjZXNzRGVuaWVkLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Remakker/Documents/GitHub/Squad/Pindorama/Pindorama/Areas/Identity/Pages/Account/ConfirmEmail.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGluZG9yYW1hXEFyZWFzXElkZW50aXR5XFBhZ2VzXEFjY291bnRcQ29uZmlybUVtYWlsLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Remakker/Documents/GitHub/Squad/Pindorama/Pindorama/Areas/Identity/Pages/Account/ConfirmEmailChange.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGluZG9yYW1hXEFyZWFzXElkZW50aXR5XFBhZ2VzXEFjY291bnRcQ29uZmlybUVtYWlsQ2hhbmdlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Remakker/Documents/GitHub/Squad/Pindorama/Pindorama/Areas/Identity/Pages/Account/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGluZG9yYW1hXEFyZWFzXElkZW50aXR5XFBhZ2VzXEFjY291bnRcTG9naW4uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Remakker/Documents/GitHub/Squad/Pindorama/Pindorama/Areas/Identity/Pages/Account/Manage/ChangePassword.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGluZG9yYW1hXEFyZWFzXElkZW50aXR5XFBhZ2VzXEFjY291bnRcTWFuYWdlXENoYW5nZVBhc3N3b3JkLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Remakker/Documents/GitHub/Squad/Pindorama/Pindorama/Areas/Identity/Pages/Account/Manage/DeletePersonalData.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGluZG9yYW1hXEFyZWFzXElkZW50aXR5XFBhZ2VzXEFjY291bnRcTWFuYWdlXERlbGV0ZVBlcnNvbmFsRGF0YS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Remakker/Documents/GitHub/Squad/Pindorama/Pindorama/Areas/Identity/Pages/Account/Manage/DownloadPersonalData.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGluZG9yYW1hXEFyZWFzXElkZW50aXR5XFBhZ2VzXEFjY291bnRcTWFuYWdlXERvd25sb2FkUGVyc29uYWxEYXRhLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Remakker/Documents/GitHub/Squad/Pindorama/Pindorama/Areas/Identity/Pages/Account/Manage/Email.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGluZG9yYW1hXEFyZWFzXElkZW50aXR5XFBhZ2VzXEFjY291bnRcTWFuYWdlXEVtYWlsLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Remakker/Documents/GitHub/Squad/Pindorama/Pindorama/Areas/Identity/Pages/Account/Manage/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGluZG9yYW1hXEFyZWFzXElkZW50aXR5XFBhZ2VzXEFjY291bnRcTWFuYWdlXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Remakker/Documents/GitHub/Squad/Pindorama/Pindorama/Areas/Identity/Pages/Account/Manage/PersonalData.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGluZG9yYW1hXEFyZWFzXElkZW50aXR5XFBhZ2VzXEFjY291bnRcTWFuYWdlXFBlcnNvbmFsRGF0YS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Remakker/Documents/GitHub/Squad/Pindorama/Pindorama/Areas/Identity/Pages/Account/Manage/SetPassword.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGluZG9yYW1hXEFyZWFzXElkZW50aXR5XFBhZ2VzXEFjY291bnRcTWFuYWdlXFNldFBhc3N3b3JkLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Remakker/Documents/GitHub/Squad/Pindorama/Pindorama/Areas/Identity/Pages/Account/Manage/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGluZG9yYW1hXEFyZWFzXElkZW50aXR5XFBhZ2VzXEFjY291bnRcTWFuYWdlXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Remakker/Documents/GitHub/Squad/Pindorama/Pindorama/Areas/Identity/Pages/Account/Manage/_ManageNav.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGluZG9yYW1hXEFyZWFzXElkZW50aXR5XFBhZ2VzXEFjY291bnRcTWFuYWdlXF9NYW5hZ2VOYXYuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Remakker/Documents/GitHub/Squad/Pindorama/Pindorama/Areas/Identity/Pages/Account/Manage/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGluZG9yYW1hXEFyZWFzXElkZW50aXR5XFBhZ2VzXEFjY291bnRcTWFuYWdlXF9WaWV3SW1wb3J0cy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Remakker/Documents/GitHub/Squad/Pindorama/Pindorama/Areas/Identity/Pages/Account/Register.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGluZG9yYW1hXEFyZWFzXElkZW50aXR5XFBhZ2VzXEFjY291bnRcUmVnaXN0ZXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Remakker/Documents/GitHub/Squad/Pindorama/Pindorama/Areas/Identity/Pages/Account/RegisterConfirmation.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGluZG9yYW1hXEFyZWFzXElkZW50aXR5XFBhZ2VzXEFjY291bnRcUmVnaXN0ZXJDb25maXJtYXRpb24uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Remakker/Documents/GitHub/Squad/Pindorama/Pindorama/Areas/Identity/Pages/Account/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGluZG9yYW1hXEFyZWFzXElkZW50aXR5XFBhZ2VzXEFjY291bnRcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Remakker/Documents/GitHub/Squad/Pindorama/Pindorama/Areas/Identity/Pages/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGluZG9yYW1hXEFyZWFzXElkZW50aXR5XFBhZ2VzXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Remakker/Documents/GitHub/Squad/Pindorama/Pindorama/Areas/Identity/Pages/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGluZG9yYW1hXEFyZWFzXElkZW50aXR5XFBhZ2VzXF9WaWV3SW1wb3J0cy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Remakker/Documents/GitHub/Squad/Pindorama/Pindorama/Areas/Identity/Pages/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGluZG9yYW1hXEFyZWFzXElkZW50aXR5XFBhZ2VzXF9WaWV3U3RhcnQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Remakker/Documents/GitHub/Squad/Pindorama/Pindorama/Controllers/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGluZG9yYW1hXENvbnRyb2xsZXJzXF9WaWV3U3RhcnQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Remakker/Documents/GitHub/Squad/Pindorama/Pindorama/Views/Administracao/AdministracaoArtesanatos.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGluZG9yYW1hXFZpZXdzXEFkbWluaXN0cmFjYW9cQWRtaW5pc3RyYWNhb0FydGVzYW5hdG9zLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Remakker/Documents/GitHub/Squad/Pindorama/Pindorama/Views/Administracao/AdministracaoContatos.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGluZG9yYW1hXFZpZXdzXEFkbWluaXN0cmFjYW9cQWRtaW5pc3RyYWNhb0NvbnRhdG9zLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Remakker/Documents/GitHub/Squad/Pindorama/Pindorama/Views/Administracao/AdministracaoPacotes.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGluZG9yYW1hXFZpZXdzXEFkbWluaXN0cmFjYW9cQWRtaW5pc3RyYWNhb1BhY290ZXMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Remakker/Documents/GitHub/Squad/Pindorama/Pindorama/Views/Administracao/_ModalContatoDelete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGluZG9yYW1hXFZpZXdzXEFkbWluaXN0cmFjYW9cX01vZGFsQ29udGF0b0RlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Remakker/Documents/GitHub/Squad/Pindorama/Pindorama/Views/Administracao/_ModalContatoDetalhes.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGluZG9yYW1hXFZpZXdzXEFkbWluaXN0cmFjYW9cX01vZGFsQ29udGF0b0RldGFsaGVzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Remakker/Documents/GitHub/Squad/Pindorama/Pindorama/Views/Administracao/_ModalContatoEdit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGluZG9yYW1hXFZpZXdzXEFkbWluaXN0cmFjYW9cX01vZGFsQ29udGF0b0VkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Remakker/Documents/GitHub/Squad/Pindorama/Pindorama/Views/Administracao/_ModalPacoteDelete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGluZG9yYW1hXFZpZXdzXEFkbWluaXN0cmFjYW9cX01vZGFsUGFjb3RlRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Remakker/Documents/GitHub/Squad/Pindorama/Pindorama/Views/Administracao/_ModalPacoteDetalhes.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGluZG9yYW1hXFZpZXdzXEFkbWluaXN0cmFjYW9cX01vZGFsUGFjb3RlRGV0YWxoZXMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Remakker/Documents/GitHub/Squad/Pindorama/Pindorama/Views/Aldeias/ArtesanatoAldeia.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGluZG9yYW1hXFZpZXdzXEFsZGVpYXNcQXJ0ZXNhbmF0b0FsZGVpYS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Remakker/Documents/GitHub/Squad/Pindorama/Pindorama/Views/Aldeias/CadastrarAldeia.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGluZG9yYW1hXFZpZXdzXEFsZGVpYXNcQ2FkYXN0cmFyQWxkZWlhLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Remakker/Documents/GitHub/Squad/Pindorama/Pindorama/Views/Aldeias/CadastrarArtesanatoAldeia.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGluZG9yYW1hXFZpZXdzXEFsZGVpYXNcQ2FkYXN0cmFyQXJ0ZXNhbmF0b0FsZGVpYS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Remakker/Documents/GitHub/Squad/Pindorama/Pindorama/Views/Aldeias/CadastrarPacoteAldeia.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGluZG9yYW1hXFZpZXdzXEFsZGVpYXNcQ2FkYXN0cmFyUGFjb3RlQWxkZWlhLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Remakker/Documents/GitHub/Squad/Pindorama/Pindorama/Views/Aldeias/DadosAldeia.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGluZG9yYW1hXFZpZXdzXEFsZGVpYXNcRGFkb3NBbGRlaWEuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Remakker/Documents/GitHub/Squad/Pindorama/Pindorama/Views/Aldeias/PacoteAldeia.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGluZG9yYW1hXFZpZXdzXEFsZGVpYXNcUGFjb3RlQWxkZWlhLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Remakker/Documents/GitHub/Squad/Pindorama/Pindorama/Views/Aldeias/_ModalArtesanatoTrbAddImg.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGluZG9yYW1hXFZpZXdzXEFsZGVpYXNcX01vZGFsQXJ0ZXNhbmF0b1RyYkFkZEltZy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Remakker/Documents/GitHub/Squad/Pindorama/Pindorama/Views/Aldeias/_ModalArtesanatoTrbDelete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGluZG9yYW1hXFZpZXdzXEFsZGVpYXNcX01vZGFsQXJ0ZXNhbmF0b1RyYkRlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Remakker/Documents/GitHub/Squad/Pindorama/Pindorama/Views/Aldeias/_ModalArtesanatoTrbDetalhes.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGluZG9yYW1hXFZpZXdzXEFsZGVpYXNcX01vZGFsQXJ0ZXNhbmF0b1RyYkRldGFsaGVzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Remakker/Documents/GitHub/Squad/Pindorama/Pindorama/Views/Aldeias/_ModalArtesanatoTrbEdit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGluZG9yYW1hXFZpZXdzXEFsZGVpYXNcX01vZGFsQXJ0ZXNhbmF0b1RyYkVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Remakker/Documents/GitHub/Squad/Pindorama/Pindorama/Views/Aldeias/_ModalDadosTrbDelete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGluZG9yYW1hXFZpZXdzXEFsZGVpYXNcX01vZGFsRGFkb3NUcmJEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Remakker/Documents/GitHub/Squad/Pindorama/Pindorama/Views/Aldeias/_ModalDadosTrbDetalhes.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGluZG9yYW1hXFZpZXdzXEFsZGVpYXNcX01vZGFsRGFkb3NUcmJEZXRhbGhlcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Remakker/Documents/GitHub/Squad/Pindorama/Pindorama/Views/Aldeias/_ModalDadosTrbEdit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGluZG9yYW1hXFZpZXdzXEFsZGVpYXNcX01vZGFsRGFkb3NUcmJFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Remakker/Documents/GitHub/Squad/Pindorama/Pindorama/Views/Aldeias/_ModalPacoteTrbAddImg.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGluZG9yYW1hXFZpZXdzXEFsZGVpYXNcX01vZGFsUGFjb3RlVHJiQWRkSW1nLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Remakker/Documents/GitHub/Squad/Pindorama/Pindorama/Views/Aldeias/_ModalPacoteTrbDelete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGluZG9yYW1hXFZpZXdzXEFsZGVpYXNcX01vZGFsUGFjb3RlVHJiRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Remakker/Documents/GitHub/Squad/Pindorama/Pindorama/Views/Aldeias/_ModalPacoteTrbDetalhes.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGluZG9yYW1hXFZpZXdzXEFsZGVpYXNcX01vZGFsUGFjb3RlVHJiRGV0YWxoZXMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Remakker/Documents/GitHub/Squad/Pindorama/Pindorama/Views/Aldeias/_ModalPacoteTrbEdit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGluZG9yYW1hXFZpZXdzXEFsZGVpYXNcX01vZGFsUGFjb3RlVHJiRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Remakker/Documents/GitHub/Squad/Pindorama/Pindorama/Views/Clientes/CadastrarCliente.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGluZG9yYW1hXFZpZXdzXENsaWVudGVzXENhZGFzdHJhckNsaWVudGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Remakker/Documents/GitHub/Squad/Pindorama/Pindorama/Views/Clientes/MeusArtesanatos.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGluZG9yYW1hXFZpZXdzXENsaWVudGVzXE1ldXNBcnRlc2FuYXRvcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Remakker/Documents/GitHub/Squad/Pindorama/Pindorama/Views/Clientes/MeusDados.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGluZG9yYW1hXFZpZXdzXENsaWVudGVzXE1ldXNEYWRvcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Remakker/Documents/GitHub/Squad/Pindorama/Pindorama/Views/Clientes/MeusPacotes.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGluZG9yYW1hXFZpZXdzXENsaWVudGVzXE1ldXNQYWNvdGVzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Remakker/Documents/GitHub/Squad/Pindorama/Pindorama/Views/Clientes/_ModalArtesanatoClDelete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGluZG9yYW1hXFZpZXdzXENsaWVudGVzXF9Nb2RhbEFydGVzYW5hdG9DbERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Remakker/Documents/GitHub/Squad/Pindorama/Pindorama/Views/Clientes/_ModalArtesanatoClDetalhes.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGluZG9yYW1hXFZpZXdzXENsaWVudGVzXF9Nb2RhbEFydGVzYW5hdG9DbERldGFsaGVzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Remakker/Documents/GitHub/Squad/Pindorama/Pindorama/Views/Clientes/_ModalDadosCLDelete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGluZG9yYW1hXFZpZXdzXENsaWVudGVzXF9Nb2RhbERhZG9zQ0xEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Remakker/Documents/GitHub/Squad/Pindorama/Pindorama/Views/Clientes/_ModalDadosCLDetalhes.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGluZG9yYW1hXFZpZXdzXENsaWVudGVzXF9Nb2RhbERhZG9zQ0xEZXRhbGhlcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Remakker/Documents/GitHub/Squad/Pindorama/Pindorama/Views/Clientes/_ModalDadosCLEdit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGluZG9yYW1hXFZpZXdzXENsaWVudGVzXF9Nb2RhbERhZG9zQ0xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Remakker/Documents/GitHub/Squad/Pindorama/Pindorama/Views/Clientes/_ModalPacoteClDelete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGluZG9yYW1hXFZpZXdzXENsaWVudGVzXF9Nb2RhbFBhY290ZUNsRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Remakker/Documents/GitHub/Squad/Pindorama/Pindorama/Views/Clientes/_ModalPacoteClDetalhes.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGluZG9yYW1hXFZpZXdzXENsaWVudGVzXF9Nb2RhbFBhY290ZUNsRGV0YWxoZXMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Remakker/Documents/GitHub/Squad/Pindorama/Pindorama/Views/Imagens/DeleteImagem.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGluZG9yYW1hXFZpZXdzXEltYWdlbnNcRGVsZXRlSW1hZ2VtLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Remakker/Documents/GitHub/Squad/Pindorama/Pindorama/Views/Imagens/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGluZG9yYW1hXFZpZXdzXEltYWdlbnNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Remakker/Documents/GitHub/Squad/Pindorama/Pindorama/Views/Pages/Aldeias.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGluZG9yYW1hXFZpZXdzXFBhZ2VzXEFsZGVpYXMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Remakker/Documents/GitHub/Squad/Pindorama/Pindorama/Views/Pages/Artesanatos.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGluZG9yYW1hXFZpZXdzXFBhZ2VzXEFydGVzYW5hdG9zLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Remakker/Documents/GitHub/Squad/Pindorama/Pindorama/Views/Pages/Contatos.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGluZG9yYW1hXFZpZXdzXFBhZ2VzXENvbnRhdG9zLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Remakker/Documents/GitHub/Squad/Pindorama/Pindorama/Views/Pages/Home.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGluZG9yYW1hXFZpZXdzXFBhZ2VzXEhvbWUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Remakker/Documents/GitHub/Squad/Pindorama/Pindorama/Views/Pages/Prevencoes.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGluZG9yYW1hXFZpZXdzXFBhZ2VzXFByZXZlbmNvZXMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Remakker/Documents/GitHub/Squad/Pindorama/Pindorama/Views/Pages/Sobre.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGluZG9yYW1hXFZpZXdzXFBhZ2VzXFNvYnJlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Remakker/Documents/GitHub/Squad/Pindorama/Pindorama/Views/Role/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGluZG9yYW1hXFZpZXdzXFJvbGVcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Remakker/Documents/GitHub/Squad/Pindorama/Pindorama/Views/Role/Roles.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGluZG9yYW1hXFZpZXdzXFJvbGVcUm9sZXMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Remakker/Documents/GitHub/Squad/Pindorama/Pindorama/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGluZG9yYW1hXFZpZXdzXFNoYXJlZFxFcnJvci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Remakker/Documents/GitHub/Squad/Pindorama/Pindorama/Views/Shared/_LoginPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGluZG9yYW1hXFZpZXdzXFNoYXJlZFxfTG9naW5QYXJ0aWFsLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Remakker/Documents/GitHub/Squad/Pindorama/Pindorama/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGluZG9yYW1hXFZpZXdzXFNoYXJlZFxfVmFsaWRhdGlvblNjcmlwdHNQYXJ0aWFsLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Remakker/Documents/GitHub/Squad/Pindorama/Pindorama/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGluZG9yYW1hXFZpZXdzXF9WaWV3SW1wb3J0cy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Remakker/Documents/GitHub/Squad/Pindorama/Pindorama/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGluZG9yYW1hXFZpZXdzXF9WaWV3U3RhcnQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Remakker/Documents/GitHub/Squad/Pindorama/Pindorama/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGluZG9yYW1hXFZpZXdzXFNoYXJlZFxfTGF5b3V0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = b-dibz7pbs1w

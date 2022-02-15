@@ -55,7 +55,7 @@
                             <td>
                                 @pacote.Tipo
                             </td>
-                             <td>
+                             <td class="col-6 col-sm-6 col-md-6 col-lg-6">
                                 @pacote.Descricao
                             </td>
                             <td>
@@ -63,11 +63,11 @@
                             </td>
                         }
                         <td>
-                            <button type="button" class="btn btn-sm colorPadrao btn-outline-warning mt-1" data-bs-toggle="modalAjax" data-bs-target="#detalhesModalAdmPct"
+                            <button type="button" class="btn btn-sm colorPadrao btn-outline-warning mt-1" data-bs-toggle="modalAjax" data-bs-target="#detalhesModalAdmArt"
                             data-url="@Url.Action($"DetailsArtesanato", new {pacote.IdArtesanato, item.IdCliente})">
                                 <img src="~/img/ver-detalhes.png" />
                             </button>
-                            <button type="button" class="btn btn-sm colorPadrao btn-outline-warning  mt-1" data-bs-toggle="modalAjax" data-bs-target="#deleteModalAdmPct"
+                            <button type="button" class="btn btn-sm colorPadrao btn-outline-warning  mt-1" data-bs-toggle="modalAjax" data-bs-target="#deleteModalAdmArt"
                             data-url="@Url.Action($"DeleteArtesanato", new {pacote.IdArtesanato, item.IdCliente})">
                                 <img src="~/img/delete.png" />
                             </button>

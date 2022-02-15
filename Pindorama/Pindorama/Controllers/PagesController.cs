@@ -40,14 +40,16 @@ namespace Pindorama.Controllers
         public IActionResult Aldeias()
         {
             var userEmail = this.User.FindFirstValue(ClaimTypes.Name);
-            var cliente = _context.Cliente.Where(cl => cl.Email_User.Equals(userEmail)).FirstOrDefault();
-
-            if (cliente != null)
+            if (userEmail != null)
             {
-                ViewBag.pacotes = _context.Pacote.ToList();
-                return View(cliente);
-            }
+                var cliente = _context.Cliente.Where(cl => cl.Email_User.Equals(userEmail)).FirstOrDefault();
 
+                if (cliente != null)
+                {
+                    ViewBag.pacotes = _context.Pacote.ToList();
+                    return View(cliente);
+                }
+            }
             ViewBag.pacotes = _context.Pacote.ToList();
             return View();
 
@@ -58,13 +60,14 @@ namespace Pindorama.Controllers
         {
             var userEmail = this.User.FindFirstValue(ClaimTypes.Name);
             var cliente = _context.Cliente.Where(cl => cl.Email_User.Equals(userEmail)).FirstOrDefault();
-
-            if (cliente != null)
+            if (userEmail != null)
             {
-                ViewBag.artesanatos = _context.Artesanato.ToList();
-                return View(cliente);
+                if (cliente != null)
+                {
+                    ViewBag.artesanatos = _context.Artesanato.ToList();
+                    return View(cliente);
+                }
             }
-
             ViewBag.artesanatos = _context.Artesanato.ToList();
             return View();
 

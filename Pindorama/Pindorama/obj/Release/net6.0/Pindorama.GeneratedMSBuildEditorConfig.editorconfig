@@ -111,6 +111,14 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5pc3RyYWNhb1xBZG1pbmlzdHJhY2FvUGFjb3Rlcy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/Remakker/Documents/GitHub/Squad/Pindorama/Pindorama/Views/Administracao/_ModalArtesanatoDelete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5pc3RyYWNhb1xfTW9kYWxBcnRlc2FuYXRvRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Remakker/Documents/GitHub/Squad/Pindorama/Pindorama/Views/Administracao/_ModalArtesanatoDetalhes.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5pc3RyYWNhb1xfTW9kYWxBcnRlc2FuYXRvRGV0YWxoZXMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/Remakker/Documents/GitHub/Squad/Pindorama/Pindorama/Views/Administracao/_ModalContatoDelete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5pc3RyYWNhb1xfTW9kYWxDb250YXRvRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
