@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "oVNZSweTiXo5nUsjEdhphy1rVJH8F6AsEC/niTvd2hUETQAmN6xOLoOoub85AKDOwZLyrM0wJ3iT3/iu6enJzg==",
+  "dgSpecHash": "mKwiXsUK3di1Ky9fzzqULiEOjTPxIkC+TdmHhYh644G8UjbdPWU+4w+KQdvQqee/TVc/Z7CSqSYJykd74ljsHQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Remakker\\Documents\\GitHub\\Squad\\Pindorama\\Pindorama\\Pindorama.csproj",
+  "projectFilePath": "C:\\Users\\Remakker\\Documents\\GitHub\\Squad-28\\Pindorama\\Pindorama\\Pindorama.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Remakker\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\Remakker\\.nuget\\packages\\messagepack\\2.1.152\\messagepack.2.1.152.nupkg.sha512",

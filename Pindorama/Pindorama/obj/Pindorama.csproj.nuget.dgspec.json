@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Remakker\\Documents\\GitHub\\Squad\\Pindorama\\Pindorama\\Pindorama.csproj": {}
+    "C:\\Users\\Remakker\\Documents\\GitHub\\Squad-28\\Pindorama\\Pindorama\\Pindorama.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Remakker\\Documents\\GitHub\\Squad\\Pindorama\\Pindorama\\Pindorama.csproj": {
+    "C:\\Users\\Remakker\\Documents\\GitHub\\Squad-28\\Pindorama\\Pindorama\\Pindorama.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Remakker\\Documents\\GitHub\\Squad\\Pindorama\\Pindorama\\Pindorama.csproj",
+        "projectUniqueName": "C:\\Users\\Remakker\\Documents\\GitHub\\Squad-28\\Pindorama\\Pindorama\\Pindorama.csproj",
         "projectName": "Pindorama",
-        "projectPath": "C:\\Users\\Remakker\\Documents\\GitHub\\Squad\\Pindorama\\Pindorama\\Pindorama.csproj",
+        "projectPath": "C:\\Users\\Remakker\\Documents\\GitHub\\Squad-28\\Pindorama\\Pindorama\\Pindorama.csproj",
         "packagesPath": "C:\\Users\\Remakker\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Remakker\\Documents\\GitHub\\Squad\\Pindorama\\Pindorama\\obj\\",
+        "outputPath": "C:\\Users\\Remakker\\Documents\\GitHub\\Squad-28\\Pindorama\\Pindorama\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
