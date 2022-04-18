@@ -95,10 +95,10 @@ function Desconto() {
 
         if (resultado.length > 4) {
             resultado = resultado.substring(1, 1) + "." + resultado.substr(2, resultado.length);
-            resultado += ",00"
+            resultado += ""
         } else if (resultado.length <= 4) {
 
-            resultado += ",00"
+            resultado += ""
         }
 
         document.getElementById("valor").value = resultado;
